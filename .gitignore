@@ -21,7 +21,7 @@ yarn-error.log*
 .env.beta
 
 yarn.lock
-package-lock.json
+# package-lock.json
 
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
