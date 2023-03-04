@@ -81,6 +81,15 @@ nav {
   width: 50px !important;
   height: 50px !important;
 }
+.home-image-container {
+  /* position: absolute; */
+  /* top: -100px;
+  right: -170px;
+  z-index: -2;
+  max-width: 100px; */
+  width: 100px !important;
+  height: 200px !important;
+}
 .home-image-section {
   max-width: 600px;
   flex: 1;

@@ -41,10 +41,10 @@ export const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">Catálogo</a>
-        <a href="">Contacto</a>
-        <a href="">Acerca de nosotros</a>
+        <a href="">Conoce a Brick.</a>
+        <a href="">Objetivos.</a>
+        <a href="">Desarrollos.</a>
+        {/* <a href="">Acerca de nosotros</a> */}
         {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
@@ -52,9 +52,12 @@ export const Navbar = () => {
           Contáctannos
         </button> */}
       </div> 
-      <div className="navbar-menu-container">
-        <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
+      <div className="nav-logo-container">
+        <img src={Logo} alt="" />
       </div>
+      {/* <div className="navbar-menu-container">
+        <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
+      </div> */}
       <Drawer open={openMenu} onClose={() => setOpenMenu(true)} anchor="right">
         <Box sx={{
           width: 250
