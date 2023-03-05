@@ -19,8 +19,9 @@ export const Home = () => {
   const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
   return (
     <div className="home-container">
-        {isDesktopOrLaptop ? <Navbar /> : <h1>Es mobile mira nada más</h1>}
-        <div className="home-banner-container">
+      <Navbar />
+        {/* {isDesktopOrLaptop ? <Navbar /> : <h1>Es mobile mira nada más</h1>} */}
+        {/* <div className="home-banner-container">
           <div className="home-banner-image-container-new">
             <img src={BannerBackground} alt="" />
           </div>
@@ -35,11 +36,11 @@ export const Home = () => {
             <button className='secondary-button'>
               Ver departamentos <FiArrowRight />
             </button>
-          </div>
-          <div className='home-image-container'>
+          </div> */}
+          {/* <div className='home-image-container'>
             <img src={BannerImage} />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
     </div>
     
   )

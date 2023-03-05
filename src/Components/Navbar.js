@@ -36,7 +36,7 @@ export const Navbar = () => {
   ]
 
   return (
-    <nav>
+    <nav className='basic-padding'>
       <div className="nav-logo-container">
         <img src={Logo} alt="" />
       </div>
