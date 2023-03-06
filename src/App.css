@@ -485,6 +485,57 @@ nav {
 .text-footer-color {
   color: #e8e8e8;
 }
+
+.color-know-brick-page {
+  background-color: #e8e8e8;
+}
+.know-brick-page-interior {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  height: 80vw;
+  background-color: #322e2e;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.first-section-know-brick {
+  margin-top: 25px;
+  margin-bottom: 5%;
+}
+.first-section-left-text {
+  font-size: 32px;
+  color: #e8e8e8;
+  /* margin-bottom: 5%; */
+}
+.first-section-right-text {
+  font-size: 16px;
+  color: #7d8fa2
+  /* margin-bottom: 5%; */
+}
+.second-section-text-color {
+  color: #e8e8e8;
+}
+.second-text-right-age {
+  font-size: 30px;
+  color: #e8e8e8;
+  font-weight: 400;
+}
+.second-text-main-name {
+  font-size: 30px;
+  color: #e8e8e8;
+  font-weight: 700;
+}
+.first-section-know-pic {
+  margin-left: 15px;
+  height: 80px;
+  width: 30;
+}
+.second-section-know-pic {
+  margin-left: 15px;
+  height: 160px;
+  width: 80;
+}
 .row {
   display: flex;
 }
