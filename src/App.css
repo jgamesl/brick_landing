@@ -493,7 +493,7 @@ nav {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 80vw;
+  height: 60vw;
   background-color: #322e2e;
   align-items: center;
   /* margin-top: 10rem; */
@@ -535,6 +535,43 @@ nav {
   margin-left: 15px;
   height: 160px;
   width: 80;
+}
+.objetivos-low-pic {
+
+  margin-left: 15px;
+  height: 160px;
+  width: 80;
+}
+.color-objetivos-page {
+  background-color: black;
+}
+.objetivos-page-interior {
+  padding-left: 5%;
+  padding-right: 5%;
+  /* margin-top: 5%; */
+  padding-top: 5%;
+  height: 80vw;
+  background-color: #e5c71b;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.objetivos-page-text-color {
+  color: black;
+}
+.second-section-objetivos {
+  margin-top: 25px;
+  margin-bottom: 5%;
+}
+.objetivos-section-left-text {
+  font-size: 32px;
+  color: black;
+  /* margin-bottom: 5%; */
+}
+.objetivos-text-main-name {
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
 }
 .row {
   display: flex;
