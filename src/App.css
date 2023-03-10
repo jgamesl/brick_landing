@@ -589,6 +589,23 @@ nav {
   height: 80px;
   width: 80px;
 }
+.blog-page-interior {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  height: 35vw;
+  background-color: #22222a;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+  color: white
+}
+.blog-pic {
+
+  margin-left: 15px;
+  height: 200px;
+  width: 90px;
+}
 .row {
   display: flex;
 }

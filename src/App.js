@@ -10,6 +10,7 @@ import { IntroPage } from './Components/IntroPage';
 import { KnowBrick } from './Components/KnowBrick';
 import { ObjetivosPage } from './Components/ObjetivosPage';
 import { ColaboradoresPage } from './Components/ColaboradoresPage';
+import { BlogPage } from './Components/BlogPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <KnowBrick />
       <ObjetivosPage />
       <ColaboradoresPage />
+      <BlogPage />
       {/* <About /> 
       <Work />
       <Testimonial />
