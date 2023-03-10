@@ -493,7 +493,7 @@ nav {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 60vw;
+  height: 65vw;
   background-color: #322e2e;
   align-items: center;
   /* margin-top: 10rem; */
@@ -540,7 +540,7 @@ nav {
 
   margin-left: 15px;
   height: 160px;
-  width: 80;
+  width: 80px;
 }
 .color-objetivos-page {
   background-color: black;
@@ -550,7 +550,7 @@ nav {
   padding-right: 5%;
   /* margin-top: 5%; */
   padding-top: 5%;
-  height: 80vw;
+  height: 55vw;
   background-color: #e5c71b;
   align-items: center;
   /* margin-top: 10rem; */
@@ -572,6 +572,22 @@ nav {
   font-size: 25px;
   color: black;
   font-weight: 700;
+}
+.colaboradores-page-interior {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  height: 20vw;
+  background-color: grey;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.colaboradores-logo-pic {
+
+  margin-left: 15px;
+  height: 80px;
+  width: 80px;
 }
 .row {
   display: flex;

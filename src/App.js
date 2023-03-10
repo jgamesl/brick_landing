@@ -9,6 +9,7 @@ import Footer from './Components/Footer';
 import { IntroPage } from './Components/IntroPage';
 import { KnowBrick } from './Components/KnowBrick';
 import { ObjetivosPage } from './Components/ObjetivosPage';
+import { ColaboradoresPage } from './Components/ColaboradoresPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <IntroPage />
       <KnowBrick />
       <ObjetivosPage />
+      <ColaboradoresPage />
       {/* <About /> 
       <Work />
       <Testimonial />
