@@ -54,19 +54,19 @@ export const KnowBrick = () => {
                 </Grid>
 
                 <Grid className='' container spacing={2}>
-                    <Grid item xs={1}>
+                    <Grid item xs={2}>
                     </Grid>
                     <Grid item xs={3}>
                         <ListItem className='first-section-know-brick first-section-left-text'>
-                            <img className='second-section-know-pic' src={ProfilePicDetalles} alt=""/>
+                            <img src={ProfilePicDetalles} alt=""/>
                         </ListItem>
                         {/* <ListItem className='first-section-know-pic'>
 
                         </ListItem> */}
                     </Grid>
-                    <Grid item xs={1}>
+                    {/* <Grid item xs={1}>
 
-                    </Grid>
+                    </Grid> */}
                     <Grid item xs={7}>
                         <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                         <Grid container>
@@ -136,19 +136,19 @@ export const KnowBrick = () => {
                <Box sx={{height: 25}}/>
 
                 <Grid className='' container spacing={2}>
-                    <Grid item xs={1}>
+                    <Grid item xs={2}>
                     </Grid>
                     <Grid item xs={3}>
                         <ListItem className='first-section-know-brick first-section-left-text'>
-                            <img className='second-section-know-pic' src={ProfilePic} alt=""/>
+                            <img src={ProfilePic} alt=""/>
                         </ListItem>
                         {/* <ListItem className='first-section-know-pic'>
 
                         </ListItem> */}
                     </Grid>
-                    <Grid item xs={1}>
+                    {/* <Grid item xs={1}>
 
-                    </Grid>
+                    </Grid> */}
                     <Grid item xs={7}>
                         <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                         <Grid container>

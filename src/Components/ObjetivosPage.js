@@ -1,10 +1,16 @@
 
-import { Divider, Grid, ListItem, Typography } from '@mui/material';
+import { Divider, Grid, ListItem, SvgIcon, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react'
 import { useMediaQuery } from 'react-responsive';
 import Delivery from "../Assets/delivery-image.png";
 import CircleIcon from '@mui/icons-material/Circle';
+import MetasImage from "../Assets/Icons/Home/metas.svg";
+import {ReactComponent as GraphIcon} from "../Assets/Icons/Home/01.svg";
+import {ReactComponent as TargetIcon} from "../Assets/Icons/Home/02.svg";
+import {ReactComponent as FocoIcon} from "../Assets/Icons/Home/03.svg";
+import {ReactComponent as HeartIcon} from "../Assets/Icons/Home/04.svg";
+import {ReactComponent as ShieldIcon} from "../Assets/Icons/Home/05.svg";
 export const ObjetivosPage = () => {
     const isDesktopOrLaptop = useMediaQuery({
       query: '(min-width: 1000px)'
@@ -23,87 +29,98 @@ export const ObjetivosPage = () => {
     <div className='color-objetivos-page'>
         <div className='objetivos-page-interior'>
         <Grid className='' container spacing={2}>
-            <Grid item xs={3}>
-                <ListItem className='first-section-know-brick objetivos-section-left-text second-section-objetivos'>
-                        OBJETIVOS
-                    
-                    <img className='first-section-know-pic' src={Delivery} alt=""/>
+            <Grid item xs={2}>
 
-                </ListItem>
-                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                {/* <Box sx={{height: 30}}/> */}
+                    <ListItem className='objetivos-section-left-text second-section-objetivos'>
+                            OBJETI
+                    </ListItem>
 
-                <ListItem sx={{fontWeight: 100}}>
-                    Lorem ipsum dolor sit amet, conctetuer adipiscing
-                    elit volutpat. Hendrerit in vulputate velit esse Ut wisi
-                    enim
-                </ListItem>
-                <Box height={80}/>
-                <img className='objetivos-low-pic' src={Delivery} alt=""/>
-                {/* <ListItem className='first-section-know-pic'>
-
-                </ListItem> */}
+                    <ListItem className='objetivos-section-left-text second-section-objetivos'>
+                            VOS.
+                    </ListItem>
             </Grid> 
             <Grid item xs={1}>
 
+                <img className='first-section-know-pic' src={MetasImage} alt=""/>
             </Grid>
-            <Grid item xs={1}>
+            <Grid item xs={2}>
 
             </Grid>
             <Grid item xs={7}>
-                <Box sx={{height: 76
-                }}/>
-                {/* <ListItem></ListItem> */}
+     
+            </Grid>
+        </Grid>
+        <Grid className='' container spacing={2}>
+            <Grid item xs={3}>
+                <Box height={45} />
+                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                    <ListItem className='objetivos-text-main-name' >
-                        VALORES
-                    </ListItem>
-                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
+                <Box height={30}/>
+                <ListItem >
+                    <p className='helvetica-objetivos-left'>
+                    Lorem ipsum dolor sit amet, conctetuer adipiscing
+                    elit volutpat. Hendrerit in vulputate velit esse Ut wisi
+                    enim
+                    </p>
+                </ListItem>
+                <Box height={80}/>
+                <img className='objetivos-low-pic' src={Delivery} alt=""/>
+            </Grid> 
+
+            <Grid item xs={2}>
+                
+            </Grid>
+            <Grid item xs={7}>
+     
+                <ListItem className='objetivos-text-main-name' >
+                  VALORES
+                </ListItem>
+                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 <Grid className='' container spacing={2}>
                     <Grid item xs={6}>
                         <ListItem>
-                            <CircleIcon sx={{height: 10, width: 10}}/>
+                            <SvgIcon sx={{mt:'8px'}} component={GraphIcon} />
                             <Box sx={{width:4}}/>
-                            <Typography>Lorem ipsum.</Typography>
+                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                        </ListItem>
+                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                        <ListItem>
+                            <SvgIcon sx={{mt:'8px'}} component={TargetIcon} />
+                            <Box sx={{width:4}}/>
+                            <p className="helvetica-objetivos">Dolor.</p>
                         </ListItem>
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
                         <ListItem>
-                            <CircleIcon sx={{height: 10, width: 10}}/>
+                            <SvgIcon sx={{mt:'8px'}} component={FocoIcon} />
                             <Box sx={{width:4}}/>
-                            <Typography>Dolor.</Typography>
-                        </ListItem>
-                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
-                        <ListItem>
-                            <CircleIcon sx={{height: 10, width: 10}}/>
-                            <Box sx={{width:4}}/>
-                            <Typography fontWeight={10}>Amet silum.</Typography>
+                            <p className="helvetica-objetivos">Amet silum.</p>
                         </ListItem>
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
                     </Grid>
                     <Grid item xs={6}>
 
                         <ListItem>
-                            <CircleIcon sx={{height: 10, width: 10}}/>
+                            <SvgIcon sx={{mt:'8px'}} component={HeartIcon} />
                             <Box sx={{width:4}}/>
-                            <Typography>Lorem ipsum.</Typography>
+                            <p className="helvetica-objetivos">Lorem ipsum.</p>
                         </ListItem>
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
                         <ListItem>
-                            <CircleIcon sx={{height: 10, width: 10}}/>
+                            <SvgIcon sx={{mt:'8px'}} component={ShieldIcon} />
                             <Box sx={{width:4}}/>
-                            <Typography>Dolor.</Typography>
+                            <p className="helvetica-objetivos">Dolor.</p>
                         </ListItem>
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
                     </Grid>
 
                     <Box sx={{height: 200}}/>
 
+                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                     <ListItem className='objetivos-text-main-name' >
                         OBJETIVOS
                     </ListItem>
-                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
-
-                    <Grid className='' container spacing={2}>
+                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    {/* <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/> */}
 
                         <Grid item xs={6}>
                             <ListItem>
@@ -111,12 +128,14 @@ export const ObjetivosPage = () => {
                             Lorem ipsum dolor sit amet,
                                 dolor sit amet, dolor si
                             </ListItem>
+                            <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             <Box sx={{height: 30}}/>
                             <ListItem>
 
                             Lorem ipsum dolor sit amet,
                                 dolor sit amet, dolor si
                             </ListItem>
+                            <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>    
                         </Grid>
                         <Grid item xs={6}>
                             <ListItem>
@@ -124,12 +143,13 @@ export const ObjetivosPage = () => {
                             Lorem ipsum dolor sit amet,
                                 dolor sit amet, dolor si
                             </ListItem>
+                            <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
                         </Grid>
-                    </Grid>
 
                 </Grid>
             </Grid>
         </Grid>
+
         </div>
     </div> : <div></div>
 }

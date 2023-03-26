@@ -638,13 +638,13 @@ nav {
 }
 .first-section-right-text {
   font-size: 16pt;
-  font-family: Helvetica;
+  font-family: 'HelveticaLt';
   color: #f8bd00
   /* margin-bottom: 5%; */
 }
 .second-section-text-color {
   color: #f8bd00;
-  font-family: 'Helvetica';
+  font-family: 'HelveticaLt';
   font-size: 14pt
 }
 .second-text-right-age {
@@ -662,7 +662,7 @@ nav {
 .second-text-sub-name {
   font-size: 16pt;
   color: #f8bd00;
-  font-family: 'Helvetica';
+  font-family: 'HelveticaLt';
   /* font-weight: 700; */
 }
 .first-section-know-pic {
@@ -674,7 +674,7 @@ nav {
 .second-section-know-pic {
   margin-left: 15px;
   height: 160px;
-  width: 80;
+  width: 80px;
 }
 .objetivos-low-pic {
 
@@ -690,8 +690,8 @@ nav {
   padding-right: 5%;
   /* margin-top: 5%; */
   padding-top: 5%;
-  height: 55vw;
-  background-color: #e5c71b;
+  height: 60vw;
+  background-color: #f8bd00;
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
@@ -704,21 +704,45 @@ nav {
   margin-bottom: 5%;
 }
 .objetivos-section-left-text {
-  font-size: 32px;
-  color: black;
+  font-size: 35pt;
+  font-family: 'GilamBook';
+  line-height: 0.75;
+  color: #212322;
+  /* margin-bottom: 5%; */
   /* margin-bottom: 5%; */
 }
 .objetivos-text-main-name {
-  font-size: 25px;
-  color: black;
-  font-weight: 700;
+  font-size: 19pt;
+  font-family: 'GilamSemiBold';
+  color: #212322;
+  /* font-weight: 700; */
+}
+.helvetica-objetivos {
+
+  font-size: 14pt;
+  font-family: 'HelveticaLt';
+  color: #212322;
+}
+
+
+.helvetica-objetivos-left {
+
+  font-size: 16pt;
+  font-family: 'HelveticaLt';
+  color: #212322;
+}
+.title-colaboradores-text {
+
+  font-size: 19pt;
+  font-family: 'GilamSemiBold';
+  color: #212322;
 }
 .colaboradores-page-interior {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
   height: 20vw;
-  background-color: grey;
+  background-color: #686e7f;
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
@@ -738,13 +762,13 @@ nav {
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
-  color: white
+  color: #ce7a23
 }
 .blog-pic {
 
   margin-left: 15px;
   height: 200px;
-  width: 90px;
+  width: 180px;
 }
 .row {
   display: flex;

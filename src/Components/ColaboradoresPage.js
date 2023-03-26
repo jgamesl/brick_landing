@@ -1,10 +1,14 @@
 
 
-import { Box, Divider, Grid, ListItem, Typography } from '@mui/material';
+import { Box, Divider, Grid, ListItem, SvgIcon, Typography } from '@mui/material';
 import React from 'react';
 import Delivery from "../Assets/delivery-image.png";
 import { useMediaQuery } from 'react-responsive';
 import CircleIcon from '@mui/icons-material/Circle';
+import Colab1Image from "../Assets/Icons/Home/colab1.svg";
+import Colab2Image from "../Assets/Icons/Home/colab2.svg";
+import Colab3Image from "../Assets/Icons/Home/colab3.svg";
+import {ReactComponent as StarIcon} from "../Assets/Icons/Home/estrella.svg";
 
 export const ColaboradoresPage = () => {
     const isDesktopOrLaptop = useMediaQuery({
@@ -27,7 +31,8 @@ export const ColaboradoresPage = () => {
             
             <Grid container spacing={2}>
                 <Grid item xs={3}>
-                    COLABORADORES.
+                    <p className='title-colaboradores-text'>COLABORADORES.</p>
+                    
                 </Grid>
                 <Grid item xs={3}>
 
@@ -35,11 +40,11 @@ export const ColaboradoresPage = () => {
                 <Grid item xs={6}>
 
                     <ListItem>
-                        <CircleIcon sx={{height: 40, width: 40}}/>
+                        <SvgIcon sx={{mt:'8px'}} component={StarIcon} />
                         <Box sx={{width:40}}/>
                         {/* <Box sx={{width:4}}/> */}
-                        <Typography>Lorem ipsum dolor sit amet, conctetuer adipiscing
-elit volutpat. Hendrerit in vulputat.</Typography>
+                        <p className='helvetica-objetivos-left'>Lorem ipsum dolor sit amet, conctetuer adipiscing
+elit volutpat. Hendrerit in vulputat.</p>
                     </ListItem>
                 </Grid>
             </Grid>
@@ -48,33 +53,38 @@ elit volutpat. Hendrerit in vulputat.</Typography>
             <Box height={30}/>
             <Grid container spacing={2}>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Delivery} alt=""/>
-                    
+                    <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
+                    <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Delivery} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab2Image} alt=""/>
                     
+                    <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Delivery} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab3Image} alt=""/>
                     
+                    <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Delivery} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
                     
+                    <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Delivery} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab2Image} alt=""/>
                     
+                    <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Delivery} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab3Image} alt=""/>
                     
+                    <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 </Grid>
             </Grid>

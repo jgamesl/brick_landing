@@ -5,6 +5,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import React from 'react';
 import Delivery from "../Assets/delivery-image.png";
 import { useMediaQuery } from 'react-responsive';
+import Desarrollo2 from "../Assets/fotos_test/desarrollo02.png";
+import Desarrollo3 from "../Assets/fotos_test/desarrollo03.png";
 import CircleIcon from '@mui/icons-material/Circle';
 
 export const BlogPage = () => {
@@ -42,12 +44,12 @@ export const BlogPage = () => {
             </Grid>
             <Box height={10}/>
 
-            <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+            <Divider sx={{ backgroundColor: '#ce7a23', borderBottomWidth: 1 }}/>
             <Box height={10}/>
 
             <Grid container spacing={2}>
                 <Grid item xs={3}>
-                    <img className='blog-pic' src={Delivery} alt=""/>
+                    <img className='blog-pic' src={Desarrollo2} alt=""/>
                     <ListItem>
                         
                     <Typography fontSize={60}>01.</Typography>
@@ -58,7 +60,7 @@ export const BlogPage = () => {
                     </ListItem>
                 </Grid>
                 <Grid item xs={3}>
-                    <img className='blog-pic' src={Delivery} alt=""/>
+                    <img className='blog-pic' src={Desarrollo3} alt=""/>
                     <ListItem>
                         
                     <Typography fontSize={60}>02.</Typography>
@@ -69,7 +71,7 @@ export const BlogPage = () => {
                     </ListItem>
                 </Grid>
                 <Grid item xs={3}>
-                    <img className='blog-pic' src={Delivery} alt=""/>
+                    <img className='blog-pic' src={Desarrollo2} alt=""/>
                     <ListItem>
                         
                     <Typography fontSize={60}>03.</Typography>
@@ -80,7 +82,7 @@ export const BlogPage = () => {
                     </ListItem>
                 </Grid>
                 <Grid item xs={3}>
-                    <img className='blog-pic' src={Delivery} alt=""/>
+                    <img className='blog-pic' src={Desarrollo2} alt=""/>
                     <ListItem>
                         
                     <Typography fontSize={60}>04.</Typography>
