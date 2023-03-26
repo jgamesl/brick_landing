@@ -4,7 +4,16 @@ import { useMediaQuery } from 'react-responsive';
 import MediaQuery from 'react-responsive';
 import { Navbar } from './Navbar';
 import Delivery from "../Assets/delivery-image.png";
-import { Grid, ListItem } from '@mui/material';
+import BrickLogo from "../Assets/Icons/Home/isotipo.svg";
+import Patron1 from "../Assets/Icons/Home/patron.svg";
+import Patron2 from "../Assets/Icons/Home/patron2.svg";
+import {ReactComponent as CorreoIcon} from "../Assets/Icons/Desarrollos/contacto.svg";
+import BrickText from "../Assets/Icons/Logo/logo.svg";
+import { Box, Button, Grid, ListItem, SvgIcon, Typography } from '@mui/material';
+import {ReactComponent as InstagramIcon} from "../Assets/Icons/Home/insta.svg";
+import {ReactComponent as FbIcon} from "../Assets/Icons/Home/fb.svg";
+import {ReactComponent as TwitterIcon} from "../Assets/Icons/Home/twitter.svg";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 export const IntroPage = () => {
 
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
@@ -37,35 +46,72 @@ export const IntroPage = () => {
 
     {isDesktopOrLaptop ? <div className="color-intro-page">
        <Navbar />
-        <div className='intro-page-interior'>
-            <img className='intro-page-logo' src={Delivery} alt=""/>
-            <h1>LOREM IPSUM</h1>
-            <h3>Desarrollo inmobiliario.</h3>
-        </div>
+        <Grid container spacing={2} className='intro-page-interior'>
+            <Grid item xs={4}>
+
+            <img style={{marginBottom: '-230px'}} src={Patron1} alt=""/>
+            </Grid>
+            <Grid item xs={4}>
+                
+                <img className='intro-page-logo' src={BrickLogo} alt=""/>
+                <p className='intro-page-center-text'> 
+                    DESARROLLO 
+                </p>
+                <p className='intro-page-center-text'> 
+                    INMOBILIARIO 
+                </p>
+                <p className='intro-page-center-sub-text'> 
+                    cdmx
+                </p>
+
+            <Button sx={{borderRadius: 8}} className='nav-bar-btn' variant="contained" endIcon={<ArrowForwardIosIcon />}>
+                VER DESARROLLOS
+            </Button>
+            </Grid>
+            <Grid item xs={4}>
+                <img style={{marginBottom: '-230px'}}  src={Patron2} alt=""/>
+            </Grid>
+        </Grid>
         <div className="footer-intro-logo basic-padding">
             <Grid className='text-footer-color' container spacing={2}>
-                <Grid item xs={4}>
+                <Grid item xs={5}>
                     <ListItem>
-                        cda Monet 43
+
+                        <p className='text-footer-size'>
+                            Cda Monet 43
+                        </p>
                     </ListItem>
                     <ListItem>
-                        La wea Residencial 3223
+                        <p className='text-footer-size'>
+                            Soleil Residencial 3223
+                        </p>
                     </ListItem>
                     <ListItem>
-                        Nicaragua
+                        <p className='text-footer-size'>
+                            44444 CDMX
+                        </p>
                     </ListItem>
                 </Grid>
                 <Grid item xs={4}>
                     <ListItem>
-                        626317627
+
+                        <p className='text-footer-size'>
+                        662-9282-032
+                        </p>
                     </ListItem>
                     <ListItem>
-                        correo@lawea.com
+                        <p className='text-footer-size'>
+                        cotizaciones@brick.com 
+                        </p>
                     </ListItem>
                 </Grid>
-                <Grid item xs={4}>
-                    <ListItem>
-                        Iconos
+                <Grid item xs={3}>
+                    <ListItem display="flex" justifyContent="flex-end" >
+                        <SvgIcon sx={{mt:'8px'}} component={InstagramIcon} />
+                        <Box width={50} />
+                        <SvgIcon sx={{mt:'8px'}} component={FbIcon} />
+                        <Box width={50} />
+                        <SvgIcon sx={{mt:'8px'}} component={TwitterIcon} />
                     </ListItem>
                 </Grid>
             </Grid>

@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import Logo from "../Assets/Logo.svg";
 import { BsCart2 } from 'react-icons/bs';
 import { HiOutlineBars3 } from 'react-icons/hi2';
-import { List, Box, Drawer, ListItem, ListItemButton, ListItemIcon, ListItemText} from "@mui/material";
+import {ReactComponent as CorreoIcon} from "../Assets/Icons/Desarrollos/contacto.svg";
+import { List, Box, Drawer, ListItem, ListItemButton, ListItemIcon, ListItemText, Button, SvgIcon, Grid, Typography} from "@mui/material";
 import HomeIcon  from "@mui/icons-material/Home";
 import InfoIcon  from "@mui/icons-material/Info";
 import CommentRoundedIcon  from '@mui/icons-material/CommentRounded';
 import PhoneRoundedIcon  from '@mui/icons-material/PhoneRounded';
 import ShoppingCartRoundedIcon  from '@mui/icons-material/ShoppingCartRounded';
+import BrickText from "../Assets/Icons/Logo/logo.svg";
 
 export const Navbar = () => {
 
@@ -37,24 +39,31 @@ export const Navbar = () => {
 
   return (
     <nav className='basic-padding'>
-      <div className="nav-logo-container">
-        <img src={Logo} alt="" />
-      </div>
-      <div className="navbar-links-container">
-        <a href="">Conoce a Brick.</a>
-        <a href="">Objetivos.</a>
-        <a href="">Desarrollos.</a>
-        {/* <a href="">Acerca de nosotros</a> */}
-        {/* <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button" >
-          Contáctannos
-        </button> */}
-      </div> 
-      <div className="nav-logo-container">
-        <img src={Logo} alt="" />
-      </div>
+      <Grid className="navbar-links-container" container spacing={2}>
+
+        <Grid item xs={4}>
+          <img className="nav-logo" src={BrickText} alt="" />
+        </Grid>
+        <Grid item xs={4}>
+          <ListItem>
+
+            <Typography>Conoce a Brick.</Typography>
+            <Box width={50} />
+            <Typography>Objetivos.</Typography>
+            <Box width={50} />
+            <Typography>Desarrollos.</Typography>
+          </ListItem>
+        </Grid>
+        <Grid display="flex" justifyContent="flex-end" sx={{justifyContent: 'end'}} item xs={4}>
+          <Button sx={{borderRadius: 8}} className='nav-bar-btn' variant="contained" startIcon={<SvgIcon sx={{mt:'8px'}} component={CorreoIcon} />}>
+            Contacto.
+          </Button>
+        </Grid>
+      </Grid>
+      {/* <div className="nav-logo-container">
+        <img className="intro-page-logo" src={BrickText} alt="" />
+      </div> */}
+
       {/* <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
       </div> */}

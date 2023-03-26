@@ -2,8 +2,93 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Reem Kufi", sans-serif !important;
+  /* font-family: "Gilam-Heavy"; */
 }
+/* @font-face {
+  font-family: "GilamBlack.ttf";
+  src: local("GilamBlack"),
+   url("./Assets/fonts/Gilam-Black.ttf") format("truetype");
+  font-weight: bold; 
+} */
+
+/* colors pallete
+yellow #f8bd00
+orangy #ce7a23
+Griseson azul #686e7f
+rosita #fceeea 
+negro #212322  */
+
+.gilam-black {
+  font-family: "Gilam-Black";
+ }
+ 
+ .gilam-black-italic {
+  font-family: "Gilam-BlackItalic" !important;
+ }
+ 
+ .gilam-bold {
+  font-family: "GilamBold";
+ } 
+
+ .gilam-bold-italic {
+  font-family: "GilamBoldItalic";
+ }
+  
+ .gilam-book {
+  font-family: "GilamBook";
+ }
+  
+ .gilam-book-italic {
+  font-family: "GilamBookItalic";
+ }
+  
+ .gilam-extra-light {
+  font-family: "GilamExtraLight";
+ }
+  
+ .gilam-extra-light-italic {
+  font-family: "GilamExtraLightItalic";
+ }
+  
+ .gilam-heavy {
+  font-family: "GilamHeavy";
+ }
+  
+ .gilam-heavy-italic {
+  font-family: "GilamHeavyItalic";
+ }
+  
+ .gilam-light {
+  font-family: "GilamLight";
+ }  
+
+ .gilam-light-italic {
+  font-family: "GilamLightItalic";
+ }  
+
+ .gilam-regular {
+  font-family: "GilamRegular";
+ }  
+
+ .gilam-regular-italic {
+  font-family: "GilamRegularItalic";
+ }
+
+ .gilam-semibold {
+  font-family: "GilamSemiBold";
+ }
+
+ .gilam-semibold-italic {
+  font-family: "GilamSemiBoldItalic";
+ }
+
+ .gilam-thin {
+  font-family: "GilamThin";
+ }
+
+ .gilam-thin-italic {
+  font-family: "GilamThinItalic";
+ }
 /* img {
   max-width: 100%;
   height: auto;
@@ -34,12 +119,22 @@ nav {
 .navbar-menu-container {
   display: none;
 }
+
+.nav
 .navbar-links-container a {
   margin-right: 3rem;
   text-decoration: none;
   color: black;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-family: Helvetica;
+  font-size: 16pt;
+  justify-content: space-between;
+}
+
+.nav-bar-btn {
+  background-color: #f8bd00 !important;
+  color: black !important;
+  opacity: 0.8;
+  border-radius: 8 !important; 
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
@@ -345,6 +440,7 @@ nav {
 }
 @media (max-width: 800px) {
   .nav-logo-container {
+    max-height: 100px;
     max-width: 140px;
   }
   .navbar-links-container {
@@ -452,19 +548,42 @@ nav {
   padding-right: 5%;
   /* padding-top: 5%; */
   height: 70vw;
-  background-color: #e8e8e8
+  /* background-color: #e8e8e8 */ 
 }
 .intro-page-logo {
   height: 150px;
   width: 100;
 }
+.intro-page-center-text {
+  font-family: 'GilamBold';
+  font-size: 33pt;
+  line-height: 1.1;
+  line-break: normal;
+}
+
+
+.intro-page-center-sub-text {
+  font-family: 'GilamBold';
+  font-size: 20pt;
+  line-height: 1;
+  /* line-break: normal; */
+}
+
+.navbar-text {
+  font-family: Helvetica;
+  font-size: 16pt;
+}
+.nav-logo {
+  height: 40px;
+  /* width: 100; */
+}
 
 .intro-page-interior {
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-left: 5%;
+  padding-right: 5%; */
   padding-top: 5%;
   height: 40vw;
-  background-color: #e8e8e8;
+  /* background-color: #e8e8e8; */
   align-items: center;
   margin-top: 10rem;
   text-align: center;
@@ -475,26 +594,32 @@ nav {
   padding-right: 5%;
 }
 .color-intro-page {
-  background-color: #e8e8e8;
+  /* background-color: #e8e8e8; */
+  background-image: url('./Assets/departamentos-de-lujo-2.jpeg');
 }
 .footer-intro-logo {
-  background-color: #7d8fa2;
-  height: 15vw;
+  background-color: #f8bd00;
+  height: 10vw;
   justify-content: space-between;
 }
 .text-footer-color {
-  color: #e8e8e8;
+  color: #212322;
+}
+
+.text-footer-size {
+  font-family: 'HelveticaLt';
+  font-size: 14pt
 }
 
 .color-know-brick-page {
-  background-color: #e8e8e8;
+  background-color: #212322;
 }
 .know-brick-page-interior {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 65vw;
-  background-color: #322e2e;
+  height: 55vw;
+  background-color: #212322;
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
@@ -502,32 +627,47 @@ nav {
 .first-section-know-brick {
   margin-top: 25px;
   margin-bottom: 5%;
+  align-items: flex-start;
 }
 .first-section-left-text {
-  font-size: 32px;
-  color: #e8e8e8;
+  font-size: 35pt;
+  font-family: 'GilamBook';
+  line-height: 0.75;
+  color: #f8bd00;
   /* margin-bottom: 5%; */
 }
 .first-section-right-text {
-  font-size: 16px;
-  color: #7d8fa2
+  font-size: 16pt;
+  font-family: Helvetica;
+  color: #f8bd00
   /* margin-bottom: 5%; */
 }
 .second-section-text-color {
-  color: #e8e8e8;
+  color: #f8bd00;
+  font-family: 'Helvetica';
+  font-size: 14pt
 }
 .second-text-right-age {
-  font-size: 30px;
-  color: #e8e8e8;
-  font-weight: 400;
+  font-size: 33pt;
+  color: #f8bd00;
+  /* font-weight: 400; */
+  font-family: 'GilamBook';
 }
 .second-text-main-name {
-  font-size: 30px;
-  color: #e8e8e8;
-  font-weight: 700;
+  font-size: 33pt;
+  color: #f8bd00;
+  font-family: 'GilamSemiBold';
+  /* font-weight: 700; */
+}
+.second-text-sub-name {
+  font-size: 16pt;
+  color: #f8bd00;
+  font-family: 'Helvetica';
+  /* font-weight: 700; */
 }
 .first-section-know-pic {
-  margin-left: 15px;
+  margin-top: 30px;
+  /* margin-left: 15px; */
   height: 80px;
   width: 30;
 }

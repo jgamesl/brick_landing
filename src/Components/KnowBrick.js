@@ -2,6 +2,9 @@ import { Divider, Grid, ListItem, Typography } from '@mui/material';
 import React from 'react'
 import Delivery from "../Assets/delivery-image.png";
 import CircleIcon from '@mui/icons-material/Circle';
+import ConoceImage from "../Assets/Icons/Home/conoce.svg";
+import ProfilePicDetalles from "../Assets/fotos_test/profilecondetalles.png";
+import ProfilePic from "../Assets/fotos_test/profile.png";
 
 import { useMediaQuery } from 'react-responsive';
 import { Box } from '@mui/system';
@@ -24,19 +27,22 @@ export const KnowBrick = () => {
         isDesktopOrLaptop ? 
         <div className='color-know-brick-page'>
             <div className='know-brick-page-interior'>
-                <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
-                <Grid className='' container spacing={2}>
-                    <Grid item xs={4}>
-                        <ListItem className='first-section-know-brick first-section-left-text'>
-                            CONOCE A BRICK
-                            <img className='first-section-know-pic' src={Delivery} alt=""/>
-                        </ListItem>
-                        {/* <ListItem className='first-section-know-pic'>
+                <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                <Grid className='' container spacing={1}>
+                    <Grid container item xs={5}>
+                        <Grid item xs={6}>
 
-                        </ListItem> */}
-                    </Grid>
-                    <Grid item xs={1}>
-
+                            <p className='first-section-know-brick first-section-left-text'>
+                                CONOCE
+                            </p>
+                            <p className='first-section-know-brick first-section-left-text'>
+                                A BRICK
+                            </p>
+                        </Grid>
+                        <Grid item xs={6}>
+                            
+                        <img className='first-section-know-pic' src={ConoceImage} alt=""/>
+                        </Grid>
                     </Grid>
                     <Grid item xs={7}>
                         <ListItem className='first-section-know-brick first-section-right-text'>
@@ -52,7 +58,7 @@ export const KnowBrick = () => {
                     </Grid>
                     <Grid item xs={3}>
                         <ListItem className='first-section-know-brick first-section-left-text'>
-                            <img className='second-section-know-pic' src={Delivery} alt=""/>
+                            <img className='second-section-know-pic' src={ProfilePicDetalles} alt=""/>
                         </ListItem>
                         {/* <ListItem className='first-section-know-pic'>
 
@@ -62,7 +68,7 @@ export const KnowBrick = () => {
 
                     </Grid>
                     <Grid item xs={7}>
-                        <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                        <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                         <Grid container>
 
                             <Grid className='second-section-text-color' item xs={5}>
@@ -70,7 +76,7 @@ export const KnowBrick = () => {
                                 <ListItem className='second-text-main-name' >
                                     ANA REYNA.
                                 </ListItem>
-                                <ListItem >
+                                <ListItem className='second-text-sub-name'>
                                     Lorem ipsum dolor sit
                                 </ListItem>
                                 <ListItem >
@@ -83,9 +89,9 @@ export const KnowBrick = () => {
                                 <ListItem className='second-text-right-age'>
                                     31.
                                 </ListItem>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                     <CircleIcon />
                                     <Box sx={{mr:1}} />
                                     <Typography>
@@ -96,9 +102,9 @@ export const KnowBrick = () => {
                                         Lorem ipsum dolor sit
                                     </Typography>
                                 </ListItem>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                     <CircleIcon />
                                     <Box sx={{mr:1}} />
                                     <Typography>
@@ -109,9 +115,9 @@ export const KnowBrick = () => {
                                         Lorem ipsum dolor sit
                                     </Typography>
                                 </ListItem>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                     <CircleIcon />
                                     <Box sx={{mr:1}} />
                                     <Typography>
@@ -134,7 +140,7 @@ export const KnowBrick = () => {
                     </Grid>
                     <Grid item xs={3}>
                         <ListItem className='first-section-know-brick first-section-left-text'>
-                            <img className='second-section-know-pic' src={Delivery} alt=""/>
+                            <img className='second-section-know-pic' src={ProfilePic} alt=""/>
                         </ListItem>
                         {/* <ListItem className='first-section-know-pic'>
 
@@ -144,7 +150,7 @@ export const KnowBrick = () => {
 
                     </Grid>
                     <Grid item xs={7}>
-                        <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                        <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                         <Grid container>
 
                             <Grid className='second-section-text-color' item xs={5}>
@@ -152,7 +158,7 @@ export const KnowBrick = () => {
                                 <ListItem className='second-text-main-name' >
                                     ANA REYNA.
                                 </ListItem>
-                                <ListItem >
+                                <ListItem className='second-text-sub-name'>
                                     Lorem ipsum dolor sit
                                 </ListItem>
                                 <ListItem >
@@ -165,9 +171,9 @@ export const KnowBrick = () => {
                                 <ListItem className='second-text-right-age'>
                                     31.
                                 </ListItem>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                     <CircleIcon />
                                     <Box sx={{mr:1}} />
                                     <Typography>
@@ -178,9 +184,9 @@ export const KnowBrick = () => {
                                         Lorem ipsum dolor sit
                                     </Typography>
                                 </ListItem>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                     <CircleIcon />
                                     <Box sx={{mr:1}} />
                                     <Typography>
@@ -191,9 +197,9 @@ export const KnowBrick = () => {
                                         Lorem ipsum dolor sit
                                     </Typography>
                                 </ListItem>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
-                                    <Divider sx={{ backgroundColor: 'white', borderBottomWidth: 1 }}/>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                     <CircleIcon />
                                     <Box sx={{mr:1}} />
                                     <Typography>

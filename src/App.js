@@ -1,5 +1,6 @@
 
 import './App.css';
+import './index.css';
 import { Home } from './Components/Home';
 import { About } from './Components/About';
 import { Work } from './Components/Work';
@@ -11,6 +12,7 @@ import { KnowBrick } from './Components/KnowBrick';
 import { ObjetivosPage } from './Components/ObjetivosPage';
 import { ColaboradoresPage } from './Components/ColaboradoresPage';
 import { BlogPage } from './Components/BlogPage';
+import { DesarrollosPage } from './Components/DesarrollosPage';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <ObjetivosPage />
       <ColaboradoresPage />
       <BlogPage />
+      <DesarrollosPage />
       {/* <About /> 
       <Work />
       <Testimonial />

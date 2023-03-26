@@ -1,0 +1,130 @@
+/* @font-face {
+    font-family: "Gilam-Black.ttf";
+    src: local("Gilam-Black"), url("./Assets/fonts/Gilam-Black.ttf") format("truetype");
+     font-style: normal;
+     font-display: swap;
+    font-weight: bold; 
+} */
+
+@font-face {
+    font-family: 'Gilam-Black';
+    src: local('Gilam-Black'), url(./Assets/fonts/Gilam-Black.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: "Gilam-BlackItalic";
+    src: local("GilamBlackItalic"),
+     url(./Assets/fonts/Gilam-BlackItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamBold";
+    src: local("GilamBold"),
+     url(./Assets/fonts/Gilam-Bold.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamBoldItalic";
+    src: local("GilamBoldItalic"),
+     url(./Assets/fonts/Gilam-BoldItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamBook";
+    src: local("GilamBookk"),
+     url(./Assets/fonts/Gilam-Book.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamBookItalic";
+    src: local("GilamBookItalic"),
+     url(./Assets/fonts/Gilam-BookItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamExtraLight";
+    src: local("GilamExtraLight"),
+     url(./Assets/fonts/Gilam-ExtraLight.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamExtraLightItalic.ttf";
+    src: local("GilamExtraLightItalic"),
+     url(./Assets/fonts/Gilam-ExtraLightItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamHeavy";
+    src: local("Gilam-Heavy"), url(./Assets/fonts/Gilam-Heavy.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamHeavyItalic";
+    src: local("GilamHeavyItalic"), url(./Assets/fonts/Gilam-HeavyItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamLight";
+    src: local("GilamLight"),
+     url(./Assets/fonts/Gilam-Light.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamLightItalic";
+    src: local("GilamLightItalic"),
+     url(./Assets/fonts/Gilam-LightItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+
+@font-face {
+    font-family: "GilamRegular";
+    src: local("GilamRegular"),
+     url(./Assets/fonts/Gilam-Regular.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+@font-face {
+    font-family: "GilamRegularItalic";
+    src: local("GilamRegularItalic"),
+     url(./Assets/fonts/Gilam-RegularItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+@font-face {
+    font-family: "GilamSemiBold";
+    src: local("GilamSemiBold"),
+     url(./Assets/fonts/Gilam-SemiBold.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+@font-face {
+    font-family: "GilamSemiBoldItalic";
+    src: local("GilamSemiBoldItalic"),
+     url(./Assets/fonts/Gilam-SemiBoldItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+@font-face {
+    font-family: "GilamThin";
+    src: local("GilamThin"),
+     url(./Assets/fonts/Gilam-Thin.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+@font-face {
+    font-family: "GilamThinItalic";
+    src: local("GilamThinItalic"),
+     url(./Assets/fonts/Gilam-ThinItalic.ttf) format("truetype");
+    /* font-weight: bold; */
+}
+@font-face {
+    font-family: "HelveticaLt";
+    src: local("HelveticaLt"),
+     url(./Assets/fonts/HelveticaLt.ttf) format("truetype");
+    /* font-weight: bold; */
+}
