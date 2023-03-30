@@ -30,17 +30,17 @@ export const BlogPage = () => {
             
             <Grid container spacing={2}>
                 <Grid item xs={2}>
-                    BLOG.
+                    <p className='blog-main-name'>BLOG.</p>
                 </Grid>
                 <Grid item xs={8}>
 
                 </Grid>
                 <Grid item xs={2}>
 
-                    <Button variant="outlined" startIcon={<InstagramIcon />}>
+                    <Button className='nav-bar-btn' variant="contained" sx={{color: '#ce7a23', borderColor: '#ce7a23',orderRadius: 8}} startIcon={<InstagramIcon />}>
                         Instagram.
                     </Button>
-                </Grid>
+                </Grid> 
             </Grid>
             <Box height={10}/>
 
@@ -51,45 +51,71 @@ export const BlogPage = () => {
                 <Grid item xs={3}>
                     <img className='blog-pic' src={Desarrollo2} alt=""/>
                     <ListItem>
-                        
-                    <Typography fontSize={60}>01.</Typography>
+                        <Grid container>
+                            <Grid item xs={5}>
+                                <p className='blog-number-main-name'>01.</p>
+                            </Grid>
+                            <Grid sx={{mt:'10px'}} item xs={7}>
+
+                                <Typography color='#ce7a23' fontWeight={700}>23/23/1111.</Typography>
+                                <p>En proceso.</p>
+                            </Grid>
+                        </Grid>
                         <Box sx={{width:40}}/>
                         {/* <Box sx={{width:4}}/> */}
-                        <Typography fontSize={10}>Lorem ipsum
-                        Dolor sit amet dolor.</Typography>
                     </ListItem>
                 </Grid>
                 <Grid item xs={3}>
                     <img className='blog-pic' src={Desarrollo3} alt=""/>
                     <ListItem>
-                        
-                    <Typography fontSize={60}>02.</Typography>
+                        <Grid container>
+                            <Grid item xs={5}>
+                                <p className='blog-number-main-name'>02.</p>
+                            </Grid>
+                            <Grid sx={{mt:'10px'}} item xs={7}>
+
+                                <Typography color='#ce7a23' fontWeight={700}>23/23/1111.</Typography>
+                                <p>En proceso.</p>
+                            </Grid>
+                        </Grid>
                         <Box sx={{width:40}}/>
                         {/* <Box sx={{width:4}}/> */}
-                        <Typography fontSize={10}>Lorem ipsum
-                        Dolor sit amet dolor.</Typography>
                     </ListItem>
                 </Grid>
                 <Grid item xs={3}>
                     <img className='blog-pic' src={Desarrollo2} alt=""/>
+                    
                     <ListItem>
-                        
-                    <Typography fontSize={60}>03.</Typography>
+                        <Grid container>
+                            <Grid item xs={5}>
+                                <p className='blog-number-main-name'>03.</p>
+                            </Grid>
+                            <Grid sx={{mt:'10px'}} item xs={7}>
+
+                                <Typography color='#ce7a23' fontWeight={700}>23/23/1111.</Typography>
+                                <p>En proceso.</p>
+                            </Grid>
+                        </Grid>
                         <Box sx={{width:40}}/>
                         {/* <Box sx={{width:4}}/> */}
-                        <Typography fontSize={10}>Lorem ipsum
-                        Dolor sit amet dolor.</Typography>
                     </ListItem>
                 </Grid>
                 <Grid item xs={3}>
                     <img className='blog-pic' src={Desarrollo2} alt=""/>
+                    
                     <ListItem>
-                        
-                    <Typography fontSize={60}>04.</Typography>
+                        <Grid container>
+                            <Grid item xs={5}>
+                                <p className='blog-number-main-name'>04.</p>
+                            </Grid>
+                            <Grid sx={{mt:'10px'}} item xs={7}>
+
+                                <Typography color='#ce7a23' fontWeight={700}>23/23/1111.</Typography>
+                                <p>En proceso.</p>
+                            </Grid>
+                        </Grid>
                         <Box sx={{width:40}}/>
                         {/* <Box sx={{width:4}}/> */}
-                        <Typography fontSize={10}>Lorem ipsum
-                        Dolor sit amet dolor.</Typography>
                     </ListItem>
                 </Grid>
             </Grid>

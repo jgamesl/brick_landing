@@ -1,10 +1,12 @@
-import { Divider, Grid, ListItem, Typography } from '@mui/material';
+import { Divider, Grid, ListItem, SvgIcon, Typography } from '@mui/material';
 import React from 'react'
 import Delivery from "../Assets/delivery-image.png";
 import CircleIcon from '@mui/icons-material/Circle';
 import ConoceImage from "../Assets/Icons/Home/conoce.svg";
 import ProfilePicDetalles from "../Assets/fotos_test/profilecondetalles.png";
 import ProfilePic from "../Assets/fotos_test/profile.png";
+import {ReactComponent as MujerIcon} from "../Assets/Icons/Home/mujer.svg";
+import {ReactComponent as HombreIcon} from "../Assets/Icons/Home/hombre.svg";
 
 import { useMediaQuery } from 'react-responsive';
 import { Box } from '@mui/system';
@@ -80,7 +82,9 @@ export const KnowBrick = () => {
                                     Lorem ipsum dolor sit
                                 </ListItem>
                                 <ListItem >
-                                    <CircleIcon sx={{height: 60, width: 60}}/>
+
+                                    <SvgIcon fill='red' sx={{mt:'8px'}} component={MujerIcon} />
+                                    {/* <CircleIcon sx={{height: 60, width: 60}}/> */}
                                 </ListItem>
 
                             </Grid>
@@ -162,7 +166,7 @@ export const KnowBrick = () => {
                                     Lorem ipsum dolor sit
                                 </ListItem>
                                 <ListItem >
-                                    <CircleIcon sx={{height: 60, width: 60}}/>
+                                    <SvgIcon fill='yellow' sx={{mt:'8px', width:'80px', height:'80px', color: 'red'}} component={HombreIcon} />
                                 </ListItem>
 
                             </Grid>

@@ -768,7 +768,20 @@ nav {
 
   margin-left: 15px;
   height: 200px;
-  width: 180px;
+  width: 100%;
+}
+.blog-main-name {
+  font-size: 19pt;
+  color: #ce7a23;
+  font-family: 'GilamSemiBold';
+  text-align: left;
+  /* font-weight: 700; */
+}
+.blog-number-main-name {
+  font-size: 39pt;
+  color: #ce7a23;
+  font-family: 'GilamSemiBold';
+  /* font-weight: 700; */
 }
 .row {
   display: flex;
