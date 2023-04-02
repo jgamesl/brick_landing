@@ -683,15 +683,15 @@ nav {
   width: 80px;
 }
 .color-objetivos-page {
-  background-color: black;
+  background-color: white;
 }
 .objetivos-page-interior {
   padding-left: 5%;
   padding-right: 5%;
   /* margin-top: 5%; */
   padding-top: 5%;
-  height: 60vw;
-  background-color: #f8bd00;
+  height: 130vh;
+  background-color: white;
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
@@ -723,7 +723,21 @@ nav {
   font-family: 'HelveticaLt';
   color: #212322;
 }
+.desarrollos-section-left-text {
+  font-size: 35pt;
+  font-family: 'GilamBook';
+  line-height: 0.42;
+  color: #212322;
+  /* margin-bottom: 5%; */
+  /* margin-bottom: 5%; */
+}
+.helvetica-desarrollos-left {
 
+  font-size: 16pt;
+  font-family: 'HelveticaLight';
+  /* line-height: 0.16; */
+  color: #212322;
+}
 
 .helvetica-objetivos-left {
 

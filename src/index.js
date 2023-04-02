@@ -20,6 +20,7 @@ import './Assets/fonts/Gilam-SemiBoldItalic.ttf';
 import './Assets/fonts/Gilam-Thin.ttf';
 import './Assets/fonts/Gilam-ThinItalic.ttf';
 import './Assets/fonts/HelveticaLt.ttf';
+import './Assets/fonts/Helvetica-Light.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

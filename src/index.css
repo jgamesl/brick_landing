@@ -128,3 +128,9 @@
      url(./Assets/fonts/HelveticaLt.ttf) format("truetype");
     /* font-weight: bold; */
 }
+@font-face {
+    font-family: "HelveticaLight";
+    src: local("HelveticaLight"),
+     url(./Assets/fonts/Helvetica-Light.ttf) format("truetype");
+    /* font-weight: bold; */
+}
