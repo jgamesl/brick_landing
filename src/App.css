@@ -696,6 +696,22 @@ nav {
   /* margin-top: 10rem; */
   text-align: center;
 }
+.title-text-image-desarrollo-over {
+  font-family: 'Helvetica Light';
+  font-size: 35pt;
+  color: black;
+}
+.subtitle-text-image-desarrollo-over {
+  font-family: 'Helvetica Light';
+  font-size: 16pt;
+  color: black;
+}
+.subtitle-text-bold-image-desarrollo-over {
+  font-family: 'Helvetica Light';
+  font-size: 16pt;
+  font-weight: bold;
+  color: black;
+}
 .objetivos-page-text-color {
   color: black;
 }

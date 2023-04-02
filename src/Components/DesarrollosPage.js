@@ -207,20 +207,169 @@ export const DesarrollosPage = () => {
 
                     </Grid>
                     <Grid item xs={3}>
-                        
-                        <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>
+                    <Card sx={{maxWidth: '95%'}}>
+                            <div style={{ position: "relative" }}>
+                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
+                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                    <ListItem>
+
+                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <Box width={15}/>
+                                    <div> 
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            Lorem ipsum
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                        }}>
+                                            Ver más
+                                        </Typography>
+                                    </div>
+                                    </ListItem>
+                                </div>
+                            </div>
+                        </Card>                        <Card sx={{maxWidth: '95%'}}>
+                            <div style={{ position: "relative" }}>
+                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
+                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                    <ListItem>
+
+                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <Box width={15}/>
+                                    <div> 
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            Lorem ipsum
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                        }}>
+                                            Ver más
+                                        </Typography>
+                                    </div>
+                                    </ListItem>
+                                </div>
+                            </div>
+                        </Card>
+                        {/* <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>
                         <Box height={10} />
                         <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>
-                        <Box height={10} />
+                        <Box height={10} /> */}
                     </Grid>
                     <Grid item xs={4}>
                         
-                        <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>
+                        {/* <Card >
+                            <div style={{ position: "relative" }}>
+                            <CardMedia style={{ height: "250px", paddingTop: "2%" }}   component="img" image={"/pancakes.jpg"} title="Pancakes" alt="Pancakes"/> 
+                            <div style={{position: "absolute", color: "white",top: 10,left: "50%",transform: "translateX(-50%)",}}> Some text</div>
+                        </div>
+                        </Card> */}
+                        <Card sx={{maxWidth: '95%'}}>
+                            <div style={{ position: "relative" }}>
+                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
+                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                    <ListItem>
+
+                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <Box width={15}/>
+                                    <div> 
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            Lorem ipsum
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                        }}>
+                                            Ver más
+                                        </Typography>
+                                    </div>
+                                    </ListItem>
+                                </div>
+                            </div>
+                        </Card>
+                        <Card sx={{maxWidth: '95%'}}>
+                            <div style={{ position: "relative" }}>
+                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
+                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                    <ListItem>
+
+                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <Box width={15}/>
+                                    <div> 
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            Lorem ipsum
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                        }}>
+                                            Ver más
+                                        </Typography>
+                                    </div>
+                                    </ListItem>
+                                </div>
+                            </div>
+                        </Card>
+                        <Card sx={{maxWidth: '95%'}}>
+                            <div style={{ position: "relative" }}>
+                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
+                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                    <ListItem>
+
+                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <Box width={15}/>
+                                    <div> 
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            Lorem ipsum
+                                        </Typography>
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '16px',
+                                            color: 'black',
+                                        }}>
+                                            Ver más
+                                        </Typography>
+                                    </div>
+                                    </ListItem>
+                                </div>
+                            </div>
+                        </Card>
+                        {/* <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>
                         <Box height={10} />
                         <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>
                         <Box height={10} />
                         <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>
-                        <Box height={10} />
+                        <Box height={10} /> */}
                     </Grid>
                 </Grid>
 
