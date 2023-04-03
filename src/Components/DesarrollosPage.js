@@ -29,7 +29,7 @@ export const DesarrollosPage = () => {
             isDesktopOrLaptop ? 
 
             <div className='color-objetivos-page'>
-                <div className='objetivos-page-interior'>
+                <div className='desarrollos-page-interior'>
                 <Grid className='' container spacing={2}>
                     <Grid item xs={5}>
                         <Grid container>
@@ -373,6 +373,7 @@ export const DesarrollosPage = () => {
                     </Grid>
                 </Grid>
 
+                <Box height={10}/>
                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 <Box height={20}/>
         {/* <Grid className='' container spacing={2}>

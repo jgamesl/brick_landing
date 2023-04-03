@@ -550,6 +550,11 @@ nav {
   height: 70vw;
   /* background-color: #e8e8e8 */ 
 }
+.last-page-logo {
+
+  height: 120px;
+  width: 80;
+}
 .intro-page-logo {
   height: 150px;
   width: 100;
@@ -582,7 +587,8 @@ nav {
   /* padding-left: 5%;
   padding-right: 5%; */
   padding-top: 5%;
-  height: 40vw;
+  /* height: 40vw; */
+  height: 600px;
   /* background-color: #e8e8e8; */
   align-items: center;
   margin-top: 10rem;
@@ -618,8 +624,10 @@ nav {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 55vw;
-  background-color: #212322;
+  /* height: 55vw; */
+  height: 850px;
+  /* background-color: #212322; */
+  background-color: white;
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
@@ -660,9 +668,9 @@ nav {
   /* font-weight: 700; */
 }
 .second-text-sub-name {
-  font-size: 16pt;
+  font-size: 16px;
   color: #f8bd00;
-  font-family: 'HelveticaLt';
+  font-family: 'HelveticaLight';
   /* font-weight: 700; */
 }
 .first-section-know-pic {
@@ -685,12 +693,39 @@ nav {
 .color-objetivos-page {
   background-color: white;
 }
+.color-last-page {
+  background-color: #212322;
+}
+.last-page-interior {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  height: 35vw;
+  background-color: #212322;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
 .objetivos-page-interior {
   padding-left: 5%;
   padding-right: 5%;
   /* margin-top: 5%; */
   padding-top: 5%;
-  height: 130vh;
+  /* height: 100vh; */
+  height: 700px;
+  background-color: #f8bd00;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.desarrollos-page-interior{
+
+  padding-left: 5%;
+  padding-right: 5%;
+  /* margin-top: 5%; */
+  padding-top: 5%;
+  /* height: 165vh; */
+  height: 1250px;
   background-color: white;
   align-items: center;
   /* margin-top: 10rem; */
@@ -771,7 +806,8 @@ nav {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 20vw;
+  /* height: 20vw; */
+  height: 300px;
   background-color: #686e7f;
   align-items: center;
   /* margin-top: 10rem; */
@@ -787,7 +823,8 @@ nav {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 35vw;
+  /* height: 35vw; */
+  height: 450px;
   background-color: #22222a;
   align-items: center;
   /* margin-top: 10rem; */

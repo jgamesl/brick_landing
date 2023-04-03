@@ -14,7 +14,14 @@ import {ReactComponent as InstagramIcon} from "../Assets/Icons/Home/insta.svg";
 import {ReactComponent as FbIcon} from "../Assets/Icons/Home/fb.svg";
 import {ReactComponent as TwitterIcon} from "../Assets/Icons/Home/twitter.svg";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-export const IntroPage = () => {
+export const IntroPage = (props) => {
+
+    // scrollTo
+  const scrollToSection = (section) => {
+    console.log('la section');
+    console.log(section);
+    props.scrollToSection(section);
+  };
 
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
   console.log(windowSize);
@@ -45,7 +52,7 @@ export const IntroPage = () => {
      {/* <div class="body-cont"> */}
 
     {isDesktopOrLaptop ? <div className="color-intro-page">
-       <Navbar />
+       <Navbar scrollTo={scrollToSection}/>
         <Grid container spacing={2} className='intro-page-interior'>
             <Grid item xs={4}>
 

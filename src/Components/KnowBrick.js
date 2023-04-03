@@ -8,6 +8,10 @@ import ProfilePic from "../Assets/fotos_test/profile.png";
 import {ReactComponent as MujerIcon} from "../Assets/Icons/Home/mujer.svg";
 import {ReactComponent as HombreIcon} from "../Assets/Icons/Home/hombre.svg";
 
+import {ReactComponent as EscuelaIcon} from "../Assets/Icons/Home/icono1.svg";
+import {ReactComponent as JobIcon} from "../Assets/Icons/Home/icono2.svg";
+import {ReactComponent as PaperIcon} from "../Assets/Icons/Home/icono3.svg";
+
 import { useMediaQuery } from 'react-responsive';
 import { Box } from '@mui/system';
 
@@ -82,8 +86,8 @@ export const KnowBrick = () => {
                                     Lorem ipsum dolor sit
                                 </ListItem>
                                 <ListItem >
-
-                                    <SvgIcon fill='red' sx={{mt:'8px'}} component={MujerIcon} />
+                                    {/* <img src={} /> */}
+                                    <SvgIcon stroke='yellow' fill='yellow' sx={{mt:'8px', width: '50px', height: '50px'}} component={MujerIcon} />
                                     {/* <CircleIcon sx={{height: 60, width: 60}}/> */}
                                 </ListItem>
 
@@ -96,39 +100,59 @@ export const KnowBrick = () => {
                                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
                                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                                    <CircleIcon />
+                                    <SvgIcon htmlColor='yellow' sx={{mt:'8px', color:'red'}} component={EscuelaIcon} />
                                     <Box sx={{mr:1}} />
-                                    <Typography>
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
                                         Lorem ipsum dolor sit
                                     </Typography>
-                                    <Box sx={{mr:1}} />
-                                    <Typography>
-                                        Lorem ipsum dolor sit
-                                    </Typography>
-                                </ListItem>
-                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                                <ListItem className='second-section-text-color'>
-                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                                    <CircleIcon />
-                                    <Box sx={{mr:1}} />
-                                    <Typography>
-                                        Lorem ipsum dolor sit
-                                    </Typography>
-                                    <Box sx={{mr:1}} />
-                                    <Typography>
+                                    <Box sx={{mr:3}} />
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
                                         Lorem ipsum dolor sit
                                     </Typography>
                                 </ListItem>
                                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
                                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                                    <CircleIcon />
+                                    <SvgIcon fill='red' sx={{mt:'8px', color:'red'}} component={JobIcon} />
+                                    {/* <CircleIcon /> */}
                                     <Box sx={{mr:1}} />
-                                    <Typography>
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
                                         Lorem ipsum dolor sit
                                     </Typography>
+                                    <Box sx={{mr:3}} />
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
+                                        Lorem ipsum dolor sit
+                                    </Typography>
+                                </ListItem>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                                <ListItem className='second-section-text-color'>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                                    {/* <CircleIcon /> */}
+                                    <SvgIcon fill='red' sx={{mt:'8px', color:'red'}} component={PaperIcon} />
                                     <Box sx={{mr:1}} />
-                                    <Typography>
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
+                                        Lorem ipsum dolor sit
+                                    </Typography>
+                                    <Box sx={{mr:3}} />
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
                                         Lorem ipsum dolor sit
                                     </Typography>
                                 </ListItem>
@@ -154,7 +178,8 @@ export const KnowBrick = () => {
 
                     </Grid> */}
                     <Grid item xs={7}>
-                        <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                        
+                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                         <Grid container>
 
                             <Grid className='second-section-text-color' item xs={5}>
@@ -166,7 +191,9 @@ export const KnowBrick = () => {
                                     Lorem ipsum dolor sit
                                 </ListItem>
                                 <ListItem >
-                                    <SvgIcon fill='yellow' sx={{mt:'8px', width:'80px', height:'80px', color: 'red'}} component={HombreIcon} />
+
+                                    <SvgIcon fill='red' sx={{mt:'8px', width: '50px', height: '50px'}} component={HombreIcon} />
+                                    {/* <CircleIcon sx={{height: 60, width: 60}}/> */}
                                 </ListItem>
 
                             </Grid>
@@ -178,39 +205,60 @@ export const KnowBrick = () => {
                                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
                                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                                    <CircleIcon />
+                                    {/* <CircleIcon /> */}
+                                    <SvgIcon fill='red' sx={{mt:'8px', color:'red'}} component={EscuelaIcon} />
                                     <Box sx={{mr:1}} />
-                                    <Typography>
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
                                         Lorem ipsum dolor sit
                                     </Typography>
-                                    <Box sx={{mr:1}} />
-                                    <Typography>
-                                        Lorem ipsum dolor sit
-                                    </Typography>
-                                </ListItem>
-                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                                <ListItem className='second-section-text-color'>
-                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                                    <CircleIcon />
-                                    <Box sx={{mr:1}} />
-                                    <Typography>
-                                        Lorem ipsum dolor sit
-                                    </Typography>
-                                    <Box sx={{mr:1}} />
-                                    <Typography>
+                                    <Box sx={{mr:3}} />
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
                                         Lorem ipsum dolor sit
                                     </Typography>
                                 </ListItem>
                                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem className='second-section-text-color'>
                                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                                    <CircleIcon />
+                                    {/* <CircleIcon /> */}
+                                    <SvgIcon fill='red' sx={{mt:'8px', color:'red'}} component={JobIcon} />
                                     <Box sx={{mr:1}} />
-                                    <Typography>
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
                                         Lorem ipsum dolor sit
                                     </Typography>
+                                    <Box sx={{mr:3}} />
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
+                                        Lorem ipsum dolor sit
+                                    </Typography>
+                                </ListItem>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                                <ListItem className='second-section-text-color'>
+                                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                                    {/* <CircleIcon /> */}
+                                    <SvgIcon fill='red' sx={{mt:'8px', color:'red'}} component={PaperIcon} />
                                     <Box sx={{mr:1}} />
-                                    <Typography>
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
+                                        Lorem ipsum dolor sit
+                                    </Typography>
+                                    <Box sx={{mr:3}} />
+                                    <Typography sx={{
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '14px'
+                                    }}>
                                         Lorem ipsum dolor sit
                                     </Typography>
                                 </ListItem>

@@ -3,7 +3,7 @@ import Logo from "../Assets/Logo.svg";
 import { BsCart2 } from 'react-icons/bs';
 import { HiOutlineBars3 } from 'react-icons/hi2';
 import {ReactComponent as CorreoIcon} from "../Assets/Icons/Desarrollos/contacto.svg";
-import { List, Box, Drawer, ListItem, ListItemButton, ListItemIcon, ListItemText, Button, SvgIcon, Grid, Typography} from "@mui/material";
+import { List, Box, Drawer, ListItem, ListItemButton, ListItemIcon, ListItemText, Button, SvgIcon, Grid, Typography, Link} from "@mui/material";
 import HomeIcon  from "@mui/icons-material/Home";
 import InfoIcon  from "@mui/icons-material/Info";
 import CommentRoundedIcon  from '@mui/icons-material/CommentRounded';
@@ -11,7 +11,8 @@ import PhoneRoundedIcon  from '@mui/icons-material/PhoneRounded';
 import ShoppingCartRoundedIcon  from '@mui/icons-material/ShoppingCartRounded';
 import BrickText from "../Assets/Icons/Logo/logo.svg";
 
-export const Navbar = () => {
+export const Navbar = (props) => {
+  const funcTrigger = props.scrollTo;
 
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
@@ -46,12 +47,25 @@ export const Navbar = () => {
         </Grid>
         <Grid item xs={4}>
           <ListItem>
+            <Link color="black" underline="hover" onClick={() => {
+              funcTrigger('know')
+            }}>
+              <Typography>Conoce a Brick.</Typography>
+            </Link>
+            <Box width={50} />
 
-            <Typography>Conoce a Brick.</Typography>
-            <Box width={50} />
+            <Link color="black" underline="hover" onClick={() => {
+              funcTrigger('goals')
+            }}>
             <Typography>Objetivos.</Typography>
+            </Link>
             <Box width={50} />
+
+            <Link color="black" underline="hover" onClick={() => {
+              funcTrigger('desarrollos')
+            }}>
             <Typography>Desarrollos.</Typography>
+            </Link>
           </ListItem>
         </Grid>
         <Grid display="flex" justifyContent="flex-end" sx={{justifyContent: 'end'}} item xs={4}>
