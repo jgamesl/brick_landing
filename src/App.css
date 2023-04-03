@@ -565,12 +565,25 @@ nav {
   line-height: 1.1;
   line-break: normal;
 }
-
+.intro-page-center-text-mobile {
+  font-family: 'GilamBold';
+  font-size: 33pt;
+  line-height: 1.1;
+  line-break: normal;
+  text-align: center;
+}
 
 .intro-page-center-sub-text {
   font-family: 'GilamBold';
   font-size: 20pt;
   line-height: 1;
+  /* line-break: normal; */
+}
+.intro-page-center-sub-text-mobile {
+  font-family: 'GilamBold';
+  font-size: 20pt;
+  line-height: 1;
+  text-align: center;
   /* line-break: normal; */
 }
 
@@ -594,6 +607,13 @@ nav {
   margin-top: 10rem;
   text-align: center;
 }
+.intro-page-interior-mobile {
+  /* padding-top: 5%; */
+  height: 600px;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
 .basic-padding {
 
   padding-left: 5%;
@@ -606,6 +626,11 @@ nav {
 .footer-intro-logo {
   background-color: #f8bd00;
   height: 10vw;
+  justify-content: space-between;
+}
+.footer-intro-logo-mobile { 
+  background-color: #f8bd00;
+  height: 200px;
   justify-content: space-between;
 }
 .text-footer-color {

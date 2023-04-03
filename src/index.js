@@ -21,10 +21,31 @@ import './Assets/fonts/Gilam-Thin.ttf';
 import './Assets/fonts/Gilam-ThinItalic.ttf';
 import './Assets/fonts/HelveticaLt.ttf';
 import './Assets/fonts/Helvetica-Light.ttf';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { HomePage } from './Components/HomePage';
+import { DesarrollosDetailsPage } from './Components/DesarrollosDetailsPage';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/desarrollos",
+    element: <DesarrollosDetailsPage />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+
+    <RouterProvider router={router} >
+
+      <App />
+    </RouterProvider>
   </React.StrictMode>
 );
