@@ -70,7 +70,7 @@ export const IntroPage = (props) => {
                 <p className='intro-page-center-sub-text'> 
                     cdmx
                 </p>
-
+            <Box height={10} />
             <Button sx={{borderRadius: 8}} className='nav-bar-btn' variant="contained" endIcon={<ArrowForwardIosIcon />}>
                 VER DESARROLLOS
             </Button>

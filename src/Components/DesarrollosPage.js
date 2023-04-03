@@ -209,8 +209,8 @@ export const DesarrollosPage = () => {
                     <Grid item xs={3}>
                     <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
                                     <p className='title-text-image-desarrollo-over'>01.</p>
@@ -235,10 +235,12 @@ export const DesarrollosPage = () => {
                                     </ListItem>
                                 </div>
                             </div>
-                        </Card>                        <Card sx={{maxWidth: '95%'}}>
+                        </Card>
+                        <Box height={10} />             
+                        <Card sx={{maxWidth: '95%', maxHeight: '400px'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                <CardMedia height={400} component="img" image={DepartamentoPicture} title="" alt=""/> 
+                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
                                     <p className='title-text-image-desarrollo-over'>01.</p>
@@ -279,8 +281,8 @@ export const DesarrollosPage = () => {
                         </Card> */}
                         <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
                                     <p className='title-text-image-desarrollo-over'>01.</p>
@@ -306,10 +308,11 @@ export const DesarrollosPage = () => {
                                 </div>
                             </div>
                         </Card>
-                        <Card sx={{maxWidth: '95%'}}>
+                        <Box height={10} /> 
+                        <Card sx={{maxWidth: '95%' }}>
                             <div style={{ position: "relative" }}>
                                 <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
                                     <p className='title-text-image-desarrollo-over'>01.</p>
@@ -335,10 +338,11 @@ export const DesarrollosPage = () => {
                                 </div>
                             </div>
                         </Card>
+                        <Box height={10} /> 
                         <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
                                 <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
                                     <p className='title-text-image-desarrollo-over'>01.</p>
