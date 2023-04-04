@@ -19,10 +19,139 @@ export const ObjetivosPage = () => {
   
       const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
       const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-      const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+      const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
       const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
   return (
     <>
+    {
+        isPortrait 
+            ?  
+                <div className='color-objetivos-page'>
+                    <div className='objetivos-page-interior-mobile'>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
+
+                                <ListItem className='objetivos-section-left-text second-section-objetivos'>
+                                    OBJETI
+                                </ListItem>
+
+                                <ListItem className='objetivos-section-left-text second-section-objetivos'>
+                                    VOS.
+                                </ListItem>
+                            </Grid>
+                            <Grid display="flex" justifyContent="flex-start" item xs={6}>
+                                
+                                <img className='first-section-know-pic' src={MetasImage} alt=""/>
+                            </Grid>
+                            <Grid item xs={8}>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid item xs={8}>
+                                <ListItem >
+                                    <p className='helvetica-objetivos-left'>
+                                    Lorem ipsum dolor sit amet, conctetuer adipiscing
+                                    elit 
+                                    </p>
+                                </ListItem>
+                                <Box height={24} />
+                            </Grid>
+                            <Grid item xs={12}>
+
+                                <ListItem className='objetivos-text-main-name' >
+                                VALORES
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid sx={{mt:-2}} item xs={12}>
+                                <ListItem>
+                                    <SvgIcon sx={{mt:'8px'}} component={GraphIcon} />
+                                    <Box sx={{width:4}}/>
+                                    <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid sx={{mt:-2}} item xs={12}>
+                                <ListItem>
+                                    <SvgIcon sx={{mt:'8px'}} component={TargetIcon} />
+                                    <Box sx={{width:4}}/>
+                                    <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid sx={{mt:-2}} item xs={12}>
+                                <ListItem>
+                                    <SvgIcon sx={{mt:'8px'}} component={FocoIcon} />
+                                    <Box sx={{width:4}}/>
+                                    <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid sx={{mt:-2}} item xs={12}>
+                                <ListItem>
+                                    <SvgIcon sx={{mt:'8px'}} component={HeartIcon} />
+                                    <Box sx={{width:4}}/>
+                                    <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid sx={{mt:-2}} item xs={12}>
+                                <ListItem>
+                                    <SvgIcon sx={{mt:'8px'}} component={ShieldIcon} />
+                                    <Box sx={{width:4}}/>
+                                    <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                        </Grid>
+
+                        <Grid container spacing={2}>
+
+                            <Grid item xs={12}>
+                                <Box height={30} />
+                                <ListItem className='objetivos-text-main-name' >
+                                OBJETIVOS
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid item xs={8}>
+                                <ListItem>
+
+                                Lorem ipsum dolor sit amet,
+                                    dolor sit amet, dolor si
+                                </ListItem>  
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid item xs={8}>
+                                <ListItem>
+
+                                Lorem ipsum dolor sit amet,
+                                </ListItem>   
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid item xs={8}>
+                                <ListItem>
+
+                                Lorem ipsum dolor sit amet,
+                                    dolor sit amet, dolor si
+                                </ListItem>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid display="flex" justifyContent="flex-start" item xs={6}>
+
+                                <Box height={30}/>
+                                <img className='objetivos-low-pic' src={Delivery} alt=""/>
+                            </Grid>
+                        </Grid>
+                    </div>
+                </div>
+            :  <></>
+    }
     {
     isDesktopOrLaptop ? 
 

@@ -18,10 +18,79 @@ export const ColaboradoresPage = () => {
   
       const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
       const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-      const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+      const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
       const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
   return (
     <>
+    {
+        isPortrait 
+            ?   <Box className='color-know-brick-page'>
+                    <Box className='colaboradores-page-interior-mobile'>
+                        <Grid container spacing={2}>
+                            
+                            <Grid display="flex" justifyContent="flex-start" item xs={12}>
+                                <p className='title-colaboradores-text'>COLABORADORES.</p>
+                            </Grid>
+                            <Grid display="flex" justifyContent="flex-start"  item xs={12}>
+
+                                <ListItem>
+                                    <SvgIcon sx={{mb:3}} component={StarIcon} />
+                                    <Box sx={{width:40}}/>
+                                    {/* <Box sx={{width:4}}/> */}
+                                    <p className='helvetica-objetivos-left'>Lorem ipsum dolor sit amet, conctetuer adipiscing
+                                elit volutpat. Hendrerit in vulputat.</p>
+                                </ListItem>            
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab2Image} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab3Image} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab2Image} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
+                        </Grid>
+                    </Box>
+                </Box>
+            : <></>
+    }
     
     {
     isDesktopOrLaptop ? 

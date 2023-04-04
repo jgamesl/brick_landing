@@ -743,6 +743,18 @@ nav {
   /* margin-top: 10rem; */
   text-align: center;
 }
+.objetivos-page-interior-mobile {
+  padding-left: 5%;
+  padding-right: 5%;
+  /* margin-top: 5%; */
+  padding-top: 5%;
+  /* height: 100vh; */
+  height: 1200px;
+  background-color: #f8bd00;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
 .desarrollos-page-interior{
 
   padding-left: 5%;
@@ -833,6 +845,17 @@ nav {
   padding-top: 5%;
   /* height: 20vw; */
   height: 300px;
+  background-color: #686e7f;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.colaboradores-page-interior-mobile {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  /* height: 20vw; */
+  height: 600px;
   background-color: #686e7f;
   align-items: center;
   /* margin-top: 10rem; */
