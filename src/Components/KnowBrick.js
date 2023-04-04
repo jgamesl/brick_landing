@@ -30,6 +30,153 @@ export const KnowBrick = () => {
     
     <div>
         {
+            isPortrait 
+              ?  <div className='color-know-brick-page'>
+                <div className='know-brick-page-interior'>
+                    <Grid container spacing={2}>
+                            <Grid item xs={6}>
+
+                                <p className='first-section-know-brick first-section-left-text'>
+                                    CONOCE
+                                </p>
+                                <p className='first-section-know-brick first-section-left-text'>
+                                    A BRICK
+                                </p>
+                            </Grid>
+                            <Grid item xs={6}>
+
+                                <img className='first-section-know-pic' src={ConoceImage} alt=""/>
+                            </Grid>
+                    </Grid>
+                    <Grid container spacing={2}>
+                        
+                        <ListItem className='first-section-know-brick first-section-right-text'>
+                            Lorem ipsum dolor sit amet, conctetuer adipiscing
+                            elit volutpat. Hendrerit in vulputate velit esse Ut wisi
+                            enim
+                        </ListItem>
+                        <Box height={40} />
+                    </Grid>
+                    <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                    <Grid container spacing={2}>
+                        <Grid item xs={6}>
+
+                            <ListItem className='first-section-know-brick first-section-left-text'>
+                                <img src={ProfilePicDetalles} alt=""/>
+                            </ListItem>
+                        </Grid>
+                        <Grid item xs={6}>
+                            
+                            <ListItem className='second-text-main-name' >
+                                    ANA REYNA.
+                                </ListItem>
+                                <ListItem className='second-text-sub-name'>
+                                    Lorem ipsum dolor sit
+                                </ListItem>
+                                <ListItem >
+                                    {/* <img src={} /> */}
+                                    <SvgIcon stroke='yellow' fill='yellow' sx={{mt:'8px', width: '50px', height: '50px'}} component={MujerIcon} />
+                                    {/* <CircleIcon sx={{height: 60, width: 60}}/> */}
+                                </ListItem>
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={2}>
+                        <Grid item xs={12}>
+                            <ListItem className='second-text-right-age'>
+                                31.
+                            </ListItem>
+                            <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                        </Grid>
+                               
+                    </Grid>
+                    <Grid container spacing={2}>
+
+                        <Grid item xs={6}>
+                            <ListItem sx={{mt:0}}>
+
+                                <SvgIcon htmlColor='yellow' component={EscuelaIcon} />
+                                <Box sx={{mr:1}} />
+                                <Typography sx={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '14pt',
+                                    color: '#f8bd00'
+                                }}>
+                                    Lorem ipsum dolor 
+                                </Typography>
+                            </ListItem>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <ListItem sx={{mt:0}}>
+                                <Typography sx={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '14pt',
+                                    color: '#f8bd00'
+                                }}>
+                                    Lorem ipsum dolor sit
+                                </Typography>
+                            </ListItem>
+                        </Grid>
+                        <Grid sx={{mt:-2}} item xs={12}>
+                            <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                        </Grid>
+                    </Grid>
+                    <Grid container spacing={2}>
+
+                        <Grid item xs={6}>
+                            <ListItem sx={{mt:0}}>
+
+                                <SvgIcon htmlColor='yellow' component={JobIcon} />
+                                <Box sx={{mr:1}} />
+                                <Typography sx={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '14pt',
+                                    color: '#f8bd00'
+                                }}>
+                                    Lorem ipsum dolor 
+                                </Typography>
+                            </ListItem>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <ListItem sx={{mt:0}}>
+                                <Typography sx={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '14pt',
+                                    color: '#f8bd00'
+                                }}>
+                                    Lorem ipsum dolor sit
+                                </Typography>
+                            </ListItem>
+                        </Grid>
+                        <Grid sx={{mt:-2}} item xs={12}>
+                            <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                        </Grid>
+                    </Grid>
+
+                    <Grid container spacing={2}>
+
+                        <Grid item xs={12}>
+                            <ListItem sx={{mt:0}}>
+
+                                <SvgIcon htmlColor='yellow' component={PaperIcon} />
+                                <Box sx={{mr:1}} />
+                                <Typography sx={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '14pt',
+                                    color: '#f8bd00'
+                                }}>
+                                     Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor 
+                                </Typography>
+                            </ListItem>
+                        </Grid>
+                        <Grid sx={{mt:-2}} item xs={12}>
+                            <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
+                        </Grid>
+                    </Grid>
+                </div>
+              </div>
+              :  <></>
+        }
+        {
         isDesktopOrLaptop ? 
         <div className='color-know-brick-page'>
             <div className='know-brick-page-interior'>
