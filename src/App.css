@@ -704,6 +704,21 @@ nav {
   height: 80px;
   width: 30;
 }
+.first-picture-desarrollo-detail {
+  
+  margin-top: 30px;
+  /* margin-left: 15px; */
+  height: 500px;
+  width: 100%;
+}
+.second-picture-desarrollo-detail {
+  
+  margin-top: 30px;
+  /* margin-left: 15px; */
+  height: 100%;
+  width: 100%;
+
+}
 .second-section-know-pic {
   margin-left: 15px;
   height: 160px;
