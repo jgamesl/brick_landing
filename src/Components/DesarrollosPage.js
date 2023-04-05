@@ -15,16 +15,357 @@ import {ReactComponent as ShieldIcon} from "../Assets/Icons/Home/05.svg";
 export const DesarrollosPage = () => {
 
     const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-width: 1000px)'
+        query: '(min-width: 800px)'
         // query: '(min-width: 1224px)'
       })
     
         const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
         const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-        const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+        const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
         const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
   return (
     <>
+
+        {
+            isPortrait 
+                ?   <div className='color-objetivos-page'>
+                        <div className='desarrollos-page-interior-mobile'>
+                            <Grid container>
+
+                                <Grid item xs={6}>
+                                    
+                                    <ListItem className='desarrollos-section-left-text second-section-objetivos'>
+                                                DESA
+                                        </ListItem>
+
+                                        <ListItem className='objetivos-section-left-text '>
+                                                RRO
+                                        </ListItem>
+                                        <ListItem className='objetivos-section-left-text '>
+                                                LLOS.
+                                        </ListItem>
+                                </Grid>
+                                <Grid display="flex" justifyContent="flex-start" item xs={6}>
+
+                                    <img className='first-section-know-pic' src={DesarrolloImage} alt=""/>
+                                </Grid>
+                                <Grid item xs={8}>
+                                    <Box height={30} />
+                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                </Grid>
+                                <Grid item xs={8}>
+                                    <Box height={30}/>
+                                    <ListItem >
+                                        <p className='helvetica-desarrollos-left'>
+                                        Lorem ipsum dolor sit amet, conctetuer adipiscing
+                                        elit
+                                        </p>
+                                    </ListItem>
+                                </Grid>
+                                <Grid item xs={6}>
+
+                                    <Box height={40} />
+                                    <ListItem>
+
+                                        <Button 
+                                            variant="contained" 
+                                            sx={{
+                                                backgroundColor: '#f8bd00', 
+                                                borderRadius: '50px', 
+                                                fontSize: '30pt',
+                                                fontFamily: 'GilamSemiBold'
+                                            }} 
+                                            disableElevation>
+                                                LP #33
+                                        </Button>
+                                    </ListItem>
+                                </Grid>
+                                <Grid item xs={8}>
+                                    <Box height={20} />
+                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                </Grid>
+                                <Grid item xs={6}>
+
+                                    <Box height={20} />
+                                    <ListItem>
+
+                                        <Button 
+                                            variant="contained" 
+                                            sx={{
+                                                backgroundColor: '#f8bd00', 
+                                                borderRadius: '50px', 
+                                                fontSize: '30pt',
+                                                fontFamily: 'GilamSemiBold'
+                                            }} 
+                                            disableElevation>
+                                                LP #33
+                                        </Button>
+                                    </ListItem>
+                                </Grid>
+                                <Grid item xs={8}>
+                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                    <Box height={50} />
+                                </Grid>
+                                <Grid item xs={6}>
+                                    <ListItem sx={{justifyContent:'space-between'}}>
+                                        <Typography sx={{
+                                            fontFamily: 'GilamSemiBold',
+                                            fontSize: '30pt'
+                                        }}> 
+                                            LP #33
+                                        </Typography>
+
+                                    </ListItem>
+                                </Grid>
+                                <Grid item xs={6}>
+                                    <ListItem>
+                                        <Button 
+                                            variant="contained" 
+                                            
+                                            sx={{
+                                                pt:1,
+                                                pb:1,
+                                                backgroundColor: '#f8bd00', 
+                                                borderRadius: '50px', 
+                                                fontSize: '18pt',
+                                                width: '100%',
+                                                fontFamily: 'GilamSemiBold'
+                                            }} 
+                                            // sx={{backgroundColor: 'orange', width: '100%', borderRadius: '50px', fontSize: '18px'}} 
+                                            disableElevation>
+                                                VER MÁS.
+                                        </Button>
+                                    </ListItem>
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <Box height={50} />
+                                    <ListItem>
+
+                                        <Typography style={{
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '24px',
+                                            lineHeight: '1'
+                                        }}>
+                                            Lorem ipsum dolor sit amet, 
+                                        </Typography>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Typography style={{
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '24px',
+                                            lineHeight: '1'
+                                        }}>
+                                            conctetuer adipiscing elit volutpat. 
+                                        </Typography>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Typography style={{
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '24px',
+                                            lineHeight: '1'
+                                        }}>
+                                            Hendrerit in vulputate velit esse Ut
+                                        </Typography>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Typography style={{
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '24px',
+                                            lineHeight: '1'
+                                        }}>
+                                            wisi enim
+                                        </Typography>
+                                    </ListItem>
+                                    <Box height={50} />
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>  
+                                </Grid>
+
+                                <Grid item xs={12}>
+                                    <Box height={30} />
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                                <ListItem>
+
+                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <Box width={15}/>
+                                                <div> 
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                        fontWeight: 'bold'
+                                                    }}>
+                                                        Lorem ipsum
+                                                    </Typography>
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                    }}>
+                                                        Ver más
+                                                    </Typography>
+                                                </div>
+                                                </ListItem>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                    <Box height={10} />             
+                                    <Card sx={{ maxHeight: '400px'}}>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia height={400} component="img" image={DepartamentoPicture} title="" alt=""/> 
+                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                                <ListItem>
+
+                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <Box width={15}/>
+                                                <div> 
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                        fontWeight: 'bold'
+                                                    }}>
+                                                        Lorem ipsum
+                                                    </Typography>
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                    }}>
+                                                        Ver más
+                                                    </Typography>
+                                                </div>
+                                                </ListItem>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                    <Box height={10} />          
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                                <ListItem>
+
+                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <Box width={15}/>
+                                                <div> 
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                        fontWeight: 'bold'
+                                                    }}>
+                                                        Lorem ipsum
+                                                    </Typography>
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                    }}>
+                                                        Ver más
+                                                    </Typography>
+                                                </div>
+                                                </ListItem>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                    <Box height={10} />          
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                                <ListItem>
+
+                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <Box width={15}/>
+                                                <div> 
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                        fontWeight: 'bold'
+                                                    }}>
+                                                        Lorem ipsum
+                                                    </Typography>
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                    }}>
+                                                        Ver más
+                                                    </Typography>
+                                                </div>
+                                                </ListItem>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                    <Box height={10} />          
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                                <ListItem>
+
+                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <Box width={15}/>
+                                                <div> 
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                        fontWeight: 'bold'
+                                                    }}>
+                                                        Lorem ipsum
+                                                    </Typography>
+                                                    <Typography sx={{
+                                                        fontFamily: 'Helvetica Light',
+                                                        fontSize: '16px',
+                                                        color: 'black',
+                                                    }}>
+                                                        Ver más
+                                                    </Typography>
+                                                </div>
+                                                </ListItem>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                    <Box height={50} />
+                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                    <Box height={10} />
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                        cda monet 33
+                                    </Typography>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                        Gran residencial 43983
+                                    </Typography>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                        CDMX
+                                    </Typography>
+                                    <Box height={10} />
+                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+
+                                    <Box height={10} />
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                        consectetur lorem iosu
+                                    </Typography>
+                                    <Box height={10} />
+                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                    <Box height={10} />
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                        consectetur lorem iosu
+                                    </Typography>
+                                    <Box height={10} />
+                                </Grid>
+
+                            </Grid>
+                        </div>
+                    </div>
+                : <></>
+        }
         {
             isDesktopOrLaptop ? 
 
@@ -207,7 +548,7 @@ export const DesarrollosPage = () => {
 
                     </Grid>
                     <Grid item xs={3}>
-                    <Card sx={{maxWidth: '95%'}}>
+                        <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
                                 <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>

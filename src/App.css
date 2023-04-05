@@ -725,7 +725,17 @@ nav {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 35vw;
+  height: 600px;
+  background-color: #212322;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.last-page-interior-mobile {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  height: 600px;
   background-color: #212322;
   align-items: center;
   /* margin-top: 10rem; */
@@ -763,6 +773,19 @@ nav {
   padding-top: 5%;
   /* height: 165vh; */
   height: 1250px;
+  background-color: white;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.desarrollos-page-interior-mobile{
+
+  padding-left: 5%;
+  padding-right: 5%;
+  /* margin-top: 5%; */
+  padding-top: 5%;
+  /* height: 165vh; */
+  height: 3050px;
   background-color: white;
   align-items: center;
   /* margin-top: 10rem; */
@@ -879,10 +902,29 @@ nav {
   text-align: center;
   color: #ce7a23
 }
+.blog-page-interior-mobile {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  /* height: 35vw; */
+  height: 1750px;
+  background-color: #22222a;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+  color: #ce7a23
+}
 .blog-pic {
 
   margin-left: 15px;
   height: 200px;
+  width: 100%;
+}
+
+.blog-pic-mobile {
+
+  /* margin-left: 15px; */
+  height: 300px;
   width: 100%;
 }
 .blog-main-name {
