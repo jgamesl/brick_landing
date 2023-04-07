@@ -1,6 +1,6 @@
 
 
-import { Button, Divider, ListItem, Typography } from '@mui/material';
+import { Button, Card, CardMedia, Divider, ListItem, SvgIcon, Typography } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import React from 'react';
 import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
@@ -8,8 +8,16 @@ import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
 import { useMediaQuery } from 'react-responsive';
 import DepartamentoPicture from '../../Assets/departamentos-de-lujo-2.jpeg';
 import MesaTrabajoPicture from '../../Assets/fotos_test/Mesa_de_trabajo_101.png';
+import MesaTrabajo2Picture from '../../Assets/fotos_test/Mesa_de_trabajo_102.png';
 import Desarrollo1 from '../../Assets/fotos_test/desarrollo01.png';
+import Desarrollo3 from '../../Assets/fotos_test/desarrollo03.png';
+import MasDesarrolloPicture from '../../Assets/fotos_test/mas_desarrollos.png';
 import Home01 from '../../Assets/fotos_test/home01.png';
+import {ReactComponent as BathIcon} from "../../Assets/Icons/Desarrollos/año.svg";
+import {ReactComponent as CuartoIcon} from "../../Assets/Icons/Desarrollos/cuarto.svg";
+import {ReactComponent as TerrazaIcon} from "../../Assets/Icons/Desarrollos/terraza.svg";
+import {ReactComponent as CocheraIcon} from "../../Assets/Icons/Desarrollos/cochera.svg";
+import {ReactComponent as VerIcon} from "../../Assets/Icons/Desarrollos/ver.svg";
 import { Navbar } from '../Navbar';
 import { Box } from '@mui/system';
 
@@ -145,8 +153,7 @@ export const FirstSection = () => {
                                 </Grid>
                                 <Grid container spacing={2} xs={12}>
                                     <Grid item xs={5}>
-
-                                        <img className='second-picture-desarrollo-detail' src={Desarrollo1} alt=""/>
+                                        <img className='second-picture-desarrollo-detail-a' src={Desarrollo1} alt=""/>
                                     </Grid>
                                     <Grid container xs={7}>
                                         <Grid sx={{mt:'30px'}} item xs={3}>
@@ -156,10 +163,140 @@ export const FirstSection = () => {
                                             
                                             <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                         </Grid>
-                                        <Grid item xs={12}>
+                                        <Grid container xs={12}>
+                                            <Grid item xs={12}>
+                                                <img className='second-picture-desarrollo-detail' src={Home01} alt=""/>
+                                            </Grid>
+                                            <Grid xs={2}>
 
-                                            <img className='second-picture-desarrollo-detail' src={Home01} alt=""/>
+                                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                            </Grid>
+                                            <Grid display="flex" justifyContent="flex-start" xs={10}>
+                                                Lorem ipsum sit dolor amet consectetur wea la yesyes test
+                                            </Grid>
                                         </Grid>
+                                    </Grid>
+                                </Grid>
+                                <Grid container spacing={2}>
+                                    <Grid item xs={3}>    
+                                        <img className='second-picture-desarrollo-detail-a' src={MesaTrabajo2Picture} alt=""/>
+                                    </Grid>
+                                    <Grid item xs={9}>    
+                                        <img className='second-picture-desarrollo-detail-a' src={Desarrollo3} alt=""/>
+                                        <Box height={50}> 
+                                        </Box>
+                                    </Grid>
+                                </Grid>
+                                <Grid container spacing={2}>
+                                    <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
+                                        <Box height={100}>
+                                            <ListItem>
+                                                <p className='blog-number-main-name'>01.</p>
+                                            </ListItem>
+                                        </Box>
+                                    </Grid>
+                                    <Grid item xs={3}>
+
+                                        <ListItem>
+                                            <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
+                                            <Box sx={{width:4}}/>
+                                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                        </ListItem>
+                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+
+                                        <ListItem>
+                                            <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
+                                            <Box sx={{width:4}}/>
+                                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                        </ListItem>
+                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                    </Grid>
+                                    <Grid item xs={3}>
+
+                                        <ListItem>
+                                            <SvgIcon sx={{mt:'8px'}} component={TerrazaIcon} />
+                                            <Box sx={{width:4}}/>
+                                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                        </ListItem>
+                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+
+                                        <ListItem>
+                                            <SvgIcon sx={{mt:'8px'}} component={CocheraIcon} />
+                                            <Box sx={{width:4}}/>
+                                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                        </ListItem>
+                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                    </Grid>
+                                    <Grid item xs={3}>
+
+                                    </Grid>
+                                </Grid>
+                                <Grid>
+                                    <Box height={40} />
+                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                </Grid>
+                                <Grid container spacing={2}>
+                                    <Grid item xs={12}>
+                                        <Box height={40} />
+                                    </Grid>
+                                    <Grid item xs={3}>
+                                        <ListItem className='desarrollos-section-left-text second-section-objetivos'>
+                                                DESA
+                                        </ListItem>
+
+                                        <ListItem className='objetivos-section-left-text '>
+                                                RRO
+                                        </ListItem>
+                                        <ListItem className='objetivos-section-left-text '>
+                                                LLOS.
+                                        </ListItem>
+                                        <ListItem>
+
+                                            <SvgIcon  component={VerIcon} />
+                                        {/* <Box sx={{width:4}}/> */}
+                                        </ListItem>
+                                        <ListItem>
+                                            VER OTR PROYECTO
+                                        </ListItem>
+                                    </Grid>
+                                    <Grid item xs={3}>
+                                        <Card sx={{maxWidth: '95%'}}>
+                                            <div style={{ position: "relative" }}>
+                                                <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
+                                                    <ListItem>
+
+                                                    <p className='title-text-image-desarrollo-over-detail'>LP #33</p>
+                                                    </ListItem>
+                                                </div>
+                                            </div>
+                                        </Card>
+                                    </Grid>
+                                    <Grid item xs={3}>
+                                        <Card sx={{maxWidth: '95%'}}>
+                                            <div style={{ position: "relative" }}>
+                                                <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
+                                                    <ListItem>
+
+                                                    <p className='title-text-image-desarrollo-over-detail'>LP #33</p>
+                                                    </ListItem>
+                                                </div>
+                                            </div>
+                                        </Card>
+                                    </Grid>
+                                    <Grid item xs={3}>
+                                        <Card sx={{maxWidth: '95%'}}>
+                                            <div style={{ position: "relative" }}>
+                                                <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
+                                                    <ListItem>
+
+                                                    <p className='title-text-image-desarrollo-over-detail'>LP #33</p>
+                                                    </ListItem>
+                                                </div>
+                                            </div>
+                                        </Card>
                                     </Grid>
                                 </Grid>
                             </div>

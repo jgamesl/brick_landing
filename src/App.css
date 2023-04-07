@@ -715,7 +715,15 @@ nav {
   
   margin-top: 30px;
   /* margin-left: 15px; */
-  height: 100%;
+  height: 400px;
+  width: 100%;
+
+}
+.second-picture-desarrollo-detail-a{
+  
+  margin-top: 30px;
+  /* margin-left: 15px; */
+  height: 470px;
   width: 100%;
 
 }
@@ -800,7 +808,7 @@ nav {
   /* margin-top: 5%; */
   padding-top: 5%;
   /* height: 165vh; */
-  height: 3050px;
+  height: 3250px;
   background-color: white;
   align-items: center;
   /* margin-top: 10rem; */
@@ -810,6 +818,11 @@ nav {
   font-family: 'Helvetica Light';
   font-size: 35pt;
   color: black;
+}
+.title-text-image-desarrollo-over-detail {
+  font-family: 'Helvetica Light';
+  font-size: 35pt;
+  color: white;
 }
 .subtitle-text-image-desarrollo-over {
   font-family: 'Helvetica Light';
