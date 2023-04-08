@@ -20,20 +20,169 @@ import {ReactComponent as CocheraIcon} from "../../Assets/Icons/Desarrollos/coch
 import {ReactComponent as VerIcon} from "../../Assets/Icons/Desarrollos/ver.svg";
 import { Navbar } from '../Navbar';
 import { Box } from '@mui/system';
+import { Departamento } from './Departamento';
+import BrickText from "../../Assets/Icons/Logo/logo.svg";
+import MenuIcon from '@mui/icons-material/Menu';
 
 export const FirstSection = () => {
-    const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-width: 800px)'
-        // query: '(min-width: 1224px)'
-      })
+    // const isDesktopOrLaptop = useMediaQuery({
+    //     query: '(min-width: 900px)'
+    //     // query: '(min-width: 1224px)'
+    //   })
     
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-width: 1224px)'
+  })
         const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
         const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-        const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
+        // const isPortrait = useMediaQuery({ query: '(orientation: portrait) or (max-width: 899px)' })
+        const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
         const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
   return (
     <>
         {
+            isTabletOrMobile 
+                ?   
+                    <>
+                        <Grid container>
+                            <Grid item xs={6}>
+                            <Box sx={{mt: 5}}> 
+                                <ListItem>
+                                    <img className="nav-logo" src={BrickText} alt="" />
+                                </ListItem>
+                            </Box>
+                            </Grid>
+                            <Grid item xs={6} >
+                                <Box display="flex" justifyContent="flex-end">
+                                    <MenuIcon sx={{height: '80px', width: '80px', mt:3, mr:3}} />
+                                </Box>
+                            </Grid>
+                        </Grid>
+                        <Grid container>
+                            <Grid item xs={12}>
+
+                                <ListItem sx={{
+                                    fontFamily: 'GilamSemiBold',
+                                    fontSize: '30pt',
+                                }}>
+                                    LP #33
+                                </ListItem>
+                                <Box height={50} />
+                            </Grid>
+                        </Grid>
+                        <Grid container>
+                            <Grid item xs={3}>
+                                <ListItem>
+                                    <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
+                                        <Typography sx={{ fontSize: '16pt'}}>
+                                            LP #33
+                                        </Typography>
+                                    </Button>
+                                </ListItem>
+                            </Grid>
+                            <Grid item xs={3}>
+                                <ListItem>
+                                    <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
+                                        <Typography sx={{ fontSize: '16pt'}}>
+                                            LP #33
+                                        </Typography>
+                                    </Button>
+                                </ListItem>
+                            </Grid>
+                            <Grid item xs={3}>
+                                <ListItem>
+                                    <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
+                                        <Typography sx={{ fontSize: '16pt'}}>
+                                            LP #33
+                                        </Typography>
+                                    </Button>
+                                </ListItem>
+                            </Grid>
+                            <Grid xs={12}>
+                                <Box height={50} />
+                                <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
+                                    lorem ipsum dolor sit amet lorem conctetuer adipisc-
+                                    ing elit volutpat. Hendrerit in vulputate velit esse
+
+                                    Ut wisi enim.
+                                </ListItem>
+                                <Box height={50} />
+                            </Grid>
+                        </Grid>
+                        <Departamento />
+                        <Grid container>
+
+                            <Grid item xs={6}>
+                                <ListItem className='desarrollos-section-left-text second-section-objetivos'>
+                                        DESA
+                                </ListItem>
+
+                                <ListItem className='objetivos-section-left-text '>
+                                        RRO
+                                </ListItem>
+                                <ListItem className='objetivos-section-left-text '>
+                                        LLOS.
+                                </ListItem>
+                            </Grid>
+                            <Grid item xs={6}>
+
+                                <ListItem>
+                                    <SvgIcon  component={VerIcon} />
+                                    {/* <Box sx={{width:4}}/> */}
+                                </ListItem>
+                                <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '16px'}}>
+                                    VER OTRO PROYECTO
+                                </ListItem>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Box height={70} />
+                                <Box sx={{ml:3, mr:3}}>
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                            <div style={{position: "absolute", left: "15%", top: 10,transform: "translateX(-50%)",}}>
+                                                
+
+                                                <p className='title-text-image-desarrollo-over-detail'>LP #33</p>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                </Box>
+                                <Box height={70} />
+                                <Box sx={{ml:3, mr:3}}>
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                            <div style={{position: "absolute", left: "15%", top: 10,transform: "translateX(-50%)",}}>
+                                                
+
+                                                <p className='title-text-image-desarrollo-over-detail'>LP #33</p>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                </Box>
+                                <Box height={70} />
+                                <Box sx={{ml:3, mr:3}}>
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                            <div style={{position: "absolute", left: "15%", top: 10,transform: "translateX(-50%)",}}>
+                                                
+
+                                                <p className='title-text-image-desarrollo-over-detail'>LP #33</p>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                </Box>
+                                <Box height={70} />
+                            </Grid>
+                        </Grid>
+                    </>
+                :   <>
+                    </>
+        }
+        {
+            
             isDesktopOrLaptop
                 ?   <>
                         <div className='color-objetivos-page'>
@@ -41,14 +190,14 @@ export const FirstSection = () => {
                                 <Grid container spacing={2} columns={12}>
                                     <Grid xs={2}>
                                                 
-                                        <ListItem className='desarrollos-section-left-text second-section-objetivos'>
+                                        <ListItem sx={{paddingLeft: '0px'}} className='desarrollos-section-left-text second-section-objetivos'>
                                                 DESA
                                         </ListItem>
 
-                                        <ListItem className='objetivos-section-left-text '>
+                                        <ListItem sx={{paddingLeft: '0px'}}  className='objetivos-section-left-text '>
                                                 RRO
                                         </ListItem>
-                                        <ListItem className='objetivos-section-left-text '>
+                                        <ListItem sx={{paddingLeft: '0px'}} className='objetivos-section-left-text '>
                                                 LLOS.
                                         </ListItem>
                                     </Grid>
@@ -97,164 +246,14 @@ export const FirstSection = () => {
                                         <Grid xs={12}>
                                             <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
                                                 lorem ipsum dolor sit amet lorem conctetuer adipisc-
-ing elit volutpat. Hendrerit in vulputate velit esse
+                                                ing elit volutpat. Hendrerit in vulputate velit esse
 
-Ut wisi enim.
+                                                Ut wisi enim.
                                             </ListItem>
                                         </Grid>
                                     </Grid>
                                 </Grid>
-                                <Grid container xs={12}>
-                                    <img className='first-picture-desarrollo-detail' src={DepartamentoPicture} alt=""/>
-                                </Grid>
-
-                                <Grid container xs={12}>
-                                    <Grid item xs={2}>
-                                        <Box height={100} />
-                                        <ListItem disablePadding>
-
-                                            <Button 
-                                                variant="contained" 
-                                                sx={{
-                                                    backgroundColor: '#f8bd00', 
-                                                    borderRadius: '50px', 
-                                                    fontSize: '16pt',
-                                                    fontFamily: 'GilamRegular'
-                                                }} 
-                                                disableElevation>
-                                                    LP #34
-                                            </Button>
-                                        </ListItem>
-                                        <Box height={40} />
-                                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                            cda monet 33
-                                        </Typography>
-                                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                            Gran residencial 43983
-                                        </Typography>
-                                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                            CDMX
-                                        </Typography>
-                                        <Box height={10} />
-                                    </Grid>
-                                    <Grid item xs={3}>
-                                        
-                                    </Grid>
-                                    <Grid item xs={7}>
-                                        
-                                        <Box height={100} />
-                                        <Grid display="flex" justifyContent="space-between">
-                                            <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
-                                                DEPTO 01
-                                            </Typography>
-                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
-                                                04828
-                                            </Typography>
-                                        </Grid>
-
-                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                        <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
-                                            lorem ipsum dolor sit amet tema ordun mamsod slodoue mweodos aosj
-                                            lasjdoj oudmmeosucmbn odsudmn
-                                        </ListItem>
-                                    </Grid>
-                                </Grid>
-                                <Grid container xs={12}>
-                                    <img className='second-picture-desarrollo-detail' src={MesaTrabajoPicture} alt=""/>
-                                </Grid>
-                                <Grid container spacing={2} xs={12}>
-                                    <Grid item xs={5}>
-                                        <img className='second-picture-desarrollo-detail-a' src={Desarrollo1} alt=""/>
-                                    </Grid>
-                                    <Grid container xs={7}>
-                                        <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={3}>
-                                            DETALLES
-                                        </Grid>
-                                        <Grid sx={{mt:'40px'}} item xs={9}>
-                                            
-                                            <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                        </Grid>
-                                        <Grid container xs={12}>
-                                            <Grid item xs={12}>
-                                                <img className='second-picture-desarrollo-detail' src={Home01} alt=""/>
-                                            </Grid>
-                                            <Grid sx={{mt:'15px'}} xs={2}>
-
-                                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                            </Grid>
-                                            <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt'}} display="flex" justifyContent="flex-start" xs={10}>
-                                                Lorem ipsum sit dolor amet consectetur wea la yesyes test
-                                            </Grid>
-                                        </Grid>
-                                    </Grid>
-                                </Grid>
-                                <Grid container spacing={2}>
-                                    <Grid item xs={3}>    
-                                        <img className='second-picture-desarrollo-detail-a' src={MesaTrabajo2Picture} alt=""/>
-                                    </Grid>
-                                    <Grid item xs={9}>    
-                                        <img className='second-picture-desarrollo-detail-a' src={Desarrollo3} alt=""/>
-                                        <Box height={50}> 
-                                        </Box>
-                                    </Grid>
-                                </Grid>
-                                <Grid container spacing={2}>
-                                    <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
-                                        <Box height={100}>
-                                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23'}}>
-                                                01
-                                            </ListItem>
-                                        </Box>
-                                    </Grid>
-                                    <Grid item xs={3}>
-
-                                        <ListItem>
-                                            <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
-                                            <Box sx={{width:12}}/>
-                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                                DOS CUARTOS
-                                            </Typography>
-                                            {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
-                                        </ListItem>
-                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-
-                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                            <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
-                                            <Box sx={{width:12}}/>
-                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                                DOS BAÑOS
-                                            </Typography>
-                                        </ListItem>
-                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                    </Grid>
-                                    <Grid item xs={3}>
-
-                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                            <SvgIcon sx={{mt:'8px'}} component={TerrazaIcon} />
-                                            <Box sx={{width:12}}/>
-                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                                TERRAZA
-                                            </Typography>
-                                        </ListItem>
-                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-
-                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                            <SvgIcon sx={{mt:'8px'}} component={CocheraIcon} />
-                                            <Box sx={{width:12}}/>
-                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                                COCHERA
-                                            </Typography>
-                                        </ListItem>
-                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                    </Grid>
-                                    <Grid item xs={3}>
-
-                                    </Grid>
-                                </Grid>
-                                <Grid>
-                                    <Box height={40} />
-                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                </Grid>
+                                <Departamento />
                                 <Grid container spacing={2}>
                                     <Grid item xs={12}>
                                         <Box height={40} />
@@ -275,8 +274,8 @@ Ut wisi enim.
                                             <SvgIcon  component={VerIcon} />
                                         {/* <Box sx={{width:4}}/> */}
                                         </ListItem>
-                                        <ListItem>
-                                            VER OTR PROYECTO
+                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '16px'}}>
+                                            VER OTRO PROYECTO
                                         </ListItem>
                                     </Grid>
                                     <Grid item xs={3}>

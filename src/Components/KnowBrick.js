@@ -18,7 +18,7 @@ import { Box } from '@mui/system';
 export const KnowBrick = () => {
 
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1000px)'
+    query: '(min-width: 1224px)'
     // query: '(min-width: 1224px)'
   })
 
@@ -30,7 +30,7 @@ export const KnowBrick = () => {
     
     <div>
         {
-            isPortrait 
+            isTabletOrMobile 
               ?  <div className='color-know-brick-page'>
                 <div className='know-brick-page-interior'>
                     <Grid container spacing={2}>

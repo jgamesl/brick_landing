@@ -13,7 +13,7 @@ import {ReactComponent as HeartIcon} from "../Assets/Icons/Home/04.svg";
 import {ReactComponent as ShieldIcon} from "../Assets/Icons/Home/05.svg";
 export const ObjetivosPage = () => {
     const isDesktopOrLaptop = useMediaQuery({
-      query: '(min-width: 1000px)'
+      query: '(min-width: 1224px)'
       // query: '(min-width: 1224px)'
     })
   
@@ -24,7 +24,7 @@ export const ObjetivosPage = () => {
   return (
     <>
     {
-        isPortrait 
+        isTabletOrMobile 
             ?  
                 <div className='color-objetivos-page'>
                     <div className='objetivos-page-interior-mobile'>

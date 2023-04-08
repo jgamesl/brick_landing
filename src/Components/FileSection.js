@@ -9,7 +9,7 @@ export const FileSection = () => {
 
 
     const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-width: 1000px)'
+        query: '(min-width: 1224px)'
         // query: '(min-width: 1224px)'
       })
     
@@ -21,7 +21,7 @@ export const FileSection = () => {
     <>
 
         {
-            isPortrait 
+            isTabletOrMobile 
                 ?   <div className='color-last-page'>
                         <div className='last-page-interior-mobile'>
                             <Grid container>

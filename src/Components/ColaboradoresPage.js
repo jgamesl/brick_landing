@@ -12,7 +12,7 @@ import {ReactComponent as StarIcon} from "../Assets/Icons/Home/estrella.svg";
 
 export const ColaboradoresPage = () => {
     const isDesktopOrLaptop = useMediaQuery({
-      query: '(min-width: 1000px)'
+      query: '(min-width: 1224px)'
       // query: '(min-width: 1224px)'
     })
   
@@ -23,7 +23,7 @@ export const ColaboradoresPage = () => {
   return (
     <>
     {
-        isPortrait 
+        isTabletOrMobile 
             ?   <Box className='color-know-brick-page'>
                     <Box className='colaboradores-page-interior-mobile'>
                         <Grid container spacing={2}>

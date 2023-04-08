@@ -11,7 +11,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 
 export const BlogPage = () => {
     const isDesktopOrLaptop = useMediaQuery({
-      query: '(min-width: 1000px)'
+      query: '(min-width: 1224px)'
       // query: '(min-width: 1224px)'
     })
   
@@ -23,7 +23,7 @@ export const BlogPage = () => {
     <>
 
     {
-        isPortrait 
+        isTabletOrMobile 
             ?   <Box className='color-know-brick-page'>
                     <Box className='blog-page-interior-mobile'>
                         <Grid container spacing={2}>

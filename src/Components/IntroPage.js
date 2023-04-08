@@ -36,7 +36,7 @@ export const IntroPage = (props) => {
   console.log(windowSize);
   console.log(windowSize.current[0]);
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 800px)'
+    query: '(min-width: 1224px)'
     // query: '(min-width: 1224px)'
   })
   console.log(isDesktopOrLaptop);
@@ -61,7 +61,7 @@ export const IntroPage = (props) => {
     <div >
      {/* <div class="body-cont"> */}
      {
-        isPortrait 
+        isTabletOrMobile 
             ? <>
             <div className="color-intro-page">
                 <div className='intro-page-interior-mobile'>

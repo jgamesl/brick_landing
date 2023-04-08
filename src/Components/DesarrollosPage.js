@@ -15,7 +15,7 @@ import {ReactComponent as ShieldIcon} from "../Assets/Icons/Home/05.svg";
 export const DesarrollosPage = () => {
 
     const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-width: 800px)'
+        query: '(min-width: 1224px)'
         // query: '(min-width: 1224px)'
       })
     
@@ -27,7 +27,7 @@ export const DesarrollosPage = () => {
     <>
 
         {
-            isPortrait 
+            isTabletOrMobile 
                 ?   <div className='color-objetivos-page'>
                         <div className='desarrollos-page-interior-mobile'>
                             <Grid container>
