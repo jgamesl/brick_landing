@@ -59,36 +59,47 @@ export const FirstSection = () => {
                                     <Grid xs={2}>
 
                                     </Grid>
-                                    <Grid container xs={7}>
+                                    <Grid container spacing={0} xs={7}>
                                         <Grid xs={4}>
 
-                                            <ListItem>
+                                            <ListItem sx={{
+                                                fontFamily: 'GilamSemiBold',
+                                                fontSize: '30pt'
+                                            }}>
                                                 LP #33
                                             </ListItem>
+                                        </Grid>
+                                        <Grid item xs={1}></Grid>
+                                        <Grid xs={2}>
+
+                                                <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
+                                                    <Typography sx={{ fontSize: '16pt'}}>
+                                                        LP #33
+                                                    </Typography>
+                                                </Button>
                                         </Grid>
                                         <Grid xs={2}>
 
-                                            <ListItem>
-                                                LP #33
-                                            </ListItem>
+                                                <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
+                                                    <Typography sx={{ fontSize: '16pt'}}>
+                                                        LP #33
+                                                    </Typography>
+                                                </Button>
                                         </Grid>
                                         <Grid xs={2}>
 
-                                            <ListItem>
-                                                LP #33
-                                            </ListItem>
-                                        </Grid>
-                                        <Grid xs={2}>
-
-                                            <ListItem>
-                                                LP #33
-                                            </ListItem>
-                                        </Grid>
-                                        <Grid xs={2}>
+                                                <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
+                                                    <Typography sx={{ fontSize: '16pt'}}>
+                                                        LP #33
+                                                    </Typography>
+                                                </Button>
                                         </Grid>
                                         <Grid xs={12}>
-                                            <ListItem>
-                                                lorem ipsum dolor sit amet lorem ipsum dolor sit amet web desarrollo
+                                            <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
+                                                lorem ipsum dolor sit amet lorem conctetuer adipisc-
+ing elit volutpat. Hendrerit in vulputate velit esse
+
+Ut wisi enim.
                                             </ListItem>
                                         </Grid>
                                     </Grid>
@@ -100,15 +111,15 @@ export const FirstSection = () => {
                                 <Grid container xs={12}>
                                     <Grid item xs={2}>
                                         <Box height={100} />
-                                        <ListItem>
+                                        <ListItem disablePadding>
 
                                             <Button 
                                                 variant="contained" 
                                                 sx={{
                                                     backgroundColor: '#f8bd00', 
                                                     borderRadius: '50px', 
-                                                    fontSize: '30pt',
-                                                    fontFamily: 'GilamSemiBold'
+                                                    fontSize: '16pt',
+                                                    fontFamily: 'GilamRegular'
                                                 }} 
                                                 disableElevation>
                                                     LP #34
@@ -133,16 +144,16 @@ export const FirstSection = () => {
                                         
                                         <Box height={100} />
                                         <Grid display="flex" justifyContent="space-between">
-                                            <Typography>
-                                                LP #33
+                                            <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                                DEPTO 01
                                             </Typography>
-                                            <Typography>
-                                                YES
+                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
+                                                04828
                                             </Typography>
                                         </Grid>
 
                                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                        <ListItem sx={{paddingLeft: 0}}>
+                                        <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
                                             lorem ipsum dolor sit amet tema ordun mamsod slodoue mweodos aosj
                                             lasjdoj oudmmeosucmbn odsudmn
                                         </ListItem>
@@ -156,7 +167,7 @@ export const FirstSection = () => {
                                         <img className='second-picture-desarrollo-detail-a' src={Desarrollo1} alt=""/>
                                     </Grid>
                                     <Grid container xs={7}>
-                                        <Grid sx={{mt:'30px'}} item xs={3}>
+                                        <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={3}>
                                             DETALLES
                                         </Grid>
                                         <Grid sx={{mt:'40px'}} item xs={9}>
@@ -167,11 +178,11 @@ export const FirstSection = () => {
                                             <Grid item xs={12}>
                                                 <img className='second-picture-desarrollo-detail' src={Home01} alt=""/>
                                             </Grid>
-                                            <Grid xs={2}>
+                                            <Grid sx={{mt:'15px'}} xs={2}>
 
                                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                             </Grid>
-                                            <Grid display="flex" justifyContent="flex-start" xs={10}>
+                                            <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt'}} display="flex" justifyContent="flex-start" xs={10}>
                                                 Lorem ipsum sit dolor amet consectetur wea la yesyes test
                                             </Grid>
                                         </Grid>
@@ -190,8 +201,8 @@ export const FirstSection = () => {
                                 <Grid container spacing={2}>
                                     <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
                                         <Box height={100}>
-                                            <ListItem>
-                                                <p className='blog-number-main-name'>01.</p>
+                                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23'}}>
+                                                01
                                             </ListItem>
                                         </Box>
                                     </Grid>
@@ -199,31 +210,40 @@ export const FirstSection = () => {
 
                                         <ListItem>
                                             <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
-                                            <Box sx={{width:4}}/>
-                                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                            <Box sx={{width:12}}/>
+                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                                DOS CUARTOS
+                                            </Typography>
+                                            {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                         </ListItem>
                                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                        <ListItem>
+                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
                                             <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
-                                            <Box sx={{width:4}}/>
-                                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                            <Box sx={{width:12}}/>
+                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                                DOS BAÑOS
+                                            </Typography>
                                         </ListItem>
                                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     </Grid>
                                     <Grid item xs={3}>
 
-                                        <ListItem>
+                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
                                             <SvgIcon sx={{mt:'8px'}} component={TerrazaIcon} />
-                                            <Box sx={{width:4}}/>
-                                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                            <Box sx={{width:12}}/>
+                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                                TERRAZA
+                                            </Typography>
                                         </ListItem>
                                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                        <ListItem>
+                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
                                             <SvgIcon sx={{mt:'8px'}} component={CocheraIcon} />
-                                            <Box sx={{width:4}}/>
-                                            <p className="helvetica-objetivos">Lorem ipsum.</p>
+                                            <Box sx={{width:12}}/>
+                                            <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                                COCHERA
+                                            </Typography>
                                         </ListItem>
                                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     </Grid>
