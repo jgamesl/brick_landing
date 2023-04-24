@@ -10,11 +10,25 @@ import CommentRoundedIcon  from '@mui/icons-material/CommentRounded';
 import PhoneRoundedIcon  from '@mui/icons-material/PhoneRounded';
 import ShoppingCartRoundedIcon  from '@mui/icons-material/ShoppingCartRounded';
 import BrickText from "../Assets/Icons/Logo/logo.svg";
+import { useEffect } from 'react';
 
 export const Navbar = (props) => {
   const funcTrigger = props.scrollTo;
 
   const [openMenu, setOpenMenu] = useState(false);
+  const [sticky, setSticky] = useState(false);
+  console.log('NAVBAAAR');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 200);
+
+      console.log(window.scrollY);
+    }
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  },)
+  
   const menuOptions = [
     {
       text: "Home",
@@ -39,7 +53,7 @@ export const Navbar = (props) => {
   ]
 
   return (
-    <nav className='basic-padding'>
+    <nav className={`basic-padding-navbar ${sticky ? 'sticky' : ''}` }>
       <Grid className="navbar-links-container" container spacing={2}>
 
         <Grid item xs={4}>

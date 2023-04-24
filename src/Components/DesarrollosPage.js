@@ -1,10 +1,11 @@
 
 import { Divider, Grid, ListItem, Typography, SvgIcon, Button, CardMedia, Card } from '@mui/material';
 import { Box, maxWidth } from '@mui/system';
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useMediaQuery } from 'react-responsive';
 import Delivery from "../Assets/delivery-image.png";
 import DepartamentoPicture from '../Assets/departamentos-de-lujo-2.jpeg';
+import Desarrollo2Image from '../Assets/fotos_test/desarrollo02.png';
 import CircleIcon from '@mui/icons-material/Circle';
 import DesarrolloImage from "../Assets/Icons/Home/desarrollo.svg";
 import {ReactComponent as GraphIcon} from "../Assets/Icons/Home/01.svg";
@@ -18,11 +19,29 @@ export const DesarrollosPage = () => {
         query: '(min-width: 1224px)'
         // query: '(min-width: 1224px)'
       })
+
+    const [selectedDep, setSelectedDep] = useState(1);
+
+    const [depName, setDepName] = useState('');
+    const [depPicture, setDepPicture] = useState('');
     
         const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
         const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
         const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
         const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
+
+
+    useEffect(() => {
+        if (selectedDep == 1) {
+            setDepName('LP #33');
+            setDepPicture(DepartamentoPicture);
+        } else if (selectedDep == 2) {
+            
+            setDepName('LP #34');
+            setDepPicture(Desarrollo2Image);
+        }
+    }, [selectedDep])
+    
   return (
     <>
 
@@ -75,6 +94,7 @@ export const DesarrollosPage = () => {
                                                 fontSize: '30pt',
                                                 fontFamily: 'GilamSemiBold'
                                             }} 
+                                            onClick={()=> {setSelectedDep(1)}}
                                             disableElevation>
                                                 LP #33
                                         </Button>
@@ -97,8 +117,9 @@ export const DesarrollosPage = () => {
                                                 fontSize: '30pt',
                                                 fontFamily: 'GilamSemiBold'
                                             }} 
+                                            onClick={()=> {setSelectedDep(2)}}
                                             disableElevation>
-                                                LP #33
+                                                LP #34
                                         </Button>
                                     </ListItem>
                                 </Grid>
@@ -186,7 +207,7 @@ export const DesarrollosPage = () => {
                                     <Box height={30} />
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                            <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
                                             <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
                                                 <ListItem>
 
@@ -216,7 +237,7 @@ export const DesarrollosPage = () => {
                                     <Box height={10} />             
                                     <Card sx={{ maxHeight: '400px'}}>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia height={400} component="img" image={DepartamentoPicture} title="" alt=""/> 
+                                            <CardMedia height={400} component="img" image={depPicture} title="" alt=""/> 
                                             <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
                                                 <ListItem>
 
@@ -246,7 +267,7 @@ export const DesarrollosPage = () => {
                                     <Box height={10} />          
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                            <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
                                             <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
                                                 <ListItem>
 
@@ -276,7 +297,7 @@ export const DesarrollosPage = () => {
                                     <Box height={10} />          
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                            <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
                                             <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
                                                 <ListItem>
 
@@ -306,7 +327,7 @@ export const DesarrollosPage = () => {
                                     <Box height={10} />          
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                            <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
                                             <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
                                                 <ListItem>
 
@@ -429,7 +450,7 @@ export const DesarrollosPage = () => {
                                 fontFamily: 'GilamSemiBold',
                                 fontSize: '30pt'
                             }}> 
-                                LP #33
+                                {depName}
                             </Typography>
 
                             <Button 
@@ -494,6 +515,7 @@ export const DesarrollosPage = () => {
                                     fontSize: '30pt',
                                     fontFamily: 'GilamSemiBold'
                                 }} 
+                                onClick={()=> {setSelectedDep(1)}}
                                 disableElevation>
                                     LP #33
                             </Button>
@@ -511,6 +533,7 @@ export const DesarrollosPage = () => {
                                     fontSize: '30pt',
                                     fontFamily: 'GilamSemiBold'
                                 }} 
+                                onClick={()=> {setSelectedDep(2)}}
                                 disableElevation>
                                     LP #34
                             </Button>
@@ -550,7 +573,7 @@ export const DesarrollosPage = () => {
                     <Grid item xs={3}>
                         <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
@@ -580,7 +603,7 @@ export const DesarrollosPage = () => {
                         <Box height={10} />             
                         <Card sx={{maxWidth: '95%', maxHeight: '400px'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia height={400} component="img" image={DepartamentoPicture} title="" alt=""/> 
+                                <CardMedia height={400} component="img" image={depPicture} title="" alt=""/> 
                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
@@ -622,7 +645,7 @@ export const DesarrollosPage = () => {
                         </Card> */}
                         <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={DepartamentoPicture} title="" alt="Yes"/> 
+                                <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
@@ -652,7 +675,7 @@ export const DesarrollosPage = () => {
                         <Box height={10} /> 
                         <Card sx={{maxWidth: '95%' }}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
+                                <CardMedia component="img" image={depPicture} title="Wea" alt="Yes"/> 
                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 
@@ -682,7 +705,7 @@ export const DesarrollosPage = () => {
                         <Box height={10} /> 
                         <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={DepartamentoPicture} title="Wea" alt="Yes"/> 
+                                <CardMedia component="img" image={depPicture} title="Wea" alt="Yes"/> 
                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                     <ListItem>
 

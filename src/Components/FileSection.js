@@ -4,10 +4,17 @@ import { useMediaQuery } from 'react-responsive';
 import BrickLogo from "../Assets/Icons/Home/isotipo2.svg";
 import CorreoImage from "../Assets/Icons/Home/correo.svg";
 import { Box } from '@mui/system';
+import { Link } from 'react-router-dom';
 
-export const FileSection = () => {
+export const FileSection = (props) => {
 
 
+    const funcTrigger = props.scrollToSection;
+    // const scrollToSection = (section) => {
+    //     console.log('la section');
+    //     console.log(section);
+    //     props.scrollToSection(section);
+    //   };
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-width: 1224px)'
         // query: '(min-width: 1224px)'
@@ -82,7 +89,7 @@ export const FileSection = () => {
                                     </ListItem>
                                 </Grid>
                                 <Grid itemx xs={6}>
-                                    <ListItem sx={{paddingLeft: '0px'}}>
+                                    <ListItem sx={{paddingLeft: '0px'}} onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}}> 
                                         <Typography sx={{
                                             fontFamily: 'GilamSemiBold',
                                             fontSize: '16px',
@@ -155,34 +162,56 @@ export const FileSection = () => {
                                 <Grid itemx xs={6}>
 
                                     <ListItem sx={{paddingLeft: '0px'}}>
-                                        <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
-                                            lineHeight: '0.6',
-                                            color: '#f8bd00'
+                                        <Link underline="hover" onClick={() => {
+                                            console.log('click');
+                                        funcTrigger('know')
                                         }}>
-                                            Conoce a Brick.
-                                        </Typography>
+                                            <Typography
+                                            
+                                            sx={{
+                                                fontFamily: 'GilamSemiBold',
+                                                fontSize: '16px',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
+                                                Conoce a Brick.
+                                            </Typography>
+                                        </Link>
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
-                                        <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
-                                            lineHeight: '0.6',
-                                            color: '#f8bd00'
+                                        <Link underline="hover" onClick={() => {
+                                            console.log('click');
+                                        funcTrigger('goals')
                                         }}>
+                                            <Typography
+                                            
+                                            sx={{
+                                                fontFamily: 'GilamSemiBold',
+                                                fontSize: '16px',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
                                             Objetivos.
-                                        </Typography>
+                                            </Typography>
+                                        </Link>
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
-                                        <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
-                                            lineHeight: '0.6',
-                                            color: '#f8bd00'
+
+                                        <Link underline="hover" onClick={() => {
+                                            console.log('click');
+                                        funcTrigger('desarrollos')
                                         }}>
+                                            <Typography
+                                            
+                                            sx={{
+                                                fontFamily: 'GilamSemiBold',
+                                                fontSize: '16px',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
                                             Desarrollos.
-                                        </Typography>
+                                            </Typography>
+                                        </Link>
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
@@ -262,7 +291,7 @@ export const FileSection = () => {
                                 </ListItem>
                             </Grid>
                             <Grid itemx xs={3}>
-                                <ListItem>
+                                <ListItem onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}}>
                                     <Typography sx={{
                                         fontFamily: 'GilamSemiBold',
                                         fontSize: '16px',
@@ -333,34 +362,56 @@ export const FileSection = () => {
                             <Grid itemx xs={2}>
 
                                 <ListItem sx={{paddingLeft: '0px'}}>
-                                    <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
-                                        lineHeight: '0.6',
-                                        color: '#f8bd00'
+
+                                    <Link underline="hover" onClick={() => {
+                                        // console.log('click');
+                                        funcTrigger('know')
                                     }}>
-                                        Conoce a Brick.
-                                    </Typography>
+                                        <Typography
+                                        
+                                        sx={{
+                                            fontFamily: 'GilamSemiBold',
+                                            fontSize: '16px',
+                                            lineHeight: '0.6',
+                                            color: '#f8bd00'
+                                        }}>
+                                            Conoce a Brick.
+                                        </Typography>
+                                    </Link>
                                 </ListItem>
                                 <ListItem sx={{paddingLeft: '0px'}}>
-                                    <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
-                                        lineHeight: '0.6',
-                                        color: '#f8bd00'
+                                    <Link underline="hover" onClick={() => {
+                                        console.log('click');
+                                    funcTrigger('goals')
                                     }}>
+                                        <Typography
+                                        
+                                        sx={{
+                                            fontFamily: 'GilamSemiBold',
+                                            fontSize: '16px',
+                                            lineHeight: '0.6',
+                                            color: '#f8bd00'
+                                        }}>
                                         Objetivos.
-                                    </Typography>
+                                        </Typography>
+                                    </Link>
                                 </ListItem>
                                 <ListItem sx={{paddingLeft: '0px'}}>
-                                    <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
-                                        lineHeight: '0.6',
-                                        color: '#f8bd00'
+                                    <Link underline="hover" onClick={() => {
+                                        console.log('click');
+                                    funcTrigger('desarrollos')
                                     }}>
+                                        <Typography
+                                        
+                                        sx={{
+                                            fontFamily: 'GilamSemiBold',
+                                            fontSize: '16px',
+                                            lineHeight: '0.6',
+                                            color: '#f8bd00'
+                                        }}>
                                         Desarrollos.
-                                    </Typography>
+                                        </Typography>
+                                    </Link>
                                 </ListItem>
                                 <ListItem sx={{paddingLeft: '0px'}}>
                                     <Typography sx={{

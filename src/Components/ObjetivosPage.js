@@ -109,15 +109,16 @@ export const ObjetivosPage = () => {
                             <Grid item xs={12}>
                                 <Box height={30} />
                                 <ListItem className='objetivos-text-main-name' >
-                                OBJETIVOS
+                                OBJETIVOS1
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             </Grid>
                             <Grid item xs={8}>
                                 <ListItem>
-
-                                Lorem ipsum dolor sit amet,
-                                    dolor sit amet, dolor si
+                                    <p className="helvetica-objetivos">
+                                        Lorem ipsum dolor sit amet,
+                                        dolor sit amet, dolor si
+                                    </p>
                                 </ListItem>  
                             </Grid>
                             <Grid item xs={12}>
@@ -125,8 +126,9 @@ export const ObjetivosPage = () => {
                             </Grid>
                             <Grid item xs={8}>
                                 <ListItem>
-
-                                Lorem ipsum dolor sit amet,
+                                    <p className="helvetica-objetivos">
+                                        Lorem ipsum dolor sit amet,
+                                    </p>
                                 </ListItem>   
                             </Grid>
                             <Grid item xs={12}>
@@ -135,8 +137,10 @@ export const ObjetivosPage = () => {
                             <Grid item xs={8}>
                                 <ListItem>
 
-                                Lorem ipsum dolor sit amet,
-                                    dolor sit amet, dolor si
+                                    <p className="helvetica-objetivos">
+                                        Lorem ipsum dolor sit amet,
+                                        dolor sit amet, dolor si
+                                    </p>
                                 </ListItem>
                             </Grid>
                             <Grid item xs={12}>
@@ -201,40 +205,40 @@ export const ObjetivosPage = () => {
             </Grid>
             <Grid item xs={7}>
      
-                <ListItem className='objetivos-text-main-name' >
+                <ListItem sx={{paddingLeft: 0}} className='objetivos-text-main-name' >
                   VALORES
                 </ListItem>
                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                 <Grid className='' container spacing={2}>
                     <Grid item xs={6}>
-                        <ListItem>
+                        <ListItem sx={{paddingLeft: 0}}>
                             <SvgIcon sx={{mt:'8px'}} component={GraphIcon} />
                             <Box sx={{width:4}}/>
                             <p className="helvetica-objetivos">Lorem ipsum.</p>
                         </ListItem>
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                        <ListItem>
+                        <ListItem sx={{paddingLeft: 0}}>
                             <SvgIcon sx={{mt:'8px'}} component={TargetIcon} />
                             <Box sx={{width:4}}/>
                             <p className="helvetica-objetivos">Dolor.</p>
                         </ListItem>
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
-                        <ListItem>
+                        <ListItem sx={{paddingLeft: 0}}>
                             <SvgIcon sx={{mt:'8px'}} component={FocoIcon} />
                             <Box sx={{width:4}}/>
                             <p className="helvetica-objetivos">Amet silum.</p>
-                        </ListItem>
+                        </ListItem >
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
                     </Grid>
                     <Grid item xs={6}>
 
-                        <ListItem>
+                        <ListItem sx={{paddingLeft: 0}}>
                             <SvgIcon sx={{mt:'8px'}} component={HeartIcon} />
                             <Box sx={{width:4}}/>
                             <p className="helvetica-objetivos">Lorem ipsum.</p>
                         </ListItem>
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
-                        <ListItem>
+                        <ListItem sx={{paddingLeft: 0}}>
                             <SvgIcon sx={{mt:'8px'}} component={ShieldIcon} />
                             <Box sx={{width:4}}/>
                             <p className="helvetica-objetivos">Dolor.</p>
@@ -252,25 +256,31 @@ export const ObjetivosPage = () => {
                     {/* <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/> */}
 
                         <Grid item xs={6}>
-                            <ListItem>
+                            <ListItem sx={{paddingLeft: 0}}>
 
-                            Lorem ipsum dolor sit amet,
-                                dolor sit amet, dolor si
+                                <p className="helvetica-objetivos">
+                                    Lorem ipsum dolor sit amet,
+                                    dolor sit amet, dolor si
+                                </p>
                             </ListItem>
                             <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             <Box sx={{height: 30}}/>
-                            <ListItem>
+                            <ListItem sx={{paddingLeft: 0}}>
 
-                            Lorem ipsum dolor sit amet,
-                                dolor sit amet, dolor si
+                                <p className="helvetica-objetivos">
+                                    Lorem ipsum dolor sit amet,
+                                    dolor sit amet, dolor si
+                                </p>
                             </ListItem>
                             <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>    
                         </Grid>
                         <Grid item xs={6}>
-                            <ListItem>
+                            <ListItem sx={{paddingLeft: 0}}>
 
-                            Lorem ipsum dolor sit amet,
-                                dolor sit amet, dolor si
+                                <p className="helvetica-objetivos">
+                                    Lorem ipsum dolor sit amet,
+                                    dolor sit amet, dolor si
+                                </p>
                             </ListItem>
                             <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 , color: 'red'}}/>
                         </Grid>

@@ -36,14 +36,14 @@ export const IntroPage = (props) => {
   console.log(windowSize);
   console.log(windowSize.current[0]);
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
+    query: '(min-width: 924px)'
     // query: '(min-width: 1224px)'
   })
   console.log(isDesktopOrLaptop);
   const heightDevice = useMediaQuery;
   console.log(heightDevice);
   const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 924px)' })
   const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
   const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
 
@@ -140,7 +140,7 @@ export const IntroPage = (props) => {
                         </ListItem>
 
                         <ListItem display="flex" justifyContent="flex-end" >
-                            <SvgIcon sx={{mt:'8px'}} component={InstagramIcon} />
+                            <SvgIcon onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}} sx={{mt:'8px'}} component={InstagramIcon} />
                             <Box width={50} />
                             <SvgIcon sx={{mt:'8px'}} component={FbIcon} />
                             <Box width={50} />
@@ -154,7 +154,7 @@ export const IntroPage = (props) => {
      }
 
     {(isBigScreen || isDesktopOrLaptop) ? <div className="color-intro-page">
-       <Navbar scrollTo={scrollToSection}/>
+       {/* <Navbar scrollTo={scrollToSection}/> */}
         <Grid container spacing={2} className='intro-page-interior'>
             <Grid item xs={4}>
 
@@ -216,7 +216,7 @@ export const IntroPage = (props) => {
                 </Grid>
                 <Grid item xs={3}>
                     <ListItem display="flex" justifyContent="flex-end" >
-                        <SvgIcon sx={{mt:'8px'}} component={InstagramIcon} />
+                        <SvgIcon onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}} sx={{mt:'8px'}} component={InstagramIcon} />
                         <Box width={50} />
                         <SvgIcon sx={{mt:'8px'}} component={FbIcon} />
                         <Box width={50} />
