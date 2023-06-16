@@ -63,7 +63,7 @@ export const IntroPage = (props) => {
      {
         isTabletOrMobile 
             ? <>
-            <div className="color-intro-page">
+            <div className="color-intro-page-mobile">
                 <div className='intro-page-interior-mobile'>
 
                     <Grid container>
@@ -90,12 +90,14 @@ export const IntroPage = (props) => {
                         <p className='intro-page-center-text-mobile'> 
                             INMOBILIARIO 
                         </p>
+                        <Box height={30} />
                         <p className='intro-page-center-sub-text-mobile'> 
-                            cdmx
+                             CDMX
                         </p>
-                    <Box height={10} />
+                    <Box height={30} />
                     <Box display="flex" justifyContent="center">
-                        <Button sx={{borderRadius: 8, width: '50%'}} onClick={() => {navigate('/desarrollos')}} className='nav-bar-btn' variant="contained" endIcon={<ArrowForwardIosIcon />}>
+                        {/* <Box height={20}/> */}
+                        <Button sx={{borderRadius: 8, width: '50%'}} onClick={() => {navigate('/desarrollos')}} className='nav-bar-btn-mobile' variant="contained" endIcon={<ArrowForwardIosIcon />}>
                             VER DESARROLLOS
                         </Button>
                     </Box>
@@ -106,38 +108,48 @@ export const IntroPage = (props) => {
             <div className='text-footer-color footer-intro-logo-mobile ' >
                 <Box height={30} />
                 <Grid container>
-                    <Grid item xs={6}>
+                    <Grid item xs={12}>
 
                         <ListItem>
 
                             <p className='text-footer-size'>
-                                Cda Monet 43
+                                Arcos Bosques, Paseo de los Tamarindos 400.
                             </p>
                         </ListItem>
                         <ListItem>
                             <p className='text-footer-size'>
-                                Soleil Residencial 3223
+                                Torre A, Bosques de las Lomas Cuajimalpa.
                             </p>
                         </ListItem>
                         <ListItem>
                             <p className='text-footer-size'>
-                                44444 CDMX
+                                CDMX
                             </p>
                         </ListItem>
+                        <Box height={20} />
                     </Grid>
                     <Grid item xs={6}>
                         
                         <ListItem>
 
                         <p className='text-footer-size'>
-                        662-9282-032
+                            55.8000.3735
                         </p>
                         </ListItem>
                         <ListItem>
                         <p className='text-footer-size'>
-                        cotizaciones@brick.com 
+                            +52 56 39661468
                         </p>
                         </ListItem>
+                        <ListItem>
+                        <p className='text-footer-size'>
+                            Hola@brick
+                            inmuebles.com.mx
+                        </p>
+                        </ListItem>
+
+                    </Grid>
+                    <Grid item xs={6}>
 
                         <ListItem display="flex" justifyContent="flex-end" >
                             <SvgIcon onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}} sx={{mt:'8px'}} component={InstagramIcon} />
@@ -158,28 +170,32 @@ export const IntroPage = (props) => {
         <Grid container spacing={2} className='intro-page-interior'>
             <Grid item xs={4}>
 
-            <img style={{marginBottom: '-230px'}} src={Patron1} alt=""/>
+            <img style={{marginBottom: '-400px'}} src={Patron1} alt=""/>
             </Grid>
             <Grid item xs={4}>
                 
                 <img className='intro-page-logo' src={BrickLogo} alt=""/>
+                <Box height={10} />
                 <p className='intro-page-center-text'> 
                     DESARROLLO 
                 </p>
                 <p className='intro-page-center-text'> 
                     INMOBILIARIO 
                 </p>
-                <p className='intro-page-center-sub-text'> 
-                    cdmx
+                <Box height={20} />
+                <p className='intro-page-center-sub-text-mobile'> 
+                        CDMX
                 </p>
-            <Box height={10} />
+            <Box height={15} />
             <Button sx={{borderRadius: 8}} onClick={() => {navigate('/desarrollos')}} className='nav-bar-btn' variant="contained" endIcon={<ArrowForwardIosIcon />}>
                 VER DESARROLLOS
             </Button>
+
             </Grid>
             <Grid item xs={4}>
-                <img style={{marginBottom: '-230px'}}  src={Patron2} alt=""/>
+                <img style={{marginBottom: '-400px'}}  src={Patron2} alt=""/>
             </Grid>
+            <Box height={100} />
         </Grid>
         <div className="footer-intro-logo basic-padding">
             <Grid className='text-footer-color' container spacing={2}>
@@ -187,17 +203,17 @@ export const IntroPage = (props) => {
                     <ListItem>
 
                         <p className='text-footer-size'>
-                            Cda Monet 43
+                            Arcos Bosques, Paseo de los Tamarindos 400.
                         </p>
                     </ListItem>
                     <ListItem>
                         <p className='text-footer-size'>
-                            Soleil Residencial 3223
+                            Torre A, Bosques de las Lomas Cuajimalpa.
                         </p>
                     </ListItem>
                     <ListItem>
                         <p className='text-footer-size'>
-                            44444 CDMX
+                            CDMX
                         </p>
                     </ListItem>
                 </Grid>
@@ -205,12 +221,18 @@ export const IntroPage = (props) => {
                     <ListItem>
 
                         <p className='text-footer-size'>
-                        662-9282-032
+                            55.8000.3735
+                        </p>
+                    </ListItem>
+                    <ListItem>
+
+                        <p className='text-footer-size'>
+                            +52 56 39661468
                         </p>
                     </ListItem>
                     <ListItem>
                         <p className='text-footer-size'>
-                        cotizaciones@brick.com 
+                           Hola@brickinmuebles.com.mx
                         </p>
                     </ListItem>
                 </Grid>

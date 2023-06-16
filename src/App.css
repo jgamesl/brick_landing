@@ -131,10 +131,17 @@ nav {
 }
 
 .nav-bar-btn {
-  background-color: #f8bd00 !important;
+  background-color: #fceeea  !important;
   color: black !important;
   opacity: 0.8;
   border-radius: 8 !important; 
+}
+.nav-bar-btn-mobile {
+  background-color: #fceeea  !important;
+  color: black !important;
+  opacity: 0.8;
+  border-radius: 8 !important; 
+  height: 40px;
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
@@ -560,17 +567,19 @@ nav {
   width: 100;
 }
 .intro-page-center-text {
-  font-family: 'GilamBold';
+  font-family: 'GilamBoldLight';
   font-size: 33pt;
   line-height: 1.1;
   line-break: normal;
+  font-weight: 200;
 }
 .intro-page-center-text-mobile {
-  font-family: 'GilamBold';
+  font-family: 'GilamLight';
   font-size: 33pt;
   line-height: 1.1;
   line-break: normal;
   text-align: center;
+  font-weight: 600;
 }
 
 .intro-page-center-sub-text {
@@ -599,9 +608,9 @@ nav {
 .intro-page-interior {
   /* padding-left: 5%;
   padding-right: 5%; */
-  padding-top: 5%;
+  /* padding-top: 5%; */
   /* height: 40vw; */
-  height: 600px;
+  height: 800px;
   /* background-color: #e8e8e8; */
   align-items: center;
   margin-top: 10rem;
@@ -614,7 +623,7 @@ nav.sticky {
 }
 .intro-page-interior-mobile {
   /* padding-top: 5%; */
-  height: 600px;
+  height: 700px;
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
@@ -637,7 +646,16 @@ nav{
 }
 .color-intro-page {
   /* background-color: #e8e8e8; */
-  background-image: url('./Assets/departamentos-de-lujo-2.jpeg');
+  background-image: url('./Assets/fotos_finales/HOME/01.png');
+  background-size: cover;
+}
+.color-intro-page-mobile {
+  /* background-color: #e8e8e8; */
+  background-image: url('./Assets/fotos_finales/HOME/01.png');
+  /* background-size: cover; */
+  /* background-position: center; */
+  background-position: top 50% right 50%;
+  /* background-size: 50%; */
 }
 .footer-intro-logo {
   background-color: #f8bd00;
@@ -646,7 +664,7 @@ nav{
 }
 .footer-intro-logo-mobile { 
   background-color: #f8bd00;
-  height: 200px;
+  height: 400px;
   justify-content: space-between;
 }
 .text-footer-color {
@@ -654,8 +672,8 @@ nav{
 }
 
 .text-footer-size {
-  font-family: 'HelveticaLight';
-  font-size: 14px
+  font-family: 'Helvetica';
+  font-size: 14pt
 }
 
 .color-know-brick-page {
@@ -666,7 +684,19 @@ nav{
   padding-right: 5%;
   padding-top: 5%;
   /* height: 55vw; */
-  height: 850px;
+  height: 1400px;
+  background-color: #212322;
+  /* background-color: white; */
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.know-brick-page-interior-mobile {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  /* height: 55vw; */
+  height: 2600px;
   background-color: #212322;
   /* background-color: white; */
   align-items: center;
@@ -682,14 +712,21 @@ nav{
   font-size: 35pt;
   font-family: 'GilamBook';
   line-height: 0.75;
+  text-align: left;
   color: #f8bd00;
   /* margin-bottom: 5%; */
 }
 .first-section-right-text {
-  font-size: 16px;
+  font-size: 16pt;
   font-family: 'HelveticaLight';
-  color: #f8bd00
+  color: #f8bd00;
+  text-align: left;
   /* margin-bottom: 5%; */
+}
+.first-section-right-text-header {
+  font-size: 35pt;
+  font-family: 'GilamBook';
+  color: #f8bd00
 }
 .second-section-text-color {
   color: #f8bd00;
@@ -719,6 +756,27 @@ nav{
   /* margin-left: 15px; */
   height: 80px;
   width: 30;
+}
+.metas-section-know-pic {
+  /* margin-top: 30px; */
+  color: #f8bd00;
+  /* margin-left: 15px; */
+  height: 80px;
+  width: 30;
+}
+.logo-stars {
+  height: 65%;
+  width: 65%;
+  margin-top: 80px;
+}
+.logo-stars-mobile {
+  height: 65%;
+  width: 65%;
+}
+.logo-second {
+  height: 60%;
+  width: 100%;
+  /* margin-top: 20px; */
 }
 .first-picture-desarrollo-detail {
   
@@ -888,11 +946,17 @@ nav{
   color: #212322;
   /* font-weight: 700; */
 }
+.objetivos-text-title-name {
+  font-size: 19pt;
+  font-family: 'GilamSemiBold';
+  color: #f8bd00;
+  /* font-weight: 700; */
+}
 .helvetica-objetivos {
 
   font-size: 14px;
   font-family: 'HelveticaLight';
-  color: #212322;
+  color: #f8bd00;
 }
 .desarrollos-section-left-text {
   font-size: 35pt;

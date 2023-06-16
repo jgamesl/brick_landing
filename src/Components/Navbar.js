@@ -68,12 +68,12 @@ export const Navbar = (props) => {
             </Link>
             <Box width={50} />
 
-            <Link color="black" underline="hover" onClick={() => {
+            {/* <Link color="black" underline="hover" onClick={() => {
               funcTrigger('goals')
             }}>
             <Typography>Objetivos.</Typography>
             </Link>
-            <Box width={50} />
+            <Box width={50} /> */}
 
             <Link color="black" underline="hover" onClick={() => {
               funcTrigger('desarrollos')
