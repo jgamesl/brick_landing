@@ -9,6 +9,7 @@ import Colab1Image from "../Assets/Icons/Home/colab1.svg";
 import Colab2Image from "../Assets/Icons/Home/colab2.svg";
 import Colab3Image from "../Assets/Icons/Home/colab3.svg";
 import {ReactComponent as StarIcon} from "../Assets/Icons/Home/estrella.svg";
+import {ReactComponent as StarIcon2} from "../Assets/iconos_mejores/19.svg";
 
 export const ColaboradoresPage = () => {
     const isDesktopOrLaptop = useMediaQuery({
@@ -34,11 +35,14 @@ export const ColaboradoresPage = () => {
                             <Grid display="flex" justifyContent="flex-start"  item xs={12}>
 
                                 <ListItem>
-                                    <SvgIcon sx={{mb:3}} component={StarIcon} />
+                                    <SvgIcon sx={{mb:3}} component={StarIcon2} />
                                     <Box sx={{width:40}}/>
                                     {/* <Box sx={{width:4}}/> */}
-                                    <p className='helvetica-objetivos-left'>Lorem ipsum dolor sit amet, conctetuer adipiscing
-                                elit volutpat. Hendrerit in vulputat.</p>
+                                    <p className='helvetica-objetivos-left'>Trabajamos con empresas expertas en su campo para cada
+proyecto. Nuestra red de empresas colaboradoras, líderes en
+su industria, garantiza que nuestros inmuebles están en manos
+de profesionales altamente capacitados. Confía en nuestro
+equipo y en la excelencia de nuestras alianzas. </p>
                                 </ListItem>            
                             </Grid>
                             <Grid item xs={12}>
@@ -103,21 +107,26 @@ export const ColaboradoresPage = () => {
                     <p className='title-colaboradores-text'>COLABORADORES.</p>
                     
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={2}>
 
+                </Grid>
+                <Grid item xs={1}>
+                    <SvgIcon sx={{mt:'8px'}} component={StarIcon2} />
                 </Grid>
                 <Grid item xs={6}>
 
                     <ListItem>
-                        <SvgIcon sx={{mt:'8px'}} component={StarIcon} />
                         <Box sx={{width:40}}/>
                         {/* <Box sx={{width:4}}/> */}
-                        <p className='helvetica-objetivos-left'>Lorem ipsum dolor sit amet, conctetuer adipiscing
-elit volutpat. Hendrerit in vulputat.</p>
+                        <p className='helvetica-objetivos-left'>Trabajamos con empresas expertas en su campo para cada
+proyecto. Nuestra red de empresas colaboradoras, líderes en
+su industria, garantiza que nuestros inmuebles están en manos
+de profesionales altamente capacitados. Confía en nuestro
+equipo y en la excelencia de nuestras alianzas. </p>
                     </ListItem>
                 </Grid>
             </Grid>
-
+            <Box height={10} />
             <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
             <Box height={30}/>
             <Grid container spacing={2}>

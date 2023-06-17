@@ -5,6 +5,11 @@ import React, { useState, useEffect } from 'react'
 import { useMediaQuery } from 'react-responsive';
 import Delivery from "../Assets/delivery-image.png";
 import DepartamentoPicture from '../Assets/departamentos-de-lujo-2.jpeg';
+import Picture01 from '../Assets/fotos_finales/HOME/02.png';
+import Picture02 from '../Assets/fotos_finales/HOME/03.png';
+import Picture03 from '../Assets/fotos_finales/HOME/04.png';
+import Picture04 from '../Assets/fotos_finales/HOME/05.png';
+import Picture05 from '../Assets/fotos_finales/HOME/06.png';
 import Desarrollo2Image from '../Assets/fotos_test/desarrollo02.png';
 import CircleIcon from '@mui/icons-material/Circle';
 import DesarrolloImage from "../Assets/Icons/Home/desarrollo.svg";
@@ -72,19 +77,22 @@ export const DesarrollosPage = () => {
                                     <Box height={30} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 </Grid>
-                                <Grid item xs={8}>
+                                <Grid item xs={12}>
                                     <Box height={30}/>
                                     <ListItem >
                                         <p className='helvetica-desarrollos-left'>
-                                        Lorem ipsum dolor sit amet, conctetuer adipiscing
-                                        elit
+                                        Ofrecemos soluciones habitacionales de
+                                        calidad, donde cada detalle está
+                                        cuidadosamente diseñado y procesos
+                                        respaldados por nuestra experiencia y
+                                        compromiso.
                                         </p>
                                     </ListItem>
                                 </Grid>
-                                <Grid item xs={6}>
+                                <Grid item xs={12}>
 
                                     <Box height={40} />
-                                    <ListItem>
+                                    <ListItem sx={{pl:0}}>
 
                                         <Button 
                                             variant="contained" 
@@ -104,10 +112,10 @@ export const DesarrollosPage = () => {
                                     <Box height={20} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 </Grid>
-                                <Grid item xs={6}>
+                                <Grid item xs={12}>
 
                                     <Box height={20} />
-                                    <ListItem>
+                                    <ListItem sx={{pl:0}}>
 
                                         <Button 
                                             variant="contained" 
@@ -128,7 +136,7 @@ export const DesarrollosPage = () => {
                                     <Box height={50} />
                                 </Grid>
                                 <Grid item xs={6}>
-                                    <ListItem sx={{justifyContent:'space-between'}}>
+                                    <ListItem sx={{justifyContent:'space-between', pl:0}}>
                                         <Typography sx={{
                                             fontFamily: 'GilamSemiBold',
                                             fontSize: '30pt'
@@ -138,7 +146,7 @@ export const DesarrollosPage = () => {
 
                                     </ListItem>
                                 </Grid>
-                                <Grid item xs={6}>
+                                {/* <Grid item xs={6}>
                                     <ListItem>
                                         <Button 
                                             variant="contained" 
@@ -157,29 +165,36 @@ export const DesarrollosPage = () => {
                                                 VER MÁS.
                                         </Button>
                                     </ListItem>
-                                </Grid>
+                                </Grid> */}
                                 <Grid item xs={12}>
                                     <Box height={50} />
-                                    <ListItem>
+                                    <ListItem sx={{pl:0}}>
 
                                         <Typography style={{
                                             fontFamily: 'HelveticaLight',
                                             fontSize: '24px',
                                             lineHeight: '1'
                                         }}>
-                                            Lorem ipsum dolor sit amet, 
+                                            Espacios amplios, terrazas
+privadas y abundante
+vegetación definen nuestros
+departamentos. Disfruta de un
+estilo de vida al aire libre en
+nuestras residencias. 
                                         </Typography>
                                     </ListItem>
-                                    <ListItem>
+                                    <ListItem sx={{pl:0}}>
                                         <Typography style={{
                                             fontFamily: 'HelveticaLight',
                                             fontSize: '24px',
                                             lineHeight: '1'
                                         }}>
-                                            conctetuer adipiscing elit volutpat. 
+                                            Habita un oasis urbano donde
+el confort y la naturaleza se
+unen en perfecta armonía
                                         </Typography>
                                     </ListItem>
-                                    <ListItem>
+                                    {/* <ListItem>
                                         <Typography style={{
                                             fontFamily: 'HelveticaLight',
                                             fontSize: '24px',
@@ -187,8 +202,8 @@ export const DesarrollosPage = () => {
                                         }}>
                                             Hendrerit in vulputate velit esse Ut
                                         </Typography>
-                                    </ListItem>
-                                    <ListItem>
+                                    </ListItem> */}
+                                    {/* <ListItem>
                                         <Typography style={{
                                             fontFamily: 'HelveticaLight',
                                             fontSize: '24px',
@@ -196,7 +211,7 @@ export const DesarrollosPage = () => {
                                         }}>
                                             wisi enim
                                         </Typography>
-                                    </ListItem>
+                                    </ListItem> */}
                                     <Box height={50} />
                                 </Grid>
                                 <Grid item xs={12}>
@@ -207,8 +222,8 @@ export const DesarrollosPage = () => {
                                     <Box height={30} />
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
-                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                            <CardMedia component="img" image={Picture01} title="" alt="Yes"/> 
+                                            <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
                                                 <p className='title-text-image-desarrollo-over'>01.</p>
@@ -217,153 +232,160 @@ export const DesarrollosPage = () => {
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
-                                                        Lorem ipsum
+                                                        Departamento Terraza.
                                                     </Typography>
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                     }}>
                                                         Ver más
                                                     </Typography>
                                                 </div>
                                                 </ListItem>
-                                            </div>
+                                            </Box>
                                         </div>
                                     </Card>
                                     <Box height={10} />             
-                                    <Card sx={{ maxHeight: '400px'}}>
+                                    <Card sx={{ maxHeight: '300px'}}>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia height={400} component="img" image={depPicture} title="" alt=""/> 
-                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                            <CardMedia height={400} component="img" image={Picture02} title="" alt=""/> 
+                                            <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <p className='title-text-image-desarrollo-over'>02.</p>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
-                                                        Lorem ipsum
+                                                        Town House
                                                     </Typography>
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                     }}>
                                                         Ver más
                                                     </Typography>
                                                 </div>
                                                 </ListItem>
-                                            </div>
+                                            </Box>
                                         </div>
                                     </Card>
                                     <Box height={10} />          
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
-                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                            <CardMedia component="img" image={Picture03} title="" alt="Yes"/> 
+                                            <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <p className='title-text-image-desarrollo-over'>03.</p>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
-                                                        Lorem ipsum
+                                                        Loft.
                                                     </Typography>
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                     }}>
                                                         Ver más
                                                     </Typography>
                                                 </div>
                                                 </ListItem>
-                                            </div>
+                                            </Box>
                                         </div>
                                     </Card>
                                     <Box height={10} />          
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
-                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                            <CardMedia component="img" image={Picture04} title="" alt="Yes"/> 
+                                            <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <p className='title-text-image-desarrollo-over'>04.</p>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
-                                                        Lorem ipsum
+                                                        Departamento sencillo.
                                                     </Typography>
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                     }}>
                                                         Ver más
                                                     </Typography>
                                                 </div>
                                                 </ListItem>
-                                            </div>
+                                            </Box>
                                         </div>
                                     </Card>
                                     <Box height={10} />          
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
-                                            <div style={{position: "absolute", left: "25%", top: 10,transform: "translateX(-50%)",}}>
+                                            <CardMedia component="img" image={Picture05} title="" alt="Yes"/> 
+                                            <Box style={{position: "absolute", top: 10,}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <p className='title-text-image-desarrollo-over'>05.</p>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
-                                                        Lorem ipsum
+                                                        Departamento con
+Roof Garden
                                                     </Typography>
                                                     <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
-                                                        color: 'black',
+                                                        color: '#fceeea',
                                                     }}>
                                                         Ver más
                                                     </Typography>
                                                 </div>
                                                 </ListItem>
-                                            </div>
+                                            </Box>
                                         </div>
                                     </Card>
                                     <Box height={50} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                        cda monet 33
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                                        Arcos Bosques 
                                     </Typography>
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                        Gran residencial 43983
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                                        Paseo de los Tamarindos 400.
                                     </Typography>
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                    <Box height={20} />
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                                        Torre A, Bosques de las Lomas
+                                        Cuajimalpa.
+                                    </Typography>
+                                    <Box height={20} />
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
                                         CDMX
                                     </Typography>
                                     <Box height={10} />
@@ -371,13 +393,13 @@ export const DesarrollosPage = () => {
 
                                     <Box height={10} />
                                     <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                        consectetur lorem iosu
+                                        55.8000.3735
                                     </Typography>
                                     <Box height={10} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
                                     <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                        consectetur lorem iosu
+                                        +52 56 39661468
                                     </Typography>
                                     <Box height={10} />
                                 </Grid>
@@ -398,14 +420,14 @@ export const DesarrollosPage = () => {
 
                             <Grid item xs={5}>
                                 
-                                <ListItem className='desarrollos-section-left-text second-section-objetivos'>
+                                <ListItem sx={{pl:0}} className='desarrollos-section-left-text second-section-objetivos'>
                                             DESA
                                     </ListItem>
 
-                                    <ListItem className='objetivos-section-left-text '>
+                                    <ListItem sx={{pl:0}} className='objetivos-section-left-text '>
                                             RRO
                                     </ListItem>
-                                    <ListItem className='objetivos-section-left-text '>
+                                    <ListItem sx={{pl:0}} className='objetivos-section-left-text '>
                                             LLOS.
                                     </ListItem>
                             </Grid>
@@ -427,10 +449,15 @@ export const DesarrollosPage = () => {
                             <Grid item xs={7}>
 
                                 <Box height={30}/>
-                                <ListItem >
+                                <ListItem sx={{pl:0}} >
                                     <p className='helvetica-desarrollos-left'>
-                                    Lorem ipsum dolor sit amet, conctetuer adipiscing
-                                    elit
+                                    Ofrecemos soluciones
+                                    habitacionales de calidad,
+                                    donde cada detalle está
+                                    cuidadosamente diseñado
+                                    y procesos respaldados por
+                                    nuestra experiencia y
+                                    compromiso.
                                     </p>
                                 </ListItem>
                             </Grid>
@@ -445,7 +472,7 @@ export const DesarrollosPage = () => {
                     </Grid> */}
                     <Grid item xs={7}>
             
-                        <ListItem sx={{justifyContent:'space-between'}}>
+                        <ListItem sx={{justifyContent:'space-between', pl:0}}>
                             <Typography sx={{
                                 fontFamily: 'GilamSemiBold',
                                 fontSize: '30pt'
@@ -460,40 +487,50 @@ export const DesarrollosPage = () => {
                                     VER MÁS.
                             </Button>
                         </ListItem>
-                        <ListItem>
+                        <ListItem sx={{pl:0}}>
                             <Grid item xs={10}>
+
+                                <Typography  style={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '24px',
+                                    lineHeight: '1.2'
+                                }}>
+                                    Espacios amplios, terrazas privadas y abundante  
+                                </Typography>
+                                <Typography style={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '24px',
+                                    lineHeight: '1.2'
+                                }}>
+                                    vegetación definen nuestros departamentos. Disfruta 
+                                </Typography>
+                                <Typography style={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '24px',
+                                    lineHeight: '1.2'
+                                }}>
+                                    de un estilo de vida al aire libre en nuestras
+                                </Typography>
+                                <Typography style={{
+                                    fontFamily: 'HelveticaLight',
+                                    fontSize: '24px',
+                                    lineHeight: '1.2'
+                                }}>
+                                    residencias.
+                                </Typography>
+                                <Box height={30} />
 
                                 <Typography style={{
                                     fontFamily: 'HelveticaLight',
                                     fontSize: '24px',
                                     lineHeight: '1.2'
                                 }}>
-                                    Lorem ipsum dolor sit amet, 
-                                </Typography>
-                                <Typography style={{
-                                    fontFamily: 'HelveticaLight',
-                                    fontSize: '24px',
-                                    lineHeight: '1.2'
-                                }}>
-                                    conctetuer adipiscing elit volutpat. 
-                                </Typography>
-                                <Typography style={{
-                                    fontFamily: 'HelveticaLight',
-                                    fontSize: '24px',
-                                    lineHeight: '1.2'
-                                }}>
-                                    Hendrerit in vulputate velit esse Ut
-                                </Typography>
-                                <Typography style={{
-                                    fontFamily: 'HelveticaLight',
-                                    fontSize: '24px',
-                                    lineHeight: '1.2'
-                                }}>
-                                    wisi enim
+                                    Habita un oasis urbano donde el confort y la
+naturaleza se unen en perfecta armonía.
                                 </Typography>
                             </Grid>
                         </ListItem>
-                        <ListItem>
+                        <ListItem sx={{pl:0}}>
                             <Grid item xs={8}>
                                 <Box height={50} />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
@@ -505,7 +542,7 @@ export const DesarrollosPage = () => {
                 <Grid container>
                     <Grid item xs={3}>
                         <Box height={50}/>
-                        <ListItem>
+                        <ListItem sx={{pl:0}}> 
 
                             <Button 
                                 variant="contained" 
@@ -514,6 +551,7 @@ export const DesarrollosPage = () => {
                                     borderRadius: '50px', 
                                     fontSize: '30pt',
                                     fontFamily: 'GilamSemiBold'
+                                    
                                 }} 
                                 onClick={()=> {setSelectedDep(1)}}
                                 disableElevation>
@@ -523,7 +561,7 @@ export const DesarrollosPage = () => {
                         <Box height={10} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                         <Box height={10} />
-                        <ListItem>
+                        <ListItem sx={{pl:0}}>
 
                             <Button 
                                 variant="contained" 
@@ -535,35 +573,41 @@ export const DesarrollosPage = () => {
                                 }} 
                                 onClick={()=> {setSelectedDep(2)}}
                                 disableElevation>
-                                    LP #34
+                                    SR #34
                             </Button>
                         </ListItem>
                         <Box height={10} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                        <Box height={150} />
+                        <Box height={250} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                         <Box height={10} />
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16px'}}>
-                            cda monet 33
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                            Arcos Bosques 
                         </Typography>
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16px'}}>
-                            Gran residencial 43983
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                            Paseo de los Tamarindos 400.
                         </Typography>
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16px'}}>
+                        <Box height={20} />
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                            Torre A, Bosques de las Lomas
+                            Cuajimalpa.
+                        </Typography>
+                        <Box height={20} />
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
                             CDMX
                         </Typography>
                         <Box height={10} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                         <Box height={10} />
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16px'}}>
-                            consectetur lorem iosu
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                            55.8000.3735
                         </Typography>
                         <Box height={10} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                         <Box height={10} />
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16px'}}>
-                            consectetur lorem iosu
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                            +52 56 39661468
                         </Typography>
                         <Box height={10} />
                     </Grid>
@@ -573,8 +617,8 @@ export const DesarrollosPage = () => {
                     <Grid item xs={3}>
                         <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
+                                <CardMedia component="img" image={Picture01} title="" alt="Yes"/> 
+                                <Box style={{position: "absolute", top: 10}}>
                                     <ListItem>
 
                                     <p className='title-text-image-desarrollo-over'>01.</p>
@@ -583,51 +627,52 @@ export const DesarrollosPage = () => {
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
                                             fontSize: '16px',
-                                            color: 'black',
+                                            color: '#fceeea',
                                             fontWeight: 'bold'
                                         }}>
-                                            Lorem ipsum
+                                            Departamento
+                                            Terraza.
                                         </Typography>
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
                                             fontSize: '16px',
-                                            color: 'black',
+                                            color: '#fceeea',
                                         }}>
                                             Ver más
                                         </Typography>
                                     </div>
                                     </ListItem>
-                                </div>
+                                </Box>
                             </div>
                         </Card>
                         <Box height={10} />             
                         <Card sx={{maxWidth: '95%', maxHeight: '400px'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia height={400} component="img" image={depPicture} title="" alt=""/> 
-                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
+                                <CardMedia height={400} component="img" image={Picture02} title="" alt="" /> 
+                                <Box style={{position: "absolute", top: 10}}>
                                     <ListItem>
 
-                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <p className='title-text-image-desarrollo-over'>03.</p>
                                     <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
                                             fontSize: '16px',
-                                            color: 'black',
+                                            color: '#fceeea',
                                             fontWeight: 'bold'
                                         }}>
-                                            Lorem ipsum
+                                            Loft.
                                         </Typography>
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
                                             fontSize: '16px',
-                                            color: 'black',
+                                            color: '#fceeea',
                                         }}>
                                             Ver más
                                         </Typography>
                                     </div>
                                     </ListItem>
-                                </div>
+                                </Box>
                             </div>
                         </Card>
                         {/* <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>
@@ -643,93 +688,101 @@ export const DesarrollosPage = () => {
                             <div style={{position: "absolute", color: "white",top: 10,left: "50%",transform: "translateX(-50%)",}}> Some text</div>
                         </div>
                         </Card> */}
-                        <Card sx={{maxWidth: '95%'}}>
+                        <Card sx={{maxWidth: '95%', maxHeight: '200px'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={depPicture} title="" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
+                                <CardMedia component="img" image={Picture03} title="" alt="Yes" style={{justifyContent: 'center', display: 'flex'}}/> 
+                                <Box style={{position: "absolute", top: 10}}>
                                     <ListItem>
 
-                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <p className='title-text-image-desarrollo-over'>02.</p>
                                     <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
                                             fontSize: '16px',
-                                            color: 'black',
-                                            fontWeight: 'bold'
+                                            color: '#fceeea',
+                                            fontWeight: 'bold' 
                                         }}>
-                                            Lorem ipsum
+                                            Town House.
                                         </Typography>
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
                                             fontSize: '16px',
-                                            color: 'black',
+                                            color: '#fceeea',
                                         }}>
                                             Ver más
                                         </Typography>
                                     </div>
                                     </ListItem>
-                                </div>
+                                </Box>
                             </div>
                         </Card>
                         <Box height={10} /> 
                         <Card sx={{maxWidth: '95%' }}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={depPicture} title="Wea" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
+                                <CardMedia component="img" image={Picture04} title="Wea" alt="Yes"/> 
+                                <Box style={{position: "absolute", top: 10,}}>
                                     <ListItem>
 
-                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <p className='title-text-image-desarrollo-over'>04.</p>
                                     <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
-                                            fontSize: '16px',
-                                            color: 'black',
+                                            fontSize: '16pt',
+                                            color: '#fceeea',
                                             fontWeight: 'bold'
                                         }}>
-                                            Lorem ipsum
+                                            Departamento sencillo.
                                         </Typography>
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
                                             fontSize: '16px',
-                                            color: 'black',
+                                            color: '#fceeea',
                                         }}>
                                             Ver más
                                         </Typography>
                                     </div>
                                     </ListItem>
-                                </div>
+                                </Box>
                             </div>
                         </Card>
                         <Box height={10} /> 
                         <Card sx={{maxWidth: '95%'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={depPicture} title="Wea" alt="Yes"/> 
-                                <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
+                                <CardMedia component="img" image={Picture05} title="Wea" alt="Yes"/> 
+                                <Box style={{position: "absolute", top: 10,}}>
                                     <ListItem>
 
-                                    <p className='title-text-image-desarrollo-over'>01.</p>
+                                    <Typography sx={{
+                                            fontFamily: 'Helvetica Light',
+                                            fontSize: '35pt',
+                                            color: '#fceeea',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            05.
+                                        </Typography>
+                                    {/* <p className='title-text-image-desarrollo-over'>05.</p> */}
                                     <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
-                                            fontSize: '16px',
-                                            color: 'black',
+                                            fontSize: '16pt',
+                                            color: '#fceeea',
                                             fontWeight: 'bold'
                                         }}>
-                                            Lorem ipsum
+                                            Departamento con Roof Garden
                                         </Typography>
                                         <Typography sx={{
                                             fontFamily: 'Helvetica Light',
                                             fontSize: '16px',
-                                            color: 'black',
+                                            color: '#fceeea',
                                         }}>
                                             Ver más
                                         </Typography>
                                     </div>
                                     </ListItem>
-                                </div>
+                                </Box>
                             </div>
                         </Card>
                         {/* <img style={{maxWidth: '95%'}} src={DepartamentoPicture} alt=""/>

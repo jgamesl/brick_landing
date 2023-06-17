@@ -885,8 +885,8 @@ nav{
   /* margin-top: 5%; */
   padding-top: 5%;
   /* height: 165vh; */
-  height: 1250px;
-  background-color: white;
+  height: 1400px;
+  background-color: #fceeea ;
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
@@ -898,8 +898,8 @@ nav{
   /* margin-top: 5%; */
   padding-top: 5%;
   /* height: 165vh; */
-  height: 3250px;
-  background-color: white;
+  height: 3450px;
+  background-color: #fceeea;
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
@@ -907,7 +907,7 @@ nav{
 .title-text-image-desarrollo-over {
   font-family: 'Helvetica Light';
   font-size: 35pt;
-  color: black;
+  color: #fceeea;
 }
 .title-text-image-desarrollo-over-detail {
   font-family: 'Helvetica Light';
@@ -976,7 +976,7 @@ nav{
 
 .helvetica-objetivos-left {
 
-  font-size: 16px;
+  font-size: 16pt;
   font-family: 'HelveticaLight';
   color: #212322;
 }
@@ -991,7 +991,7 @@ nav{
   padding-right: 5%;
   padding-top: 5%;
   /* height: 20vw; */
-  height: 300px;
+  height: 450px;
   background-color: #686e7f;
   align-items: center;
   /* margin-top: 10rem; */

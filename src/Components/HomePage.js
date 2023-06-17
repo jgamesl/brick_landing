@@ -52,7 +52,7 @@ export const HomePage = () => {
     <IntroPage scrollToSection={scrollToSection}/>
     <div id="know-section"><KnowBrick /></div>
     
-    <div id="goals-section"><ObjetivosPage /></div>
+    {/* <div id="goals-section"><ObjetivosPage /></div> */}
     <ColaboradoresPage />
     <BlogPage />
     

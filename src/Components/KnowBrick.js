@@ -101,7 +101,7 @@ export const KnowBrick = () => {
                     </Grid>
                     
                     <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
-                    <Box height={20} />
+                    <Box height={60} />
                     <Grid container spacing={2}>
                         <Grid item xs={8}>
 
