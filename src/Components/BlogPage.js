@@ -11,12 +11,12 @@ import CircleIcon from '@mui/icons-material/Circle';
 
 export const BlogPage = () => {
     const isDesktopOrLaptop = useMediaQuery({
-      query: '(min-width: 1224px)'
+      query: '(min-width: 924px)'
       // query: '(min-width: 1224px)'
     })
   
       const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-      const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+      const isTabletOrMobile = useMediaQuery({ query: '(max-width: 924px)' })
       const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
       const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
   return (
@@ -124,7 +124,7 @@ export const BlogPage = () => {
     }
     
     {
-    isDesktopOrLaptop ? 
+    (isBigScreen || isDesktopOrLaptop) ? 
 
     <Box className='color-know-brick-page'>
         <Box className='blog-page-interior'>

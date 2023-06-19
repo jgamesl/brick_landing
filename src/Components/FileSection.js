@@ -16,12 +16,12 @@ export const FileSection = (props) => {
     //     props.scrollToSection(section);
     //   };
     const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-width: 1224px)'
+        query: '(min-width: 924px)'
         // query: '(min-width: 1224px)'
       })
     
         const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-        const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+        const isTabletOrMobile = useMediaQuery({ query: '(max-width: 924px)' })
         const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
         const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
   return (
@@ -56,7 +56,7 @@ export const FileSection = (props) => {
                                             marginTop: '40px',
                                             color: '#f8bd00'
                                         }}>
-                                            HOLA@
+                                            HOLA@BRICK
                                         </Typography>
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
@@ -66,7 +66,7 @@ export const FileSection = (props) => {
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
-                                            BRICK.COM.MX
+                                            INMUEBLES.COM.MX
                                         </Typography>
                                     </ListItem>
                                 </Grid>
@@ -84,11 +84,35 @@ export const FileSection = (props) => {
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
+                                            55.8000.3735
+                                        </Typography>
+                                    </ListItem>
+                                    <Box height={50} />
+                                    <ListItem sx={{paddingLeft: '0px'}}>
+
+                                        <Typography sx={{
+                                            fontFamily: 'GilamSemiBold',
+                                            fontSize: '16px',
+                                            lineHeight: '0.6',
+                                            color: '#f8bd00'
+                                        }}>
                                             Contacto
                                         </Typography>
                                     </ListItem>
                                 </Grid>
                                 <Grid itemx xs={6}>
+                                    <ListItem sx={{paddingLeft: '0px'}}>
+
+                                        <Typography sx={{
+                                            fontFamily: 'GilamSemiBold',
+                                            fontSize: '16px',
+                                            lineHeight: '0.6',
+                                            color: '#f8bd00'
+                                        }}>
+                                            +52 56 39661468
+                                        </Typography>
+                                    </ListItem>
+                                    <Box height={50} />
                                     <ListItem sx={{paddingLeft: '0px'}} onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}}> 
                                         <Typography sx={{
                                             fontFamily: 'GilamSemiBold',
@@ -123,7 +147,7 @@ export const FileSection = (props) => {
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
-                                            Cda Monet 33
+                                            Arcos Bosques 
                                         </Typography>
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
@@ -133,7 +157,7 @@ export const FileSection = (props) => {
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
-                                            Soleil Residencial
+                                            Paseo de los 
                                         </Typography>
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
@@ -143,20 +167,10 @@ export const FileSection = (props) => {
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
-                                            2361 CDMX
+                                            tamarindos 400
                                         </Typography>
                                     </ListItem>
-                                    <Box heigth={50}/>
-                                    <ListItem sx={{paddingLeft: '0px'}}>
-                                        <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
-                                            lineHeight: '0.6',
-                                            color: '#f8bd00'
-                                        }}>
-                                            5555-555-555
-                                        </Typography>
-                                    </ListItem>
+
                                 </Grid>
 
                                 <Grid itemx xs={6}>
@@ -195,7 +209,7 @@ export const FileSection = (props) => {
                                             </Typography>
                                         </Link>
                                     </ListItem>
-                                    <ListItem sx={{paddingLeft: '0px'}}>
+                                    {/* <ListItem sx={{paddingLeft: '0px'}}>
 
                                         <Link underline="hover" onClick={() => {
                                             console.log('click');
@@ -212,7 +226,7 @@ export const FileSection = (props) => {
                                             Desarrollos.
                                             </Typography>
                                         </Link>
-                                    </ListItem>
+                                    </ListItem> */}
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
                                             fontFamily: 'GilamSemiBold',
@@ -223,6 +237,50 @@ export const FileSection = (props) => {
                                             Contacto.
                                         </Typography>
                                     </ListItem>
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                        <Box heigth={30}/>
+                                        <ListItem sx={{paddingLeft: '0px'}}>
+                                            <Typography sx={{
+                                                fontFamily: 'GilamSemiBold',
+                                                fontSize: '16px',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
+                                                Torre A, Bosques
+                                            </Typography>
+                                        </ListItem>
+                                        <ListItem sx={{paddingLeft: '0px'}}>
+                                            <Typography sx={{
+                                                fontFamily: 'GilamSemiBold',
+                                                fontSize: '16px',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
+                                                de las Lomas
+                                            </Typography>
+                                        </ListItem>
+                                        <ListItem sx={{paddingLeft: '0px'}}>
+                                            <Typography sx={{
+                                                fontFamily: 'GilamSemiBold',
+                                                fontSize: '16px',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
+                                                Cuajimalpa.
+                                            </Typography>
+                                        </ListItem>
+                                        <Box heigth={30}/>
+                                        <ListItem sx={{paddingLeft: '0px'}}>
+                                            <Typography sx={{
+                                                fontFamily: 'GilamSemiBold',
+                                                fontSize: '16px',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
+                                                CDMX.
+                                            </Typography>
+                                        </ListItem>
                                     </Grid>
                             </Grid>
                         </div>
@@ -249,7 +307,7 @@ export const FileSection = (props) => {
                                         marginTop: '40px',
                                         color: '#f8bd00'
                                     }}>
-                                        HOLA@
+                                        HOLA@BRICK
                                     </Typography>
                                 </ListItem>
                                 <ListItem>
@@ -259,7 +317,7 @@ export const FileSection = (props) => {
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
-                                        BRICK.COM.MX
+                                        INMUEBLES.COM.MX
                                     </Typography>
                                 </ListItem>
                             </Grid>
@@ -294,21 +352,44 @@ export const FileSection = (props) => {
                                 <ListItem onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}}>
                                     <Typography sx={{
                                         fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
                                         Instagram
                                     </Typography>
                                 </ListItem>
+                                <Box height={10} />
                                 <ListItem>
                                     <Typography sx={{
                                         fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
                                         Facebook
+                                    </Typography>
+                                </ListItem>
+                                <Box height={60} />
+                                <ListItem>
+                                    <Typography sx={{
+                                        fontFamily: 'GilamSemiBold',
+                                        fontSize: '16pt',
+                                        lineHeight: '0.6',
+                                        color: '#f8bd00'
+                                    }}>
+                                        55.8000.3735
+                                    </Typography>
+                                </ListItem>
+                                <Box height={30} />
+                                <ListItem>
+                                    <Typography sx={{
+                                        fontFamily: 'GilamSemiBold',
+                                        fontSize: '16pt',
+                                        lineHeight: '0.6',
+                                        color: '#f8bd00'
+                                    }}>
+                                        +52 56 39661468
                                     </Typography>
                                 </ListItem>
                             </Grid>
@@ -321,7 +402,7 @@ export const FileSection = (props) => {
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
-                                        Cda Monet 33
+                                        Arcos Bosques
                                     </Typography>
                                 </ListItem>
                                 <ListItem>
@@ -331,7 +412,7 @@ export const FileSection = (props) => {
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
-                                        Soleil Residencial
+                                       Paseo de los 
                                     </Typography>
                                 </ListItem>
                                 <ListItem>
@@ -341,10 +422,11 @@ export const FileSection = (props) => {
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
-                                        2361 CDMX
+                                        Tamarindos 400.
                                     </Typography>
                                 </ListItem>
-                                <Box heigth={20}/>
+
+                                <Box height={30} />
                                 <ListItem>
                                     <Typography sx={{
                                         fontFamily: 'GilamSemiBold',
@@ -352,7 +434,38 @@ export const FileSection = (props) => {
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
-                                        5555-555-555
+                                        Torre A, Bosques
+                                    </Typography>
+                                </ListItem>
+                                <ListItem>
+                                    <Typography sx={{
+                                        fontFamily: 'GilamSemiBold',
+                                        fontSize: '16px',
+                                        lineHeight: '0.6',
+                                        color: '#f8bd00'
+                                    }}>
+                                       de las Lomas
+                                    </Typography>
+                                </ListItem>
+                                <ListItem>
+                                    <Typography sx={{
+                                        fontFamily: 'GilamSemiBold',
+                                        fontSize: '16px',
+                                        lineHeight: '0.6',
+                                        color: '#f8bd00'
+                                    }}>
+                                        Cuajimalpa.
+                                    </Typography>
+                                </ListItem>
+                                <Box height={30} />
+                                <ListItem>
+                                    <Typography sx={{
+                                        fontFamily: 'GilamSemiBold',
+                                        fontSize: '16px',
+                                        lineHeight: '0.6',
+                                        color: '#f8bd00'
+                                    }}>
+                                        CDMX.
                                     </Typography>
                                 </ListItem>
                             </Grid>

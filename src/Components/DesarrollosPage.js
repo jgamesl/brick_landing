@@ -21,7 +21,7 @@ import {ReactComponent as ShieldIcon} from "../Assets/Icons/Home/05.svg";
 export const DesarrollosPage = () => {
 
     const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-width: 1224px)'
+        query: '(min-width: 924px)'
         // query: '(min-width: 1224px)'
       })
 
@@ -31,7 +31,7 @@ export const DesarrollosPage = () => {
     const [depPicture, setDepPicture] = useState('');
     
         const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-        const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+        const isTabletOrMobile = useMediaQuery({ query: '(max-width: 924px)' })
         const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
         const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
 
@@ -413,7 +413,7 @@ Roof Garden
             isDesktopOrLaptop ? 
 
             <div className='color-objetivos-page'>
-                <div className='desarrollos-page-interior'>
+                <div className='desarrollos-page-interior-first'>
                 <Grid className='' container spacing={2}>
                     <Grid item xs={5}>
                         <Grid container>

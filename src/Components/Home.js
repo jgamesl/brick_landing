@@ -11,10 +11,10 @@ import { useMediaQuery } from 'react-responsive';
 export const Home = () => {
 
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
+    query: '(min-width: 924px)'
   })
   const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 924px)' })
   const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
   const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
   return (

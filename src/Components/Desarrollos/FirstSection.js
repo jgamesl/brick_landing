@@ -11,6 +11,7 @@ import MesaTrabajoPicture from '../../Assets/fotos_test/Mesa_de_trabajo_101.png'
 import MesaTrabajo2Picture from '../../Assets/fotos_test/Mesa_de_trabajo_102.png';
 import Desarrollo1 from '../../Assets/fotos_test/desarrollo01.png';
 import Desarrollo3 from '../../Assets/fotos_test/desarrollo03.png';
+import HeaderPicture from '../../Assets/PROYECTOS/01/header.png';
 import MasDesarrolloPicture from '../../Assets/fotos_test/mas_desarrollos.png';
 import Home01 from '../../Assets/fotos_test/home01.png';
 import {ReactComponent as BathIcon} from "../../Assets/Icons/Desarrollos/año.svg";
@@ -21,8 +22,12 @@ import {ReactComponent as VerIcon} from "../../Assets/Icons/Desarrollos/ver.svg"
 import { Navbar } from '../Navbar';
 import { Box } from '@mui/system';
 import { Departamento } from './Departamento';
+import { TownHouse } from './TownHouse';
+import { Loft } from './Loft';
+import { SingleDepartamento } from './SingleDepartamento';
 import BrickText from "../../Assets/Icons/Logo/logo.svg";
 import MenuIcon from '@mui/icons-material/Menu';
+import { RoofGarden } from './RoofGarden';
 
 export const FirstSection = () => {
     // const isDesktopOrLaptop = useMediaQuery({
@@ -31,10 +36,10 @@ export const FirstSection = () => {
     //   })
     
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
+    query: '(min-width: 924px)'
   })
         const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-        const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+        const isTabletOrMobile = useMediaQuery({ query: '(max-width: 924px)' })
         // const isPortrait = useMediaQuery({ query: '(orientation: portrait) or (max-width: 899px)' })
         const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
         const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
@@ -81,32 +86,36 @@ export const FirstSection = () => {
                                 </ListItem>
                             </Grid>
                             <Grid item xs={3}>
-                                <ListItem>
+                                {/* <ListItem>
                                     <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
                                         <Typography sx={{ fontSize: '16pt'}}>
                                             LP #33
                                         </Typography>
                                     </Button>
-                                </ListItem>
+                                </ListItem> */}
                             </Grid>
                             <Grid item xs={3}>
-                                <ListItem>
+                                {/* <ListItem>
                                     <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
                                         <Typography sx={{ fontSize: '16pt'}}>
                                             LP #33
                                         </Typography>
                                     </Button>
-                                </ListItem>
+                                </ListItem> */}
                             </Grid>
                             <Grid xs={12}>
                                 <Box height={50} />
                                 <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
-                                    lorem ipsum dolor sit amet lorem conctetuer adipisc-
-                                    ing elit volutpat. Hendrerit in vulputate velit esse
-
-                                    Ut wisi enim.
+                                    Espacios amplios, terrazas privadas y abundante
+                                    vegetación definen nuestros departamentos. Disfruta
+                                    de un estilo de vida al aire libre en nuestras
+                                    residencias. 
                                 </ListItem>
                                 <Box height={50} />
+                                <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
+                                    Habita un oasis urbano donde el confort y la
+                                    naturaleza se unen en perfecta armonía.
+                                </ListItem>
                             </Grid>
                         </Grid>
                         <Departamento />
@@ -183,10 +192,10 @@ export const FirstSection = () => {
         }
         {
             
-            isDesktopOrLaptop
+            (isBigScreen || isDesktopOrLaptop)
                 ?   <>
                         <div className='color-objetivos-page'>
-                            <div className='desarrollos-page-interior-mobile'>
+                            <div className='desarrollos-page-interior'>
                                 <Grid container spacing={2} columns={12}>
                                     <Grid xs={2}>
                                                 
@@ -221,39 +230,49 @@ export const FirstSection = () => {
                                         <Grid item xs={1}></Grid>
                                         <Grid xs={2}>
 
-                                                <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
+                                                {/* <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
                                                     <Typography sx={{ fontSize: '16pt'}}>
                                                         LP #33
                                                     </Typography>
-                                                </Button>
+                                                </Button> */}
                                         </Grid>
                                         <Grid xs={2}>
 
-                                                <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
+                                                {/* <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
                                                     <Typography sx={{ fontSize: '16pt'}}>
                                                         LP #33
                                                     </Typography>
-                                                </Button>
+                                                </Button> */}
                                         </Grid>
                                         <Grid xs={2}>
-
+{/* 
                                                 <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
                                                     <Typography sx={{ fontSize: '16pt'}}>
                                                         LP #33
                                                     </Typography>
-                                                </Button>
+                                                </Button> */}
                                         </Grid>
                                         <Grid xs={12}>
+                                            
                                             <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
-                                                lorem ipsum dolor sit amet lorem conctetuer adipisc-
-                                                ing elit volutpat. Hendrerit in vulputate velit esse
-
-                                                Ut wisi enim.
+                                                Espacios amplios, terrazas privadas y abundante
+                                                vegetación definen nuestros departamentos. Disfruta
+                                                de un estilo de vida al aire libre en nuestras
+                                                residencias. 
+                                            </ListItem>
+                                            <Box height={50} />
+                                            <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
+                                                Habita un oasis urbano donde el confort y la
+                                                naturaleza se unen en perfecta armonía.
                                             </ListItem>
                                         </Grid>
                                     </Grid>
                                 </Grid>
                                 <Departamento />
+                                <TownHouse />
+                                <Loft />
+                                <SingleDepartamento />
+                                <RoofGarden />
                                 <Grid container spacing={2}>
                                     <Grid item xs={12}>
                                         <Box height={40} />

@@ -28,7 +28,7 @@ import { Box } from '@mui/system';
 export const KnowBrick = () => {
 
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 924px)'
+    query: '(min-width: 1224px)'
     // query: '(min-width: 1224px)'
   })
 

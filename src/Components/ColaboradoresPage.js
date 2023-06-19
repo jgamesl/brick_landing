@@ -13,12 +13,12 @@ import {ReactComponent as StarIcon2} from "../Assets/iconos_mejores/19.svg";
 
 export const ColaboradoresPage = () => {
     const isDesktopOrLaptop = useMediaQuery({
-      query: '(min-width: 1224px)'
+      query: '(min-width: 924px)'
       // query: '(min-width: 1224px)'
     })
   
       const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-      const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+      const isTabletOrMobile = useMediaQuery({ query: '(max-width: 924px)' })
       const isPortrait = useMediaQuery({ query: '(orientation: portrait) and (max-width: 800px)' })
       const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' });
   return (
@@ -97,7 +97,7 @@ equipo y en la excelencia de nuestras alianzas. </p>
     }
     
     {
-    isDesktopOrLaptop ? 
+    (isBigScreen || isDesktopOrLaptop) ? 
 
     <Box className='color-know-brick-page'>
         <Box className='colaboradores-page-interior'>
