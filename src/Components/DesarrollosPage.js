@@ -9,7 +9,8 @@ import Picture02 from '../Assets/fotos_finales/HOME/03.png';
 import Picture03 from '../Assets/fotos_finales/HOME/04.png';
 import Picture04 from '../Assets/fotos_finales/HOME/05.png';
 import Picture05 from '../Assets/fotos_finales/HOME/06.png';
-import Desarrollo2Image from '../Assets/fotos_test/desarrollo02.png';
+import Desarrollo2Image from '../Assets/fotos_finales/HOME/06.png';
+// import Desarrollo2Image from '../Assets/fotos_test/desarrollo02.png';
 import CircleIcon from '@mui/icons-material/Circle';
 import DesarrolloImage from "../Assets/Icons/Home/desarrollo.svg";
 export const DesarrollosPage = () => {

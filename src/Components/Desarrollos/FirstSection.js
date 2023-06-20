@@ -6,7 +6,8 @@ import React from 'react';
 import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
 
 import { useMediaQuery } from 'react-responsive';
-import MasDesarrolloPicture from '../../Assets/fotos_test/mas_desarrollos.png';
+// import MasDesarrolloPicture from '../../Assets/fotos_test/mas_desarrollos.png';
+import MasDesarrolloPicture from "../../Assets/Icons/Home/desarrollo.svg";
 import {ReactComponent as VerIcon} from "../../Assets/Icons/Desarrollos/ver.svg";
 import { Box } from '@mui/system';
 import { Departamento } from './Departamento';

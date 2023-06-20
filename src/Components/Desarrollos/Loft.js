@@ -1,10 +1,14 @@
 import { Button, Card, CardMedia, Divider, ListItem, SvgIcon, Typography } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import React from 'react';
-import MesaTrabajoPicture from '../../Assets/fotos_test/Mesa_de_trabajo_101.png';
-import MesaTrabajo2Picture from '../../Assets/fotos_test/Mesa_de_trabajo_102.png';
-import Desarrollo1 from '../../Assets/fotos_test/desarrollo01.png';
-import Desarrollo3 from '../../Assets/fotos_test/desarrollo03.png';
+// import MesaTrabajoPicture from '../../Assets/fotos_test/Mesa_de_trabajo_101.png';
+// import MesaTrabajo2Picture from '../../Assets/fotos_test/Mesa_de_trabajo_102.png';
+import MesaTrabajoPicture from '../../Assets/PROYECTOS/03/01.png';
+import MesaTrabajo2Picture from '../../Assets/PROYECTOS/03/02.png';
+// import Desarrollo1 from '../../Assets/fotos_test/desarrollo01.png';
+// import Desarrollo3 from '../../Assets/fotos_test/desarrollo03.png';
+import Desarrollo1 from '../../Assets/PROYECTOS/03/01.png';
+import Desarrollo3 from '../../Assets/PROYECTOS/03/02.png';
 import HeaderPicture from '../../Assets/PROYECTOS/01/header.png';
 import Picture01 from '../../Assets/PROYECTOS/03/01.png';
 import Picture02 from '../../Assets/PROYECTOS/03/02.png';

@@ -3,10 +3,14 @@ import Grid from '@mui/material/Unstable_Grid2';
 import React from 'react';
 import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
 import DepartamentoPicture from '../../Assets/departamentos-de-lujo-2.jpeg';
-import MesaTrabajoPicture from '../../Assets/fotos_test/Mesa_de_trabajo_101.png';
-import MesaTrabajo2Picture from '../../Assets/fotos_test/Mesa_de_trabajo_102.png';
-import Desarrollo1 from '../../Assets/fotos_test/desarrollo01.png';
-import Desarrollo3 from '../../Assets/fotos_test/desarrollo03.png';
+// import MesaTrabajoPicture from '../../Assets/fotos_test/Mesa_de_trabajo_101.png';
+// import MesaTrabajo2Picture from '../../Assets/fotos_test/Mesa_de_trabajo_102.png';
+import MesaTrabajoPicture from '../../Assets/PROYECTOS/02/01.png';
+import MesaTrabajo2Picture from '../../Assets/PROYECTOS/02/02.png';
+// import Desarrollo1 from '../../Assets/fotos_test/desarrollo01.png';
+// import Desarrollo3 from '../../Assets/fotos_test/desarrollo03.png';
+import Desarrollo1 from '../../Assets/PROYECTOS/02/01.png';
+import Desarrollo3 from '../../Assets/PROYECTOS/02/02.png';
 import HeaderPicture from '../../Assets/PROYECTOS/01/header.png';
 import Picture01 from '../../Assets/PROYECTOS/02/01.png';
 import Picture02 from '../../Assets/PROYECTOS/02/02.png';
@@ -22,7 +26,7 @@ import {ReactComponent as BathIcon} from "../../Assets/iconos_mejores/30.svg";
 import {ReactComponent as CuartoIcon} from "../../Assets/iconos_mejores/27.svg";
 import {ReactComponent as TerrazaIcon} from "../../Assets/iconos_mejores/28.svg";
 import {ReactComponent as CocheraIcon} from "../../Assets/iconos_mejores/29.svg";
-import Home01 from '../../Assets/fotos_test/home01.png';
+// import Home01 from '../../Assets/fotos_test/home01.png';
 import { useMediaQuery } from 'react-responsive';
 
 export const TownHouse = () => {

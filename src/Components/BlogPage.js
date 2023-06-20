@@ -4,8 +4,8 @@ import { Box, Button, Divider, Grid, ListItem, Typography } from '@mui/material'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import Desarrollo2 from "../Assets/fotos_test/desarrollo02.png";
-import Desarrollo3 from "../Assets/fotos_test/desarrollo03.png";
+import Desarrollo2 from "../Assets/fotos_finales/HOME/01.png";
+import Desarrollo3 from "../Assets/fotos_finales/HOME/01.png";
 import CircleIcon from '@mui/icons-material/Circle';
 
 export const BlogPage = () => {
