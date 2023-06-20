@@ -1,6 +1,5 @@
 import { Divider, Grid, ListItem, SvgIcon, Typography } from '@mui/material';
-import React from 'react'
-import Delivery from "../Assets/delivery-image.png";
+import React from 'react';
 import CircleIcon from '@mui/icons-material/Circle';
 import ConoceImage from "../Assets/Icons/Home/conoce.svg";
 import LogoStars from "../Assets/iconos_mejores/11.svg";

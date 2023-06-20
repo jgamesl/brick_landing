@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import ProfilePic from "../Assets/john-doe-image.png";
+// import ProfilePic from "../Assets/john-doe-image.png";
 import { AiFillStar } from 'react-icons/ai';
 export const Testimonial = () => {
   return (
@@ -16,7 +16,7 @@ export const Testimonial = () => {
             </p>
         </div>
         <div className='testimonial-section-bottom'>
-            <img src={ProfilePic} alt=""/>
+            {/* <img src={ProfilePic} alt=""/> */}
             <p>
                 lanclñpe ñamslnc ,dmfpewp`p lasmd,pq ,ansd,masd
                 jasldkalb ema,p`qowpeo ,amsda`pcopw amsndajskdjfjew

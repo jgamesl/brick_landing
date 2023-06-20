@@ -3,7 +3,7 @@ import { Divider, Grid, ListItem, SvgIcon, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react'
 import { useMediaQuery } from 'react-responsive';
-import Delivery from "../Assets/delivery-image.png";
+// import Delivery from "../Assets/delivery-image.png";
 import CircleIcon from '@mui/icons-material/Circle';
 import MetasImage from "../Assets/Icons/Home/metas.svg";
 import {ReactComponent as GraphIcon} from "../Assets/Icons/Home/01.svg";
@@ -149,7 +149,7 @@ export const ObjetivosPage = () => {
                             <Grid display="flex" justifyContent="flex-start" item xs={6}>
 
                                 <Box height={30}/>
-                                <img className='objetivos-low-pic' src={Delivery} alt=""/>
+                                <img className='objetivos-low-pic' src={MetasImage} alt=""/>
                             </Grid>
                         </Grid>
                     </div>
@@ -197,7 +197,7 @@ export const ObjetivosPage = () => {
                     </p>
                 </ListItem>
                 <Box height={80}/>
-                <img className='objetivos-low-pic' src={Delivery} alt=""/>
+                <img className='objetivos-low-pic' src={MetasImage} alt=""/>
             </Grid> 
 
             <Grid item xs={2}>

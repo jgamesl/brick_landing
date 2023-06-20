@@ -1,23 +1,26 @@
 import React from 'react'
 
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import Delivery from "../Assets/delivery-image.png";
+// import PickMeals from "../Assets/pick-meals-image.png";
+// import ChooseMeals from "../Assets/choose-image.png";
+// import Delivery from "../Assets/delivery-image.png";
 export const Work = () => {
 
     const workInfoDate = [
         {
-            image: PickMeals,
+            image: '',
+            // image: PickMeals,
             title: "Pick Meals",
             text: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th",
         },
         {
-            image: ChooseMeals,
+            image: '',
+            // image: ChooseMeals,
             title: "choose How often",
             text: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th",
         },
         {
-            image: Delivery,
+            image: '',
+            // image: ChooseMeals,
             title: "Feat Delivery",
             text: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th",
         }
