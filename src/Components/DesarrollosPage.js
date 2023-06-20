@@ -3,7 +3,6 @@ import { Divider, Grid, ListItem, Typography, SvgIcon, Button, CardMedia, Card }
 import { Box, maxWidth } from '@mui/system';
 import React, { useState, useEffect } from 'react'
 import { useMediaQuery } from 'react-responsive';
-import Delivery from "../Assets/delivery-image.png";
 import DepartamentoPicture from '../Assets/departamentos-de-lujo-2.jpeg';
 import Picture01 from '../Assets/fotos_finales/HOME/02.png';
 import Picture02 from '../Assets/fotos_finales/HOME/03.png';
@@ -13,11 +12,6 @@ import Picture05 from '../Assets/fotos_finales/HOME/06.png';
 import Desarrollo2Image from '../Assets/fotos_test/desarrollo02.png';
 import CircleIcon from '@mui/icons-material/Circle';
 import DesarrolloImage from "../Assets/Icons/Home/desarrollo.svg";
-import {ReactComponent as GraphIcon} from "../Assets/Icons/Home/01.svg";
-import {ReactComponent as TargetIcon} from "../Assets/Icons/Home/02.svg";
-import {ReactComponent as FocoIcon} from "../Assets/Icons/Home/03.svg";
-import {ReactComponent as HeartIcon} from "../Assets/Icons/Home/04.svg";
-import {ReactComponent as ShieldIcon} from "../Assets/Icons/Home/05.svg";
 export const DesarrollosPage = () => {
 
     const isDesktopOrLaptop = useMediaQuery({
@@ -410,7 +404,7 @@ Roof Garden
                 : <></>
         }
         {
-            isDesktopOrLaptop ? 
+            (isBigScreen || isDesktopOrLaptop) ? 
 
             <div className='color-objetivos-page'>
                 <div className='desarrollos-page-interior-first'>

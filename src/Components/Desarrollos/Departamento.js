@@ -14,15 +14,10 @@ import Picture03 from '../../Assets/PROYECTOS/01/03.png';
 import Picture04 from '../../Assets/PROYECTOS/01/04.png';
 import Picture05 from '../../Assets/PROYECTOS/01/05.png';
 import { Box } from '@mui/system';
-// import {ReactComponent as BathIcon} from "../../Assets/Icons/Desarrollos/año.svg";
-// import {ReactComponent as CuartoIcon} from "../../Assets/Icons/Desarrollos/cuarto.svg";
-// import {ReactComponent as TerrazaIcon} from "../../Assets/Icons/Desarrollos/terraza.svg";
-// import {ReactComponent as CocheraIcon} from "../../Assets/Icons/Desarrollos/cochera.svg";
 import {ReactComponent as BathIcon} from "../../Assets/iconos_mejores/30.svg";
 import {ReactComponent as CuartoIcon} from "../../Assets/iconos_mejores/27.svg";
 import {ReactComponent as TerrazaIcon} from "../../Assets/iconos_mejores/28.svg";
 import {ReactComponent as CocheraIcon} from "../../Assets/iconos_mejores/29.svg";
-import Home01 from '../../Assets/fotos_test/home01.png';
 import { useMediaQuery } from 'react-responsive';
 
 export const Departamento = () => {

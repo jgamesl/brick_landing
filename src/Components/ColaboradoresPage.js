@@ -4,11 +4,9 @@ import { Box, Divider, Grid, ListItem, SvgIcon, Typography } from '@mui/material
 import React from 'react';
 import Delivery from "../Assets/delivery-image.png";
 import { useMediaQuery } from 'react-responsive';
-import CircleIcon from '@mui/icons-material/Circle';
 import Colab1Image from "../Assets/Icons/Home/colab1.svg";
 import Colab2Image from "../Assets/Icons/Home/colab2.svg";
 import Colab3Image from "../Assets/Icons/Home/colab3.svg";
-import {ReactComponent as StarIcon} from "../Assets/Icons/Home/estrella.svg";
 import {ReactComponent as StarIcon2} from "../Assets/iconos_mejores/19.svg";
 
 export const ColaboradoresPage = () => {

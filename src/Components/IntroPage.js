@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import MediaQuery from 'react-responsive';
-import { Navbar } from './Navbar';
-import Delivery from "../Assets/delivery-image.png";
 import BrickLogo from "../Assets/Icons/Home/isotipo.svg";
 import Patron1 from "../Assets/Icons/Home/patron.svg";
 import Patron2 from "../Assets/Icons/Home/patron2.svg";

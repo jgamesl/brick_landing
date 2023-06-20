@@ -1,8 +1,6 @@
 import { Button, Card, CardMedia, Divider, ListItem, SvgIcon, Typography } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import React from 'react';
-import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
-import DepartamentoPicture from '../../Assets/departamentos-de-lujo-2.jpeg';
 import MesaTrabajoPicture from '../../Assets/fotos_test/Mesa_de_trabajo_101.png';
 import MesaTrabajo2Picture from '../../Assets/fotos_test/Mesa_de_trabajo_102.png';
 import Desarrollo1 from '../../Assets/fotos_test/desarrollo01.png';
@@ -23,7 +21,6 @@ import {ReactComponent as BathIcon} from "../../Assets/iconos_mejores/30.svg";
 import {ReactComponent as CuartoIcon} from "../../Assets/iconos_mejores/27.svg";
 import {ReactComponent as TerrazaIcon} from "../../Assets/iconos_mejores/28.svg";
 import {ReactComponent as CocheraIcon} from "../../Assets/iconos_mejores/29.svg";
-import Home01 from '../../Assets/fotos_test/home01.png';
 import { useMediaQuery } from 'react-responsive';
 
 export const Loft = () => {
