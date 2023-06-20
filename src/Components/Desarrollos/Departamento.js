@@ -13,9 +13,11 @@ import Desarrollo3 from '../../Assets/PROYECTOS/01/02.png';
 import HeaderPicture from '../../Assets/PROYECTOS/01/header.png';
 import Picture01 from '../../Assets/PROYECTOS/01/01.png';
 import Picture02 from '../../Assets/PROYECTOS/01/02.png';
-import Picture03 from '../../Assets/PROYECTOS/01/03.png';
+//import Picture03 from '../../Assets/PROYECTOS/01/03.png'; large size
+import Picture03 from '../../Assets/PROYECTOS/01/02.png';
 import Picture04 from '../../Assets/PROYECTOS/01/04.png';
-import Picture05 from '../../Assets/PROYECTOS/01/05.png';
+import Picture05 from '../../Assets/PROYECTOS/01/02.png';
+// import Picture05 from '../../Assets/PROYECTOS/01/05.png'; large size
 import { Box } from '@mui/system';
 import {ReactComponent as BathIcon} from "../../Assets/iconos_mejores/30.svg";
 import {ReactComponent as CuartoIcon} from "../../Assets/iconos_mejores/27.svg";

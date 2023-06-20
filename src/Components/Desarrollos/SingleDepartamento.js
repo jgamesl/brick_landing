@@ -14,8 +14,10 @@ import Desarrollo3 from '../../Assets/PROYECTOS/04/02.png';
 import HeaderPicture from '../../Assets/PROYECTOS/01/header.png';
 import Picture01 from '../../Assets/PROYECTOS/04/01.png';
 import Picture02 from '../../Assets/PROYECTOS/04/02.png';
-import Picture03 from '../../Assets/PROYECTOS/04/03.png';
-import Picture04 from '../../Assets/PROYECTOS/04/04.png';
+import Picture03 from '../../Assets/PROYECTOS/04/02.png';
+import Picture04 from '../../Assets/PROYECTOS/04/02.png';
+// import Picture03 from '../../Assets/PROYECTOS/04/03.png'; large size
+// import Picture04 from '../../Assets/PROYECTOS/04/04.png'; large size
 // import Picture05 from '../../Assets/PROYECTOS/04/05.png';
 import { Box } from '@mui/system';
 // import {ReactComponent as BathIcon} from "../../Assets/Icons/Desarrollos/año.svg";

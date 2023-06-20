@@ -14,7 +14,8 @@ import Picture01 from '../../Assets/PROYECTOS/03/01.png';
 import Picture02 from '../../Assets/PROYECTOS/03/02.png';
 import Picture03 from '../../Assets/PROYECTOS/03/03.png';
 import Picture04 from '../../Assets/PROYECTOS/03/04.png';
-import Picture05 from '../../Assets/PROYECTOS/03/05.png';
+import Picture05 from '../../Assets/PROYECTOS/03/04.png';
+// import Picture05 from '../../Assets/PROYECTOS/03/05.png'; large size
 import Picture06 from '../../Assets/PROYECTOS/03/06.png';
 import { Box } from '@mui/system';
 // import {ReactComponent as BathIcon} from "../../Assets/Icons/Desarrollos/año.svg";
