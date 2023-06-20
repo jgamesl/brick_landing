@@ -284,11 +284,11 @@ export const FirstSection = () => {
                                         </Grid>
                                     </Grid>
                                 </Grid>
-                                {/* <Departamento />
+                                <Departamento />
                                 <TownHouse />
                                 <Loft />
                                 <SingleDepartamento />
-                                <RoofGarden /> */}
+                                <RoofGarden />
                                 <Grid container spacing={2}>
                                     <Grid item xs={12}>
                                         <Box height={40} />
