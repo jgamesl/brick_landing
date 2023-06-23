@@ -46,7 +46,7 @@ export const Loft = () => {
                 ?       
                     <>
                         <Grid spacing={2} container>
-                        <Grid item xs={12}>
+                            <Grid item xs={12}>
                                 <Box height={100} />
                                 <ListItem disablePadding>
 
