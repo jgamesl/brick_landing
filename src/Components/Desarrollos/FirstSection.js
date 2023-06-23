@@ -132,8 +132,11 @@ export const FirstSection = () => {
                                     </Grid>
                                 </Grid>
                                 <Departamento />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <TownHouse />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <Loft />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <SingleDepartamento />
                                 <RoofGarden />
                                 <Grid container>

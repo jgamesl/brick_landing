@@ -49,12 +49,10 @@ export const TownHouse = () => {
                     <>
                         <Grid spacing={2} container>
                             <Grid item xs={12}>
-                                <img className='first-picture-desarrollo-detail' src={HeaderPicture} alt=""/>
-                                <Box height={30} />
                             </Grid>
-                            <Grid item xs={6}>
-
-                                <ListItem>
+                            <Grid item xs={12}>
+                                <Box height={100} />
+                                <ListItem disablePadding>
 
                                     <Button 
                                         variant="contained" 
@@ -62,196 +60,183 @@ export const TownHouse = () => {
                                             backgroundColor: '#f8bd00', 
                                             borderRadius: '50px', 
                                             fontSize: '16pt',
-                                            fontFamily: 'GilamRegular',
-                                            width: '100%'
+                                            fontFamily: 'GilamRegular'
                                         }} 
                                         disableElevation>
-                                            LP #34
+                                            LP #33
                                     </Button>
                                 </ListItem>
+                                <Box height={40} />
+                                <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    Para obtener más información sobre esta
+                                    residencia, por favor envíanos un mensaje
+                                    y con gusto te contactaremos. 
+                                </Typography>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                <Box height={10} />
+                                <Grid container >
+                                    <Grid item xs={6}>
+                                        <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                            55.8000.3735
+                                        </Typography>
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                        <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                            +52 56 39661468
+                                        </Typography>
+                                    </Grid>
+                                </Grid>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                <Box height={10} />
+                                <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    hola@brickinmuebles.com.mx
+                                </Typography>
+                                <Box height={10} />
                             </Grid>
-                            <Grid item xs={6}>
-                                
-                                <Typography sx={{lineHeight: '1.1', textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                    Cda monet 33
-                                </Typography>
-                                <Typography sx={{lineHeight: '1.1', textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                    Gran residencial 43983
-                                </Typography>
-                                <Typography sx={{lineHeight: '1.1', textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
-                                    CDMX
-                                </Typography>
-                            </Grid>
+
                             <Grid item xs={12}>
-                                <Box height={30} />
-                                
-                            </Grid>
-                            <Grid item xs={6}>
-                                <ListItem display="flex" justifyContent="space-between">
+                                <ListItem sx={{p:0, m:0}}>
                                     <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
-                                        DEPTO 01
+                                        TOWN HOUSE 
                                     </Typography>
                                 </ListItem>
-                            </Grid>
-                            <Grid display="flex" item xs={6}>
-                                <ListItem sx={{justifyContent: 'end'}}>
+                                {/* <ListItem sx={{p:0, m:0}}>
+                                    <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                         TERRAZA
+                                    </Typography>
+                                </ListItem> */}
+                                <ListItem sx={{p:0, m:0, justifyContent: 'end'}} display="flex" justifyContent='flex-end'>
                                     <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
-                                        04828
+                                        RESIDENCIA 2
                                     </Typography>
                                 </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+
+                                <ListItem sx={{pl: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
+                                    Esta residencia está dividida en
+                                    dos niveles y tiene 106m²
+                                    interiores que conectan con dos
+                                    terrazas privadas de 40m² en
+                                    total. Disfrutarás de 3 amplias
+                                    recámaras, 3 baños completos,
+                                    estancia con conexión a la
+                                    terraza, y cocina con isla.
+                                    Además, la terraza de la planta
+                                    baja tiene jardinería montada e
+                                    iluminada. 
+                                </ListItem>
                             </Grid>
-                            <Grid item xs={12}>
-                                {/* <ListItem> */}
-                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                {/* </ListItem> */}
-                                <Box height={20} />
-                                <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
-                                    Lorem ipsum dolor sit amet,
+                            
 
-                                        conctetuer adipiscing elit volut-
-                                        pat. Hendrerit in vulputate velit
-
-                                        esse Ut wisi enim. Hendrerit in
-                                        vulputate velit esse Ut wisi enim
-                                        Hendrerit in vulputate velit esse.
-                                    </ListItem>
-                                <Box height={20} />
-                                
-                                <img className='second-picture-desarrollo-detail-mobile' src={MesaTrabajoPicture} alt=""/>
-                            </Grid>
-
-                            <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={6}>
+                            <img className='second-picture-desarrollo-detail-a' src={Picture01} alt=""/>
+                            <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={12}>
                                 <ListItem>
                                     DETALLES
                                 </ListItem>
                             </Grid>
-                            <Grid sx={{mt:'50px'}} item xs={12}>
-                                {/* <ListItem>
-                                    DETALLES
-                                </ListItem> */}
+                            {/* <Grid sx={{mt:'50px'}} item xs={12}>
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <img className='second-picture-desarrollo-detail-a' src={Desarrollo1} alt=""/>
                                 <Box height={20} />
-                            </Grid>
+                            </Grid> */}
 
                             <Grid sx={{mt:'15px'}} xs={3}>
 
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             </Grid>
-                            <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt'}} display="flex" justifyContent="flex-start" xs={9}>
-                                Lorem ipsum sit dolor amet consectetur wea la yesyes test
+                            <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', textAlign: 'left'}} display="flex" justifyContent="flex-start" xs={9}>
+                                El departamento está
+                                diseñado para poder
+                                ventilar de forma
+                                cruzada, lo que permite
+                                una temperatura fresca
+                                y evita estancamiento
+                                de olores.
                             </Grid>
                             
                             <Box height={40} />
                             <Grid item xs={12}>
-                                <ListItem>
-                                    <img className='second-picture-desarrollo-detail-a' src={Desarrollo1} alt=""/>
+                                
+                                <img className='second-picture-desarrollo-detail' src={Picture02} alt=""/>
+                                <Box height={10} />
+
+                                <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
+                                    PLANTA BAJA
                                 </ListItem>
                             </Grid>
                             <Box height={40} />
                             <Grid item xs={12}>
-                                <ListItem>
-                                    <img className='second-picture-desarrollo-detail-mobil-a' src={MesaTrabajo2Picture} alt=""/>
-                                </ListItem>
+                                <img className='second-picture-desarrollo-detail' src={Picture03} alt=""/>
+                                    <Box height={10} />
+                                    <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
+                                        PLANTA ALTA
+                                    </ListItem>
                             </Grid>
                             <Box height={40} />
-                            <Grid item xs={12}>
-                                <ListItem>
-                                    <img className='second-picture-desarrollo-detail-a' src={Desarrollo3} alt=""/>
-                                </ListItem>
-                            </Grid>
+                                <Grid item xs={12}>
+                                    <img className='second-picture-desarrollo-detail' src={Picture04} alt=""/>
+                                </Grid>
+
+                                <Grid item xs={12}>
+                                    <img className='second-picture-desarrollo-detail' src={Picture05} alt=""/>
+                                </Grid>
 
                         </Grid>
-                        <Grid container>
-                            <Grid display="flex" justifyContent="flex-end" item xs={3}>
-                                <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', alignItems: 'end'}}>
-                                    01
-                                </ListItem>
+                        {/* <Grid container spacing={2}>
+
+                            <Box height={100} />
+                        </Grid> */}
+                        <Grid container spacing={2}>
+                            <Grid item xs={12}>
+
+                            {/* <Box height={30} /> */}
+                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', mt:10}}>
+                                            146M2
+                                        </ListItem>
                             </Grid>
-                            <Grid container xs={9}>
-                                <Grid item xs={12}>
+                        </Grid>
+                        
+                        <Grid container spacing={2}>
+                            <Grid item xs={3}></Grid>
+                            <Grid item xs={9}>
+                                    <Box height={10} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                </Grid>
-                                
-                                <Grid item xs={3}>
                                     <ListItem>
                                         <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
                                         <Box sx={{width:12}}/>
-                                    </ListItem>
-                                </Grid>
-
-                                <Grid item xs={8}>
-                                    <ListItem>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            DOS CUARTOS
+                                            3 RECÁMARAS
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
-                                
-                                </Grid>
-                                <Grid item xs={12}>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                </Grid>
-                                
-                                <Grid item xs={3}>
-                                    <ListItem>
+
+                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
                                         <Box sx={{width:12}}/>
-                                    </ListItem>
-                                </Grid>
-
-                                <Grid item xs={8}>
-                                    <ListItem>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            DOS BAÑOS
+                                            3 BAÑOS
                                         </Typography>
-                                        {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
-                                
-                                </Grid>
-                                <Grid item xs={12}>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                </Grid>
-                                
-                                <Grid item xs={3}>
-                                    <ListItem>
+                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'8px'}} component={TerrazaIcon} />
                                         <Box sx={{width:12}}/>
-                                    </ListItem>
-                                </Grid>
-
-                                <Grid item xs={8}>
-                                    <ListItem>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            DOS TERRAZA
+                                            TERRAZA
                                         </Typography>
-                                        {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
-                                
-                                </Grid>
-                                <Grid item xs={12}>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                </Grid>
-                                
-                                <Grid item xs={3}>
-                                    <ListItem>
-                                        <SvgIcon sx={{mt:'8px'}} component={CocheraIcon} />
-                                        <Box sx={{width:12}}/>
-                                    </ListItem>
-                                </Grid>
 
-                                <Grid item xs={8}>
-                                    <ListItem>
+                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                        <Box sx={{width:22}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            COCHERA
+                                            2 CAJONES
                                         </Typography>
-                                        {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
-                                
-                                </Grid>
-                                <Grid item xs={12}>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                </Grid>
                             </Grid>
                         </Grid>
                         <Grid container>

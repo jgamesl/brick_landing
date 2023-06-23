@@ -8,7 +8,7 @@ export const DesarrollosDetailsPage = () => {
     <>
       <Navbar />
       <FirstSection />
-      {/* <FileSection /> */}
+      <FileSection />
     </>
   )
 }

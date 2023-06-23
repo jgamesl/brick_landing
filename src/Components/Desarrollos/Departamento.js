@@ -47,7 +47,7 @@ export const Departamento = () => {
                                 <img className='first-picture-desarrollo-detail' src={HeaderPicture} alt=""/>
                                 <Box height={30} />
                             </Grid>
-                            <Grid item xs={6}>
+                            {/* <Grid item xs={6}>
 
                                 <ListItem>
 
@@ -67,7 +67,7 @@ export const Departamento = () => {
                             </Grid>
                             <Grid item xs={6}>
                                 
-                                {/* <Typography sx={{lineHeight: '1.1', textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                <Typography sx={{lineHeight: '1.1', textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
                                     Cda monet 33
                                 </Typography>
                                 <Typography sx={{lineHeight: '1.1', textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
@@ -75,8 +75,8 @@ export const Departamento = () => {
                                 </Typography>
                                 <Typography sx={{lineHeight: '1.1', textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
                                     CDMX
-                                </Typography> */}
-                            </Grid>
+                                </Typography>
+                            </Grid> */}
                             <Grid item xs={12}>
                                 <Box height={30} />
                                 
@@ -94,7 +94,7 @@ export const Departamento = () => {
                                                 fontFamily: 'GilamRegular'
                                             }} 
                                             disableElevation>
-                                                LP #34
+                                                LP #33
                                         </Button>
                                     </ListItem>
                                     <Box height={40} />
@@ -193,7 +193,7 @@ export const Departamento = () => {
                                 </ListItem>
                             </Grid>
                             
-                            <img className='second-picture-desarrollo-detail-a' src={Picture04} alt=""/>
+                            <img className='second-picture-desarrollo-detail-a' src={Picture05} alt=""/>
 
                         </Grid>
                         <Grid container>
