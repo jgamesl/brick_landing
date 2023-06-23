@@ -4,12 +4,12 @@ import { Box, maxWidth } from '@mui/system';
 import React, { useState, useEffect } from 'react'
 import { useMediaQuery } from 'react-responsive';
 import DepartamentoPicture from '../Assets/departamentos-de-lujo-2.jpeg';
-import Picture01 from '../Assets/fotos_finales/HOME/02.png';
-import Picture02 from '../Assets/fotos_finales/HOME/03.png';
-import Picture03 from '../Assets/fotos_finales/HOME/04.png';
-import Picture04 from '../Assets/fotos_finales/HOME/05.png';
-import Picture05 from '../Assets/fotos_finales/HOME/06.png';
-import Desarrollo2Image from '../Assets/fotos_finales/HOME/06.png';
+import Picture01 from '../Assets/fotos_finales/HOME/02.jpg';
+import Picture02 from '../Assets/fotos_finales/HOME/03.jpg';
+import Picture03 from '../Assets/fotos_finales/HOME/04.jpg';
+import Picture04 from '../Assets/fotos_finales/HOME/05.jpg';
+import Picture05 from '../Assets/fotos_finales/HOME/06.jpg';
+import Desarrollo2Image from '../Assets/fotos_finales/HOME/06.jpg';
 // import Desarrollo2Image from '../Assets/fotos_test/desarrollo02.png';
 import CircleIcon from '@mui/icons-material/Circle';
 import DesarrolloImage from "../Assets/Icons/Home/desarrollo.svg";

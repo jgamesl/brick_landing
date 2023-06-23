@@ -40,7 +40,7 @@ export const FirstSection = () => {
                     <>
 
                         <div className='color-objetivos-page'>
-                            <div className='desarrollos-page-interior'>
+                            <div className='desarrollos-page-interior-mobile'>
                                 <Grid container>
                                     <Grid item xs={6}>
                                     <Box sx={{mt: 5}}> 
@@ -90,7 +90,7 @@ export const FirstSection = () => {
                                 </Grid>
                                 <Grid container>
                                     <Grid item xs={4}>
-                                        <ListItem>
+                                        <ListItem sx={{pl: 0}}>
                                             <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
                                                 <Typography sx={{ fontSize: '16pt'}}>
                                                     LP #33
@@ -118,14 +118,14 @@ export const FirstSection = () => {
                                     </Grid>
                                     <Grid xs={12}>
                                         <Box height={50} />
-                                        <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
+                                        <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt', pl: 0}}>
                                             Espacios amplios, terrazas privadas y abundante
                                             vegetación definen nuestros departamentos. Disfruta
                                             de un estilo de vida al aire libre en nuestras
                                             residencias. 
                                         </ListItem>
                                         <Box height={50} />
-                                        <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt'}}>
+                                        <ListItem sx={{fontFamily: 'HelveticaLight', fontSize: '24pt', pl: 0}}>
                                             Habita un oasis urbano donde el confort y la
                                             naturaleza se unen en perfecta armonía.
                                         </ListItem>

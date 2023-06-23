@@ -646,12 +646,12 @@ nav{
 }
 .color-intro-page {
   /* background-color: #e8e8e8; */
-  background-image: url('./Assets/fotos_finales/HOME/01.png');
+  background-image: url('./Assets/fotos_finales/HOME/01.jpg');
   background-size: cover;
 }
 .color-intro-page-mobile {
   /* background-color: #e8e8e8; */
-  background-image: url('./Assets/fotos_finales/HOME/01.png');
+  background-image: url('./Assets/fotos_finales/HOME/01.jpg');
   /* background-size: cover; */
   /* background-position: center; */
   background-position: top 50% right 50%;
@@ -882,6 +882,19 @@ nav{
 
   padding-left: 5%;
   padding-right: 5%;
+  /* margin-top: 5%; */
+  padding-top: 5%;
+  /* height: 165vh; */
+  height: 1400px;
+  background-color: #fceeea ;
+  align-items: center;
+  /* margin-top: 10rem; */
+  text-align: center;
+}
+.desarrollos-page-interior-mobile{
+
+  /* padding-left: 5%;
+  padding-right: 5%; */
   /* margin-top: 5%; */
   padding-top: 5%;
   /* height: 165vh; */

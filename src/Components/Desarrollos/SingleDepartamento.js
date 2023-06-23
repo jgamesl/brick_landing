@@ -5,17 +5,17 @@ import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
 import DepartamentoPicture from '../../Assets/departamentos-de-lujo-2.jpeg';
 // import MesaTrabajoPicture from '../../Assets/fotos_test/Mesa_de_trabajo_101.png';
 // import MesaTrabajo2Picture from '../../Assets/fotos_test/Mesa_de_trabajo_102.png';
-import MesaTrabajoPicture from '../../Assets/PROYECTOS/04/01.png';
-import MesaTrabajo2Picture from '../../Assets/PROYECTOS/04/02.png';
+import MesaTrabajoPicture from '../../Assets/PROYECTOS/04/01.jpg';
+import MesaTrabajo2Picture from '../../Assets/PROYECTOS/04/02.jpg';
 // import Desarrollo1 from '../../Assets/fotos_test/desarrollo01.png';
 // import Desarrollo3 from '../../Assets/fotos_test/desarrollo03.png';
-import Desarrollo1 from '../../Assets/PROYECTOS/04/01.png';
-import Desarrollo3 from '../../Assets/PROYECTOS/04/02.png';
-import HeaderPicture from '../../Assets/PROYECTOS/01/header.png';
-import Picture01 from '../../Assets/PROYECTOS/04/01.png';
-import Picture02 from '../../Assets/PROYECTOS/04/02.png';
-import Picture03 from '../../Assets/PROYECTOS/04/02.png';
-import Picture04 from '../../Assets/PROYECTOS/04/02.png';
+import Desarrollo1 from '../../Assets/PROYECTOS/04/01.jpg';
+import Desarrollo3 from '../../Assets/PROYECTOS/04/02.jpg';
+import HeaderPicture from '../../Assets/PROYECTOS/01/header.jpg';
+import Picture01 from '../../Assets/PROYECTOS/04/01.jpg';
+import Picture02 from '../../Assets/PROYECTOS/04/02.jpg';
+import Picture03 from '../../Assets/PROYECTOS/04/03.jpg';
+import Picture04 from '../../Assets/PROYECTOS/04/04.jpg';
 // import Picture03 from '../../Assets/PROYECTOS/04/03.png'; large size
 // import Picture04 from '../../Assets/PROYECTOS/04/04.png'; large size
 // import Picture05 from '../../Assets/PROYECTOS/04/05.png';
