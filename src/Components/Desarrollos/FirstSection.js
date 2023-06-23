@@ -132,6 +132,10 @@ export const FirstSection = () => {
                                     </Grid>
                                 </Grid>
                                 <Departamento />
+                                <TownHouse />
+                                <Loft />
+                                <SingleDepartamento />
+                                <RoofGarden />
                                 <Grid container>
 
                                     <Grid item xs={6}>

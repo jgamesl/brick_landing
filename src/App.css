@@ -891,19 +891,6 @@ nav{
   /* margin-top: 10rem; */
   text-align: center;
 }
-.desarrollos-page-interior-mobile{
-
-  /* padding-left: 5%;
-  padding-right: 5%; */
-  /* margin-top: 5%; */
-  padding-top: 5%;
-  /* height: 165vh; */
-  height: 1400px;
-  background-color: #fceeea ;
-  align-items: center;
-  /* margin-top: 10rem; */
-  text-align: center;
-}
 .desarrollos-page-interior-mobile-first{
 
   padding-left: 5%;
@@ -924,7 +911,7 @@ nav{
   /* margin-top: 5%; */
   padding-top: 5%;
   /* height: 165vh; */
-  height: 3450px;
+  height: 100%;
   background-color: #fceeea;
   align-items: center;
   /* margin-top: 10rem; */
