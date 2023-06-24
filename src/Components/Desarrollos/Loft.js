@@ -322,7 +322,27 @@ export const Loft = () => {
                             </Grid> */}
                             <Grid container spacing={4}>
                                 <Grid item xs={7}>
+                                <Box >
+                                    <ListItem>
 
+                                    <p className='overlay-terraza'>03.</p>
+                                    
+                                    <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                    </ListItem>
+                                </Box>
+                                {/* <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={Picture01} title="" alt="Yes"/> 
+                                            <Box style={{position: "absolute", top: 30, left: '3%'}}>
+                                                <ListItem>
+
+                                                <p className='overlay-terraza'>03.</p>
+                                                
+                                                <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                                </ListItem>
+                                            </Box>
+                                        </div>
+                                    </Card> */}
                                     <img className='second-picture-desarrollo-detail-a' src={Picture01} alt=""/>
                                 </Grid>
                                 <Grid item xs={5}>
@@ -383,7 +403,7 @@ export const Loft = () => {
 
                                     <Box height={100}>
                                         <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
-                                            87M2
+                                            87M²
                                         </ListItem>
                                     </Box>
                                     <Box height={10} />

@@ -53,13 +53,13 @@ export const Navbar = (props) => {
 
   return (
     <nav className={`basic-padding-navbar ${sticky ? 'sticky' : ''}` }>
-      <Grid className="navbar-links-container" container spacing={2}>
+      <Grid className="navbar-links-container" container>
 
-        <Grid item xs={4}>
+        <Grid sx={{pt: 0}} item xs={4}>
           <img className="nav-logo" src={BrickText} alt="" />
         </Grid>
-        <Grid item xs={4}>
-          <ListItem>
+        <Grid sx={{pt: 0}} disablePadding item xs={4}>
+          <ListItem >
             <Link color="black" underline="hover" onClick={() => {
               funcTrigger('know')
             }}>
@@ -81,8 +81,8 @@ export const Navbar = (props) => {
             </Link>
           </ListItem>
         </Grid>
-        <Grid display="flex" justifyContent="flex-end" sx={{justifyContent: 'end'}} item xs={4}>
-          <Button sx={{borderRadius: 8}} className='nav-bar-btn' variant="contained" startIcon={<SvgIcon sx={{mt:'8px'}} component={CorreoIcon} />}>
+        <Grid  display="flex" justifyContent="flex-end" sx={{justifyContent: 'end', pt:0}} item xs={4} sm={4}>
+          <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40}} className='nav-bar-btn' variant="contained" startIcon={<SvgIcon sx={{mt:'8px'}} component={CorreoIcon} />}>
             Contacto.
           </Button>
         </Grid>

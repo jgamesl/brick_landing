@@ -326,6 +326,17 @@ export const SingleDepartamento = () => {
                             <Grid container xs={12}>
                                 <Grid item xs={3}>
 
+                                    <Box >
+                                        <ListItem>
+
+                                        <p className='overlay-terraza'>04.</p>
+                                        
+                                        </ListItem>
+                                        <ListItem>
+                                        
+                                        <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                        </ListItem>
+                                    </Box>
                                 </Grid>
                                 <Grid item xs={9}>
                                     <img className='second-picture-desarrollo-detail' src={Picture01} alt=""/>
@@ -373,7 +384,7 @@ export const SingleDepartamento = () => {
                                 <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
                                     <Box height={100}>
                                         <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00'}}>
-                                            97M2
+                                            97M²
                                         </ListItem>
                                     </Box>
                                 </Grid>

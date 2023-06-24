@@ -193,7 +193,7 @@ export const TownHouse = () => {
 
                             {/* <Box height={30} /> */}
                             <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
-                                146M2
+                                146M²
                             </ListItem>
                             </Grid>
                         </Grid>
@@ -335,7 +335,21 @@ export const TownHouse = () => {
                             </Grid> */}
                             <Grid container spacing={2} xs={12}>
                                 <Grid item xs={7}>
-                                    <img className='second-picture-desarrollo-detail-a' src={Picture01} alt=""/>
+
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={Picture01} title="" alt="Yes"/> 
+                                            <Box style={{position: "absolute", top: 30, left: '3%'}}>
+                                                <ListItem>
+
+                                                <p className='overlay-terraza'>02.</p>
+                                                
+                                                <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                                </ListItem>
+                                            </Box>
+                                        </div>
+                                    </Card>
+                                    {/* <img className='second-picture-desarrollo-detail-a' src={Picture01} alt=""/> */}
                                 </Grid>
                                 <Grid container xs={5}>
                                     <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={3}>
@@ -399,7 +413,7 @@ export const TownHouse = () => {
 
                                     <Box height={100}>
                                         <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
-                                            146M2
+                                            146M²
                                         </ListItem>
                                     </Box>
                                     <Box height={10} />

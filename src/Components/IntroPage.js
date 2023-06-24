@@ -170,7 +170,6 @@ export const IntroPage = (props) => {
             <img style={{marginBottom: '-400px'}} src={Patron1} alt=""/>
             </Grid>
             <Grid item xs={4}>
-                
                 <img className='intro-page-logo' src={BrickLogo} alt=""/>
                 <Box height={10} />
                 <p className='intro-page-center-text'> 
@@ -184,9 +183,11 @@ export const IntroPage = (props) => {
                         CDMX
                 </p>
             <Box height={15} />
-            <Button sx={{borderRadius: 8}} onClick={() => {navigate('/desarrollos')}} className='nav-bar-btn' variant="contained" endIcon={<ArrowForwardIosIcon />}>
+            <Button sx={{borderRadius: 8}} onClick={() => {navigate('/desarrollos')}} className='nav-bar-btn-desa' variant="contained" endIcon={<ArrowForwardIosIcon />}>
                 VER DESARROLLOS
             </Button>
+                
+                <Box height={150} />
 
             </Grid>
             <Grid item xs={4}>

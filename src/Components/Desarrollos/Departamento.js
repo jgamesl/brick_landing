@@ -329,7 +329,9 @@ export const Departamento = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
-                                                fontFamily: 'GilamRegular'
+                                                fontFamily: 'GilamRegular',
+                                                width: '40%',
+                                                textAlign: 'left'
                                             }} 
                                             disableElevation>
                                                 LP #34
@@ -392,7 +394,21 @@ export const Departamento = () => {
                                 </Grid>
                             </Grid>
                             <Grid container xs={12}>
-                                <img className='second-picture-desarrollo-detail' src={Picture01} alt=""/>
+
+                            <Card>
+                                <div style={{ position: "relative" }}>
+                                    <CardMedia component="img" image={Picture01} title="" alt="Yes"/> 
+                                    <Box style={{position: "absolute", top: 30, right: '8%'}}>
+                                        <ListItem>
+
+                                        <p className='overlay-terraza'>01.</p>
+                                        
+                                        <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                        </ListItem>
+                                    </Box>
+                                </div>
+                            </Card>
+                                {/* <img className='second-picture-desarrollo-detail' src={Picture01} alt=""/> */}
                             </Grid>
                             <Grid container spacing={2} xs={12}>
                                 <Grid item xs={5}>
@@ -414,7 +430,7 @@ export const Departamento = () => {
 
                                             <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                         </Grid>
-                                        <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt'}} display="flex" justifyContent="flex-start" xs={10}>
+                                        <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', textAlign: 'left'}} display="flex" justifyContent="flex-start" xs={10}>
                                             El departamento está diseñado para poder ventilar
                                             de forma cruzada, lo que permite una temperatura
                                             fresca y evita estancamiento de olores.
@@ -436,7 +452,7 @@ export const Departamento = () => {
                                 <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
                                     <Box height={100}>
                                         <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00'}}>
-                                            97M2
+                                            97M²
                                         </ListItem>
                                     </Box>
                                 </Grid>
@@ -446,7 +462,7 @@ export const Departamento = () => {
                                         <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
                                         <Box sx={{width:12}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            DOS RECÁMARAS
+                                            2 RECÁMARAS
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
@@ -456,7 +472,7 @@ export const Departamento = () => {
                                         <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
                                         <Box sx={{width:12}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            DOS BAÑOS
+                                            2 BAÑOS
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>

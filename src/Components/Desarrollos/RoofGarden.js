@@ -287,7 +287,7 @@ export const RoofGarden = () => {
                                     
                                     <Box height={100} />
                                     <Grid display="flex" justifyContent="space-between">
-                                        <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                        <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt', textAlign: 'left'}}>
                                             DEPARTAMENTO CON
                                             ROOF GARDEN
                                         </Typography>
@@ -322,7 +322,21 @@ export const RoofGarden = () => {
                                     </ListItem>
                                 </Grid>
                                 <Grid item xs={7}>
-                                    <img className='second-picture-desarrollo-detail-a' src={Picture02} alt=""/>
+
+                                    <Card>
+                                        <div style={{ position: "relative" }}>
+                                            <CardMedia component="img" image={Picture02} title="" alt="Yes"/> 
+                                            <Box style={{position: "absolute", top: 0, left: '3%'}}>
+                                                <ListItem xs={{pt:0}}>
+
+                                                <p className='overlay-terraza'>05.</p>
+                                                
+                                                <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                                </ListItem>
+                                            </Box>
+                                        </div>
+                                    </Card>
+                                    {/* <img className='second-picture-desarrollo-detail-a' src={Picture02} alt=""/> */}
                                 </Grid>
                                 <Grid item xs={12}>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
@@ -356,7 +370,7 @@ export const RoofGarden = () => {
 
                                     <Box height={100}>
                                         <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
-                                            125M2
+                                            125M²
                                         </ListItem>
                                     </Box>
                                     <Box height={10} />

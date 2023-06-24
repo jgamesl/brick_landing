@@ -32,7 +32,7 @@ export const BlogPage = () => {
                             </Grid>
                             <Grid item xs={6}>
 
-                                <Button className='nav-bar-btn' variant="contained" sx={{color: '#ce7a23', borderColor: '#ce7a23',orderRadius: 8}} startIcon={<InstagramIcon />}>
+                                <Button className='nav-bar-btn' variant="contained" sx={{color: '#ce7a23', backgroundColor: '#ce7a23', borderColor: '#ce7a23',orderRadius: 8}} startIcon={<InstagramIcon />}>
                                     Instagram.
                                 </Button>
                             </Grid> 
@@ -137,7 +137,7 @@ export const BlogPage = () => {
                 </Grid>
                 <Grid item xs={2}>
 
-                    <Button className='nav-bar-btn' variant="contained" sx={{color: '#ce7a23', borderColor: '#ce7a23',orderRadius: 8}} startIcon={<InstagramIcon />}>
+                    <Button className='nav-bar-btn' variant="contained" sx={{color: '#ce7a23',backgroundColor: '#ce7a23', borderColor: '#ce7a23',orderRadius: 8}} startIcon={<InstagramIcon />}>
                         Instagram.
                     </Button>
                 </Grid> 

@@ -342,7 +342,7 @@ export const KnowBrick = () => {
                             
                         <img className='first-section-know-pic' src={ConoceImage} alt=""/>
                         </Grid>
-                        <Grid item xs={12}>
+                        <Grid item xs={10}>
 
                             <img className='logo-stars' src={LogoStars} alt=""/>
                         </Grid>
@@ -384,7 +384,7 @@ export const KnowBrick = () => {
 
                 <Box height={20} />
                 <Grid className='' container spacing={1}>
-                    <Grid container item xs={5}>
+                    <Grid container item xs={3}>
                         <ListItem sx={{ml:0, pl:0}}>
 
                             <p className='first-section-know-brick first-section-left-text'>
@@ -395,13 +395,14 @@ export const KnowBrick = () => {
                         <Box height={80} />
                         <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                     </Grid>
+                    <Grid item xs={2}></Grid>
                     <Grid container item xs={7}>
 
                         <img className='metas-section-know-pic' src={MetasIcon} alt=""/>
                     </Grid>
                 </Grid>
                 <Grid className='' container spacing={1}>
-                    <Grid item xs={4}>
+                    <Grid item xs={3}>
                         <Box height={47.3} />
 
                         <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
@@ -415,6 +416,7 @@ export const KnowBrick = () => {
 
                         <img className='logo-second' src={SecondKnowBricPicture} alt=""/>
                     </Grid>
+                    <Grid item xs={1}></Grid>
                     <Grid item xs={1}></Grid>
                     <Grid item xs={7}>
 

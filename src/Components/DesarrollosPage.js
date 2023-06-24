@@ -545,7 +545,8 @@ naturaleza se unen en perfecta armonía.
                                     backgroundColor: '#f8bd00', 
                                     borderRadius: '50px', 
                                     fontSize: '30pt',
-                                    fontFamily: 'GilamSemiBold'
+                                    fontFamily: 'GilamSemiBold',
+                                    color: 'black'
                                     
                                 }} 
                                 onClick={()=> {setSelectedDep(1)}}
@@ -564,11 +565,12 @@ naturaleza se unen en perfecta armonía.
                                     backgroundColor: '#f8bd00', 
                                     borderRadius: '50px', 
                                     fontSize: '30pt',
-                                    fontFamily: 'GilamSemiBold'
+                                    fontFamily: 'GilamSemiBold',
+                                    color: 'black'
                                 }} 
                                 onClick={()=> {setSelectedDep(2)}}
                                 disableElevation>
-                                    SR #34
+                                    SR #29
                             </Button>
                         </ListItem>
                         <Box height={10} />
