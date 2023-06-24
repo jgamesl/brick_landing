@@ -46,7 +46,7 @@ export const Loft = () => {
                 ?       
                     <>
                         <Grid spacing={2} container>
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <Box height={100} />
                                 <ListItem disablePadding>
 
@@ -92,7 +92,7 @@ export const Loft = () => {
                                 <Box height={10} />
                             </Grid>
 
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <ListItem sx={{p:0, m:0}}>
                                     <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
                                         LOFT
@@ -130,7 +130,7 @@ export const Loft = () => {
                             <img className='second-picture-desarrollo-detail-a' src={Picture02} alt=""/>
                             <Box height={10} />
 
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 
                                 <img className='second-picture-desarrollo-detail' src={Picture03} alt=""/>
                                 <Box height={10} />
@@ -140,7 +140,7 @@ export const Loft = () => {
                                 </ListItem>
                             </Grid>
                             <Box height={40} />
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <img className='second-picture-desarrollo-detail' src={Picture04} alt=""/>
                                     <Box height={10} />
                                     <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt', justifyContent: 'center'}}>
@@ -150,7 +150,7 @@ export const Loft = () => {
                             <Grid item xs={12}>
                                 <img className='second-picture-desarrollo-detail' src={Picture05} alt=""/>
                             </Grid>
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <img className='second-picture-desarrollo-detail' src={Picture06} alt=""/>
                             </Grid>
 
@@ -169,7 +169,7 @@ export const Loft = () => {
 
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             </Grid>
-                            <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', textAlign: 'left'}} display="flex" justifyContent="flex-start" xs={12}>
+                            <Grid className='padding-mobile' sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', textAlign: 'left'}} display="flex" justifyContent="flex-start" xs={12}>
                                 El departamento está diseñado
                                 para poder ventilar de forma
                                 cruzada, lo que permite una
@@ -178,17 +178,17 @@ export const Loft = () => {
                             </Grid>
 
                         </Grid>
-                        <Grid container spacing={2}>
+                        <Grid className='padding-mobile' container spacing={2}>
                             <Grid item xs={12}>
 
                             {/* <Box height={30} /> */}
-                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', mt:10}}>
-                                            87M²
-                                        </ListItem>
+                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                                87M²
+                            </ListItem>
                             </Grid>
                         </Grid>
                         
-                        <Grid container spacing={2}>
+                        <Grid className='padding-mobile' container spacing={2}>
                             <Grid item xs={3}></Grid>
                             <Grid item xs={9}>
                                     <Box height={10} />
@@ -382,7 +382,7 @@ export const Loft = () => {
                                 <Grid item xs={3}>    
 
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', mt:10}}>
+                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                             87M2
                                         </ListItem>
                                     </Box>

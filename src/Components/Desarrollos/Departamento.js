@@ -45,7 +45,7 @@ export const Departamento = () => {
                         <Grid spacing={2} container>
                             <Grid item xs={12}>
                                 <img className='first-picture-desarrollo-detail' src={HeaderPicture} alt=""/>
-                                <Box height={30} />
+                                {/* <Box height={30} /> */}
                             </Grid>
                             {/* <Grid item xs={6}>
 
@@ -81,9 +81,9 @@ export const Departamento = () => {
                                 <Box height={30} />
                                 
                             </Grid>
-                                <Grid item xs={12}>
-                                    <Box height={100} />
-                                    <ListItem disablePadding>
+                                <Grid className='padding-mobile' item xs={12}>
+                                    {/* <Box height={100} /> */}
+                                    <ListItem>
 
                                         <Button 
                                             variant="contained" 
@@ -98,15 +98,15 @@ export const Departamento = () => {
                                         </Button>
                                     </ListItem>
                                     <Box height={40} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    <Typography  sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
                                         Para obtener más información sobre esta
                                         residencia, por favor envíanos un mensaje
                                         y con gusto te contactaremos. 
                                     </Typography>
                                     <Box height={10} />
-                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                    <Divider className='padding-mobile' sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
-                                    <Grid container >
+                                    <Grid className='padding-mobile' container >
                                         <Grid item xs={6}>
                                             <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
                                                55.8000.3735
@@ -127,7 +127,7 @@ export const Departamento = () => {
                                     <Box height={10} />
                                 </Grid>
 
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <ListItem sx={{p:0, m:0}}>
                                     <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
                                         DEPARTAMENTO 
@@ -154,7 +154,7 @@ export const Departamento = () => {
                                 </ListItem>
                             </Grid>
                             
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 
                                 <img className='second-picture-desarrollo-detail-mobile' src={Picture01} alt=""/>
                             </Grid>
@@ -168,7 +168,7 @@ export const Departamento = () => {
                                     DETALLES
                                 </ListItem>
                             </Grid>
-                            <Grid sx={{mt:8, fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={6}>
+                            <Grid className='padding-mobile' sx={{mt:8, fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={6}>
 
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             </Grid>
@@ -181,11 +181,11 @@ export const Departamento = () => {
                                 <Box height={20} />
                             </Grid>
 
-                            <Grid sx={{mt:'15px'}} xs={3}>
+                            <Grid className='padding-mobile' sx={{mt:'15px'}} xs={3}>
 
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             </Grid>
-                            <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt'}} display="flex" justifyContent="flex-start" xs={12}>
+                            <Grid className='padding-mobile' sx={{fontFamily: 'HelveticaLight', fontSize: '20pt'}} display="flex" justifyContent="flex-start" xs={12}>
                                 <ListItem sx={{pl:0}}>
                                     El departamento está diseñado para poder ventilar
                                     de forma cruzada, lo que permite una temperatura
@@ -196,10 +196,10 @@ export const Departamento = () => {
                             <img className='second-picture-desarrollo-detail-a' src={Picture05} alt=""/>
 
                         </Grid>
-                        <Grid container>
+                        <Grid className='padding-mobile' container>
                             <Grid sx={{position: 'relative'}} item xs={6}>
 
-                                <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', alignItems: 'end', position: 'absolute', bottom: 0}}>
+                                <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', alignItems: 'end', position: 'absolute', bottom: 0}}>
                                     97M²
                                 </ListItem>
                             </Grid>
@@ -209,9 +209,9 @@ export const Departamento = () => {
                             </Grid>
                         </Grid>
                                 <Box height={10} />
-                        <Grid container>
+                        <Grid className='padding-mobile' container>
                             {/* <Grid display="flex" justifyContent="flex-end" item xs={3}>
-                                <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', alignItems: 'end'}}>
+                                <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', alignItems: 'end'}}>
                                     01
                                 </ListItem>
                             </Grid> */}
@@ -435,7 +435,7 @@ export const Departamento = () => {
                             <Grid container spacing={2}>
                                 <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23'}}>
+                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00'}}>
                                             97M2
                                         </ListItem>
                                     </Box>

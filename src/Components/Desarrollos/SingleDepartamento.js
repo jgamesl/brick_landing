@@ -49,7 +49,7 @@ export const SingleDepartamento = () => {
                 ?       
                     <>
                         <Grid spacing={2} container>
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <Box height={100} />
                                 <ListItem disablePadding>
 
@@ -95,7 +95,7 @@ export const SingleDepartamento = () => {
                                 <Box height={10} />
                             </Grid>
 
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <ListItem sx={{p:0, m:0}}>
                                     <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
                                         DEPARTAMENTO 
@@ -128,7 +128,17 @@ export const SingleDepartamento = () => {
                                 </ListItem>
                             </Grid>
 
+                            <Grid className='padding-mobile' item xs={12}>
+                                <ListItem>
+                                    <img className='second-picture-desarrollo-detail-a' src={Picture01} alt=""/>
+                                </ListItem>
+                            </Grid>
 
+                            <Grid className='padding-mobile' item xs={12}>
+                                <ListItem>
+                                    <img className='second-picture-desarrollo-detail-a' src={Picture02} alt=""/>
+                                </ListItem>
+                            </Grid>
                             <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={6}>
                                 <ListItem>
                                     DETALLES
@@ -144,7 +154,7 @@ export const SingleDepartamento = () => {
 
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             </Grid>
-                            <Grid sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', textAlign: 'left'}} display="flex" justifyContent="flex-start" xs={12}>
+                            <Grid className='padding-mobile' sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', textAlign: 'left'}} display="flex" justifyContent="flex-start" xs={12}>
                                 El departamento está diseñado
                                 para poder ventilar de forma
                                 cruzada, lo que permite una
@@ -159,7 +169,7 @@ export const SingleDepartamento = () => {
                                 </ListItem>
                             </Grid>
                             <Grid item xs={12}>
-                                <ListItem>
+                                <ListItem disablePadding>
                                     <img className='second-picture-desarrollo-detail-a' src={Picture04} alt=""/>
                                 </ListItem>
                             </Grid>
@@ -177,17 +187,17 @@ export const SingleDepartamento = () => {
                             </Grid> */}
 
                         </Grid>
-                        <Grid container spacing={2}>
+                        <Grid className='padding-mobile' container spacing={2}>
                             <Grid item xs={12}>
 
                             {/* <Box height={30} /> */}
-                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', mt:10}}>
-                                            87M²
-                                        </ListItem>
+                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                                87M²
+                            </ListItem>
                             </Grid>
                         </Grid>
                         
-                        <Grid container spacing={2}>
+                        <Grid className='padding-mobile' container spacing={2}>
                             <Grid item xs={3}></Grid>
                             <Grid item xs={9}>
                                     <Box height={10} />
@@ -362,7 +372,7 @@ export const SingleDepartamento = () => {
                             <Grid container spacing={2}>
                                 <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23'}}>
+                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00'}}>
                                             97M2
                                         </ListItem>
                                     </Box>

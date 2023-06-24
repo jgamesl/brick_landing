@@ -51,7 +51,8 @@ export const RoofGarden = () => {
                 ?       
                     <>
                         <Grid spacing={2} container>
-                        <Grid item xs={12}>
+                        <Grid className='padding-mobile' item xs={12}>
+                            <Box height={20} />
                                 <ListItem disablePadding>
 
                                     <Button 
@@ -96,7 +97,7 @@ export const RoofGarden = () => {
                                 <Box height={10} />
                             </Grid>
 
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile'  item xs={12}>
                                 <ListItem sx={{p:0, m:0}}>
                                     <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
                                         DEPARTAMENTO 
@@ -137,12 +138,12 @@ export const RoofGarden = () => {
                             </Grid>
                             <Box height={40} />
                             <Grid item xs={12}>
-                                <ListItem>
+                                <ListItem disablePadding>
                                     <img className='second-picture-desarrollo-detail-a' src={Picture02} alt=""/>
                                 </ListItem>
                             </Grid>
 
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <img className='second-picture-desarrollo-detail' src={Picture01} alt=""/>
                                 <Box height={10} />
 
@@ -150,7 +151,7 @@ export const RoofGarden = () => {
                                     PLANTA BAJA
                                 </ListItem>
                             </Grid>
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 <img className='second-picture-desarrollo-detail' src={Picture03} alt=""/>
                                 <Box height={10} />
 
@@ -174,9 +175,9 @@ export const RoofGarden = () => {
                             <Grid item xs={12}>
 
                             {/* <Box height={30} /> */}
-                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', mt:10}}>
-                                            125M²
-                                        </ListItem>
+                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                                125M²
+                            </ListItem>
                             </Grid>
                             <Grid item xs={3}></Grid>
                             <Grid item xs={9}>
@@ -354,7 +355,7 @@ export const RoofGarden = () => {
                                 <Grid item xs={3}>    
 
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#ce7a23', mt:10}}>
+                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                             125M2
                                         </ListItem>
                                     </Box>

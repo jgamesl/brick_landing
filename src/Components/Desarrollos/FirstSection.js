@@ -7,7 +7,8 @@ import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
 
 import { useMediaQuery } from 'react-responsive';
 // import MasDesarrolloPicture from '../../Assets/fotos_test/mas_desarrollos.png';
-import MasDesarrolloPicture from "../../Assets/Icons/Home/desarrollo.svg";
+// import MasDesarrolloPicture from "../../Assets/Icons/Home/desarrollo.svg";
+import HeaderPicture from '../../Assets/PROYECTOS/01/header.jpg';
 import {ReactComponent as VerIcon} from "../../Assets/Icons/Desarrollos/ver.svg";
 import { Box } from '@mui/system';
 import { Departamento } from './Departamento';
@@ -55,10 +56,10 @@ export const FirstSection = () => {
                                         </Box>
                                     </Grid>
                                 </Grid>
-                                <Grid container>
+                                <Grid className='padding-mobile' container>
                                     <Grid item xs={6}>
                                                 
-                                        <ListItem sx={{paddingLeft: '0px'}} className='desarrollos-section-left-text second-section-objetivos'>
+                                        <ListItem padding-mobile sx={{paddingLeft: '0px'}} className='desarrollos-section-left-text second-section-objetivos'>
                                                 DESA
                                         </ListItem>
 
@@ -68,13 +69,13 @@ export const FirstSection = () => {
                                         <ListItem sx={{paddingLeft: '0px'}} className='objetivos-section-left-text '>
                                                 LLOS.
                                         </ListItem>
-                                    </Grid>
+                                    </Grid> 
                                     <Grid display="flex" justifyContent="flex-start" item xs={6}>
 
                                         <img className='first-section-know-pic' src={DesarrolloImage} alt=""/>
                                     </Grid>
                                 </Grid>
-                                <Grid container>
+                                <Grid className='padding-mobile'  container>
                                     <Grid item xs={12}>
 
                                     <Box height={40} />
@@ -88,7 +89,7 @@ export const FirstSection = () => {
                                         <Box height={50} />
                                     </Grid>
                                 </Grid>
-                                <Grid container>
+                                <Grid className='padding-mobile' container>
                                     <Grid item xs={4}>
                                         <ListItem sx={{pl: 0}}>
                                             <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
@@ -140,6 +141,7 @@ export const FirstSection = () => {
                                 <SingleDepartamento />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <RoofGarden />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <Grid container>
 
                                     <Grid item xs={6}>
@@ -169,7 +171,7 @@ export const FirstSection = () => {
                                         <Box sx={{ml:3, mr:3}}>
                                             <Card>
                                                 <div style={{ position: "relative" }}>
-                                                    <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                    <CardMedia component="img" image={HeaderPicture} title="" alt="Yes"/> 
                                                     <div style={{position: "absolute", left: "15%", top: 10,transform: "translateX(-50%)",}}>
                                                         
 
@@ -182,7 +184,7 @@ export const FirstSection = () => {
                                         <Box sx={{ml:3, mr:3}}>
                                             <Card>
                                                 <div style={{ position: "relative" }}>
-                                                    <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                    <CardMedia component="img" image={HeaderPicture} title="" alt="Yes"/> 
                                                     <div style={{position: "absolute", left: "15%", top: 10,transform: "translateX(-50%)",}}>
                                                         
 
@@ -195,7 +197,7 @@ export const FirstSection = () => {
                                         <Box sx={{ml:3, mr:3}}>
                                             <Card>
                                                 <div style={{ position: "relative" }}>
-                                                    <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                    <CardMedia component="img" image={HeaderPicture} title="" alt="Yes"/> 
                                                     <div style={{position: "absolute", left: "15%", top: 10,transform: "translateX(-50%)",}}>
                                                         
 
@@ -324,7 +326,7 @@ export const FirstSection = () => {
                                     <Grid item xs={3}>
                                         <Card sx={{maxWidth: '95%'}}>
                                             <div style={{ position: "relative" }}>
-                                                <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                <CardMedia component="img" image={HeaderPicture} title="" alt="Yes"/> 
                                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                                     <ListItem>
 
@@ -337,7 +339,7 @@ export const FirstSection = () => {
                                     <Grid item xs={3}>
                                         <Card sx={{maxWidth: '95%'}}>
                                             <div style={{ position: "relative" }}>
-                                                <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                <CardMedia component="img" image={HeaderPicture} title="" alt="Yes"/> 
                                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                                     <ListItem>
 
@@ -350,7 +352,7 @@ export const FirstSection = () => {
                                     <Grid item xs={3}>
                                         <Card sx={{maxWidth: '95%'}}>
                                             <div style={{ position: "relative" }}>
-                                                <CardMedia component="img" image={MasDesarrolloPicture} title="" alt="Yes"/> 
+                                                <CardMedia component="img" image={HeaderPicture} title="" alt="Yes"/> 
                                                 <div style={{position: "absolute", left: "35%", top: 10,transform: "translateX(-50%)",}}>
                                                     <ListItem>
 

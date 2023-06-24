@@ -906,8 +906,8 @@ nav{
 }
 .desarrollos-page-interior-mobile{
 
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-left: 5%;
+  padding-right: 5%; */
   /* margin-top: 5%; */
   padding-top: 5%;
   /* height: 165vh; */
@@ -916,6 +916,12 @@ nav{
   align-items: center;
   /* margin-top: 10rem; */
   text-align: center;
+}
+.padding-mobile{
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  /* margin-left: 5%;
+  margin-right: 5%; */
 }
 .desarrollos-page-interior{
 
