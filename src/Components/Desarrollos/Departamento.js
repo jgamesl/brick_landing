@@ -16,7 +16,7 @@ import Picture02 from '../../Assets/PROYECTOS/01/02.jpg';
 //import Picture03 from '../../Assets/PROYECTOS/01/03.jpg'; large size
 import Picture03 from '../../Assets/PROYECTOS/01/03.jpg';
 import Picture04 from '../../Assets/PROYECTOS/01/04.jpg';
-import Picture05 from '../../Assets/PROYECTOS/01/02.jpg';
+import Picture05 from '../../Assets/PROYECTOS/01/05.jpg';
 // import Picture05 from '../../Assets/PROYECTOS/01/05.jpg'; large size
 import { Box } from '@mui/system';
 import {ReactComponent as BathIcon} from "../../Assets/iconos_mejores/30.svg";
@@ -45,6 +45,10 @@ export const Departamento = () => {
                         <Grid spacing={2} container>
                             <Grid item xs={12}>
                                 <img className='first-picture-desarrollo-detail' src={HeaderPicture} alt=""/>
+                                
+                                <Typography  sx={{textAlign: 'right', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    Fotografía Exterior
+                                </Typography>
                                 {/* <Box height={30} /> */}
                             </Grid>
                             {/* <Grid item xs={6}>
@@ -83,7 +87,7 @@ export const Departamento = () => {
                             </Grid>
                                 <Grid className='padding-mobile' item xs={12}>
                                     {/* <Box height={100} /> */}
-                                    <ListItem>
+                                    <ListItem sx={{pl: 0}}>
 
                                         <Button 
                                             variant="contained" 
@@ -91,7 +95,9 @@ export const Departamento = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
-                                                fontFamily: 'GilamRegular'
+                                                fontFamily: 'GilamRegular',
+                                                width: '40%',
+                                                color: 'black'
                                             }} 
                                             disableElevation>
                                                 LP #33
@@ -107,12 +113,12 @@ export const Departamento = () => {
                                     <Divider className='padding-mobile' sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
                                     <Grid className='padding-mobile' container >
-                                        <Grid item xs={6}>
+                                        <Grid item xs={5}>
                                             <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
                                                55.8000.3735
                                             </Typography>
                                         </Grid>
-                                        <Grid item xs={6}>
+                                        <Grid item xs={7}>
                                             <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
                                                 +52 56 39661468
                                             </Typography>
@@ -156,9 +162,15 @@ export const Departamento = () => {
                             
                             <Grid className='padding-mobile' item xs={12}>
                                 
-                                <img className='second-picture-desarrollo-detail-mobile' src={Picture01} alt=""/>
+                                <ListItem>
+
+                                    <p className='overlay-terraza'>01.</p>
+
+                                    <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                </ListItem>
+                                <img className='first-picture-desarrollo-detail-mobile' src={Picture01} alt=""/>
                             </Grid>
-                            <Grid item xs={12}>
+                            <Grid className='padding-mobile' item xs={12}>
                                 
                                 <img className='second-picture-desarrollo-detail-mobile' src={Picture02} alt=""/>
                             </Grid>
@@ -177,7 +189,7 @@ export const Departamento = () => {
                                     DETALLES
                                 </ListItem> */}
                                 {/* <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/> */}
-                                <img className='second-picture-desarrollo-detail-a' src={Picture03} alt=""/>
+                                <img className='first-picture-desarrollo-detail-mobile' src={Picture03} alt=""/>
                                 <Box height={20} />
                             </Grid>
 
@@ -192,8 +204,10 @@ export const Departamento = () => {
                                     fresca y evita estancamiento de olores.
                                 </ListItem>
                             </Grid>
-                            
-                            <img className='second-picture-desarrollo-detail-a' src={Picture05} alt=""/>
+                            <Grid item xs={12}>
+                                <img className='first-picture-desarrollo-detail-mobile' src={Picture05} alt=""/>
+                                <Box height={40} />
+                            </Grid>
 
                         </Grid>
                         <Grid className='padding-mobile' container>
@@ -222,7 +236,7 @@ export const Departamento = () => {
                                 
                                 <Grid item xs={3}>
                                     <ListItem>
-                                        <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
+                                        <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={CuartoIcon} />
                                         <Box sx={{width:12}}/>
                                     </ListItem>
                                 </Grid>
@@ -242,7 +256,7 @@ export const Departamento = () => {
                                 
                                 <Grid item xs={3}>
                                     <ListItem>
-                                        <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
+                                        <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:12}}/>
                                     </ListItem>
                                 </Grid>
@@ -262,7 +276,7 @@ export const Departamento = () => {
                                 
                                 <Grid item xs={3}>
                                     <ListItem>
-                                        <SvgIcon sx={{mt:'8px'}} component={TerrazaIcon} />
+                                        <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TerrazaIcon} />
                                         <Box sx={{width:12}}/>
                                     </ListItem>
                                 </Grid>
@@ -282,7 +296,7 @@ export const Departamento = () => {
                                 
                                 <Grid item xs={3}>
                                     <ListItem>
-                                        <SvgIcon sx={{mt:'8px'}} component={CocheraIcon} />
+                                        <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={CocheraIcon} />
                                         <Box sx={{width:12}}/>
                                     </ListItem>
                                 </Grid>
@@ -316,6 +330,9 @@ export const Departamento = () => {
                     <>
                         <Grid container xs={12}>
                                 <img className='first-picture-desarrollo-detail' src={HeaderPicture} alt=""/>
+                                <Typography  sx={{textAlign: 'right', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    Fotografía Exterior
+                                </Typography>
                             </Grid>
 
                             <Grid container xs={12}>
@@ -331,7 +348,8 @@ export const Departamento = () => {
                                                 fontSize: '16pt',
                                                 fontFamily: 'GilamRegular',
                                                 width: '40%',
-                                                textAlign: 'left'
+                                                textAlign: 'left',
+                                                color: 'black'
                                             }} 
                                             disableElevation>
                                                 LP #34
@@ -459,8 +477,8 @@ export const Departamento = () => {
                                 <Grid item xs={3}>
 
                                     <ListItem>
-                                        <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CuartoIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 RECÁMARAS
                                         </Typography>
@@ -469,8 +487,8 @@ export const Departamento = () => {
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={BathIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 BAÑOS
                                         </Typography>
@@ -480,8 +498,8 @@ export const Departamento = () => {
                                 <Grid item xs={3}>
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'8px'}} component={TerrazaIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={TerrazaIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
@@ -489,7 +507,8 @@ export const Departamento = () => {
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <Box sx={{width:22}}/>
+                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CocheraIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 CAJÓN
                                         </Typography>

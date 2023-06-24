@@ -60,7 +60,9 @@ export const TownHouse = () => {
                                             backgroundColor: '#f8bd00', 
                                             borderRadius: '50px', 
                                             fontSize: '16pt',
-                                            fontFamily: 'GilamRegular'
+                                            fontFamily: 'GilamRegular',
+                                            width: '40%',
+                                            color: 'black'
                                         }} 
                                         disableElevation>
                                             LP #33
@@ -129,8 +131,13 @@ export const TownHouse = () => {
                                 </ListItem>
                             </Grid>
                             
+                            <ListItem>
 
-                            <img className='second-picture-desarrollo-detail-a padding-mobile' src={Picture01} alt=""/>
+                            <p className='overlay-terraza'>02.</p>
+
+                            <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                            </ListItem>
+                            <img className='first-picture-desarrollo-detail-mobile padding-mobile' src={Picture01} alt=""/>
                             <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={12}>
                                 <ListItem>
                                     DETALLES
@@ -159,7 +166,7 @@ export const TownHouse = () => {
                             <Box height={40} />
                             <Grid className='padding-mobile' item xs={12}>
                                 
-                                <img className='second-picture-desarrollo-detail' src={Picture02} alt=""/>
+                                <img className='first-picture-desarrollo-detail-mobile' src={Picture02} alt=""/>
                                 <Box height={10} />
 
                                 <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
@@ -168,7 +175,7 @@ export const TownHouse = () => {
                             </Grid>
                             <Box height={40} />
                             <Grid className='padding-mobile' item xs={12}>
-                                <img className='second-picture-desarrollo-detail' src={Picture03} alt=""/>
+                                <img className='first-picture-desarrollo-detail-mobile' src={Picture03} alt=""/>
                                     <Box height={10} />
                                     <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
                                         PLANTA ALTA
@@ -176,11 +183,11 @@ export const TownHouse = () => {
                             </Grid>
                             <Box height={40} />
                                 <Grid item xs={12}>
-                                    <img className='second-picture-desarrollo-detail' src={Picture04} alt=""/>
+                                    <img className='first-picture-desarrollo-detail-mobile' src={Picture04} alt=""/>
                                 </Grid>
 
                                 <Grid item xs={12}>
-                                    <img className='second-picture-desarrollo-detail' src={Picture05} alt=""/>
+                                    <img className='first-picture-desarrollo-detail-mobile' src={Picture05} alt=""/>
                                 </Grid>
 
                         </Grid>
@@ -204,8 +211,8 @@ export const TownHouse = () => {
                                     <Box height={10} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <ListItem>
-                                        <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={CuartoIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             3 RECÁMARAS
                                         </Typography>
@@ -214,16 +221,16 @@ export const TownHouse = () => {
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={BathIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             3 BAÑOS
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'8px'}} component={TerrazaIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TerrazaIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
@@ -231,7 +238,8 @@ export const TownHouse = () => {
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <Box sx={{width:22}}/>
+                                        <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={CocheraIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 CAJONES
                                         </Typography>
@@ -418,8 +426,8 @@ export const TownHouse = () => {
                                     </Box>
                                     <Box height={10} />
                                     <ListItem>
-                                        <SvgIcon sx={{mt:'8px'}} component={CuartoIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CuartoIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             3 RECÁMARAS
                                         </Typography>
@@ -428,16 +436,16 @@ export const TownHouse = () => {
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'8px'}} component={BathIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={BathIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             3 BAÑOS
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'8px'}} component={TerrazaIcon} />
-                                        <Box sx={{width:12}}/>
+                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={TerrazaIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
@@ -445,7 +453,8 @@ export const TownHouse = () => {
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <Box sx={{width:22}}/>
+                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CocheraIcon} />
+                                        <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 CAJONES
                                         </Typography>
