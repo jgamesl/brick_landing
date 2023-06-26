@@ -6,7 +6,8 @@ import Patron1 from "../Assets/Icons/Home/patron.svg";
 import Patron2 from "../Assets/Icons/Home/patron2.svg";
 import {ReactComponent as CorreoIcon} from "../Assets/Icons/Desarrollos/contacto.svg";
 import BrickText from "../Assets/Icons/Logo/logo.svg";
-import { Box, Button, Grid, ListItem, SvgIcon, Typography } from '@mui/material';
+import { Box, Button, Grid, ListItem, SvgIcon, Typography, Drawer, Link, Divider, IconButton } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 import {ReactComponent as InstagramIcon} from "../Assets/Icons/Home/insta.svg";
 import {ReactComponent as FbIcon} from "../Assets/Icons/Home/fb.svg";
 import {ReactComponent as TwitterIcon} from "../Assets/Icons/Home/twitter.svg";
@@ -51,6 +52,8 @@ export const IntroPage = (props) => {
     setWindowHeight(windowSize.innerHeight);
     setWindowWidth(windowSize.innerWidth);
   }, [windowSize])
+
+  const [drawerOpen, setDrawerOpen] = useState(false);
   
   return (
     // <MenuIcon />
@@ -62,7 +65,95 @@ export const IntroPage = (props) => {
             ? <>
             <div className="color-intro-page-mobile">
                 <div className='intro-page-interior-mobile'>
+                    <Drawer 
+                        sx={{width: '50%'}}
+                        anchor='right'
+                        open={drawerOpen}
+                        onClose={() => setDrawerOpen(false)}
+                    >
+                        <Box sx={{width: '200px', backgroundColor: '#f8bd00', height: '100%'}}>
+                        <Grid container>
+                            <Box height={20} />
+                            <Grid sx={{pt: 0, justifyContent: 'right'}} disablePadding item xs={12}>
+                                <ListItem sx={{justifyContent: 'end'}}>
+                                    <IconButton onClick={() => setDrawerOpen(false)} aria-label="delete">
+                                        <CloseIcon />
+                                    </IconButton>
+                                </ListItem>
+                                <ListItem >
+                                    <Link color="black" underline="hover" onClick={() => {
+                                    // funcTrigger('know')
+                                    }}>
+                                    <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Conoce a Brick.</Typography>
+                                    </Link>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1, marginLeft: 2, marginRight: 1 }}/>
+                            </Grid>
+                            <Grid sx={{pt: 0, justifyContent: 'left'}} disablePadding item xs={12}>
+                                <ListItem >
+                                    <Link color="black" underline="hover" onClick={() => {
+                                    // funcTrigger('desarrollos')
+                                    }}>
+                                    <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Desarrollos.</Typography>
+                                    </Link>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1, marginLeft: 2, marginRight: 1 }}/>
+                            </Grid>
 
+                            <Grid item xs={12}>
+                                <Box height={40} />
+                                <ListItem>
+
+                                    <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40, color: '#f8bd00'}} variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
+                                        Contacto.
+                                    </Button>
+                                </ListItem>
+                                <Box height={60} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1, marginLeft: 2, marginRight: 1 }}/>
+                            </Grid>
+
+                            <Grid item xs={12}>
+                                <Box height={30} />
+                                <ListItem>
+
+                                    <p className='text-footer-size'>
+                                        55.8000.3735
+                                    </p>
+                                </ListItem>
+                                <ListItem>
+
+                                    <p className='text-footer-size'>
+                                        +52 56 39661468
+                                    </p>
+                                </ListItem>
+                                {/* <ListItem>
+                                    <p className='text-footer-size'>
+                                        Hola@brickinmuebles.com.mx
+                                    </p>
+                                </ListItem> */}
+                            </Grid>
+                            <Grid item xs={12}>
+                                <ListItem>
+
+                                    <p className='text-footer-size'>
+                                        Arcos Bosques, Paseo de los Tamarindos 400.
+                                    </p>
+                                </ListItem>
+                                <ListItem>
+                                    <p className='text-footer-size'>
+                                        Torre A, Bosques de las Lomas Cuajimalpa.
+                                    </p>
+                                </ListItem>
+                                <ListItem>
+                                    <p className='text-footer-size'>
+                                        CDMX
+                                    </p>
+                                </ListItem>
+                            </Grid>
+                        </Grid>
+                            {/* LA weaeeaa */}
+                        </Box>
+                    </Drawer>
                     <Grid container>
                         <Grid item xs={6}>
                         <Box sx={{mt: 5, ml: 5}}> 
@@ -71,7 +162,7 @@ export const IntroPage = (props) => {
                             </ListItem>
                         </Box>
                         </Grid>
-                        <Grid item xs={6} >
+                        <Grid onClick={() => setDrawerOpen(true)} item xs={6} >
                             <Box display="flex" justifyContent="flex-end">
                                 <MenuIcon sx={{height: '80px', width: '80px', mt:3, mr:3}} />
                             </Box>

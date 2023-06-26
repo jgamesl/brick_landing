@@ -65,7 +65,7 @@ export const Loft = () => {
                                     </Button>
                                 </ListItem>
                                 <Box height={40} />
-                                <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                     Para obtener más información sobre esta
                                     residencia, por favor envíanos un mensaje
                                     y con gusto te contactaremos. 
@@ -75,12 +75,12 @@ export const Loft = () => {
                                 <Box height={10} />
                                 <Grid container >
                                     <Grid item xs={6}>
-                                        <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                             55.8000.3735
                                         </Typography>
                                     </Grid>
                                     <Grid item xs={6}>
-                                        <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                             +52 56 39661468
                                         </Typography>
                                     </Grid>
@@ -88,7 +88,7 @@ export const Loft = () => {
                                 <Box height={10} />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <Box height={10} />
-                                <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                     hola@brickinmuebles.com.mx
                                 </Typography>
                                 <Box height={10} />
@@ -96,7 +96,7 @@ export const Loft = () => {
 
                             <Grid className='padding-mobile' item xs={12}>
                                 <ListItem sx={{p:0, m:0}}>
-                                    <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                    <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '30pt'}}>
                                         LOFT
                                     </Typography>
                                 </ListItem>
@@ -129,7 +129,7 @@ export const Loft = () => {
                             <ListItem>
                                 <p className='overlay-terraza'>03.</p>
                                 
-                                <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                             </ListItem>
                             <img className='first-picture-desarrollo-detail-mobile' src={Picture01} alt=""/>
                             <Box height={10} />
@@ -268,7 +268,7 @@ export const Loft = () => {
                                         </Button>
                                     </ListItem>
                                     <Box height={40} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                         Para obtener más información sobre esta
                                         residencia, por favor envíanos un mensaje
                                         y con gusto te contactaremos. 
@@ -278,12 +278,12 @@ export const Loft = () => {
                                     <Box height={10} />
                                     <Grid container >
                                         <Grid item xs={6}>
-                                            <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                            <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                                55.8000.3735
                                             </Typography>
                                         </Grid>
                                         <Grid item xs={6}>
-                                            <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                            <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                                 +52 56 39661468
                                             </Typography>
                                         </Grid>
@@ -291,7 +291,7 @@ export const Loft = () => {
                                     <Box height={10} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                         hola@brickinmuebles.com.mx
                                     </Typography>
                                     <Box height={10} />
@@ -333,7 +333,7 @@ export const Loft = () => {
                                     <ListItem>
                                         <p className='overlay-terraza'>03.</p>
                                         
-                                        <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                        <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                                     </ListItem>
                                 </Box>
                                 {/* <Card>

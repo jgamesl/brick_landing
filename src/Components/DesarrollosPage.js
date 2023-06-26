@@ -9,12 +9,14 @@ import Picture02 from '../Assets/fotos_finales/HOME/03.jpg';
 import Picture03 from '../Assets/fotos_finales/HOME/04.jpg';
 import Picture04 from '../Assets/fotos_finales/HOME/05.jpg';
 import Picture05 from '../Assets/fotos_finales/HOME/06.jpg';
+import { useNavigate } from "react-router-dom";
 import Desarrollo2Image from '../Assets/fotos_finales/HOME/06.jpg';
 // import Desarrollo2Image from '../Assets/fotos_test/desarrollo02.png';
 import CircleIcon from '@mui/icons-material/Circle';
 import DesarrolloImage from "../Assets/Icons/Home/desarrollo.svg";
 export const DesarrollosPage = () => {
 
+    const navigate = useNavigate();
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-width: 924px)'
         // query: '(min-width: 1224px)'
@@ -84,7 +86,7 @@ export const DesarrollosPage = () => {
                                         </p>
                                     </ListItem>
                                 </Grid>
-                                <Grid item xs={12}>
+                                <Grid className='padding-mobile' item xs={12}>
 
                                     <Box height={40} />
                                     <ListItem sx={{pl:0}}>
@@ -103,11 +105,11 @@ export const DesarrollosPage = () => {
                                         </Button>
                                     </ListItem>
                                 </Grid>
-                                <Grid item xs={8}>
+                                <Grid className='padding-mobile' item xs={8}>
                                     <Box height={20} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 </Grid>
-                                <Grid item xs={12}>
+                                <Grid className='padding-mobile' item xs={12}>
 
                                     <Box height={20} />
                                     <ListItem sx={{pl:0}}>
@@ -126,11 +128,12 @@ export const DesarrollosPage = () => {
                                         </Button>
                                     </ListItem>
                                 </Grid>
-                                <Grid item xs={8}>
+                                <Grid className='padding-mobile' item xs={8}>
+                                    <Box height={20} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={50} />
                                 </Grid>
-                                <Grid item xs={6}>
+                                <Grid className='padding-mobile' item xs={6}>
                                     <ListItem sx={{justifyContent:'space-between', pl:0}}>
                                         <Typography sx={{
                                             fontFamily: 'GilamSemiBold',
@@ -161,7 +164,7 @@ export const DesarrollosPage = () => {
                                         </Button>
                                     </ListItem>
                                 </Grid> */}
-                                <Grid item xs={12}>
+                                <Grid className='padding-mobile' item xs={12}>
                                     <Box height={50} />
                                     <ListItem sx={{pl:0}}>
 
@@ -209,11 +212,11 @@ unen en perfecta armonía
                                     </ListItem> */}
                                     <Box height={50} />
                                 </Grid>
-                                <Grid item xs={12}>
+                                <Grid className='padding-mobile' item xs={12}>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>  
                                 </Grid>
 
-                                <Grid item xs={12}>
+                                <Grid className='padding-mobile' item xs={12}>
                                     <Box height={30} />
                                     <Card>
                                         <div style={{ position: "relative" }}>
@@ -415,7 +418,7 @@ Roof Garden
 
                             <Grid item xs={5}>
                                 
-                                <ListItem sx={{pl:0}} className='desarrollos-section-left-text second-section-objetivos'>
+                                <ListItem sx={{pl:0}} className='helvetica-desarrollos-left second-section-objetivos'>
                                             DESA
                                     </ListItem>
 
@@ -476,8 +479,9 @@ Roof Garden
                             </Typography>
 
                             <Button 
+                                onClick={() => {navigate('/desarrollos')}}
                                 variant="contained" 
-                                sx={{backgroundColor: 'orange', borderRadius: '50px', fontSize: '18px'}} 
+                                sx={{backgroundColor: '#f8bd00', borderRadius: '50px', fontSize: '18px', color: 'black'}} 
                                 disableElevation>
                                     VER MÁS.
                             </Button>
@@ -487,21 +491,24 @@ Roof Garden
 
                                 <Typography  style={{
                                     fontFamily: 'HelveticaLight',
-                                    fontSize: '24px',
+                                    fontSize: '24pt',
                                     lineHeight: '1.2'
                                 }}>
                                     Espacios amplios, terrazas privadas y abundante  
+                                    vegetación definen nuestros departamentos. Disfruta 
+                                    de un estilo de vida al aire libre en nuestras
+                                    residencias.
                                 </Typography>
-                                <Typography style={{
+                                {/* <Typography style={{
                                     fontFamily: 'HelveticaLight',
-                                    fontSize: '24px',
+                                    fontSize: '24pt',
                                     lineHeight: '1.2'
                                 }}>
                                     vegetación definen nuestros departamentos. Disfruta 
                                 </Typography>
                                 <Typography style={{
                                     fontFamily: 'HelveticaLight',
-                                    fontSize: '24px',
+                                    fontSize: '24pt',
                                     lineHeight: '1.2'
                                 }}>
                                     de un estilo de vida al aire libre en nuestras
@@ -512,16 +519,16 @@ Roof Garden
                                     lineHeight: '1.2'
                                 }}>
                                     residencias.
-                                </Typography>
+                                </Typography> */}
                                 <Box height={30} />
 
                                 <Typography style={{
                                     fontFamily: 'HelveticaLight',
-                                    fontSize: '24px',
+                                    fontSize: '24pt',
                                     lineHeight: '1.2'
                                 }}>
                                     Habita un oasis urbano donde el confort y la
-naturaleza se unen en perfecta armonía.
+                                    naturaleza se unen en perfecta armonía.
                                 </Typography>
                             </Grid>
                         </ListItem>
@@ -578,32 +585,32 @@ naturaleza se unen en perfecta armonía.
                         <Box height={250} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                         <Box height={10} />
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt', lineHeight: 1}}>
                             Arcos Bosques 
                         </Typography>
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt', lineHeight: 1}}>
                             Paseo de los Tamarindos 400.
                         </Typography>
                         <Box height={20} />
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt', lineHeight: 1}}>
                             Torre A, Bosques de las Lomas
                             Cuajimalpa.
                         </Typography>
                         <Box height={20} />
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt', lineHeight: 1}}>
                             CDMX
                         </Typography>
                         <Box height={10} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                         <Box height={10} />
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                             55.8000.3735
                         </Typography>
                         <Box height={10} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                         <Box height={10} />
-                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                        <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                             +52 56 39661468
                         </Typography>
                         <Box height={10} />
@@ -618,12 +625,19 @@ naturaleza se unen en perfecta armonía.
                                 <Box style={{position: "absolute", top: 10}}>
                                     <ListItem>
 
-                                    <p className='title-text-image-desarrollo-over'>01.</p>
-                                    <Box width={15}/>
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica',
+                                            fontSize: '35pt',
+                                            color: '#fceeea',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            01.
+                                        </Typography>
+                                        <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
-                                            fontSize: '16px',
+                                            fontFamily: 'Helvetica',
+                                            fontSize: '16pt',
                                             color: '#fceeea',
                                             fontWeight: 'bold'
                                         }}>
@@ -631,7 +645,7 @@ naturaleza se unen en perfecta armonía.
                                             Terraza.
                                         </Typography>
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
+                                            fontFamily: 'HelveticaLight',
                                             fontSize: '16px',
                                             color: '#fceeea',
                                         }}>
@@ -649,19 +663,27 @@ naturaleza se unen en perfecta armonía.
                                 <Box style={{position: "absolute", top: 10}}>
                                     <ListItem>
 
-                                    <p className='title-text-image-desarrollo-over'>03.</p>
-                                    <Box width={15}/>
+
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica',
+                                            fontSize: '35pt',
+                                            color: '#fceeea',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            02.
+                                        </Typography>
+                                        <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
-                                            fontSize: '16px',
+                                            fontFamily: 'Helvetica',
+                                            fontSize: '16pt',
                                             color: '#fceeea',
                                             fontWeight: 'bold'
                                         }}>
                                             Loft.
                                         </Typography>
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
+                                            fontFamily: 'HelveticaLight',
                                             fontSize: '16px',
                                             color: '#fceeea',
                                         }}>
@@ -691,19 +713,26 @@ naturaleza se unen en perfecta armonía.
                                 <Box style={{position: "absolute", top: 10}}>
                                     <ListItem>
 
-                                    <p className='title-text-image-desarrollo-over'>02.</p>
-                                    <Box width={15}/>
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica',
+                                            fontSize: '35pt',
+                                            color: '#fceeea',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            03.
+                                        </Typography>
+                                        <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
-                                            fontSize: '16px',
+                                            fontFamily: 'Helvetica',
+                                            fontSize: '16pt',
                                             color: '#fceeea',
                                             fontWeight: 'bold' 
                                         }}>
                                             Town House.
                                         </Typography>
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
+                                            fontFamily: 'HelveticaLight',
                                             fontSize: '16px',
                                             color: '#fceeea',
                                         }}>
@@ -721,11 +750,18 @@ naturaleza se unen en perfecta armonía.
                                 <Box style={{position: "absolute", top: 10,}}>
                                     <ListItem>
 
-                                    <p className='title-text-image-desarrollo-over'>04.</p>
-                                    <Box width={15}/>
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica',
+                                            fontSize: '35pt',
+                                            color: '#fceeea',
+                                            fontWeight: 'bold'
+                                        }}>
+                                            04.
+                                        </Typography>
+                                        <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
+                                            fontFamily: 'Helvetica',
                                             fontSize: '16pt',
                                             color: '#fceeea',
                                             fontWeight: 'bold'
@@ -733,7 +769,7 @@ naturaleza se unen en perfecta armonía.
                                             Departamento sencillo.
                                         </Typography>
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
+                                            fontFamily: 'HelveticaLight',
                                             fontSize: '16px',
                                             color: '#fceeea',
                                         }}>
@@ -751,8 +787,8 @@ naturaleza se unen en perfecta armonía.
                                 <Box style={{position: "absolute", top: 10,}}>
                                     <ListItem>
 
-                                    <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
+                                        <Typography sx={{
+                                            fontFamily: 'Helvetica',
                                             fontSize: '35pt',
                                             color: '#fceeea',
                                             fontWeight: 'bold'
@@ -763,7 +799,7 @@ naturaleza se unen en perfecta armonía.
                                     <Box width={15}/>
                                     <div> 
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
+                                            fontFamily: 'Helvetica',
                                             fontSize: '16pt',
                                             color: '#fceeea',
                                             fontWeight: 'bold'
@@ -771,7 +807,7 @@ naturaleza se unen en perfecta armonía.
                                             Departamento con Roof Garden
                                         </Typography>
                                         <Typography sx={{
-                                            fontFamily: 'Helvetica Light',
+                                            fontFamily: 'HelveticaLight',
                                             fontSize: '16px',
                                             color: '#fceeea',
                                         }}>

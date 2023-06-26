@@ -32,7 +32,7 @@ export const ColaboradoresPage = () => {
                             <Grid display="flex" justifyContent="flex-start"  item xs={12}>
 
                                 <ListItem>
-                                    <SvgIcon sx={{mb:3}} component={StarIcon2} />
+                                    <SvgIcon sx={{mb:3, overflow: 'visible'}} component={StarIcon2} />
                                     <Box sx={{width:40}}/>
                                     {/* <Box sx={{width:4}}/> */}
                                     <p className='helvetica-objetivos-left'>Trabajamos con empresas expertas en su campo para cada
@@ -108,7 +108,7 @@ equipo y en la excelencia de nuestras alianzas. </p>
 
                 </Grid>
                 <Grid item xs={1}>
-                    <SvgIcon sx={{mt:'8px'}} component={StarIcon2} />
+                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={StarIcon2} />
                 </Grid>
                 <Grid item xs={6}>
 

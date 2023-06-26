@@ -114,7 +114,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 80px;
+  height: 80px;
 }
 .navbar-menu-container {
   display: none;
@@ -629,7 +629,7 @@ nav {
 nav.sticky {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 80;
 }
 .intro-page-interior-mobile {
   /* padding-top: 5%; */
@@ -647,11 +647,15 @@ nav{
   transition: 0.3s;
 }
 .basic-padding-navbar {
-
+  position: relative;
+  z-index: 80;
   padding-left: 5%;
   padding-right: 5%;
   position: "fixed";
   background-color: #f8bd00;
+  border-bottom: 1px solid;
+  border-color: black;
+  height: 65px;
   /* opacity: 0.8; */
 }
 .color-intro-page {
@@ -968,12 +972,12 @@ nav{
   text-align: center;
 }
 .title-text-image-desarrollo-over {
-  font-family: 'Helvetica Light';
+  font-family: 'HelveticaBold';
   font-size: 35pt;
   color: #fceeea;
 }
 .overlay-terraza {
-  font-family: 'Helvetica Light';
+  font-family: 'GilamSemiBold';
   font-size: 80pt;
   color: #f8bd00;
 }

@@ -6,6 +6,10 @@ import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import Desarrollo2 from "../Assets/fotos_finales/HOME/01.jpg";
 import Desarrollo3 from "../Assets/fotos_finales/HOME/01.jpg";
+import Picture01 from '../Assets/blog_pictures/pic1.png';
+import Picture02 from '../Assets/blog_pictures/pic2.png';
+import Picture03 from '../Assets/blog_pictures/pic3.png';
+import Picture04 from '../Assets/blog_pictures/pic4.png';
 import CircleIcon from '@mui/icons-material/Circle';
 
 export const BlogPage = () => {
@@ -42,9 +46,9 @@ export const BlogPage = () => {
                         <Divider sx={{ backgroundColor: '#ce7a23', borderBottomWidth: 1 }}/>
                         <Box height={10}/>
                         <Grid container spacing={2}>
-                            <Grid item xs={12}>
-                                <img className='blog-pic-mobile' src={Desarrollo2} alt=""/>
-                                <ListItem>
+                            <Grid onClick={() => {window.location.href = 'https://www.instagram.com/p/Ct432J2Oyvx/';}}  item xs={12}>
+                                <img className='blog-pic-mobile' src={Picture01} alt=""/>
+                                {/* <ListItem>
                                     <Grid container>
                                         <Grid item xs={3}>
                                             <p className='blog-number-main-name'>01.</p>
@@ -56,13 +60,12 @@ export const BlogPage = () => {
                                         </Grid>
                                     </Grid>
                                     <Box sx={{height:40}}/>
-                                    {/* <Box sx={{width:4}}/> */}
-                                </ListItem>
+                                </ListItem> */}
                                 <Box height={20} />
 
-                                <Grid item xs={12}>
-                                    <img className='blog-pic-mobile' src={Desarrollo3} alt=""/>
-                                    <ListItem>
+                                <Grid onClick={() => {window.location.href = 'https://www.instagram.com/p/CtuUsPkuDqi/';}} item xs={12}>
+                                    <img className='blog-pic-mobile' src={Picture02} alt=""/>
+                                    {/* <ListItem>
                                         <Grid container>
                                             <Grid item xs={3}>
                                                 <p className='blog-number-main-name'>02.</p>
@@ -74,14 +77,13 @@ export const BlogPage = () => {
                                             </Grid>
                                         </Grid>
                                         <Box sx={{width:40}}/>
-                                        {/* <Box sx={{width:4}}/> */}
-                                    </ListItem>
+                                    </ListItem> */}
                                 </Grid>
                                 <Box height={20} />
 
-                                <Grid item xs={12}>
-                                    <img className='blog-pic-mobile' src={Desarrollo2} alt=""/>
-                                    <ListItem>
+                                <Grid onClick={() => {window.location.href = 'https://www.instagram.com/p/CszvWQKu-HB/';}} item xs={12}>
+                                    <img className='blog-pic-mobile' src={Picture03} alt=""/>
+                                    {/* <ListItem>
                                         <Grid container>
                                             <Grid item xs={3}>
                                                 <p className='blog-number-main-name'>03.</p>
@@ -93,14 +95,13 @@ export const BlogPage = () => {
                                             </Grid>
                                         </Grid>
                                         <Box sx={{width:40}}/>
-                                        {/* <Box sx={{width:4}}/> */}
-                                    </ListItem>
+                                    </ListItem> */}
                                 </Grid>
                                 <Box height={20} />
 
-                                <Grid item xs={12}>
-                                    <img className='blog-pic-mobile' src={Desarrollo2} alt=""/>
-                                    <ListItem>
+                                <Grid onClick={() => {window.location.href = 'https://www.instagram.com/p/CsAPXVwuNhZ/';}}  item xs={12}>
+                                    <img className='blog-pic-mobile' src={Picture04} alt=""/>
+                                    {/* <ListItem>
                                         <Grid container>
                                             <Grid item xs={3}>
                                                 <p className='blog-number-main-name'>04.</p>
@@ -112,8 +113,7 @@ export const BlogPage = () => {
                                             </Grid>
                                         </Grid>
                                         <Box sx={{width:40}}/>
-                                        {/* <Box sx={{width:4}}/> */}
-                                    </ListItem>
+                                    </ListItem> */}
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -148,9 +148,9 @@ export const BlogPage = () => {
             <Box height={10}/>
 
             <Grid container spacing={2}>
-                <Grid item xs={3}>
-                    <img className='blog-pic' src={Desarrollo2} alt=""/>
-                    <ListItem>
+                <Grid onClick={() => {window.location.href = 'https://www.instagram.com/p/Ct432J2Oyvx/';}} item xs={3}>
+                    <img className='blog-pic' src={Picture01} alt=""/>
+                    {/* <ListItem onClick={() => { console.log('https://www.instagram.com/p/Ct432J2Oyvx/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA==')}}>
                         <Grid container>
                             <Grid item xs={5}>
                                 <p className='blog-number-main-name'>01.</p>
@@ -162,12 +162,11 @@ export const BlogPage = () => {
                             </Grid>
                         </Grid>
                         <Box sx={{width:40}}/>
-                        {/* <Box sx={{width:4}}/> */}
-                    </ListItem>
+                    </ListItem> */}
                 </Grid>
-                <Grid item xs={3}>
-                    <img className='blog-pic' src={Desarrollo3} alt=""/>
-                    <ListItem>
+                <Grid onClick={() => {window.location.href = 'https://www.instagram.com/p/CtuUsPkuDqi/';}}  item xs={3}>
+                    <img className='blog-pic' src={Picture02} alt=""/>
+                    {/* <ListItem>
                         <Grid container>
                             <Grid item xs={5}>
                                 <p className='blog-number-main-name'>02.</p>
@@ -179,13 +178,12 @@ export const BlogPage = () => {
                             </Grid>
                         </Grid>
                         <Box sx={{width:40}}/>
-                        {/* <Box sx={{width:4}}/> */}
-                    </ListItem>
+                    </ListItem> */}
                 </Grid>
-                <Grid item xs={3}>
-                    <img className='blog-pic' src={Desarrollo2} alt=""/>
+                <Grid onClick={() => {window.location.href = 'https://www.instagram.com/p/CszvWQKu-HB/';}}  item xs={3}>
+                    <img className='blog-pic' src={Picture03} alt=""/>
                     
-                    <ListItem>
+                    {/* <ListItem>
                         <Grid container>
                             <Grid item xs={5}>
                                 <p className='blog-number-main-name'>03.</p>
@@ -197,13 +195,12 @@ export const BlogPage = () => {
                             </Grid>
                         </Grid>
                         <Box sx={{width:40}}/>
-                        {/* <Box sx={{width:4}}/> */}
-                    </ListItem>
+                    </ListItem> */}
                 </Grid>
-                <Grid item xs={3}>
-                    <img className='blog-pic' src={Desarrollo2} alt=""/>
+                <Grid onClick={() => {window.location.href ='https://www.instagram.com/p/CsAPXVwuNhZ/';}}  item xs={3}>
+                    <img className='blog-pic' src={Picture04} alt=""/>
                     
-                    <ListItem>
+                    {/* <ListItem>
                         <Grid container>
                             <Grid item xs={5}>
                                 <p className='blog-number-main-name'>04.</p>
@@ -215,8 +212,7 @@ export const BlogPage = () => {
                             </Grid>
                         </Grid>
                         <Box sx={{width:40}}/>
-                        {/* <Box sx={{width:4}}/> */}
-                    </ListItem>
+                    </ListItem> */}
                 </Grid>
             </Grid>
 

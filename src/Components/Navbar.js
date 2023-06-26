@@ -20,7 +20,7 @@ export const Navbar = (props) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setSticky(window.scrollY > 200);
+      setSticky(window.scrollY > 20);
 
       console.log(window.scrollY);
     }
@@ -58,14 +58,24 @@ export const Navbar = (props) => {
         <Grid sx={{pt: 0}} item xs={4}>
           <img className="nav-logo" src={BrickText} alt="" />
         </Grid>
-        <Grid sx={{pt: 0}} disablePadding item xs={4}>
+        <Grid sx={{pt: 0, justifyContent: 'right'}} disablePadding item xs={2}>
           <ListItem >
             <Link color="black" underline="hover" onClick={() => {
               funcTrigger('know')
             }}>
-              <Typography>Conoce a Brick.</Typography>
+              <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Conoce a Brick.</Typography>
             </Link>
-            <Box width={50} />
+            {/* <Link color="black" underline="hover" onClick={() => {
+              funcTrigger('goals')
+            }}>
+            <Typography>Objetivos.</Typography>
+            </Link>
+            <Box width={50} /> */}
+
+          </ListItem>
+        </Grid>
+        <Grid sx={{pt: 0, justifyContent: 'left'}} disablePadding item xs={2}>
+          <ListItem >
 
             {/* <Link color="black" underline="hover" onClick={() => {
               funcTrigger('goals')
@@ -77,12 +87,12 @@ export const Navbar = (props) => {
             <Link color="black" underline="hover" onClick={() => {
               funcTrigger('desarrollos')
             }}>
-            <Typography>Desarrollos.</Typography>
+            <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Desarrollos.</Typography>
             </Link>
           </ListItem>
         </Grid>
         <Grid  display="flex" justifyContent="flex-end" sx={{justifyContent: 'end', pt:0}} item xs={4} sm={4}>
-          <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40}} className='nav-bar-btn' variant="contained" startIcon={<SvgIcon sx={{mt:'8px'}} component={CorreoIcon} />}>
+          <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40, color: '#f8bd00'}} variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
             Contacto.
           </Button>
         </Grid>

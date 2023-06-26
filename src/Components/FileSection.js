@@ -79,8 +79,8 @@ export const FileSection = (props) => {
                                     <ListItem sx={{paddingLeft: '0px'}}>
 
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -91,8 +91,8 @@ export const FileSection = (props) => {
                                     <ListItem sx={{paddingLeft: '0px'}}>
 
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -104,9 +104,9 @@ export const FileSection = (props) => {
                                     <ListItem sx={{paddingLeft: '0px'}}>
 
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
-                                            lineHeight: '0.6',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
+                                            lineHeight: '1',
                                             color: '#f8bd00'
                                         }}>
                                             +52 56 39661468
@@ -115,8 +115,8 @@ export const FileSection = (props) => {
                                     <Box height={50} />
                                     <ListItem sx={{paddingLeft: '0px'}} onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}}> 
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -125,8 +125,8 @@ export const FileSection = (props) => {
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -142,8 +142,8 @@ export const FileSection = (props) => {
 
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -152,8 +152,8 @@ export const FileSection = (props) => {
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -162,8 +162,8 @@ export const FileSection = (props) => {
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -183,8 +183,8 @@ export const FileSection = (props) => {
                                             <Typography
                                             
                                             sx={{
-                                                fontFamily: 'GilamSemiBold',
-                                                fontSize: '16px',
+                                                fontFamily: 'HelveticaLight',
+                                                fontSize: '16pt',
                                                 lineHeight: '0.6',
                                                 color: '#f8bd00'
                                             }}>
@@ -192,7 +192,7 @@ export const FileSection = (props) => {
                                             </Typography>
                                         </Link>
                                     </ListItem>
-                                    <ListItem sx={{paddingLeft: '0px'}}>
+                                    {/* <ListItem sx={{paddingLeft: '0px'}}>
                                         <Link underline="hover" onClick={() => {
                                             console.log('click');
                                         funcTrigger('goals')
@@ -200,15 +200,15 @@ export const FileSection = (props) => {
                                             <Typography
                                             
                                             sx={{
-                                                fontFamily: 'GilamSemiBold',
-                                                fontSize: '16px',
+                                                fontFamily: 'HelveticaLight',
+                                                fontSize: '16pt',
                                                 lineHeight: '0.6',
                                                 color: '#f8bd00'
                                             }}>
                                             Objetivos.
                                             </Typography>
                                         </Link>
-                                    </ListItem>
+                                    </ListItem> */}
                                     {/* <ListItem sx={{paddingLeft: '0px'}}>
 
                                         <Link underline="hover" onClick={() => {
@@ -229,8 +229,8 @@ export const FileSection = (props) => {
                                     </ListItem> */}
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -242,9 +242,9 @@ export const FileSection = (props) => {
                                         <Box heigth={30}/>
                                         <ListItem sx={{paddingLeft: '0px'}}>
                                             <Typography sx={{
-                                                fontFamily: 'GilamSemiBold',
-                                                fontSize: '16px',
-                                                lineHeight: '0.6',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
+                                                lineHeight: '1',
                                                 color: '#f8bd00'
                                             }}>
                                                 Torre A, Bosques
@@ -252,9 +252,9 @@ export const FileSection = (props) => {
                                         </ListItem>
                                         <ListItem sx={{paddingLeft: '0px'}}>
                                             <Typography sx={{
-                                                fontFamily: 'GilamSemiBold',
-                                                fontSize: '16px',
-                                                lineHeight: '0.6',
+                                                fontFamily: 'HelveticaLight',
+                                                fontSize: '16pt',
+                                                lineHeight: '1',
                                                 color: '#f8bd00'
                                             }}>
                                                 de las Lomas
@@ -262,9 +262,9 @@ export const FileSection = (props) => {
                                         </ListItem>
                                         <ListItem sx={{paddingLeft: '0px'}}>
                                             <Typography sx={{
-                                                fontFamily: 'GilamSemiBold',
-                                                fontSize: '16px',
-                                                lineHeight: '0.6',
+                                                fontFamily: 'HelveticaLight',
+                                                fontSize: '16pt',
+                                                lineHeight: '1',
                                                 color: '#f8bd00'
                                             }}>
                                                 Cuajimalpa.
@@ -273,9 +273,9 @@ export const FileSection = (props) => {
                                         <Box heigth={30}/>
                                         <ListItem sx={{paddingLeft: '0px'}}>
                                             <Typography sx={{
-                                                fontFamily: 'GilamSemiBold',
-                                                fontSize: '16px',
-                                                lineHeight: '0.6',
+                                                fontFamily: 'HelveticaLight',
+                                                fontSize: '16pt',
+                                                lineHeight: '1',
                                                 color: '#f8bd00'
                                             }}>
                                                 CDMX.
@@ -339,8 +339,8 @@ export const FileSection = (props) => {
                                 <ListItem sx={{paddingLeft: '0px'}}>
 
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaBold',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
@@ -351,7 +351,7 @@ export const FileSection = (props) => {
                             <Grid itemx xs={3}>
                                 <ListItem onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}}>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
+                                        fontFamily: 'HelveticaLight',
                                         fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
@@ -362,7 +362,7 @@ export const FileSection = (props) => {
                                 <Box height={10} />
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
+                                        fontFamily: 'HelveticaLight',
                                         fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
@@ -373,7 +373,7 @@ export const FileSection = (props) => {
                                 <Box height={60} />
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
+                                        fontFamily: 'HelveticaLight',
                                         fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
@@ -384,7 +384,7 @@ export const FileSection = (props) => {
                                 <Box height={30} />
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
+                                        fontFamily: 'HelveticaLight',
                                         fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
@@ -397,8 +397,8 @@ export const FileSection = (props) => {
 
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
@@ -407,8 +407,8 @@ export const FileSection = (props) => {
                                 </ListItem>
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
@@ -417,8 +417,8 @@ export const FileSection = (props) => {
                                 </ListItem>
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
@@ -429,8 +429,8 @@ export const FileSection = (props) => {
                                 <Box height={30} />
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
@@ -439,8 +439,8 @@ export const FileSection = (props) => {
                                 </ListItem>
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
@@ -449,8 +449,8 @@ export const FileSection = (props) => {
                                 </ListItem>
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
@@ -460,8 +460,8 @@ export const FileSection = (props) => {
                                 <Box height={30} />
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
@@ -476,15 +476,15 @@ export const FileSection = (props) => {
 
                                 <ListItem sx={{paddingLeft: '0px'}}>
 
-                                    <Link underline="hover" onClick={() => {
+                                    <Link underline="none" onClick={() => {
                                         // console.log('click');
                                         funcTrigger('know')
                                     }}>
                                         <Typography
                                         
                                         sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -492,7 +492,7 @@ export const FileSection = (props) => {
                                         </Typography>
                                     </Link>
                                 </ListItem>
-                                <ListItem sx={{paddingLeft: '0px'}}>
+                                {/* <ListItem sx={{paddingLeft: '0px'}}>
                                     <Link underline="hover" onClick={() => {
                                         console.log('click');
                                     funcTrigger('goals')
@@ -500,15 +500,15 @@ export const FileSection = (props) => {
                                         <Typography
                                         
                                         sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
                                         Objetivos.
                                         </Typography>
                                     </Link>
-                                </ListItem>
+                                </ListItem> */}
                                 <ListItem sx={{paddingLeft: '0px'}}>
                                     <Link underline="hover" onClick={() => {
                                         console.log('click');
@@ -517,8 +517,8 @@ export const FileSection = (props) => {
                                         <Typography
                                         
                                         sx={{
-                                            fontFamily: 'GilamSemiBold',
-                                            fontSize: '16px',
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
@@ -528,8 +528,8 @@ export const FileSection = (props) => {
                                 </ListItem>
                                 <ListItem sx={{paddingLeft: '0px'}}>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
-                                        fontSize: '16px',
+                                        fontFamily: 'HelveticaLight',
+                                        fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>

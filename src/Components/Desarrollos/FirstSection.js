@@ -42,7 +42,7 @@ export const FirstSection = () => {
 
                         <div className='color-objetivos-page'>
                             <div className='desarrollos-page-interior-mobile'>
-                                <Grid container>
+                                <Grid className='padding-mobile' container>
                                     <Grid item xs={6}>
                                     <Box sx={{mt: 5}}> 
                                         <ListItem sx={{pl:0}}>

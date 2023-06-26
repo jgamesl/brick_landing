@@ -104,7 +104,7 @@ export const Departamento = () => {
                                         </Button>
                                     </ListItem>
                                     <Box height={40} />
-                                    <Typography  sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    <Typography  sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                         Para obtener más información sobre esta
                                         residencia, por favor envíanos un mensaje
                                         y con gusto te contactaremos. 
@@ -114,12 +114,12 @@ export const Departamento = () => {
                                     <Box height={10} />
                                     <Grid className='padding-mobile' container >
                                         <Grid item xs={5}>
-                                            <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                            <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                                55.8000.3735
                                             </Typography>
                                         </Grid>
                                         <Grid item xs={7}>
-                                            <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                            <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                                 +52 56 39661468
                                             </Typography>
                                         </Grid>
@@ -127,7 +127,7 @@ export const Departamento = () => {
                                     <Box height={10} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                         hola@brickinmuebles.com.mx
                                     </Typography>
                                     <Box height={10} />
@@ -150,7 +150,7 @@ export const Departamento = () => {
                                     </Typography>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-
+                                <Box height={20} />
                                 <ListItem sx={{pl: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
                                     Esta residencia tiene 67m² interiores que conectan con una
                                     gran terraza privada de 30m². Disfrutarás de 2 amplias
@@ -166,7 +166,7 @@ export const Departamento = () => {
 
                                     <p className='overlay-terraza'>01.</p>
 
-                                    <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                    <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                                 </ListItem>
                                 <img className='first-picture-desarrollo-detail-mobile' src={Picture01} alt=""/>
                             </Grid>
@@ -356,7 +356,7 @@ export const Departamento = () => {
                                         </Button>
                                     </ListItem>
                                     <Box height={40} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                         Para obtener más información sobre esta
                                         residencia, por favor envíanos un mensaje
                                         y con gusto te contactaremos. 
@@ -366,12 +366,12 @@ export const Departamento = () => {
                                     <Box height={10} />
                                     <Grid container >
                                         <Grid item xs={6}>
-                                            <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                            <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                                55.8000.3735
                                             </Typography>
                                         </Grid>
                                         <Grid item xs={6}>
-                                            <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                            <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                                 +52 56 39661468
                                             </Typography>
                                         </Grid>
@@ -379,7 +379,7 @@ export const Departamento = () => {
                                     <Box height={10} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                         hola@brickinmuebles.com.mx
                                     </Typography>
                                     <Box height={10} />
@@ -401,7 +401,7 @@ export const Departamento = () => {
                                     <Box height={10} />
 
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                    <Box height={10} />
+                                    <Box height={20} />
                                     <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
                                         Esta residencia tiene 67m² interiores que conectan con una
                                         gran terraza privada de 30m². Disfrutarás de 2 amplias
@@ -421,7 +421,7 @@ export const Departamento = () => {
 
                                         <p className='overlay-terraza'>01.</p>
                                         
-                                        <Box sx={{fontFamily: 'HelveticaLight', fontSize: '20pt', ml:2}} className=''>ALZADO</Box>
+                                        <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                                         </ListItem>
                                     </Box>
                                 </div>
