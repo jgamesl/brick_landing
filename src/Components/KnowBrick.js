@@ -156,6 +156,7 @@ export const KnowBrick = () => {
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1}}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
                                     <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={HeartIcon} />
+                                    {/* <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={HeartIcon} /> */}
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Bienestar.</p>
                                 </ListItem>
@@ -432,7 +433,7 @@ export const KnowBrick = () => {
                             <Grid item xs={6}>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
                                     <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={GraphIcon} />
-                                    <Box sx={{width:4}}/>
+                                    <Box sx={{width: 4}}/>
                                     <p className="first-section-right-text">La mejor calidad.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>

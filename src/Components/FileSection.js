@@ -89,15 +89,17 @@ export const FileSection = (props) => {
                                     </ListItem>
                                     <Box height={50} />
                                     <ListItem sx={{paddingLeft: '0px'}}>
+                                        <Grid onClick={() => {window.open('mailto:hola@brickinmuebles.com')}}>
 
-                                        <Typography sx={{
-                                            fontFamily: 'HelveticaLight',
-                                            fontSize: '16pt',
-                                            lineHeight: '0.6',
-                                            color: '#f8bd00'
-                                        }}>
-                                            Contacto
-                                        </Typography>
+                                            <Typography sx={{
+                                                fontFamily: 'HelveticaLight',
+                                                fontSize: '16pt',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
+                                                Contacto
+                                            </Typography>
+                                        </Grid>
                                     </ListItem>
                                 </Grid>
                                 <Grid itemx xs={6}>
@@ -176,21 +178,22 @@ export const FileSection = (props) => {
                                 <Grid itemx xs={6}>
 
                                     <ListItem sx={{paddingLeft: '0px'}}>
-                                        <Link underline="hover" onClick={() => {
+                                        <Grid underline="none" onClick={() => {
                                             console.log('click');
                                         funcTrigger('know')
                                         }}>
-                                            <Typography
+                                            <Typography 
                                             
                                             sx={{
                                                 fontFamily: 'HelveticaLight',
                                                 fontSize: '16pt',
                                                 lineHeight: '0.6',
-                                                color: '#f8bd00'
+                                                color: '#f8bd00',
+                                                textDecoration: 'none'
                                             }}>
                                                 Conoce a Brick.
                                             </Typography>
-                                        </Link>
+                                        </Grid>
                                     </ListItem>
                                     {/* <ListItem sx={{paddingLeft: '0px'}}>
                                         <Link underline="hover" onClick={() => {
@@ -228,14 +231,26 @@ export const FileSection = (props) => {
                                         </Link>
                                     </ListItem> */}
                                     <ListItem sx={{paddingLeft: '0px'}}>
-                                        <Typography sx={{
+
+                                        <Grid onClick={() => {window.open('mailto:hola@brickinmuebles.com')}}>
+
+                                            <Typography sx={{
+                                                fontFamily: 'HelveticaLight',
+                                                fontSize: '16pt',
+                                                lineHeight: '0.6',
+                                                color: '#f8bd00'
+                                            }}>
+                                                Contacto
+                                            </Typography>
+                                        </Grid>
+                                        {/* <Typography sx={{
                                             fontFamily: 'HelveticaLight',
                                             fontSize: '16pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
                                             Contacto.
-                                        </Typography>
+                                        </Typography> */}
                                     </ListItem>
                                     </Grid>
                                     <Grid item xs={6}>
@@ -338,14 +353,18 @@ export const FileSection = (props) => {
                             <Grid itemx xs={3}>
                                 <ListItem sx={{paddingLeft: '0px'}}>
 
-                                    <Typography sx={{
-                                        fontFamily: 'HelveticaBold',
-                                        fontSize: '16pt',
-                                        lineHeight: '0.6',
-                                        color: '#f8bd00'
-                                    }}>
-                                        Contacto
-                                    </Typography>
+                                    
+                                    <Grid onClick={() => {window.open('mailto:hola@brickinmuebles.com')}}>
+
+                                        <Typography sx={{
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
+                                            lineHeight: '0.6',
+                                            color: '#f8bd00'
+                                        }}>
+                                            Contacto
+                                        </Typography>
+                                    </Grid>
                                 </ListItem>
                             </Grid>
                             <Grid itemx xs={3}>
@@ -476,21 +495,22 @@ export const FileSection = (props) => {
 
                                 <ListItem sx={{paddingLeft: '0px'}}>
 
-                                    <Link underline="none" onClick={() => {
+                                    <Grid onClick={() => {
                                         // console.log('click');
                                         funcTrigger('know')
-                                    }}>
+                                    }} >
                                         <Typography
                                         
                                         sx={{
                                             fontFamily: 'HelveticaLight',
                                             fontSize: '16pt',
                                             lineHeight: '0.6',
-                                            color: '#f8bd00'
+                                            color: '#f8bd00',
+                                            textDecoration: 'none'
                                         }}>
                                             Conoce a Brick.
                                         </Typography>
-                                    </Link>
+                                    </Grid>
                                 </ListItem>
                                 {/* <ListItem sx={{paddingLeft: '0px'}}>
                                     <Link underline="hover" onClick={() => {
@@ -510,7 +530,7 @@ export const FileSection = (props) => {
                                     </Link>
                                 </ListItem> */}
                                 <ListItem sx={{paddingLeft: '0px'}}>
-                                    <Link underline="hover" onClick={() => {
+                                    <Grid underline='none' onClick={() => {
                                         console.log('click');
                                     funcTrigger('desarrollos')
                                     }}>
@@ -524,17 +544,29 @@ export const FileSection = (props) => {
                                         }}>
                                         Desarrollos.
                                         </Typography>
-                                    </Link>
+                                    </Grid>
                                 </ListItem>
                                 <ListItem sx={{paddingLeft: '0px'}}>
-                                    <Typography sx={{
+
+                                    <Grid onClick={() => {window.open('mailto:hola@brickinmuebles.com')}}>
+
+                                        <Typography sx={{
+                                            fontFamily: 'HelveticaLight',
+                                            fontSize: '16pt',
+                                            lineHeight: '0.6',
+                                            color: '#f8bd00'
+                                        }}>
+                                            Contacto
+                                        </Typography>
+                                    </Grid>
+                                    {/* <Typography sx={{
                                         fontFamily: 'HelveticaLight',
                                         fontSize: '16pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'
                                     }}>
                                         Contacto.
-                                    </Typography>
+                                    </Typography> */}
                                 </ListItem>
                             </Grid>
                         </Grid>

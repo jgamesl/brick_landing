@@ -83,6 +83,7 @@ export const IntroPage = (props) => {
                                 <ListItem >
                                     <Link color="black" underline="hover" onClick={() => {
                                     // funcTrigger('know')
+                                        scrollToSection('know');
                                     }}>
                                     <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Conoce a Brick.</Typography>
                                     </Link>
@@ -93,6 +94,7 @@ export const IntroPage = (props) => {
                                 <ListItem >
                                     <Link color="black" underline="hover" onClick={() => {
                                     // funcTrigger('desarrollos')
+                                        scrollToSection('desarrollos');
                                     }}>
                                     <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Desarrollos.</Typography>
                                     </Link>
@@ -104,7 +106,15 @@ export const IntroPage = (props) => {
                                 <Box height={40} />
                                 <ListItem>
 
-                                    <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40, color: '#f8bd00'}} variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
+                                    <Button 
+                                        sx={{
+                                                borderRadius: 8, 
+                                                backgroundColor: 'black', 
+                                                height: 40, color: '#f8bd00',
+
+                                                '&.MuiButton-root:hover':{bgcolor: 'black'} 
+                                            }} 
+                                        variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
                                         Contacto.
                                     </Button>
                                 </ListItem>

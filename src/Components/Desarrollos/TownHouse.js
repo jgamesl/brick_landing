@@ -62,7 +62,8 @@ export const TownHouse = () => {
                                             fontSize: '16pt',
                                             fontFamily: 'GilamRegular',
                                             width: '40%',
-                                            color: 'black'
+                                            color: 'black',
+                                            '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                         }} 
                                         disableElevation>
                                             LP #33
@@ -275,7 +276,8 @@ export const TownHouse = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
-                                                fontFamily: 'GilamRegular'
+                                                fontFamily: 'GilamRegular',
+                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             disableElevation>
                                                 LP #34

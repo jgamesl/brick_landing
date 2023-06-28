@@ -1,8 +1,5 @@
 
-
-import { Button, Card, CardMedia, Divider, ListItem, SvgIcon, Typography } from '@mui/material';
-import Grid from '@mui/material/Unstable_Grid2';
-import React from 'react';
+import React, { useState } from 'react';
 import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
 
 import { useMediaQuery } from 'react-responsive';
@@ -10,7 +7,11 @@ import { useMediaQuery } from 'react-responsive';
 // import MasDesarrolloPicture from "../../Assets/Icons/Home/desarrollo.svg";
 import HeaderPicture from '../../Assets/PROYECTOS/01/header.jpg';
 import {ReactComponent as VerIcon} from "../../Assets/Icons/Desarrollos/ver.svg";
+
+import { Button, Card, CardMedia, Divider, ListItem, SvgIcon, Typography, Drawer, IconButton, Link } from '@mui/material';
+import Grid from '@mui/material/Unstable_Grid2';
 import { Box } from '@mui/system';
+import { useNavigate } from "react-router-dom";
 import { Departamento } from './Departamento';
 import { TownHouse } from './TownHouse';
 import { Loft } from './Loft';
@@ -18,13 +19,17 @@ import { SingleDepartamento } from './SingleDepartamento';
 import BrickText from "../../Assets/Icons/Logo/logo.svg";
 import MenuIcon from '@mui/icons-material/Menu';
 import { RoofGarden } from './RoofGarden';
+import {ReactComponent as CorreoIcon} from "../../Assets/Icons/Desarrollos/contacto.svg";
+import CloseIcon from '@mui/icons-material/Close';
 
 export const FirstSection = () => {
+    const navigate = useNavigate();
     // const isDesktopOrLaptop = useMediaQuery({
     //     query: '(min-width: 900px)'
     //     // query: '(min-width: 1224px)'
     //   })
     
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-width: 924px)'
   })
@@ -42,6 +47,105 @@ export const FirstSection = () => {
 
                         <div className='color-objetivos-page'>
                             <div className='desarrollos-page-interior-mobile'>
+                            <Drawer 
+                                sx={{width: '50%'}}
+                                anchor='right'
+                                open={drawerOpen}
+                                onClose={() => setDrawerOpen(false)}
+                            >
+                                <Box sx={{width: '200px', backgroundColor: '#f8bd00', height: '100%'}}>
+                                <Grid container>
+                                    <Box height={20} />
+                                    <Grid sx={{pt: 0, justifyContent: 'right'}} disablePadding item xs={12}>
+                                        <ListItem sx={{justifyContent: 'end'}}>
+                                            <IconButton onClick={() => setDrawerOpen(false)} aria-label="delete">
+                                                <CloseIcon />
+                                            </IconButton>
+                                        </ListItem>
+                                        <ListItem >
+                                            <Link color="black" underline="hover" onClick={() => {
+                                            // funcTrigger('know')
+                                                navigate('/');
+                                            }}>
+                                            <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Conoce a Brick.</Typography>
+                                            </Link>
+                                        </ListItem>
+                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1, marginLeft: 2, marginRight: 1 }}/>
+                                    </Grid>
+                                    <Grid sx={{pt: 0, justifyContent: 'left'}} disablePadding item xs={12}>
+                                        <ListItem >
+                                            <Link color="black" underline="hover" onClick={() => {
+                                            // funcTrigger('desarrollos')
+                                                navigate('/');
+                                            }}>
+                                            <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Desarrollos.</Typography>
+                                            </Link>
+                                        </ListItem>
+                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1, marginLeft: 2, marginRight: 1 }}/>
+                                    </Grid>
+        
+                                    <Grid item xs={12}>
+                                        <Box height={40} />
+                                        <ListItem>
+        
+                                            <Button 
+                                                sx={{
+                                                        borderRadius: 8, 
+                                                        backgroundColor: 'black', 
+                                                        height: 40, color: '#f8bd00',
+        
+                                                        '&.MuiButton-root:hover':{bgcolor: 'black'} 
+                                                    }} 
+                                                variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
+                                                Contacto.
+                                            </Button>
+                                        </ListItem>
+                                        <Box height={60} />
+                                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1, marginLeft: 2, marginRight: 1 }}/>
+                                    </Grid>
+        
+                                    <Grid item xs={12}>
+                                        <Box height={30} />
+                                        <ListItem>
+        
+                                            <p className='text-footer-size'>
+                                                55.8000.3735
+                                            </p>
+                                        </ListItem>
+                                        <ListItem>
+        
+                                            <p className='text-footer-size'>
+                                                +52 56 39661468
+                                            </p>
+                                        </ListItem>
+                                        {/* <ListItem>
+                                            <p className='text-footer-size'>
+                                                Hola@brickinmuebles.com.mx
+                                            </p>
+                                        </ListItem> */}
+                                    </Grid>
+                                    <Grid item xs={12}>
+                                        <ListItem>
+        
+                                            <p className='text-footer-size'>
+                                                Arcos Bosques, Paseo de los Tamarindos 400.
+                                            </p>
+                                        </ListItem>
+                                        <ListItem>
+                                            <p className='text-footer-size'>
+                                                Torre A, Bosques de las Lomas Cuajimalpa.
+                                            </p>
+                                        </ListItem>
+                                        <ListItem>
+                                            <p className='text-footer-size'>
+                                                CDMX
+                                            </p>
+                                        </ListItem>
+                                    </Grid>
+                                </Grid>
+                                    {/* LA weaeeaa */}
+                                </Box>
+                            </Drawer>
                                 <Grid className='padding-mobile' container>
                                     <Grid item xs={6}>
                                     <Box sx={{mt: 5}}> 
@@ -50,7 +154,7 @@ export const FirstSection = () => {
                                         </ListItem>
                                     </Box>
                                     </Grid>
-                                    <Grid item xs={6} >
+                                    <Grid onClick={() => setDrawerOpen(true)} item xs={6} >
                                         <Box display="flex" justifyContent="flex-end">
                                             <MenuIcon sx={{height: '80px', width: '80px', mt:3, mr:3}} />
                                         </Box>
@@ -142,7 +246,7 @@ export const FirstSection = () => {
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <RoofGarden />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                <Grid container>
+                                {/* <Grid container>
 
                                     <Grid item xs={6}>
                                         <ListItem className='desarrollos-section-left-text second-section-objetivos'>
@@ -160,7 +264,6 @@ export const FirstSection = () => {
 
                                         <ListItem>
                                             <SvgIcon  component={VerIcon} />
-                                            {/* <Box sx={{width:4}}/> */}
                                         </ListItem>
                                         <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '16px'}}>
                                             VER OTRO PROYECTO
@@ -208,7 +311,7 @@ export const FirstSection = () => {
                                         </Box>
                                         <Box height={70} />
                                     </Grid>
-                                </Grid>
+                                </Grid> */}
 
                             </div>
                         </div>
@@ -299,7 +402,7 @@ export const FirstSection = () => {
                                 <Loft />
                                 <SingleDepartamento />
                                 <RoofGarden />
-                                <Grid container spacing={2}>
+                                {/* <Grid container spacing={2}>
                                     <Grid item xs={12}>
                                         <Box height={40} />
                                     </Grid>
@@ -317,7 +420,6 @@ export const FirstSection = () => {
                                         <ListItem>
 
                                             <SvgIcon  component={VerIcon} />
-                                        {/* <Box sx={{width:4}}/> */}
                                         </ListItem>
                                         <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '16px'}}>
                                             VER OTRO PROYECTO
@@ -362,7 +464,7 @@ export const FirstSection = () => {
                                             </div>
                                         </Card>
                                     </Grid>
-                                </Grid>
+                                </Grid> */}
                             </div>
                         </div>
 

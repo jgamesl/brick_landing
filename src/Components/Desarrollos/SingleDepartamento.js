@@ -59,7 +59,9 @@ export const SingleDepartamento = () => {
                                             backgroundColor: '#f8bd00', 
                                             borderRadius: '50px', 
                                             fontSize: '16pt',
-                                            fontFamily: 'GilamRegular'
+                                            fontFamily: 'GilamRegular',
+                                            width: '40%',
+                                            '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                         }} 
                                         disableElevation>
                                             LP #33
@@ -270,7 +272,9 @@ export const SingleDepartamento = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
-                                                fontFamily: 'GilamRegular'
+                                                fontFamily: 'GilamRegular',
+                                                width: '40%',
+                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             disableElevation>
                                                 LP #33

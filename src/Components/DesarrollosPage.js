@@ -55,7 +55,7 @@ export const DesarrollosPage = () => {
 
                                 <Grid item xs={6}>
                                     
-                                    <ListItem className='desarrollos-section-left-text second-section-objetivos'>
+                                    <ListItem className='objetivos-section-left-text'>
                                                 DESA
                                         </ListItem>
 
@@ -97,7 +97,8 @@ export const DesarrollosPage = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '30pt',
-                                                fontFamily: 'GilamSemiBold'
+                                                fontFamily: 'GilamSemiBold',
+                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             onClick={()=> {setSelectedDep(1)}}
                                             disableElevation>
@@ -120,7 +121,8 @@ export const DesarrollosPage = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '30pt',
-                                                fontFamily: 'GilamSemiBold'
+                                                fontFamily: 'GilamSemiBold',
+                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             onClick={()=> {setSelectedDep(2)}}
                                             disableElevation>
@@ -235,13 +237,16 @@ unen en perfecta armonía
                                                     }}>
                                                         Departamento Terraza.
                                                     </Typography>
-                                                    <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
-                                                        fontSize: '16px',
-                                                        color: '#fceeea',
-                                                    }}>
-                                                        Ver más
-                                                    </Typography>
+                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                                        <Typography sx={{
+                                                            fontFamily: 'Helvetica Light',
+                                                            fontSize: '16px',
+                                                            color: '#fceeea',
+                                                        }}>
+                                                            Ver más
+                                                        </Typography>
+                                                    </Grid>
                                                 </div>
                                                 </ListItem>
                                             </Box>
@@ -265,13 +270,24 @@ unen en perfecta armonía
                                                     }}>
                                                         Town House
                                                     </Typography>
-                                                    <Typography sx={{
+
+                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                                        <Typography sx={{
+                                                            fontFamily: 'Helvetica Light',
+                                                            fontSize: '16px',
+                                                            color: '#fceeea',
+                                                        }}>
+                                                            Ver más
+                                                        </Typography>
+                                                    </Grid>
+                                                    {/* <Typography sx={{
                                                         fontFamily: 'Helvetica Light',
                                                         fontSize: '16px',
                                                         color: '#fceeea',
                                                     }}>
                                                         Ver más
-                                                    </Typography>
+                                                    </Typography> */}
                                                 </div>
                                                 </ListItem>
                                             </Box>
@@ -295,13 +311,16 @@ unen en perfecta armonía
                                                     }}>
                                                         Loft.
                                                     </Typography>
-                                                    <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
-                                                        fontSize: '16px',
-                                                        color: '#fceeea',
-                                                    }}>
-                                                        Ver más
-                                                    </Typography>
+                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                                        <Typography sx={{
+                                                            fontFamily: 'Helvetica Light',
+                                                            fontSize: '16px',
+                                                            color: '#fceeea',
+                                                        }}>
+                                                            Ver más
+                                                        </Typography>
+                                                    </Grid>
                                                 </div>
                                                 </ListItem>
                                             </Box>
@@ -325,13 +344,17 @@ unen en perfecta armonía
                                                     }}>
                                                         Departamento sencillo.
                                                     </Typography>
-                                                    <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
-                                                        fontSize: '16px',
-                                                        color: '#fceeea',
-                                                    }}>
-                                                        Ver más
-                                                    </Typography>
+
+                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                                        <Typography sx={{
+                                                            fontFamily: 'Helvetica Light',
+                                                            fontSize: '16px',
+                                                            color: '#fceeea',
+                                                        }}>
+                                                            Ver más
+                                                        </Typography>
+                                                    </Grid>
                                                 </div>
                                                 </ListItem>
                                             </Box>
@@ -356,13 +379,17 @@ unen en perfecta armonía
                                                         Departamento con
 Roof Garden
                                                     </Typography>
-                                                    <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
-                                                        fontSize: '16px',
-                                                        color: '#fceeea',
-                                                    }}>
-                                                        Ver más
-                                                    </Typography>
+
+                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                                        <Typography sx={{
+                                                            fontFamily: 'Helvetica Light',
+                                                            fontSize: '16px',
+                                                            color: '#fceeea',
+                                                        }}>
+                                                            Ver más
+                                                        </Typography>
+                                                    </Grid>
                                                 </div>
                                                 </ListItem>
                                             </Box>
@@ -418,7 +445,7 @@ Roof Garden
 
                             <Grid item xs={5}>
                                 
-                                <ListItem sx={{pl:0}} className='helvetica-desarrollos-left second-section-objetivos'>
+                                <ListItem sx={{pl:0}} className='objetivos-section-left-text'>
                                             DESA
                                     </ListItem>
 
@@ -481,7 +508,8 @@ Roof Garden
                             <Button 
                                 onClick={() => {navigate('/desarrollos')}}
                                 variant="contained" 
-                                sx={{backgroundColor: '#f8bd00', borderRadius: '50px', fontSize: '18px', color: 'black'}} 
+                                sx={{backgroundColor: '#f8bd00', borderRadius: '50px', fontSize: '18px', color: 'black',
+                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} }} 
                                 disableElevation>
                                     VER MÁS.
                             </Button>
@@ -553,7 +581,8 @@ Roof Garden
                                     borderRadius: '50px', 
                                     fontSize: '30pt',
                                     fontFamily: 'GilamSemiBold',
-                                    color: 'black'
+                                    color: 'black',
+                                    '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                     
                                 }} 
                                 onClick={()=> {setSelectedDep(1)}}
@@ -563,7 +592,7 @@ Roof Garden
                         </ListItem>
                         <Box height={10} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                        <Box height={10} />
+                        {/* <Box height={10} />
                         <ListItem sx={{pl:0}}>
 
                             <Button 
@@ -573,15 +602,17 @@ Roof Garden
                                     borderRadius: '50px', 
                                     fontSize: '30pt',
                                     fontFamily: 'GilamSemiBold',
-                                    color: 'black'
+                                    color: 'black',
+
+                                    '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                 }} 
                                 onClick={()=> {setSelectedDep(2)}}
                                 disableElevation>
                                     SR #29
                             </Button>
-                        </ListItem>
-                        <Box height={10} />
-                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                        </ListItem> */}
+                        {/* <Box height={10} />
+                        <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/> */}
                         <Box height={250} />
                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                         <Box height={10} />
@@ -644,13 +675,17 @@ Roof Garden
                                             Departamento
                                             Terraza.
                                         </Typography>
-                                        <Typography sx={{
-                                            fontFamily: 'HelveticaLight',
-                                            fontSize: '16px',
-                                            color: '#fceeea',
-                                        }}>
-                                            Ver más
-                                        </Typography>
+                                        
+                                        <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                            <Typography sx={{
+                                                fontFamily: 'Helvetica Light',
+                                                fontSize: '16px',
+                                                color: '#fceeea',
+                                            }}>
+                                                Ver más
+                                            </Typography>
+                                        </Grid>
                                     </div>
                                     </ListItem>
                                 </Box>
@@ -682,13 +717,16 @@ Roof Garden
                                         }}>
                                             Loft.
                                         </Typography>
-                                        <Typography sx={{
-                                            fontFamily: 'HelveticaLight',
-                                            fontSize: '16px',
-                                            color: '#fceeea',
-                                        }}>
-                                            Ver más
-                                        </Typography>
+                                        <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                            <Typography sx={{
+                                                fontFamily: 'Helvetica Light',
+                                                fontSize: '16px',
+                                                color: '#fceeea',
+                                            }}>
+                                                Ver más
+                                            </Typography>
+                                        </Grid>
                                     </div>
                                     </ListItem>
                                 </Box>
@@ -731,13 +769,16 @@ Roof Garden
                                         }}>
                                             Town House.
                                         </Typography>
-                                        <Typography sx={{
-                                            fontFamily: 'HelveticaLight',
-                                            fontSize: '16px',
-                                            color: '#fceeea',
-                                        }}>
-                                            Ver más
-                                        </Typography>
+                                        <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                            <Typography sx={{
+                                                fontFamily: 'Helvetica Light',
+                                                fontSize: '16px',
+                                                color: '#fceeea',
+                                            }}>
+                                                Ver más
+                                            </Typography>
+                                        </Grid>
                                     </div>
                                     </ListItem>
                                 </Box>
@@ -768,13 +809,16 @@ Roof Garden
                                         }}>
                                             Departamento sencillo.
                                         </Typography>
-                                        <Typography sx={{
-                                            fontFamily: 'HelveticaLight',
-                                            fontSize: '16px',
-                                            color: '#fceeea',
-                                        }}>
-                                            Ver más
-                                        </Typography>
+                                        <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                            <Typography sx={{
+                                                fontFamily: 'Helvetica Light',
+                                                fontSize: '16px',
+                                                color: '#fceeea',
+                                            }}>
+                                                Ver más
+                                            </Typography>
+                                        </Grid>
                                     </div>
                                     </ListItem>
                                 </Box>
@@ -806,13 +850,16 @@ Roof Garden
                                         }}>
                                             Departamento con Roof Garden
                                         </Typography>
-                                        <Typography sx={{
-                                            fontFamily: 'HelveticaLight',
-                                            fontSize: '16px',
-                                            color: '#fceeea',
-                                        }}>
-                                            Ver más
-                                        </Typography>
+                                        <Grid onClick={() => {navigate('/desarrollos')}} >
+
+                                            <Typography sx={{
+                                                fontFamily: 'Helvetica Light',
+                                                fontSize: '16px',
+                                                color: '#fceeea',
+                                            }}>
+                                                Ver más
+                                            </Typography>
+                                        </Grid>
                                     </div>
                                     </ListItem>
                                 </Box>

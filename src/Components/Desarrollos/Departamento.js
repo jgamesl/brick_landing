@@ -97,7 +97,8 @@ export const Departamento = () => {
                                                 fontSize: '16pt',
                                                 fontFamily: 'GilamRegular',
                                                 width: '40%',
-                                                color: 'black'
+                                                color: 'black',
+                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             disableElevation>
                                                 LP #33
@@ -349,7 +350,9 @@ export const Departamento = () => {
                                                 fontFamily: 'GilamRegular',
                                                 width: '40%',
                                                 textAlign: 'left',
-                                                color: 'black'
+                                                color: 'black',
+
+                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             disableElevation>
                                                 LP #34

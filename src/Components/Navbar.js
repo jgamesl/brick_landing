@@ -59,11 +59,11 @@ export const Navbar = (props) => {
           <img className="nav-logo" src={BrickText} alt="" />
         </Grid>
         <Grid sx={{pt: 0, justifyContent: 'right'}} disablePadding item xs={2}>
-          <ListItem >
+          <ListItem sx={{justifyContent: 'end'}}>
             <Link color="black" underline="hover" onClick={() => {
               funcTrigger('know')
             }}>
-              <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Conoce a Brick.</Typography>
+              <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '14pt'}}>Conoce a Brick.</Typography>
             </Link>
             {/* <Link color="black" underline="hover" onClick={() => {
               funcTrigger('goals')
@@ -87,12 +87,12 @@ export const Navbar = (props) => {
             <Link color="black" underline="hover" onClick={() => {
               funcTrigger('desarrollos')
             }}>
-            <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '16pt'}}>Desarrollos.</Typography>
+            <Typography sx={{fontFamily: 'HelveticaLight', fontSize: '14pt'}}>Desarrollos.</Typography>
             </Link>
           </ListItem>
         </Grid>
         <Grid  display="flex" justifyContent="flex-end" sx={{justifyContent: 'end', pt:0}} item xs={4} sm={4}>
-          <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40, color: '#f8bd00'}} variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
+          <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40, color: '#f8bd00', '&.MuiButton-root:hover':{bgcolor: 'black'} }} variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
             Contacto.
           </Button>
         </Grid>
