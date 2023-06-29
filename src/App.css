@@ -860,7 +860,8 @@ nav{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 600px;
+  padding-bottom: 5%;
+  /* height: 600px; */
   background-color: #212322;
   align-items: center;
   /* margin-top: 10rem; */
@@ -870,7 +871,7 @@ nav{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
-  height: 1200px;
+  /* height: 1200px; */
   background-color: #212322;
   align-items: center;
   /* margin-top: 10rem; */
@@ -1063,6 +1064,7 @@ nav{
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
+  padding-top: 5%;
   /* padding-top: 5%; */
   /* height: 20vw; */
   /* height: 450px; */
@@ -1076,8 +1078,9 @@ nav{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
+  padding-bottom: 5%;
   /* height: 20vw; */
-  height: 600px;
+  /* height: 600px; */
   background-color: #686e7f;
   align-items: center;
   /* margin-top: 10rem; */
@@ -1092,6 +1095,8 @@ nav{
 .blog-page-interior {
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   /* padding-top: 5%; */
   /* height: 35vw; */
   /* height: 450px; */
@@ -1105,8 +1110,9 @@ nav{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
+  padding-bottom: 5%;
   /* height: 35vw; */
-  height: 1750px;
+  /* height: 1750px; */
   background-color: #22222a;
   align-items: center;
   /* margin-top: 10rem; */

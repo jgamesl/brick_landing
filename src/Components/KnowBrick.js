@@ -15,7 +15,8 @@ import {ReactComponent as HombreIcon} from "../Assets/Icons/Home/hombre.svg";
 import {ReactComponent as EscuelaIcon} from "../Assets/Icons/Home/icono1.svg";
 import {ReactComponent as JobIcon} from "../Assets/Icons/Home/icono2.svg";
 import {ReactComponent as PaperIcon} from "../Assets/Icons/Home/icono3.svg";
-import {ReactComponent as GraphIcon} from "../Assets/iconos_mejores/14.svg";
+// import {ReactComponent as GraphIcon} from "../Assets/iconos_mejores/14.svg";
+import {ReactComponent as GraphIcon} from "../Assets/new_svgs_icons/a.svg";
 import {ReactComponent as TargetIcon} from "../Assets/iconos_mejores/16.svg";
 import {ReactComponent as FocoIcon} from "../Assets/iconos_mejores/15.svg";
 import {ReactComponent as HeartIcon} from "../Assets/iconos_mejores/17.svg";
@@ -31,7 +32,7 @@ import { Box } from '@mui/system';
 export const KnowBrick = () => {
 
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
+    query: '(min-width: 924px)'
     // query: '(min-width: 1224px)'
   })
 
@@ -137,32 +138,32 @@ export const KnowBrick = () => {
                             <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
 
                             <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={GraphIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={GraphIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">La mejor calidad.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TargetIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TargetIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Diseño funcional.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={FocoIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={FocoIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Excelencia constructiva.</p>
                                 </ListItem >
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1}}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={HeartIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={HeartIcon} stroke='#f8bd00' />
                                     {/* <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={HeartIcon} /> */}
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Bienestar.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1}}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', color: 'blue', overflow: 'visible'}} component={ShieldIcon} />
+                                    <SvgIcon sx={{mt:'8px', color: 'blue', overflow: 'visible'}} component={ShieldIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Calidad duradera.</p>
                                 </ListItem>
@@ -432,19 +433,19 @@ export const KnowBrick = () => {
                         <Grid container spacing={2}>
                             <Grid item xs={6}>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={GraphIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} stroke='#f8bd00' component={GraphIcon} />
                                     <Box sx={{width: 4}}/>
                                     <p className="first-section-right-text">La mejor calidad.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TargetIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TargetIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Diseño funcional.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={FocoIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={FocoIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Excelencia constructiva.</p>
                                 </ListItem >
@@ -453,13 +454,13 @@ export const KnowBrick = () => {
                             <Grid item xs={6}>
 
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={HeartIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={HeartIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Bienestar.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1}}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={ShieldIcon} />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={ShieldIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Calidad duradera.</p>
                                 </ListItem>

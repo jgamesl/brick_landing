@@ -29,12 +29,15 @@ export const ColaboradoresPage = () => {
                             <Grid display="flex" justifyContent="flex-start" item xs={12}>
                                 <p className='title-colaboradores-text'>COLABORADORES.</p>
                             </Grid>
-                            <Grid display="flex" justifyContent="flex-start"  item xs={12}>
+                            <Grid display="flex" justifyContent="flex-start"  item xs={2}>
 
                                 <ListItem>
                                     <SvgIcon sx={{mb:3, overflow: 'visible'}} component={StarIcon2} />
-                                    <Box sx={{width:40}}/>
-                                    {/* <Box sx={{width:4}}/> */}
+                                </ListItem>            
+                            </Grid>
+                            <Grid display="flex" justifyContent="flex-start"  item xs={10}>
+
+                                <ListItem>
                                     <p className='helvetica-objetivos-left'>Trabajamos con empresas expertas en su campo para cada
 proyecto. Nuestra red de empresas colaboradoras, líderes en
 su industria, garantiza que nuestros inmuebles están en manos

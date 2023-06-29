@@ -70,7 +70,7 @@ export const DesarrollosPage = () => {
 
                                     <img className='first-section-know-pic' src={DesarrolloImage} alt=""/>
                                 </Grid>
-                                <Grid item xs={8}>
+                                {/* <Grid item xs={8}>
                                     <Box height={30} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 </Grid>
@@ -85,8 +85,8 @@ export const DesarrollosPage = () => {
                                         compromiso.
                                         </p>
                                     </ListItem>
-                                </Grid>
-                                <Grid className='padding-mobile' item xs={12}>
+                                </Grid> */}
+                                {/* <Grid className='padding-mobile' item xs={12}>
 
                                     <Box height={40} />
                                     <ListItem sx={{pl:0}}>
@@ -105,8 +105,8 @@ export const DesarrollosPage = () => {
                                                 LP #33
                                         </Button>
                                     </ListItem>
-                                </Grid>
-                                <Grid className='padding-mobile' item xs={8}>
+                                </Grid> */}
+                                {/* <Grid className='padding-mobile' item xs={8}>
                                     <Box height={20} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 </Grid>
@@ -129,11 +129,11 @@ export const DesarrollosPage = () => {
                                                 LP #34
                                         </Button>
                                     </ListItem>
-                                </Grid>
+                                </Grid> */}
                                 <Grid className='padding-mobile' item xs={8}>
                                     <Box height={20} />
-                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                    <Box height={50} />
+                                    {/* <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                    <Box height={50} /> */}
                                 </Grid>
                                 <Grid className='padding-mobile' item xs={6}>
                                     <ListItem sx={{justifyContent:'space-between', pl:0}}>

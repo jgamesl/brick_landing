@@ -383,26 +383,15 @@ export const SingleDepartamento = () => {
                             </Grid>
                             <Grid container spacing={2}>
                                 <Grid item xs={3}>    
-                                    <img className='second-picture-desarrollo-detail-a' src={Picture04} alt=""/>
-                                </Grid>
-                                <Grid item xs={9}>    
-                                    <img className='second-picture-desarrollo-detail-a' src={Picture04} alt=""/>
-                                    <Box height={50}> 
-                                    </Box>
-                                </Grid>
-                            </Grid>
-                            <Grid container spacing={2}>
-                                <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
+                                
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00'}}>
-                                            97M²
+                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                                            66M²
                                         </ListItem>
                                     </Box>
-                                </Grid>
-                                <Grid item xs={3}>
-
+                                    <Box height={10} />
                                     <ListItem>
-                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CuartoIcon} />
+                                        <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={CuartoIcon} />
                                         <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 RECÁMARAS
@@ -412,27 +401,16 @@ export const SingleDepartamento = () => {
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={BathIcon} />
+                                        <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 BAÑOS
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                </Grid>
-                                <Grid item xs={3}>
-
-                                    {/* <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={TerrazaIcon} />
-                                        <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            TERRAZA
-                                        </Typography>
-                                    </ListItem>
-                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/> */}
 
                                     <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CocheraIcon} />
+                                        <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={CocheraIcon} />
                                         <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 CAJÓN
@@ -440,8 +418,10 @@ export const SingleDepartamento = () => {
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 </Grid>
-                                <Grid item xs={3}>
-
+                                <Grid item xs={9}>    
+                                    <img className='second-picture-desarrollo-detail-a' src={Picture04} alt=""/>
+                                    <Box height={50}> 
+                                    </Box>
                                 </Grid>
                             </Grid>
                             <Grid>
