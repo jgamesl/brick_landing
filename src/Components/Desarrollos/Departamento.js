@@ -44,7 +44,7 @@ export const Departamento = () => {
                     <>
                         <Grid spacing={2} container>
                             <Grid item xs={12}>
-                                <img className='first-picture-desarrollo-detail' src={HeaderPicture} alt=""/>
+                                <img className='first-picture-desarrollo-detail-exterior' src={HeaderPicture} alt=""/>
                                 
                                 <Typography  sx={{textAlign: 'right', fontFamily: 'GilamLight', fontSize: '16pt'}}>
                                     Fotografía Exterior
@@ -214,7 +214,7 @@ export const Departamento = () => {
                         <Grid className='padding-mobile' container>
                             <Grid sx={{position: 'relative'}} item xs={6}>
 
-                                <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', alignItems: 'end', position: 'absolute', bottom: 0}}>
+                                <ListItem sx={{fontFamily: 'sans-serif',fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', alignItems: 'end', position: 'absolute', bottom: 0}}>
                                     97M²
                                 </ListItem>
                             </Grid>
@@ -329,12 +329,12 @@ export const Departamento = () => {
             (isBigScreen || isDesktopOrLaptop)
                 ?   
                     <>
-                        <Grid container xs={12}>
+                        <Grid sx={{justifyContent: 'flex-end'}} container xs={12}>
                                 <img className='first-picture-desarrollo-detail' src={HeaderPicture} alt=""/>
                                 <Typography  sx={{textAlign: 'right', fontFamily: 'GilamLight', fontSize: '16pt'}}>
                                     Fotografía Exterior
                                 </Typography>
-                            </Grid>
+                        </Grid>
 
                             <Grid container xs={12}>
                                 <Grid item xs={4}>
@@ -472,7 +472,7 @@ export const Departamento = () => {
                             <Grid container spacing={2}>
                                 <Grid columns={1} display='flex' justifyContent="flex-start"  item xs={3}>
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00'}}>
+                                        <ListItem sx={{fontFamily: 'sans-serif',fontWeight:'bold', fontSize: '50pt', color: '#f8bd00'}}>
                                             97M²
                                         </ListItem>
                                     </Box>

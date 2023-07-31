@@ -92,7 +92,8 @@ export const Navbar = (props) => {
           </ListItem>
         </Grid>
         <Grid  display="flex" justifyContent="flex-end" sx={{justifyContent: 'end', pt:0}} item xs={4} sm={4}>
-          <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40, color: '#f8bd00', '&.MuiButton-root:hover':{bgcolor: 'black'} }} variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
+          <Button sx={{borderRadius: 8, backgroundColor: 'black', height: 40, color: '#f8bd00', '&.MuiButton-root:hover':{bgcolor: 'black'} }} 
+            variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} stroke='#f8bd00' component={CorreoIcon} />}>
             Contacto.
           </Button>
         </Grid>

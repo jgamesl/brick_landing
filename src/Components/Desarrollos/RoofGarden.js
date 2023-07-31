@@ -185,7 +185,7 @@ export const RoofGarden = () => {
                             <Grid item xs={12}>
 
                             {/* <Box height={30} /> */}
-                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                            <ListItem sx={{fontFamily: 'sans-serif',fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                 125M²
                             </ListItem>
                             </Grid>
@@ -257,6 +257,7 @@ export const RoofGarden = () => {
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
                                                 fontFamily: 'GilamRegular',
+                                                color: 'black',
                                                 width: '40%',
                                                 '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
@@ -358,14 +359,14 @@ export const RoofGarden = () => {
                             <Grid container spacing={4}>
                                 <Grid item xs={8}>
 
-                                    <img className='second-picture-desarrollo-detail-a' src={Picture03} alt=""/>
+                                    <img className='second-picture-desarrollo-detail-a' src={Picture04} alt=""/>
                                 </Grid>
                                 <Grid item xs={4}>
-                                    <img className='second-picture-desarrollo-detail-a' src={Picture04} alt=""/>
+                                    <img className='second-picture-desarrollo-detail-a' src={Picture03} alt=""/>
                                     <Box height={10} />
 
                                     <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
-                                        ROOF TOP
+                                        PLANTA ALTA
                                     </ListItem>
                                 </Grid>
                             </Grid>
@@ -382,7 +383,7 @@ export const RoofGarden = () => {
                                 <Grid item xs={3}>    
 
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                                        <ListItem sx={{fontFamily: 'sans-serif',fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                             125M²
                                         </ListItem>
                                     </Box>

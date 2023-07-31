@@ -60,6 +60,7 @@ export const SingleDepartamento = () => {
                                             borderRadius: '50px', 
                                             fontSize: '16pt',
                                             fontFamily: 'GilamRegular',
+                                            color: 'black',
                                             width: '40%',
                                             '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                         }} 
@@ -199,7 +200,7 @@ export const SingleDepartamento = () => {
                             <Grid item xs={12}>
 
                             {/* <Box height={30} /> */}
-                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                            <ListItem sx={{fontFamily: 'sans-serif', fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                 66M²
                             </ListItem>
                             </Grid>
@@ -273,6 +274,7 @@ export const SingleDepartamento = () => {
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
                                                 fontFamily: 'GilamRegular',
+                                                color: 'black',
                                                 width: '40%',
                                                 '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
@@ -382,47 +384,48 @@ export const SingleDepartamento = () => {
                                 </Grid>
                             </Grid>
                             <Grid container spacing={2}>
-                                <Grid item xs={3}>    
-                                
-                                    <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
-                                            66M²
-                                        </ListItem>
-                                    </Box>
-                                    <Box height={10} />
-                                    <ListItem>
-                                        <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={CuartoIcon} />
-                                        <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            2 RECÁMARAS
-                                        </Typography>
-                                        {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
-                                    </ListItem>
-                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={BathIcon} />
-                                        <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            2 BAÑOS
-                                        </Typography>
-                                    </ListItem>
-                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
-                                        <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={CocheraIcon} />
-                                        <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            1 CAJÓN
-                                        </Typography>
-                                    </ListItem>
-                                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                </Grid>
                                 <Grid item xs={9}>    
                                     <img className='second-picture-desarrollo-detail-a' src={Picture04} alt=""/>
                                     <Box height={50}> 
                                     </Box>
                                 </Grid>
+                                <Grid item xs={3}>    
+                                
+                                <Box height={100}>
+                                    <ListItem sx={{fontFamily: 'sans-serif', fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                                        66M²
+                                    </ListItem>
+                                </Box>
+                                <Box height={10} />
+                                <ListItem>
+                                    <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={CuartoIcon} />
+                                    <Box sx={{width:18}}/>
+                                    <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        2 RECÁMARAS
+                                    </Typography>
+                                    {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+
+                                <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={BathIcon} />
+                                    <Box sx={{width:18}}/>
+                                    <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        2 BAÑOS
+                                    </Typography>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+
+                                <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={CocheraIcon} />
+                                    <Box sx={{width:18}}/>
+                                    <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        1 CAJÓN
+                                    </Typography>
+                                </ListItem>
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                            </Grid>
                             </Grid>
                             <Grid>
                                 <Box height={40} />

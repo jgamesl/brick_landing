@@ -99,6 +99,12 @@ export const KnowBrick = () => {
                                 espacios que cautiven al usuario
                                 con un enfoque centrado 
                             </ListItem>
+                            <ListItem sx={{pl:0}} className='first-section-right-text' item xs={5}>
+                                en la mejora de calidad de vida,
+                                la combinación de espacios
+                                abiertos y un diseño interior
+                                excepcional.
+                            </ListItem>
                             <Box height={30} />
                             <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                         </Grid>
@@ -144,13 +150,13 @@ export const KnowBrick = () => {
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TargetIcon} stroke='#f8bd00' />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={FocoIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Diseño funcional.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={FocoIcon} stroke='#f8bd00' />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TargetIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Excelencia constructiva.</p>
                                 </ListItem >
@@ -439,13 +445,13 @@ export const KnowBrick = () => {
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TargetIcon} stroke='#f8bd00' />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={FocoIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Diseño funcional.</p>
                                 </ListItem>
                                 <Divider sx={{ backgroundColor: '#f8bd00', borderBottomWidth: 1 }}/>
                                 <ListItem sx={{paddingLeft: 0, mt:0.5, mb:0.5}}>
-                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={FocoIcon} stroke='#f8bd00' />
+                                    <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TargetIcon} stroke='#f8bd00' />
                                     <Box sx={{width:4}}/>
                                     <p className="first-section-right-text">Excelencia constructiva.</p>
                                 </ListItem >

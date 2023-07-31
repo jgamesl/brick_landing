@@ -195,13 +195,13 @@ export const FirstSection = () => {
                                 </Grid>
                                 <Grid className='padding-mobile' container>
                                     <Grid item xs={4}>
-                                        <ListItem sx={{pl: 0}}>
+                                        {/* <ListItem sx={{pl: 0}}>
                                             <Button sx={{borderRadius: 8, paddingLeft: '10px', paddingRight: '10px'}} variant="outlined" >
                                                 <Typography sx={{ fontSize: '16pt'}}>
                                                     LP #33
                                                 </Typography>
                                             </Button>
-                                        </ListItem>
+                                        </ListItem> */}
                                     </Grid>
                                     <Grid item xs={3}>
                                         {/* <ListItem>

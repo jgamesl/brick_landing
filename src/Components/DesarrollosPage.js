@@ -255,7 +255,7 @@ unen en perfecta armonía
                                     <Box height={10} />             
                                     <Card sx={{ maxHeight: '300px'}}>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia height={400} component="img" image={Picture02} title="" alt=""/> 
+                                            <CardMedia height={400} component="img" image={Picture03} title="" alt=""/> 
                                             <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
@@ -296,7 +296,7 @@ unen en perfecta armonía
                                     <Box height={10} />          
                                     <Card>
                                         <div style={{ position: "relative" }}>
-                                            <CardMedia component="img" image={Picture03} title="" alt="Yes"/> 
+                                            <CardMedia component="img" image={Picture02} title="" alt="Yes"/> 
                                             <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
@@ -694,7 +694,7 @@ Roof Garden
                         <Box height={10} />             
                         <Card sx={{maxWidth: '95%', maxHeight: '400px'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia height={400} component="img" image={Picture02} title="" alt="" /> 
+                                <CardMedia height={400} component="img" image={Picture03} title="" alt="" /> 
                                 <Box style={{position: "absolute", top: 10}}>
                                     <ListItem>
 
@@ -747,7 +747,7 @@ Roof Garden
                         </Card> */}
                         <Card sx={{maxWidth: '95%', maxHeight: '200px'}}>
                             <div style={{ position: "relative" }}>
-                                <CardMedia component="img" image={Picture03} title="" alt="Yes" style={{justifyContent: 'center', display: 'flex'}}/> 
+                                <CardMedia component="img" image={Picture02} title="" alt="Yes" style={{justifyContent: 'center', display: 'flex'}}/> 
                                 <Box style={{position: "absolute", top: 10}}>
                                     <ListItem>
 

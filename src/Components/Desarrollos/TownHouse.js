@@ -200,7 +200,7 @@ export const TownHouse = () => {
                             <Grid item xs={12}>
 
                             {/* <Box height={30} /> */}
-                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                            <ListItem sx={{fontFamily: 'sans-serif', fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                 146M²
                             </ListItem>
                             </Grid>
@@ -387,7 +387,7 @@ export const TownHouse = () => {
                             </Grid>
 
                             <Grid container spacing={4}>
-                                <Grid item xs={7}>
+                                <Grid item xs={6}>
                                     <img className='second-picture-desarrollo-detail' src={Picture02} alt=""/>
                                     <Box height={10} />
 
@@ -395,6 +395,7 @@ export const TownHouse = () => {
                                         PLANTA BAJA
                                     </ListItem>
                                 </Grid>
+                                <Grid item xs={1}></Grid>
                                 <Grid item xs={5}>
                                     <img className='second-picture-desarrollo-detail' src={Picture03} alt=""/>
                                     <Box height={10} />
@@ -422,7 +423,7 @@ export const TownHouse = () => {
                                 <Grid item xs={3}>    
 
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                                        <ListItem sx={{fontFamily: 'sans-serif', fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                             146M²
                                         </ListItem>
                                     </Box>

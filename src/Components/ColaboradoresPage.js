@@ -26,16 +26,17 @@ export const ColaboradoresPage = () => {
                     <Box className='colaboradores-page-interior-mobile'>
                         <Grid container spacing={2}>
                             
-                            <Grid display="flex" justifyContent="flex-start" item xs={12}>
+                            <Grid sx={{pl: 2, pr:2}} display="flex" justifyContent="space-between" item xs={12}>
                                 <p className='title-colaboradores-text'>COLABORADORES.</p>
+                                <SvgIcon sx={{mb:3, overflow: 'visible'}} component={StarIcon2} />
                             </Grid>
-                            <Grid display="flex" justifyContent="flex-start"  item xs={2}>
+                            {/* <Grid display="flex" justifyContent="flex-start"  item xs={2}>
 
                                 <ListItem>
                                     <SvgIcon sx={{mb:3, overflow: 'visible'}} component={StarIcon2} />
                                 </ListItem>            
-                            </Grid>
-                            <Grid display="flex" justifyContent="flex-start"  item xs={10}>
+                            </Grid> */}
+                            <Grid display="flex" justifyContent="flex-start"  item xs={12}>
 
                                 <ListItem>
                                     <p className='helvetica-objetivos-left'>Trabajamos con empresas expertas en su campo para cada

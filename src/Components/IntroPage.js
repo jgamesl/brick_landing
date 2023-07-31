@@ -4,7 +4,8 @@ import { useMediaQuery } from 'react-responsive';
 import BrickLogo from "../Assets/Icons/Home/isotipo.svg";
 import Patron1 from "../Assets/Icons/Home/patron.svg";
 import Patron2 from "../Assets/Icons/Home/patron2.svg";
-import {ReactComponent as CorreoIcon} from "../Assets/Icons/Desarrollos/contacto.svg";
+import {ReactComponent as CorreoIcon} from "../Assets/iconos_mejores/09.svg";
+import {ReactComponent as LockIcon} from "../Assets/Icons/Desarrollos/contacto.svg";
 import BrickText from "../Assets/Icons/Logo/logo.svg";
 import { Box, Button, Grid, ListItem, SvgIcon, Typography, Drawer, Link, Divider, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
@@ -54,6 +55,13 @@ export const IntroPage = (props) => {
   }, [windowSize])
 
   const [drawerOpen, setDrawerOpen] = useState(false);
+
+  const onDownload = () => {
+    const link = document.createElement("a");
+    link.download = `./aviso_privacidad.docx`;
+    link.href = "./aviso_privacidad.docx";
+    link.click();
+  };
   
   return (
     // <MenuIcon />
@@ -117,6 +125,7 @@ export const IntroPage = (props) => {
                                         variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} component={CorreoIcon} />}>
                                         Contacto.
                                     </Button>
+                                    
                                 </ListItem>
                                 <Box height={60} />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1, marginLeft: 2, marginRight: 1 }}/>
@@ -251,10 +260,16 @@ export const IntroPage = (props) => {
 
                         <ListItem display="flex" justifyContent="flex-end" >
                             <SvgIcon onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}} sx={{mt:'8px'}} component={InstagramIcon} />
-                            <Box width={50} />
-                            <SvgIcon sx={{mt:'8px'}} component={FbIcon} />
-                            <Box width={50} />
-                            <SvgIcon sx={{mt:'8px'}} component={TwitterIcon} />
+                            <Box width={100} />
+                            <SvgIcon onClick={() => {window.location.replace('https://www.facebook.com/profile.php?id=100090030804818');}} sx={{mt:'8px'}} component={FbIcon} />
+                            {/* <Box width={50} />
+                            <SvgIcon sx={{mt:'8px'}} component={TwitterIcon} /> */}
+                        </ListItem>
+                        <ListItem>
+                            <Button onClick={onDownload} sx={{borderRadius: 8, textTransform: 'capitalize', backgroundColor: 'black', height: 40, color: '#f8bd00', '&.MuiButton-root:hover':{bgcolor: 'black'} }} 
+                                variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} stroke='#f8bd00' component={LockIcon} />}>
+                                Aviso de Privacidad.
+                            </Button>
                         </ListItem>
                     </Grid>
                 </Grid>
@@ -338,10 +353,18 @@ export const IntroPage = (props) => {
                 <Grid item xs={3}>
                     <ListItem display="flex" justifyContent="flex-end" >
                         <SvgIcon onClick={() => {window.location.replace('https://www.instagram.com/brick.inmuebles/');}} sx={{mt:'8px'}} component={InstagramIcon} />
-                        <Box width={50} />
-                        <SvgIcon sx={{mt:'8px'}} component={FbIcon} />
-                        <Box width={50} />
-                        <SvgIcon sx={{mt:'8px'}} component={TwitterIcon} />
+                        <Box width={100} />
+                        <SvgIcon
+                             onClick={() => {window.location.replace('https://www.facebook.com/profile.php?id=100090030804818');}}
+                            sx={{mt:'8px'}} component={FbIcon} />
+                        {/* <Box width={50} />
+                        <SvgIcon sx={{mt:'8px'}} component={TwitterIcon} /> */}
+                    </ListItem>
+                    <ListItem>
+                        <Button onClick={onDownload} sx={{borderRadius: 8, textTransform: 'capitalize', backgroundColor: 'black', height: 40, color: '#f8bd00', '&.MuiButton-root:hover':{bgcolor: 'black'} }} 
+                            variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} stroke='#f8bd00' component={LockIcon} />}>
+                            Aviso de Privacidad.
+                        </Button>
                     </ListItem>
                 </Grid>
             </Grid>

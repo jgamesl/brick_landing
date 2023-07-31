@@ -190,7 +190,7 @@ export const Loft = () => {
                             <Grid item xs={12}>
 
                             {/* <Box height={30} /> */}
-                            <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                            <ListItem sx={{fontFamily: 'sans-serif', fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                 87M²
                             </ListItem>
                             </Grid>
@@ -363,7 +363,7 @@ export const Loft = () => {
                                 </Grid>
                             </Grid>
                             <Grid container spacing={4}>
-                                <Grid item xs={7}>
+                                <Grid item xs={5}>
                                     <img className='second-picture-desarrollo-detail' src={Picture03} alt=""/>
                                     <Box height={10} />
 
@@ -371,6 +371,7 @@ export const Loft = () => {
                                         ROOF TOP
                                     </ListItem>
                                 </Grid>
+                                <Grid item xs={2}></Grid>
                                 <Grid item xs={5}>
                                     <img className='second-picture-desarrollo-detail' src={Picture04} alt=""/>
                                     <Box height={10} />
@@ -412,7 +413,7 @@ export const Loft = () => {
                                 <Grid item xs={3}>    
 
                                     <Box height={100}>
-                                        <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
+                                        <ListItem sx={{fontFamily: 'sans-serif', fontWeight:'bold', fontSize: '50pt', color: '#f8bd00', mt:10}}>
                                             87M²
                                         </ListItem>
                                     </Box>
