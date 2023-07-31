@@ -51,7 +51,7 @@ export const FileSection = (props) => {
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
                                             fontFamily: 'GilamSemiBold',
-                                            fontSize: '30pt',
+                                            fontSize: '30px',
                                             lineHeight: '0.6',
                                             marginTop: '40px',
                                             color: '#f8bd00'
@@ -62,13 +62,23 @@ export const FileSection = (props) => {
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
                                             fontFamily: 'GilamSemiBold',
-                                            fontSize: '30pt',
+                                            fontSize: '30px',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
                                         }}>
                                             INMUEBLES.COM.MX
                                         </Typography>
                                     </ListItem>
+                                    {/* <ListItem sx={{paddingLeft: '0px'}}>
+                                        <Typography sx={{
+                                            fontFamily: 'GilamSemiBold',
+                                            fontSize: '30pt',
+                                            lineHeight: '0.6',
+                                            color: '#f8bd00'
+                                        }}>
+                                            COM.MX
+                                        </Typography>
+                                    </ListItem> */}
                                 </Grid>
 
                                 <Grid item xs={12}>

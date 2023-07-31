@@ -167,7 +167,7 @@ export const TownHouse = () => {
                             <Box height={40} />
                             <Grid className='padding-mobile' item xs={12}>
                                 
-                                <img className='first-picture-desarrollo-detail-mobile' src={Picture02} alt=""/>
+                                <img className='first-picture-desarrollo-detail-mobile ' src={Picture02} alt=""/>
                                 <Box height={10} />
 
                                 <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>

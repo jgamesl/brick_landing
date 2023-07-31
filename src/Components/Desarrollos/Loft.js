@@ -141,14 +141,13 @@ export const Loft = () => {
                             <Grid className='padding-mobile' item xs={12}>
                                 
                                 <img className='first-picture-desarrollo-detail-mobile' src={Picture03} alt=""/>
-                                <Box height={10} />
-
                                 <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt', justifyContent: 'center'}}>
                                     ROOF TOP
                                 </ListItem>
                             </Grid>
                             <Box height={40} />
                             <Grid className='padding-mobile' item xs={12}>
+                                <Box height={40} />
                                 <img className='second-picture-desarrollo-detail' src={Picture04} alt=""/>
                                     <Box height={10} />
                                     <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt', justifyContent: 'center'}}>

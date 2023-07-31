@@ -160,6 +160,7 @@ export const RoofGarden = () => {
                                 <ListItem sx={{paddingLeft: 0,fontFamily: 'HelveticaLight', fontSize: '20pt'}}>
                                     PLANTA BAJA
                                 </ListItem>
+                                <Box height={20} />
                             </Grid>
                             <Grid className='padding-mobile' item xs={12}>
                                 <img className='first-picture-desarrollo-detail-mobile' src={Picture03} alt=""/>
@@ -171,6 +172,7 @@ export const RoofGarden = () => {
                             </Grid>
 
                             <Grid item xs={12}>
+                                <Box height={40} />
                                 <img className='first-picture-desarrollo-detail-mobile' src={Picture04} alt=""/>
                                 <Box height={10} />
                             </Grid>
