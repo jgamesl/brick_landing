@@ -4,8 +4,8 @@ import { useMediaQuery } from 'react-responsive';
 import BrickLogo from "../Assets/Icons/Home/isotipo.svg";
 import Patron1 from "../Assets/Icons/Home/patron.svg";
 import Patron2 from "../Assets/Icons/Home/patron2.svg";
-import {ReactComponent as CorreoIcon} from "../Assets/iconos_mejores/09.svg";
-import {ReactComponent as LockIcon} from "../Assets/Icons/Desarrollos/contacto.svg";
+import {ReactComponent as LockIcon} from "../Assets/iconos_mejores/09.svg";
+import {ReactComponent as CorreoIcon} from "../Assets/Icons/Desarrollos/contacto.svg";
 import BrickText from "../Assets/Icons/Logo/logo.svg";
 import { Box, Button, Grid, ListItem, SvgIcon, Typography, Drawer, Link, Divider, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
@@ -267,7 +267,7 @@ export const IntroPage = (props) => {
                         </ListItem>
                         <ListItem>
                             <Button onClick={onDownload} sx={{borderRadius: 8, textTransform: 'capitalize', backgroundColor: 'black', height: 40, color: '#f8bd00', '&.MuiButton-root:hover':{bgcolor: 'black'} }} 
-                                variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} stroke='#f8bd00' component={LockIcon} />}>
+                                variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00', fontSize: '25px'}} stroke='#f8bd00' component={LockIcon} />}>
                                 Aviso de Privacidad.
                             </Button>
                         </ListItem>
@@ -362,7 +362,7 @@ export const IntroPage = (props) => {
                     </ListItem>
                     <ListItem>
                         <Button onClick={onDownload} sx={{borderRadius: 8, textTransform: 'capitalize', backgroundColor: 'black', height: 40, color: '#f8bd00', '&.MuiButton-root:hover':{bgcolor: 'black'} }} 
-                            variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00'}} stroke='#f8bd00' component={LockIcon} />}>
+                            variant="contained" startIcon={<SvgIcon sx={{mt:'8px', overflow: 'visible', color: '#f8bd00', fontSize: '25px'}} stroke='#f8bd00' component={LockIcon} />}>
                             Aviso de Privacidad.
                         </Button>
                     </ListItem>

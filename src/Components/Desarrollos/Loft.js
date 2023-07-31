@@ -264,10 +264,11 @@ export const Loft = () => {
                                                 fontSize: '16pt',
                                                 fontFamily: 'GilamRegular',
                                                 width: '40%',
-                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
+                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'}, 
+                                                color: 'black'
                                             }} 
                                             disableElevation>
-                                                LP #34
+                                                LP #33
                                         </Button>
                                     </ListItem>
                                     <Box height={40} />

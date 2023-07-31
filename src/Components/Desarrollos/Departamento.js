@@ -355,7 +355,7 @@ export const Departamento = () => {
                                                 '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             disableElevation>
-                                                LP #34
+                                                LP #33
                                         </Button>
                                     </ListItem>
                                     <Box height={40} />

@@ -814,9 +814,10 @@ nav{
 }
 .second-picture-desarrollo-detail-mobile {
   
+  object-fit: contain;
   margin-top: 30px;
   /* margin-left: 15px; */
-  height: 250px;
+  /* height: 250px; */
   width: 100%;
 
 }

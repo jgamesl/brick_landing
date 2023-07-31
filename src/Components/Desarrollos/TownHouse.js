@@ -277,10 +277,11 @@ export const TownHouse = () => {
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
                                                 fontFamily: 'GilamRegular',
-                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
+                                                '&.MuiButton-root:hover':{bgcolor: '#f8bd00'},
+                                                color: 'black'
                                             }} 
                                             disableElevation>
-                                                LP #34
+                                                LP #33
                                         </Button>
                                     </ListItem>
                                     <Box height={40} />
