@@ -230,7 +230,7 @@ unen en perfecta armonía
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
+                                                        fontFamily: 'HelveticaLight',
                                                         fontSize: '16px',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
@@ -240,7 +240,7 @@ unen en perfecta armonía
                                                     <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                                         <Typography sx={{
-                                                            fontFamily: 'Helvetica Light',
+                                                            fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
                                                             color: '#fceeea',
                                                         }}>
@@ -263,7 +263,7 @@ unen en perfecta armonía
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
+                                                        fontFamily: 'HelveticaLight',
                                                         fontSize: '16px',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
@@ -274,7 +274,7 @@ unen en perfecta armonía
                                                     <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                                         <Typography sx={{
-                                                            fontFamily: 'Helvetica Light',
+                                                            fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
                                                             color: '#fceeea',
                                                         }}>
@@ -282,7 +282,7 @@ unen en perfecta armonía
                                                         </Typography>
                                                     </Grid>
                                                     {/* <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
+                                                        fontFamily: 'HelveticaLight',
                                                         fontSize: '16px',
                                                         color: '#fceeea',
                                                     }}>
@@ -304,7 +304,7 @@ unen en perfecta armonía
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
+                                                        fontFamily: 'HelveticaLight',
                                                         fontSize: '16px',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
@@ -314,7 +314,7 @@ unen en perfecta armonía
                                                     <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                                         <Typography sx={{
-                                                            fontFamily: 'Helvetica Light',
+                                                            fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
                                                             color: '#fceeea',
                                                         }}>
@@ -337,7 +337,7 @@ unen en perfecta armonía
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
+                                                        fontFamily: 'HelveticaLight',
                                                         fontSize: '16px',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
@@ -348,7 +348,7 @@ unen en perfecta armonía
                                                     <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                                         <Typography sx={{
-                                                            fontFamily: 'Helvetica Light',
+                                                            fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
                                                             color: '#fceeea',
                                                         }}>
@@ -371,7 +371,7 @@ unen en perfecta armonía
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'Helvetica Light',
+                                                        fontFamily: 'HelveticaLight',
                                                         fontSize: '16px',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
@@ -383,7 +383,7 @@ Roof Garden
                                                     <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                                         <Typography sx={{
-                                                            fontFamily: 'Helvetica Light',
+                                                            fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
                                                             color: '#fceeea',
                                                         }}>
@@ -398,32 +398,32 @@ Roof Garden
                                     <Box height={50} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt', lineHeight: 1}}>
                                         Arcos Bosques 
                                     </Typography>
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt', lineHeight: 1}}>
                                         Paseo de los Tamarindos 400.
                                     </Typography>
                                     <Box height={20} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt', lineHeight: 1}}>
                                         Torre A, Bosques de las Lomas
                                         Cuajimalpa.
                                     </Typography>
                                     <Box height={20} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt', lineHeight: 1}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt', lineHeight: 1}}>
                                         CDMX
                                     </Typography>
                                     <Box height={10} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
                                     <Box height={10} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                         55.8000.3735
                                     </Typography>
                                     <Box height={10} />
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                     <Box height={10} />
-                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLigth', fontSize: '16pt'}}>
+                                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '16pt'}}>
                                         +52 56 39661468
                                     </Typography>
                                     <Box height={10} />
@@ -679,7 +679,7 @@ Roof Garden
                                         <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                             <Typography sx={{
-                                                fontFamily: 'Helvetica Light',
+                                                fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
                                                 color: '#fceeea',
                                             }}>
@@ -720,7 +720,7 @@ Roof Garden
                                         <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                             <Typography sx={{
-                                                fontFamily: 'Helvetica Light',
+                                                fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
                                                 color: '#fceeea',
                                             }}>
@@ -772,7 +772,7 @@ Roof Garden
                                         <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                             <Typography sx={{
-                                                fontFamily: 'Helvetica Light',
+                                                fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
                                                 color: '#fceeea',
                                             }}>
@@ -812,7 +812,7 @@ Roof Garden
                                         <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                             <Typography sx={{
-                                                fontFamily: 'Helvetica Light',
+                                                fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
                                                 color: '#fceeea',
                                             }}>
@@ -853,7 +853,7 @@ Roof Garden
                                         <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                             <Typography sx={{
-                                                fontFamily: 'Helvetica Light',
+                                                fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
                                                 color: '#fceeea',
                                             }}>

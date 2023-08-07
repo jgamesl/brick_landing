@@ -214,7 +214,7 @@ export const Loft = () => {
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            2 BAÑOS
+                                            1 BAÑO
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
@@ -432,7 +432,7 @@ export const Loft = () => {
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:18}}/>
                                         <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
-                                            2 BAÑOS
+                                            1 BAÑO
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>

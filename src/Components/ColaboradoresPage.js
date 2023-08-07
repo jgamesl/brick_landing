@@ -6,6 +6,13 @@ import { useMediaQuery } from 'react-responsive';
 import Colab1Image from "../Assets/Icons/Home/colab1.svg";
 import Colab2Image from "../Assets/Icons/Home/colab2.svg";
 import Colab3Image from "../Assets/Icons/Home/colab3.svg";
+import TaiaImage from '../Assets/colabs/01.svg';
+import Colab1Picture from '../Assets/colabs/01.svg';
+import Colab2Picture from '../Assets/colabs/02.svg';
+import Colab3Picture from '../Assets/colabs/03.svg';
+import Colab4Picture from '../Assets/colabs/04.svg';
+import Colab5Picture from '../Assets/colabs/05.svg';
+import Colab6Picture from '../Assets/colabs/06.svg';
 import {ReactComponent as StarIcon2} from "../Assets/iconos_mejores/19.svg";
 
 export const ColaboradoresPage = () => {
@@ -53,43 +60,79 @@ equipo y en la excelencia de nuestras alianzas. </p>
                         <Grid container spacing={2}>
                             <Grid item xs={6}>
                                 <Box height={10} />
-                                <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
+                                <img className='colaboradores-logo-pic' src={Colab1Picture} alt=""/>
                                 <Box height={10} />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    <Box height={20} />
+                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                        Desarrollo de modelo
+                        arquitectónico y cruce de
+                        ingenierías.
+                    </Typography>
                             </Grid>
                             <Grid item xs={6}>
                                 <Box height={10} />
-                                <img className='colaboradores-logo-pic' src={Colab2Image} alt=""/>
+                                <img className='colaboradores-logo-pic' src={Colab2Picture} alt=""/>
                                 <Box height={10} />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                            </Grid>
-                        </Grid>
-                        <Grid container spacing={2}>
-                            <Grid item xs={6}>
-                                <Box height={10} />
-                                <img className='colaboradores-logo-pic' src={Colab3Image} alt=""/>
-                                <Box height={10} />
-                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                            </Grid>
-                            <Grid item xs={6}>
-                                <Box height={10} />
-                                <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
-                                <Box height={10} />
-                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                <Box height={20} />
+                                <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                                    Diseño gráfico.
+                                </Typography>
                             </Grid>
                         </Grid>
                         <Grid container spacing={2}>
                             <Grid item xs={6}>
                                 <Box height={10} />
-                                <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
+                                <img className='colaboradores-logo-pic' src={Colab3Picture} alt=""/>
                                 <Box height={10} />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                <Box height={20} />
+                                <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                                    Diseño web.
+                                </Typography>
                             </Grid>
                             <Grid item xs={6}>
                                 <Box height={10} />
-                                <img className='colaboradores-logo-pic' src={Colab2Image} alt=""/>
+                                <img className='colaboradores-logo-pic' src={Colab4Picture} alt=""/>
                                 <Box height={10} />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                <Box height={20} />
+                                <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                                    Desarrollo de ingeniería estructural.
+                                </Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab5Picture} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                <Box height={20} />
+                                <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                                    Desarrollo de ingeniería hidrosanitaria.
+                                </Typography>
+                            </Grid>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab6Picture} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                <Box height={20} />
+                                <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                                    Peer review / auditor de desarrollo de ingeniería estructural
+                                </Typography>
+                            </Grid>
+                            <Grid item xs={6}>
+                                <Box height={10} />
+                                <img className='colaboradores-logo-pic' src={Colab6Picture} alt=""/>
+                                <Box height={10} />
+                                <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                                <Box height={20} />
+                                <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                                    Peer review / auditor general
+                                </Typography>
                             </Grid>
                         </Grid>
                     </Box>
@@ -132,39 +175,75 @@ equipo y en la excelencia de nuestras alianzas. </p>
             <Box height={30}/>
             <Grid container spacing={2}>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab1Picture} alt=""/>
                     <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    <Box height={20} />
+                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                        Desarrollo de modelo
+                        arquitectónico y cruce de
+                        ingenierías.
+                    </Typography>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Colab2Image} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab2Picture} alt=""/>
                     
                     <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    <Box height={20} />
+                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                        Diseño gráfico.
+                    </Typography>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Colab3Image} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab3Picture} alt=""/>
                     
                     <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    <Box height={20} />
+                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                        Diseño web.
+                    </Typography>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Colab1Image} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab4Picture} alt=""/>
                     
                     <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    <Box height={20} />
+                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                        Desarrollo de ingeniería estructural.
+                    </Typography>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Colab2Image} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab5Picture} alt=""/>
                     
                     <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    <Box height={20} />
+                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                        Desarrollo de ingeniería hidrosanitaria.
+                    </Typography>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Colab3Image} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab6Picture} alt=""/>
                     
                     <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    <Box height={20} />
+                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                        Peer review / auditor de desarrollo de ingeniería estructural
+                    </Typography>
+                </Grid>
+                <Grid item xs={2}>
+                    <img className='colaboradores-logo-pic' src={Colab6Picture} alt=""/>
+                    
+                    <Box height={10} />
+                    <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
+                    <Box height={20} />
+                    <Typography sx={{textAlign: 'left', fontFamily: 'HelveticaLight', fontSize: '11pt'}} lineHeight={1}>
+                        Peer review / auditor general
+                    </Typography>
                 </Grid>
             </Grid>
 

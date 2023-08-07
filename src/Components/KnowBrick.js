@@ -80,7 +80,7 @@ export const KnowBrick = () => {
                             <ListItem sx={{ml: 0, pl: 0}} className='first-section-know-brick first-section-right-text-header'>
                                 SOMOS UN GRUPO DE
                                 PROFESIONALES APASIONADOS POR
-                                EL DESARROLLADO DE VIVIENDA.
+                                EL DESARROLLO DE VIVIENDA.
                             </ListItem>
 
                             <ListItem sx={{pl: 0}} className='first-section-know-brick first-section-right-text'>
@@ -363,7 +363,7 @@ export const KnowBrick = () => {
                         <ListItem sx={{ml: 0, pl: 0}} className='first-section-know-brick first-section-right-text-header'>
                             SOMOS UN GRUPO DE
                             PROFESIONALES APASIONADOS POR
-                            EL DESARROLLADO DE VIVIENDA.
+                            EL DESARROLLO DE VIVIENDA.
                         </ListItem>
                         <ListItem sx={{pl: 0}} className='first-section-know-brick first-section-right-text'>
                             Fusionamos el talento creativo en diseño arquitectónico y la
