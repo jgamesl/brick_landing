@@ -226,12 +226,19 @@ unen en perfecta armonía
                                             <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>01.</p>
+                                                <Typography sx={{
+                                                    fontFamily: 'Helvetica',
+                                                    fontSize: '35pt',
+                                                    color: '#fceeea',
+                                                    fontWeight: 'bold'
+                                                }}>
+                                                    01.
+                                                </Typography>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'HelveticaLight',
-                                                        fontSize: '16px',
+                                                        fontFamily: 'Helvetica',
+                                                        fontSize: '16pt',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
@@ -259,7 +266,14 @@ unen en perfecta armonía
                                             <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>02.</p>
+                                                <Typography sx={{
+                                                    fontFamily: 'Helvetica',
+                                                    fontSize: '35pt',
+                                                    color: '#fceeea',
+                                                    fontWeight: 'bold'
+                                                }}>
+                                                    02.
+                                                </Typography>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
@@ -274,8 +288,8 @@ unen en perfecta armonía
                                                     <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                                         <Typography sx={{
-                                                            fontFamily: 'HelveticaLight',
-                                                            fontSize: '16px',
+                                                            fontFamily: 'Helvetica',
+                                                            fontSize: '16pt',
                                                             color: '#fceeea',
                                                         }}>
                                                             Ver más
@@ -300,12 +314,19 @@ unen en perfecta armonía
                                             <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>03.</p>
+                                                <Typography sx={{
+                                                    fontFamily: 'Helvetica',
+                                                    fontSize: '35pt',
+                                                    color: '#fceeea',
+                                                    fontWeight: 'bold'
+                                                }}>
+                                                    03.
+                                                </Typography>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'HelveticaLight',
-                                                        fontSize: '16px',
+                                                        fontFamily: 'Helvetica',
+                                                        fontSize: '16pt',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
@@ -333,12 +354,19 @@ unen en perfecta armonía
                                             <Box style={{position: "absolute", top: 10}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>04.</p>
+                                                <Typography sx={{
+                                                    fontFamily: 'Helvetica',
+                                                    fontSize: '35pt',
+                                                    color: '#fceeea',
+                                                    fontWeight: 'bold'
+                                                }}>
+                                                    04.
+                                                </Typography>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'HelveticaLight',
-                                                        fontSize: '16px',
+                                                        fontFamily: 'Helvetica',
+                                                        fontSize: '16pt',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
@@ -367,12 +395,19 @@ unen en perfecta armonía
                                             <Box style={{position: "absolute", top: 10,}}>
                                                 <ListItem>
 
-                                                <p className='title-text-image-desarrollo-over'>05.</p>
+                                                <Typography sx={{
+                                                    fontFamily: 'Helvetica',
+                                                    fontSize: '35pt',
+                                                    color: '#fceeea',
+                                                    fontWeight: 'bold'
+                                                }}>
+                                                    05.
+                                                </Typography>
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'HelveticaLight',
-                                                        fontSize: '16px',
+                                                        fontFamily: 'Helvetica',
+                                                        fontSize: '16pt',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
