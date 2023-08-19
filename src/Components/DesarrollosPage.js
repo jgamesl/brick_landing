@@ -277,8 +277,8 @@ unen en perfecta armonía
                                                 <Box width={15}/>
                                                 <div> 
                                                     <Typography sx={{
-                                                        fontFamily: 'HelveticaLight',
-                                                        fontSize: '16px',
+                                                        fontFamily: 'Helvetica',
+                                                        fontSize: '16pt',
                                                         color: '#fceeea',
                                                         fontWeight: 'bold'
                                                     }}>
@@ -288,8 +288,8 @@ unen en perfecta armonía
                                                     <Grid onClick={() => {navigate('/desarrollos')}} >
 
                                                         <Typography sx={{
-                                                            fontFamily: 'Helvetica',
-                                                            fontSize: '16pt',
+                                                            fontFamily: 'HelveticaLight',
+                                                            fontSize: '16px',
                                                             color: '#fceeea',
                                                         }}>
                                                             Ver más

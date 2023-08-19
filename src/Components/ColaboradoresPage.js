@@ -13,6 +13,7 @@ import Colab3Picture from '../Assets/colabs/03.svg';
 import Colab4Picture from '../Assets/colabs/04.svg';
 import Colab5Picture from '../Assets/colabs/05.svg';
 import Colab6Picture from '../Assets/colabs/06.svg';
+import Colab7Picture from '../Assets/colabs/ADRS.svg';
 import {ReactComponent as StarIcon2} from "../Assets/iconos_mejores/19.svg";
 
 export const ColaboradoresPage = () => {
@@ -126,7 +127,7 @@ equipo y en la excelencia de nuestras alianzas. </p>
                             </Grid>
                             <Grid item xs={6}>
                                 <Box height={10} />
-                                <img className='colaboradores-logo-pic' src={Colab6Picture} alt=""/>
+                                <img className='colaboradores-logo-pic' src={Colab7Picture} alt=""/>
                                 <Box height={10} />
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 <Box height={20} />
@@ -236,7 +237,7 @@ equipo y en la excelencia de nuestras alianzas. </p>
                     </Typography>
                 </Grid>
                 <Grid item xs={2}>
-                    <img className='colaboradores-logo-pic' src={Colab6Picture} alt=""/>
+                    <img className='colaboradores-logo-pic' src={Colab7Picture} alt=""/>
                     
                     <Box height={10} />
                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
