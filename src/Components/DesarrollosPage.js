@@ -244,8 +244,14 @@ unen en perfecta armonía
                                                     }}>
                                                         Departamento Terraza.
                                                     </Typography>
-                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                                    <Grid onClick={() => {
+                                                        console.log('piamna');
+                                                        navigate('/desarrollos/', { 
+                                                            state: {
+                                                                section: 1
+                                                            }
+                                                        })
+                                                    }} >
                                                         <Typography sx={{
                                                             fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
@@ -285,8 +291,14 @@ unen en perfecta armonía
                                                         Town House
                                                     </Typography>
 
-                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                                    <Grid onClick={() => {
+                                                        console.log('piamna');
+                                                        navigate('/desarrollos/', { 
+                                                            state: {
+                                                                section: 2
+                                                            }
+                                                        })
+                                                    }} >
                                                         <Typography sx={{
                                                             fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
@@ -332,8 +344,14 @@ unen en perfecta armonía
                                                     }}>
                                                         Loft.
                                                     </Typography>
-                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                                    <Grid onClick={() => {
+                                                        console.log('piamna');
+                                                        navigate('/desarrollos/', { 
+                                                            state: {
+                                                                section: 3
+                                                            }
+                                                        })
+                                                    }} >
                                                         <Typography sx={{
                                                             fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
@@ -373,8 +391,14 @@ unen en perfecta armonía
                                                         Departamento sencillo.
                                                     </Typography>
 
-                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                                    <Grid onClick={() => {
+                                                        console.log('piamna');
+                                                        navigate('/desarrollos/', { 
+                                                            state: {
+                                                                section: 4
+                                                            }
+                                                        })
+                                                    }} >
                                                         <Typography sx={{
                                                             fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
@@ -415,8 +439,14 @@ unen en perfecta armonía
 Roof Garden
                                                     </Typography>
 
-                                                    <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                                    <Grid onClick={() => {
+                                                        console.log('piamna');
+                                                        navigate('/desarrollos/', { 
+                                                            state: {
+                                                                section: 5
+                                                            }
+                                                        })
+                                                    }} >
                                                         <Typography sx={{
                                                             fontFamily: 'HelveticaLight',
                                                             fontSize: '16px',
@@ -711,8 +741,14 @@ Roof Garden
                                             Terraza.
                                         </Typography>
                                         
-                                        <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                        <Grid onClick={() => {
+                                            console.log('piamna');
+                                            navigate('/desarrollos/', { 
+                                                state: {
+                                                    section: 1
+                                                }
+                                            })
+                                        }} >
                                             <Typography sx={{
                                                 fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
@@ -752,8 +788,14 @@ Roof Garden
                                         }}>
                                             Loft.
                                         </Typography>
-                                        <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                        <Grid onClick={() => {
+                                            console.log('piamna');
+                                            navigate('/desarrollos/', { 
+                                                state: {
+                                                    section: 2
+                                                }
+                                            })
+                                        }} >
                                             <Typography sx={{
                                                 fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
@@ -804,8 +846,14 @@ Roof Garden
                                         }}>
                                             Town House.
                                         </Typography>
-                                        <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                        <Grid onClick={() => {
+                                            console.log('piamna');
+                                            navigate('/desarrollos/', { 
+                                                state: {
+                                                    section: 3
+                                                }
+                                            })
+                                        }} >
                                             <Typography sx={{
                                                 fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
@@ -844,8 +892,14 @@ Roof Garden
                                         }}>
                                             Departamento sencillo.
                                         </Typography>
-                                        <Grid onClick={() => {navigate('/desarrollos')}} >
-
+                                        <Grid onClick={() => {
+                                            console.log('piamna');
+                                            navigate('/desarrollos/', { 
+                                                state: {
+                                                    section: 4
+                                                }
+                                            })
+                                        }} >
                                             <Typography sx={{
                                                 fontFamily: 'HelveticaLight',
                                                 fontSize: '16px',
@@ -885,7 +939,14 @@ Roof Garden
                                         }}>
                                             Departamento con Roof Garden
                                         </Typography>
-                                        <Grid onClick={() => {navigate('/desarrollos')}} >
+                                        <Grid onClick={() => {
+                                            console.log('piamna');
+                                            navigate('/desarrollos/', { 
+                                                state: {
+                                                    section: 5
+                                                }
+                                            })
+                                        }} >
 
                                             <Typography sx={{
                                                 fontFamily: 'HelveticaLight',

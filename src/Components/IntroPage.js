@@ -250,7 +250,7 @@ export const IntroPage = (props) => {
                         </ListItem>
                         <ListItem>
                         <p className='text-footer-size'>
-                            Hola@brick
+                            hola@brick
                             inmuebles.com.mx
                         </p>
                         </ListItem>
@@ -346,7 +346,7 @@ export const IntroPage = (props) => {
                     </ListItem>
                     <ListItem>
                         <p className='text-footer-size'>
-                           Hola@brickinmuebles.com.mx
+                           hola@brickinmuebles.com.mx
                         </p>
                     </ListItem>
                 </Grid>

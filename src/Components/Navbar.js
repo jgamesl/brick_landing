@@ -16,13 +16,11 @@ export const Navbar = (props) => {
 
   const [openMenu, setOpenMenu] = useState(false);
   const [sticky, setSticky] = useState(false);
-  console.log('NAVBAAAR');
 
   useEffect(() => {
     const handleScroll = () => {
       setSticky(window.scrollY > 20);
 
-      console.log(window.scrollY);
     }
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);

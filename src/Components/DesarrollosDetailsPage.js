@@ -1,6 +1,6 @@
 import React, { useState }  from 'react'
 import { FirstSection } from './Desarrollos/FirstSection'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { FileSection } from './FileSection'
 import { useMediaQuery } from 'react-responsive';
 import { Box, Button, Grid, ListItem, SvgIcon, Typography, Drawer, Link, Divider, IconButton } from '@mui/material';
@@ -10,9 +10,16 @@ import { Navbar } from './Navbar'
 // import { Box } from '@mui/material';
 import { useEffect } from 'react';
 
-export const DesarrollosDetailsPage = () => {
+export const DesarrollosDetailsPage = ({ route , navigation}) => {
+
+  // const { section } = route.params;
 
   const navigate = useNavigate();
+
+  const location = useLocation();
+
+  const section  = location?.state?.section;
+
 
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-width: 924px)'
@@ -25,9 +32,10 @@ export const DesarrollosDetailsPage = () => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 924px)' });
 
   useEffect(() => {
-    
+    console.log('useEffect wea');
+    console.log(section);
     window.scrollTo(0, 0);
-  }, [])
+  }, [section])
   
 
   const scrollToSection = (section) => {
@@ -54,7 +62,7 @@ export const DesarrollosDetailsPage = () => {
 
       {(isBigScreen || isDesktopOrLaptop) ? <Navbar scrollTo={scrollToSection}/> : <Box />}
       {/* <Navbar /> */}
-      <FirstSection />
+      <FirstSection section={section}/>
       <FileSection />
     </>
   )

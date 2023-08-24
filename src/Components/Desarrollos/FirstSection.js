@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import DesarrolloImage from "../../Assets/Icons/Home/desarrollo.svg";
 
 import { useMediaQuery } from 'react-responsive';
@@ -22,12 +22,50 @@ import { RoofGarden } from './RoofGarden';
 import {ReactComponent as CorreoIcon} from "../../Assets/Icons/Desarrollos/contacto.svg";
 import CloseIcon from '@mui/icons-material/Close';
 
-export const FirstSection = () => {
+export const FirstSection = (param) => {
     const navigate = useNavigate();
+    const section = param?.section;
     // const isDesktopOrLaptop = useMediaQuery({
     //     query: '(min-width: 900px)'
     //     // query: '(min-width: 1224px)'
     //   })
+    useEffect(() => {
+      console.log(section);
+      setTimeout(() => {
+        scrollToSection(section);
+      },500);
+    }, [])
+    
+
+    const scrollToSection = (section) => {
+        if (section === 1) {
+            const element = document.getElementById('section-one');
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        if (section === 2) {
+            const element = document.getElementById('section-two');
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        if (section === 3) {
+            const element = document.getElementById('section-three');
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        if (section === 4) {
+            const element = document.getElementById('section-four');
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        if (section === 5) {
+            const element = document.getElementById('section-five');
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+
+
+    };
     
   const [drawerOpen, setDrawerOpen] = useState(false);
   const isDesktopOrLaptop = useMediaQuery({
@@ -120,7 +158,7 @@ export const FirstSection = () => {
                                         </ListItem>
                                         {/* <ListItem>
                                             <p className='text-footer-size'>
-                                                Hola@brickinmuebles.com.mx
+                                                hola@brickinmuebles.com.mx
                                             </p>
                                         </ListItem> */}
                                     </Grid>
@@ -236,15 +274,25 @@ export const FirstSection = () => {
                                         </ListItem>
                                     </Grid>
                                 </Grid>
-                                <Departamento />
+                                <div id="section-one" >
+                                    <Departamento />
+                                </div>
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                <TownHouse />
+                                <div id="section-two" >   
+                                    <TownHouse/>
+                                </div>
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                <Loft />
+                                <div id="section-three" >
+                                    <Loft/>
+                                </div>
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                <SingleDepartamento />
+                                <div id="section-four">  
+                                    <SingleDepartamento />
+                                </div>
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                <RoofGarden />
+                                <div id="section-five" >
+                                    <RoofGarden />
+                                </div>
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                                 {/* <Grid container>
 
@@ -397,11 +445,21 @@ export const FirstSection = () => {
                                         </Grid>
                                     </Grid>
                                 </Grid>
-                                <Departamento />
-                                <TownHouse />
-                                <Loft />
-                                <SingleDepartamento />
-                                <RoofGarden />
+                                <div id="section-one" >
+                                    <Departamento />
+                                </div>
+                                <div id="section-two" >   
+                                    <TownHouse/>
+                                </div>
+                                <div id="section-three" >
+                                    <Loft/>
+                                </div>
+                                <div id="section-four">  
+                                    <SingleDepartamento />
+                                </div>
+                                <div id="section-five" >
+                                    <RoofGarden />
+                                </div>
                                 {/* <Grid container spacing={2}>
                                     <Grid item xs={12}>
                                         <Box height={40} />
