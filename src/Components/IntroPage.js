@@ -292,7 +292,7 @@ export const IntroPage = (props) => {
                     DESARROLLO 
                 </p>
                 <p className='intro-page-center-text'> 
-                    INMOBILIARIO 
+                    INMOBILIARIO.
                 </p>
                 <Box height={20} />
                 <p className='intro-page-center-sub-text-mobile'> 
