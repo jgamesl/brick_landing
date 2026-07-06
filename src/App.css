@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Gilam-Heavy"; */
+  /* font-family: "Roboto-Heavy"; */
 }
 /* @font-face {
-  font-family: "GilamBlack.ttf";
-  src: local("GilamBlack"),
-   url("./Assets/fonts/Gilam-Black.ttf") format("truetype");
+  font-family: "RobotoBlack.ttf";
+  src: local("RobotoBlack"),
+   url("./Assets/fonts/Roboto-Black.ttf") format("truetype");
   font-weight: bold; 
 } */
 
@@ -18,7 +18,7 @@ Griseson azul #686e7f
 rosita #fceeea 
 negro #212322  */
 
-.gilam-black {
+.Roboto-black {
   font-family: "Gilam-Black";
  }
  
@@ -577,14 +577,14 @@ nav {
   width: 100;
 }
 .intro-page-center-text {
-  font-family: 'GilamLight';
+  font-family: 'RobotoLight';
   font-size: 33pt;
   line-height: 1.1;
   line-break: normal;
   font-weight: 200;
 }
 .intro-page-center-text-mobile {
-  font-family: 'GilamLight';
+  font-family: 'RobotoLight';
   font-size: 33pt;
   line-height: 1.1;
   line-break: normal;
@@ -593,13 +593,13 @@ nav {
 }
 
 .intro-page-center-sub-text {
-  font-family: 'GilamBold';
+  font-family: 'RobotoBold';
   font-size: 20pt;
   line-height: 1;
   /* line-break: normal; */
 }
 .intro-page-center-sub-text-mobile {
-  font-family: 'GilamBold';
+  font-family: 'RobotoBold';
   font-size: 20pt;
   line-height: 1;
   text-align: center;
@@ -726,7 +726,7 @@ nav{
 }
 .first-section-left-text {
   font-size: 35pt;
-  font-family: 'GilamBook';
+  font-family: 'RobotoRegular';
   line-height: 0.75;
   text-align: left;
   color: #f8bd00;
@@ -741,7 +741,7 @@ nav{
 }
 .first-section-right-text-header {
   font-size: 35pt;
-  font-family: 'GilamBook';
+  font-family: 'RobotoRegular';
   color: #f8bd00
 }
 .second-section-text-color {
@@ -753,12 +753,12 @@ nav{
   font-size: 33pt;
   color: #f8bd00;
   /* font-weight: 400; */
-  font-family: 'GilamBook';
+  font-family: 'RobotoRegular';
 }
 .second-text-main-name {
   font-size: 33pt;
   color: #f8bd00;
-  font-family: 'GilamSemiBold';
+  font-family: 'RobotoBold';
   /* font-weight: 700; */
 }
 .second-text-sub-name {
@@ -1006,7 +1006,7 @@ nav{
   color: #fceeea;
 }
 .overlay-terraza {
-  font-family: 'GilamSemiBold';
+  font-family: 'RobotoBold';
   font-size: 80pt;
   color: #f8bd00;
 }
@@ -1035,7 +1035,7 @@ nav{
 }
 .objetivos-section-left-text {
   font-size: 35pt;
-  font-family: 'GilamBook';
+  font-family: 'RobotoRegular';
   line-height: 0.75;
   color: #212322;
   /* margin-bottom: 5%; */
@@ -1043,13 +1043,13 @@ nav{
 }
 .objetivos-text-main-name {
   font-size: 19pt;
-  font-family: 'GilamSemiBold';
+  font-family: 'RobotoBold';
   color: #212322;
   /* font-weight: 700; */
 }
 .objetivos-text-title-name {
   font-size: 19pt;
-  font-family: 'GilamSemiBold';
+  font-family: 'RobotoBold';
   color: #f8bd00;
   /* font-weight: 700; */
 }
@@ -1061,7 +1061,7 @@ nav{
 }
 .desarrollos-section-left-text {
   font-size: 35pt;
-  font-family: 'GilamBook';
+  font-family: 'RobotoRegular';
   line-height: 0.42;
   color: #212322;
   /* margin-bottom: 5%; */
@@ -1084,7 +1084,7 @@ nav{
 .title-colaboradores-text {
 
   font-size: 19pt;
-  font-family: 'GilamSemiBold';
+  font-family: 'RobotoBold';
   color: #212322;
 }
 .colaboradores-page-interior {
@@ -1163,14 +1163,14 @@ nav{
 .blog-main-name {
   font-size: 19pt;
   color: #ce7a23;
-  font-family: 'GilamSemiBold';
+  font-family: 'RobotoBold';
   text-align: left;
   /* font-weight: 700; */
 }
 .blog-number-main-name {
   font-size: 39pt;
   color: #ce7a23;
-  font-family: 'GilamSemiBold';
+  font-family: 'RobotoBold';
   /* font-weight: 700; */
 }
 .row {

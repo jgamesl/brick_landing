@@ -50,7 +50,7 @@ export const FileSection = (props) => {
                                 <Grid itemx xs={12}>
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
+                                            fontFamily: 'RobotoBold',
                                             fontSize: '30px',
                                             lineHeight: '0.6',
                                             marginTop: '40px',
@@ -61,7 +61,7 @@ export const FileSection = (props) => {
                                     </ListItem>
                                     <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
+                                            fontFamily: 'RobotoBold',
                                             fontSize: '30px',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
@@ -71,7 +71,7 @@ export const FileSection = (props) => {
                                     </ListItem>
                                     {/* <ListItem sx={{paddingLeft: '0px'}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
+                                            fontFamily: 'RobotoBold',
                                             fontSize: '30pt',
                                             lineHeight: '0.6',
                                             color: '#f8bd00'
@@ -231,7 +231,7 @@ export const FileSection = (props) => {
                                             <Typography
                                             
                                             sx={{
-                                                fontFamily: 'GilamSemiBold',
+                                                fontFamily: 'RobotoBold',
                                                 fontSize: '16px',
                                                 lineHeight: '0.6',
                                                 color: '#f8bd00'
@@ -326,7 +326,7 @@ export const FileSection = (props) => {
                             <Grid itemx xs={3}>
                                 <ListItem >
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
+                                        fontFamily: 'RobotoBold',
                                         fontSize: '30pt',
                                         lineHeight: '0.6',
                                         marginTop: '40px',
@@ -337,7 +337,7 @@ export const FileSection = (props) => {
                                 </ListItem>
                                 <ListItem>
                                     <Typography sx={{
-                                        fontFamily: 'GilamSemiBold',
+                                        fontFamily: 'RobotoBold',
                                         fontSize: '30pt',
                                         lineHeight: '0.6',
                                         color: '#f8bd00'

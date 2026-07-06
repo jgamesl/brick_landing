@@ -46,7 +46,7 @@ export const Departamento = () => {
                             <Grid item xs={12}>
                                 <img className='first-picture-desarrollo-detail-exterior' src={HeaderPicture} alt=""/>
                                 
-                                <Typography  sx={{textAlign: 'right', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                <Typography  sx={{textAlign: 'right', fontFamily: 'RobotoLight', fontSize: '16pt'}}>
                                     Fotografía Exterior
                                 </Typography>
                                 {/* <Box height={30} /> */}
@@ -61,7 +61,7 @@ export const Departamento = () => {
                                             backgroundColor: '#f8bd00', 
                                             borderRadius: '50px', 
                                             fontSize: '16pt',
-                                            fontFamily: 'GilamRegular',
+                                            fontFamily: 'RobotoRegular',
                                             width: '100%'
                                         }} 
                                         disableElevation>
@@ -95,7 +95,7 @@ export const Departamento = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
-                                                fontFamily: 'GilamRegular',
+                                                fontFamily: 'RobotoRegular',
                                                 width: '40%',
                                                 color: 'black',
                                                 '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
@@ -136,17 +136,17 @@ export const Departamento = () => {
 
                             <Grid className='padding-mobile' item xs={12}>
                                 <ListItem sx={{p:0, m:0}}>
-                                    <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt'}}>
                                         DEPARTAMENTO 
                                     </Typography>
                                 </ListItem>
                                 <ListItem sx={{p:0, m:0}}>
-                                    <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt'}}>
                                          TERRAZA
                                     </Typography>
                                 </ListItem>
                                 <ListItem sx={{p:0, m:0, justifyContent: 'end'}} display="flex" justifyContent='flex-end'>
-                                    <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '16pt'}}>
                                         RESIDENCIA 1
                                     </Typography>
                                 </ListItem>
@@ -167,7 +167,7 @@ export const Departamento = () => {
 
                                     <p className='overlay-terraza'>01.</p>
 
-                                    <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
+                                    <Box sx={{fontFamily: 'RobotoRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                                 </ListItem>
                                 <img className='first-picture-desarrollo-detail-mobile' src={Picture01} alt=""/>
                             </Grid>
@@ -176,12 +176,12 @@ export const Departamento = () => {
                                 <img className='second-picture-desarrollo-detail-mobile' src={Picture02} alt=""/>
                             </Grid>
 
-                            <Grid sx={{mt:5, fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={6}>
+                            <Grid sx={{mt:5, fontFamily: 'RobotoBold', fontSize: '19pt'}} item xs={6}>
                                 <ListItem>
                                     DETALLES
                                 </ListItem>
                             </Grid>
-                            <Grid className='padding-mobile' sx={{mt:8, fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={6}>
+                            <Grid className='padding-mobile' sx={{mt:8, fontFamily: 'RobotoBold', fontSize: '19pt'}} item xs={6}>
 
                                 <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
                             </Grid>
@@ -226,7 +226,7 @@ export const Departamento = () => {
                                 <Box height={10} />
                         <Grid className='padding-mobile' container>
                             {/* <Grid display="flex" justifyContent="flex-end" item xs={3}>
-                                <ListItem sx={{fontFamily: 'GilamSemiBold', fontSize: '50pt', color: '#f8bd00', alignItems: 'end'}}>
+                                <ListItem sx={{fontFamily: 'RobotoBold', fontSize: '50pt', color: '#f8bd00', alignItems: 'end'}}>
                                     01
                                 </ListItem>
                             </Grid> */}
@@ -244,7 +244,7 @@ export const Departamento = () => {
 
                                 <Grid item xs={8}>
                                     <ListItem>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 RECÁMARAS
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
@@ -264,7 +264,7 @@ export const Departamento = () => {
 
                                 <Grid item xs={8}>
                                     <ListItem>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 BAÑOS
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
@@ -284,7 +284,7 @@ export const Departamento = () => {
 
                                 <Grid item xs={8}>
                                     <ListItem>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
@@ -304,7 +304,7 @@ export const Departamento = () => {
 
                                 <Grid item xs={8}>
                                     <ListItem>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 CAJÓN
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
@@ -331,7 +331,7 @@ export const Departamento = () => {
                     <>
                         <Grid sx={{justifyContent: 'flex-end'}} container xs={12}>
                                 <img className='first-picture-desarrollo-detail' src={HeaderPicture} alt=""/>
-                                <Typography  sx={{textAlign: 'right', fontFamily: 'GilamLight', fontSize: '16pt'}}>
+                                <Typography  sx={{textAlign: 'right', fontFamily: 'RobotoLight', fontSize: '16pt'}}>
                                     Fotografía Exterior
                                 </Typography>
                         </Grid>
@@ -347,7 +347,7 @@ export const Departamento = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
-                                                fontFamily: 'GilamRegular',
+                                                fontFamily: 'RobotoRegular',
                                                 width: '40%',
                                                 textAlign: 'left',
                                                 color: 'black',
@@ -394,10 +394,10 @@ export const Departamento = () => {
                                     
                                     <Box height={100} />
                                     <Grid display="flex" justifyContent="space-between">
-                                        <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
-                                            DEPARTAMENTO TERRAZA
+                                        <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt'}}>
+                                            DEPARTAMENTO TERRAZA.
                                         </Typography>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '16pt'}}>
                                             RESIDENCIA 1
                                         </Typography>
                                     </Grid>
@@ -424,7 +424,7 @@ export const Departamento = () => {
 
                                         <p className='overlay-terraza'>01.</p>
                                         
-                                        <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
+                                        <Box sx={{fontFamily: 'RobotoRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                                         </ListItem>
                                     </Box>
                                 </div>
@@ -436,7 +436,7 @@ export const Departamento = () => {
                                     <img className='second-picture-desarrollo-detail-a' src={Picture02} alt=""/>
                                 </Grid>
                                 <Grid container xs={7}>
-                                    <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={3}>
+                                    <Grid sx={{mt:'30px', fontFamily: 'RobotoBold', fontSize: '19pt'}} item xs={3}>
                                         DETALLES
                                     </Grid>
                                     <Grid sx={{mt:'40px'}} item xs={9}>
@@ -482,17 +482,17 @@ export const Departamento = () => {
                                     <ListItem>
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CuartoIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 RECÁMARAS
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 BAÑOS
                                         </Typography>
                                     </ListItem>
@@ -500,19 +500,19 @@ export const Departamento = () => {
                                 </Grid>
                                 <Grid item xs={3}>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={TerrazaIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CocheraIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 CAJÓN
                                         </Typography>
                                     </ListItem>

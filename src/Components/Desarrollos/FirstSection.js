@@ -222,7 +222,7 @@ export const FirstSection = (param) => {
 
                                     <Box height={40} />
                                         <ListItem sx={{
-                                            fontFamily: 'GilamSemiBold',
+                                            fontFamily: 'RobotoBold',
                                             fontSize: '30pt',
                                             pl: 0,
                                         }}>
@@ -313,7 +313,7 @@ export const FirstSection = (param) => {
                                         <ListItem>
                                             <SvgIcon  component={VerIcon} />
                                         </ListItem>
-                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '16px'}}>
+                                        <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '16px'}}>
                                             VER OTRO PROYECTO
                                         </ListItem>
                                     </Grid>
@@ -398,7 +398,7 @@ export const FirstSection = (param) => {
                                         <Grid xs={4}>
 
                                             <ListItem sx={{
-                                                fontFamily: 'GilamSemiBold',
+                                                fontFamily: 'RobotoBold',
                                                 fontSize: '30pt'
                                             }}>
                                                 LP #33
@@ -479,7 +479,7 @@ export const FirstSection = (param) => {
 
                                             <SvgIcon  component={VerIcon} />
                                         </ListItem>
-                                        <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '16px'}}>
+                                        <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '16px'}}>
                                             VER OTRO PROYECTO
                                         </ListItem>
                                     </Grid>

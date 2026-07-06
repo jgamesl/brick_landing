@@ -56,7 +56,7 @@ export const Loft = () => {
                                             backgroundColor: '#f8bd00', 
                                             borderRadius: '50px', 
                                             fontSize: '16pt',
-                                            fontFamily: 'GilamRegular',
+                                            fontFamily: 'RobotoRegular',
                                             width: '40%',
                                             color: 'black',
 
@@ -103,12 +103,12 @@ export const Loft = () => {
                                     </Typography>
                                 </ListItem>
                                 {/* <ListItem sx={{p:0, m:0}}>
-                                    <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt'}}>
                                          TERRAZA
                                     </Typography>
                                 </ListItem> */}
                                 <ListItem sx={{p:0, m:0, justifyContent: 'end'}} display="flex" justifyContent='flex-end'>
-                                    <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '16pt'}}>
                                         RESIDENCIA 3
                                     </Typography>
                                 </ListItem>
@@ -131,7 +131,7 @@ export const Loft = () => {
                             <ListItem>
                                 <p className='overlay-terraza'>03.</p>
                                 
-                                <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
+                                <Box sx={{fontFamily: 'RobotoRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                             </ListItem>
                             <img className='first-picture-desarrollo-detail-mobile' src={Picture01} alt=""/>
                             <Box height={10} />
@@ -161,7 +161,7 @@ export const Loft = () => {
                                 <img className='first-picture-desarrollo-detail-mobile' src={Picture06} alt=""/>
                             </Grid>
 
-                            <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={6}>
+                            <Grid sx={{mt:'30px', fontFamily: 'RobotoBold', fontSize: '19pt'}} item xs={6}>
                                 <ListItem>
                                     DETALLES
                                 </ListItem>
@@ -203,34 +203,34 @@ export const Loft = () => {
                                     <ListItem>
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={CuartoIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 RECÁMARA
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 BAÑO
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TerrazaIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={CocheraIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 CAJÓN
                                         </Typography>
                                     </ListItem>
@@ -262,7 +262,7 @@ export const Loft = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
-                                                fontFamily: 'GilamRegular',
+                                                fontFamily: 'RobotoRegular',
                                                 width: '40%',
                                                 '&.MuiButton-root:hover':{bgcolor: '#f8bd00'}, 
                                                 color: 'black'
@@ -307,10 +307,10 @@ export const Loft = () => {
                                     
                                     <Box height={100} />
                                     <Grid display="flex" justifyContent="space-between">
-                                        <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                        <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt'}}>
                                             LOFT
                                         </Typography>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '16pt'}}>
                                             RESIDENCIA 3
                                         </Typography>
                                     </Grid>
@@ -337,7 +337,7 @@ export const Loft = () => {
                                     <ListItem>
                                         <p className='overlay-terraza'>03.</p>
                                         
-                                        <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
+                                        <Box sx={{fontFamily: 'RobotoRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                                     </ListItem>
                                 </Box>
                                 {/* <Card>
@@ -394,7 +394,7 @@ export const Loft = () => {
                                     <img className='second-picture-desarrollo-detail-a' src={Picture05} alt=""/>
                                 </Grid>
                                 <Grid container xs={5}>
-                                    <Grid sx={{mt:'30px', fontFamily: 'GilamSemiBold', fontSize: '19pt'}} item xs={3}>
+                                    <Grid sx={{mt:'30px', fontFamily: 'RobotoBold', fontSize: '19pt'}} item xs={3}>
                                         DETALLES
                                         <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1, mt:3 }}/>
                                     </Grid>
@@ -421,34 +421,34 @@ export const Loft = () => {
                                     <ListItem>
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CuartoIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 RECÁMARA
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 BAÑO
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={TerrazaIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10px', overflow: 'visible'}} component={CocheraIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 CAJÓN
                                         </Typography>
                                     </ListItem>

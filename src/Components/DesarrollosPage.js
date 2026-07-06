@@ -97,7 +97,7 @@ export const DesarrollosPage = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '30pt',
-                                                fontFamily: 'GilamSemiBold',
+                                                fontFamily: 'RobotoBold',
                                                 '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             onClick={()=> {setSelectedDep(1)}}
@@ -121,7 +121,7 @@ export const DesarrollosPage = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '30pt',
-                                                fontFamily: 'GilamSemiBold',
+                                                fontFamily: 'RobotoBold',
                                                 '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                             }} 
                                             onClick={()=> {setSelectedDep(2)}}
@@ -138,7 +138,7 @@ export const DesarrollosPage = () => {
                                 <Grid className='padding-mobile' item xs={6}>
                                     <ListItem sx={{justifyContent:'space-between', pl:0}}>
                                         <Typography sx={{
-                                            fontFamily: 'GilamSemiBold',
+                                            fontFamily: 'RobotoBold',
                                             fontSize: '30pt'
                                         }}> 
                                             LP #33
@@ -158,7 +158,7 @@ export const DesarrollosPage = () => {
                                                 borderRadius: '50px', 
                                                 fontSize: '18pt',
                                                 width: '100%',
-                                                fontFamily: 'GilamSemiBold'
+                                                fontFamily: 'RobotoBold'
                                             }} 
                                             // sx={{backgroundColor: 'orange', width: '100%', borderRadius: '50px', fontSize: '18px'}} 
                                             disableElevation>
@@ -564,7 +564,7 @@ Roof Garden
             
                         <ListItem sx={{justifyContent:'space-between', pl:0}}>
                             <Typography sx={{
-                                fontFamily: 'GilamSemiBold',
+                                fontFamily: 'RobotoBold',
                                 fontSize: '30pt'
                             }}> 
                                 {depName}
@@ -645,7 +645,7 @@ Roof Garden
                                     backgroundColor: '#f8bd00', 
                                     borderRadius: '50px', 
                                     fontSize: '30pt',
-                                    fontFamily: 'GilamSemiBold',
+                                    fontFamily: 'RobotoBold',
                                     color: 'black',
                                     '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
                                     
@@ -666,7 +666,7 @@ Roof Garden
                                     backgroundColor: '#f8bd00', 
                                     borderRadius: '50px', 
                                     fontSize: '30pt',
-                                    fontFamily: 'GilamSemiBold',
+                                    fontFamily: 'RobotoBold',
                                     color: 'black',
 
                                     '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
@@ -994,7 +994,7 @@ Roof Garden
                             backgroundColor: '#f8bd00', 
                             borderRadius: '50px', 
                             fontSize: '30pt',
-                            fontFamily: 'GilamSemiBold'
+                            fontFamily: 'RobotoBold'
                         }} 
                         disableElevation>
                             LP #33
@@ -1011,7 +1011,7 @@ Roof Garden
                             backgroundColor: '#f8bd00',
                             borderRadius: '50px', 
                             fontSize: '30pt',
-                            fontFamily: 'GilamSemiBold'
+                            fontFamily: 'RobotoBold'
                         }} 
                         disableElevation>
                             LP #33
