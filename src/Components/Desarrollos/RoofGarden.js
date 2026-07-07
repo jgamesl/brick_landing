@@ -61,7 +61,7 @@ export const RoofGarden = () => {
                                             backgroundColor: '#f8bd00', 
                                             borderRadius: '50px', 
                                             fontSize: '16pt',
-                                            fontFamily: 'GilamRegular',
+                                            fontFamily: 'RobotoRegular',
                                             color: 'black',
                                             width: '40%',
 
@@ -103,22 +103,22 @@ export const RoofGarden = () => {
 
                             <Grid className='padding-mobile'  item xs={12}>
                                 <ListItem sx={{p:0, m:0}}>
-                                    <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt'}}>
                                         DEPARTAMENTO 
                                     </Typography>
                                 </ListItem>
                                 <ListItem sx={{p:0, m:0}}>
-                                    <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt'}}>
                                          CON ROOF GARDEN
                                     </Typography>
                                 </ListItem>
                                 {/* <ListItem sx={{p:0, m:0}}>
-                                    <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt'}}>
                                          TERRAZA
                                     </Typography>
                                 </ListItem> */}
                                 <ListItem sx={{p:0, m:0, justifyContent: 'end'}} display="flex" justifyContent='flex-end'>
-                                    <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
+                                    <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '16pt'}}>
                                         RESIDENCIA 5
                                     </Typography>
                                 </ListItem>
@@ -146,7 +146,7 @@ export const RoofGarden = () => {
                                 <ListItem>
                                     <p className='overlay-terraza'>05.</p>
                                     
-                                    <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
+                                    <Box sx={{fontFamily: 'RobotoRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                                 </ListItem>
                                 <ListItem disablePadding>
                                     <img className='first-picture-desarrollo-detail-mobile' src={Picture02} alt=""/>
@@ -198,34 +198,34 @@ export const RoofGarden = () => {
                                     <ListItem>
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={CuartoIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 RECÁMARAS
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 BAÑOS
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={TerrazaIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'8px', overflow: 'visible'}} component={CocheraIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 CAJÓN
                                         </Typography>
                                     </ListItem>
@@ -258,7 +258,7 @@ export const RoofGarden = () => {
                                                 backgroundColor: '#f8bd00', 
                                                 borderRadius: '50px', 
                                                 fontSize: '16pt',
-                                                fontFamily: 'GilamRegular',
+                                                fontFamily: 'RobotoRegular',
                                                 color: 'black',
                                                 width: '40%',
                                                 '&.MuiButton-root:hover':{bgcolor: '#f8bd00'} 
@@ -303,11 +303,11 @@ export const RoofGarden = () => {
                                     
                                     <Box height={100} />
                                     <Grid display="flex" justifyContent="space-between">
-                                        <Typography sx={{fontFamily: 'GilamLight', fontSize: '30pt', textAlign: 'left'}}>
+                                        <Typography sx={{fontFamily: 'RobotoLight', fontSize: '30pt', textAlign: 'left'}}>
                                             DEPARTAMENTO CON
                                             ROOF GARDEN
                                         </Typography>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '16pt'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '16pt'}}>
                                             RESIDENCIA 5
                                         </Typography>
                                     </Grid>
@@ -347,7 +347,7 @@ export const RoofGarden = () => {
 
                                                 <p className='overlay-terraza'>05.</p>
                                                 
-                                                <Box sx={{fontFamily: 'GilamRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
+                                                <Box sx={{fontFamily: 'RobotoRegular', fontSize: '16pt', ml:2}} className=''>ALZADO</Box>
                                                 </ListItem>
                                             </Box>
                                         </div>
@@ -393,34 +393,34 @@ export const RoofGarden = () => {
                                     <ListItem>
                                         <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={CuartoIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 RECÁMARAS
                                         </Typography>
                                         {/* <p className="helvetica-objetivos">Lorem ipsum.</p> */}
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={BathIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             2 BAÑOS
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={TerrazaIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             TERRAZA
                                         </Typography>
                                     </ListItem>
                                     <Divider sx={{ backgroundColor: 'black', borderBottomWidth: 1 }}/>
 
-                                    <ListItem sx={{fontFamily: 'GilamRegular', fontSize: '13pt'}}>
+                                    <ListItem sx={{fontFamily: 'RobotoRegular', fontSize: '13pt'}}>
                                         <SvgIcon sx={{mt:'10pt', overflow: 'visible'}} component={CocheraIcon} />
                                         <Box sx={{width:18}}/>
-                                        <Typography sx={{fontFamily: 'GilamRegular', fontSize: '13pt', mt:'10px'}}>
+                                        <Typography sx={{fontFamily: 'RobotoRegular', fontSize: '13pt', mt:'10px'}}>
                                             1 CAJÓN
                                         </Typography>
                                     </ListItem>
